@@ -1,27 +1,74 @@
 import Image from "next/image";
-import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 const Header = () => {
-  return (
-    <div>
-      <header className="flex h-32 text-white bg-black body-font w-screen relative items-center">
-        <div className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-around">
-          <Image
-            src="/black n white logo 2.svg"
-            width={50}
-            height={50}
-            alt="DC LOGO"
-          />
+  const [menuOpen, setMenuOpen] = useState(false);
 
-          <Link href="/"> Home </Link>
-          <Link href="/gallery"> Gallery </Link>
-          <Link href="/events"> Events </Link>
-          <Link href="/achievements"> Achievements </Link>
-          <Link href="/contact"> Contact Us </Link>
-        </div>
-      </header>
-    </div>
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  return (
+    <header className="bg-black pt-8 pb-4">
+      <nav className="relative px-4 py-4 flex justify-between items-center bg-black text-white">
+        <a className="text-3xl font-bold leading-none" href="#">
+          <Image
+            src="/black n white logo 2.svg.png"
+            alt="logo"
+            width={25}
+            height={25}
+          />
+        </a>
+
+        <ul
+          className={`${
+            menuOpen ? "block" : "hidden"
+          } absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6 justify-evenly gap-12`}
+        >
+          <li>
+            <a className=" text-gray-400 hover:text-white" href=" / ">
+              <Image src="/MENU.svg" alt="logo" width={25} height={25} />
+            </a>
+          </li>
+          <li>
+            <a className=" text-gray-400 hover:text-white" href=" / ">
+              <Image
+                src="/black n white logo 2.svg"
+                alt="logo"
+                width={75}
+                height={75}
+              />
+            </a>
+          </li>
+
+          <li>
+            <a className=" text-gray-400 hover:text-white" href=" / ">
+              HOME
+            </a>
+          </li>
+          <li>
+            <a className=" text-gray-400 hover:text-white" href="Gallery">
+              GALLERY
+            </a>
+          </li>
+          <li>
+            <a className=" text-gray-400 hover:text-white" href="Events">
+              EVENTS
+            </a>
+          </li>
+          <li>
+            <a className=" text-gray-400 hover:text-white" href="Achievements">
+              ACHIEVEMENTS
+            </a>
+          </li>
+          <li>
+            <a className=" text-gray-400 hover:text-white" href="Contactus">
+              CONTACT US
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
   );
 };
 
