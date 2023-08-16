@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {IoLocationOutline } from 'react-icons/io5';
 import {IoCallOutline } from 'react-icons/io5';
 import {AiOutlineMail, AiOutlineInstagram} from 'react-icons/ai';
 import { PiYoutubeLogo } from 'react-icons/pi';
+
 
 
 type FooterProps = {
@@ -10,9 +11,10 @@ type FooterProps = {
 };
 
 const Footer:React.FC<FooterProps> = () => {
+ 
     
     return (
-        <div className="bg-black gap-y-8 mt-12 justify-around flex flex-col sm:flex-row border-t-[1px] border-gray-700 pt-12 mb-12 lg:items-stretch items-stretch">
+        <div className="bg-black gap-y-2 justify-around flex flex-col sm:flex-row border-t-[1px] border-gray-700 pt-12 lg:items-stretch items-stretch">
         <div className="ml-8">
             <div className={`text-[#A7A9BE] flex flex-col pt-6 text-left text-[1rem] font-semibold gap-1`}>
             <div className='flex flex-col items-center'>
@@ -41,7 +43,7 @@ const Footer:React.FC<FooterProps> = () => {
             </div>
             </div>
             <div className="text-[#A7A9BE] flex md:text-xl text-base pt-10 pb-20 flex items-center ml-10">
-              <a href="#" className={`text-black bg-gray-300 font-bold rounded-full text-center sm:px-6 sm:py-5 py-2 px-3 hover:bg-gray-400 hover:text-white transition duration-300 ease-in-out `}>Contact us for queries</a>
+              <a href={'mailto:vitdcofficial@gmail.com'} className={`text-black bg-gray-300 font-bold rounded-full text-center sm:px-6 sm:py-5 py-2 px-3 hover:bg-gray-400 hover:text-white transition duration-300 ease-in-out `}>Contact us for queries</a>
             </div >
 
             </div>
