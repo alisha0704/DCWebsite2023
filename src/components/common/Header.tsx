@@ -23,7 +23,7 @@ const Header = () => {
         <ul
           className={`${
             menuOpen ? "block" : "hidden"
-          } absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6 justify-evenly gap-12`}
+          } absolute top-1/2 left-1/2 -translate-y-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6 justify-evenly gap-12`}
         >
           <li>
             <a className=" text-gray-400 hover:text-white" href=" / ">
