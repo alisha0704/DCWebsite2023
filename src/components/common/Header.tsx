@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React, { useState } from "react";
 
 const Header = () => {
@@ -9,66 +8,110 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-black pt-8 pb-4">
-      <nav className="relative px-4 py-4 flex justify-between items-center bg-black text-white">
-        <a className="text-3xl font-bold leading-none" href="#">
-          <Image
-            src="/black n white logo 2.svg.png"
-            alt="logo"
-            width={25}
-            height={25}
-          />
-        </a>
-
-        <ul
-          className={`${
-            menuOpen ? "block" : "hidden"
-          } absolute top-1/2 left-1/2 -translate-y-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6 justify-evenly gap-12`}
+    <div className="w-full bg-black pt-4">
+      <div className="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+        <nav
+          className={`flex-col flex-grow pb-4 md:pb-0 ${
+            menuOpen ? "flex" : "hidden"
+          } md:flex md:justify-center md:flex-row`}
         >
-          <li>
-            <a className=" text-gray-400 hover:text-white" href=" / ">
-              <Image src="/MENU.svg" alt="logo" width={25} height={25} />
-            </a>
-          </li>
-          <li>
-            <a className=" text-gray-400 hover:text-white" href=" / ">
-              <Image
-                src="/black n white logo 2.svg"
-                alt="logo"
-                width={75}
-                height={75}
-              />
-            </a>
-          </li>
+          <div className="relative">
+            <button
+              onClick={toggleMenu}
+              className="flex flex-row items-center w-full px-4 py-2 mt-2 text-2xl   font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none focus:shadow-outline"
+            >
+              <span className="text-white">Dropdown</span>
+              <svg
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                className={`inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform ${
+                  menuOpen ? "rotate-180" : "rotate-0"
+                }`}
+              >
+                <path fill-rule="evenodd" d="..." />
+              </svg>
+            </button>
+            <div
+              className={`absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48 ${
+                menuOpen ? "animate-slide-down" : "hidden"
+              }`}
+            >
+              <div className="px-2 py-2 bg-black rounded-md shadow">
+                <a
+                  className="block px-4 py-2 mt-2 text-sm font-semibold text-white bg-transparent rounded-lg md:mt-0 focus:outline-none focus:shadow-outline"
+                  href="#"
+                >
+                  THE BOARD 2023
+                </a>
+                <a
+                  className="block px-4 py-2 mt-2 text-sm font-semibold text-white bg-transparent rounded-lg md:mt-0 focus:outline-none focus:shadow-outline"
+                  href="#"
+                >
+                 FACULTY COORDINATORS  
+                </a>
+                <a
+                  className="block px-4 py-2 mt-2 text-sm font-semibold text-white bg-transparent rounded-lg md:mt-0 focus:outline-none focus:shadow-outline"
+                  href="#"
+                >
+                  DEVELOPER TEAM 
+                </a>
+                <a
+                  className="block px-4 py-2 mt-2 text-sm font-semibold text-white bg-transparent rounded-lg md:mt-0 focus:outline-none focus:shadow-outline"
+                  href="#"
+                >
+                  BOARD HISTORY
+                </a>
+                <a
+                  className="block px-4 py-2 mt-2 text-sm font-semibold text-white bg-transparent rounded-lg md:mt-0 focus:outline-none focus:shadow-outline"
+                  href="#"
+                >
+                  JOURNEY OF DC 
+                </a>
+                <a
+                  className="block px-4 py-2 mt-2 text-sm font-semibold text-white bg-transparent rounded-lg md:mt-0 focus:outline-none focus:shadow-outline"
+                  href="#"
+                >
+                  NOTABLE ALUMNIS  
+                </a>
+              </div>
+            </div>
+          </div>
 
-          <li>
-            <a className=" text-gray-400 hover:text-white" href=" / ">
-              HOME
-            </a>
-          </li>
-          <li>
-            <a className=" text-gray-400 hover:text-white" href="Gallery">
-              GALLERY
-            </a>
-          </li>
-          <li>
-            <a className=" text-gray-400 hover:text-white" href="Events">
-              EVENTS
-            </a>
-          </li>
-          <li>
-            <a className=" text-gray-400 hover:text-white" href="Achievements">
-              ACHIEVEMENTS
-            </a>
-          </li>
-          <li>
-            <a className=" text-gray-400 hover:text-white" href="Contactus">
-              CONTACT US
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+          {/* Dropdown ends and navbar starts */}
+
+          <a
+            className="text-white px-4 py-2 mt-2 text-2xl font-semibold rounded-lg md:mt-0 transition duration-200 hover:text-white"
+            href="#"
+          >
+            HOME
+          </a>
+          <a
+            className="text-white px-4 py-2 mt-2 text-2xl font-semibold rounded-lg md:mt-0 transition duration-200 hover:text-white"
+            href="#"
+          >
+            GALLERY
+          </a>
+          <a
+            className="text-white px-4 py-2 mt-2 text-2xl font-semibold rounded-lg md:mt-0 transition duration-200 hover:text-white"
+            href="#"
+          >
+            EVENTS
+          </a>
+          <a
+            className="text-white px-4 py-2 mt-2 text-2xl font-semibold rounded-lg md:mt-0 transition duration-200 hover:text-white"
+            href="#"
+          >
+            ACHIEVEMENTS
+          </a>
+          <a
+            className="text-white px-4 py-2 mt-2 text-2xl font-semibold rounded-lg md:mt-0 transition duration-200 hover:text-white"
+            href="#"
+          >
+            CONTACT US
+          </a>
+        </nav>
+      </div>
+    </div>
   );
 };
 
