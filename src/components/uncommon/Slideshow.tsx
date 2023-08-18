@@ -17,8 +17,8 @@ const Slideshow:React.FC<SlideshowProps> = () => {
       };
       const numberOfImages = 3; 
     return (
-        <div className='bg-black'>
-        <div className="w-1/2 mx-auto relative bg-black pt-20">
+        <div className=''>
+        <div className="w-1/2 mx-auto relative  pt-20">
         <Carousel
           showThumbs={false}
           selectedItem={activeIndex}
@@ -56,7 +56,7 @@ const Slideshow:React.FC<SlideshowProps> = () => {
         </div>
       </div>
     </div>
-    <div className='w-1/2 mx-auto relative bg-black pt-20 px-20'>
+    <div className='w-1/2 mx-auto relative  pt-20 px-20'>
         <h1 className='text-white text-4xl'>VIT Dance Club promote the dance art form both <p><span style={{ color: '#3947E2' }}>regional</span> and <span style={{ color: '#3947E2' }}>western</span> and give opportunity for</p> students to perform</h1>
         <h5 className='text-gray-400 text-sm pt-4'>Winners of various dance competitions across the country & club consists of seven major teams of varied dance forms across India.</h5>
     </div>
@@ -71,7 +71,7 @@ const Slideshow:React.FC<SlideshowProps> = () => {
     </div>
 
         <div className='flex justify-center items-center space-x-16 w-full' style={{ marginTop: '-0.5rem' }} >
-        <Image src='/majorteams.png' alt='Logo 6' width={70} height={70} />
+        <Image src='/majorteams.png' alt='Logo 6' width={70} height={70} className='pr-3'/>
         <div className='flex justify-center items-center space-x-10'>
             <Image src='/crewmembers.png' alt='Logo 7' width={70} height={70} style={{ marginRight: '1rem' }}/>
             <Image src='/performances.png' alt='Logo 8' width={70} height={70} />

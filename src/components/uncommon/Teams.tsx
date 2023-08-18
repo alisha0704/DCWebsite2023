@@ -49,7 +49,7 @@ const teamsData = [
 const Teams:React.FC<TeamsProps> = () => {
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
     return (
-      <div className="flex flex-col items-center p-8 bg-black">
+      <div className="flex flex-col items-center p-8 ">
       <h1 className="text-4xl text-white mb-2">Our Teams</h1>
       <p className="text-center text-gray-400 mb-8">
         Club consists of seven teams with each junior team of varied dance forms
@@ -70,7 +70,7 @@ const Teams:React.FC<TeamsProps> = () => {
             />
             {hoveredIndex === index && (
               <div
-                className="absolute inset-0 bg-black bg-opacity-75 text-white rounded p-4"
+                className="absolute inset-0  bg-opacity-75 text-white rounded p-4"
                 style={{ display: "block" }}
               >
                 <h2 className="text-xl font-semibold mb-2">{team.name}</h2>

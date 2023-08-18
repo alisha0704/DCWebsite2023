@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Recentperformance: React.FC = () => {
   return (
-    <div className="px-64 pb-16 bg-black self-center">
+    <div className="px-64 pb-16  self-center">
       <div className="w-96 h-32 px-24 py-10 pb-52 flex-col flex">
         <div className="text-center text-white text-5xl font-normal leading-10">
           Recent Performances{" "}

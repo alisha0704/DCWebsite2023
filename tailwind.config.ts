@@ -9,6 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
+        'xyz':"url('/Mirage.png')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
@@ -18,3 +19,4 @@ const config: Config = {
   plugins: [],
 }
 export default config
+
