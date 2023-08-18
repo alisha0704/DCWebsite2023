@@ -5,6 +5,7 @@ import Teams from "@/components/uncommon/Teams";
 import Slideshow from "@/components/uncommon/Slideshow";
 import Gallery from "@/pages/Gallery";
 import Recentperformance from "@/components/uncommon/Recentperformance";
+import Board from '@/pages/Board';
 
 const inter = Inter({ subsets: ["latin"] });
 
