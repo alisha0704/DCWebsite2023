@@ -12,12 +12,12 @@ const Layout = ({ children }: LayoutProps) => {
     <>
       <Header />
       <div className="absolute inset-y-0 left-0 w-32">
-      <Leftsidebar />
+        <Leftsidebar />
       </div>
       <div className="absolute inset-y-0 right-0 w-32">
         <Rightsidebar />
       </div>
-      
+
       {children}
     </>
   );
