@@ -3,7 +3,7 @@ import React from 'react';
 const Gallery = () => {
     return (
         <div className='bg-black'>
-            <h2 className="text-2xl text-white flex items-center font-semibold mb-4">The Gallery</h2>
+            <h2 className="text-2xl text-white flex items-center font-semibold mb-4 ">The Gallery</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 "style={{ gap: '-12px' }}>
                 <div className="grid gap-1">
                     <div>
@@ -39,7 +39,7 @@ const Gallery = () => {
                     </div>
                 </div>
                 <div className="grid gap-1" style={{ gap: '-12px' }}>
-                    <div>
+                    <div>                                                                     
                         <img className="h-auto max-w-full " src="/gallery/gallery7.svg" alt="" />
                     </div>
                     <div>

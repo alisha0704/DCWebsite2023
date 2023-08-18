@@ -6,14 +6,14 @@ import Slideshow from '@/components/uncommon/Slideshow';
 import Gallery from '@/components/uncommon/Gallery';
 import Recentperformance from "@/components/uncommon/Recentperformance";
 import Board from '@/components/uncommon/Board';
-
+          
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <main>
       <>
-        <Board/>
+        <Gallery/>
         <Footer />
       </>
     </main>
