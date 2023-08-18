@@ -12,7 +12,9 @@ export default function Home() {
   return (
     <main>
       <>
-        <Gallery/>
+        <Slideshow/>
+        <Teams/>
+        <Recentperformance/>
         <Footer />
       </>
     </main>

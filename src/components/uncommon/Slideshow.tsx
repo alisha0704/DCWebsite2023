@@ -38,13 +38,13 @@ const Slideshow:React.FC<SlideshowProps> = () => {
           }
         >
         <div>
-          <img src="/DCCarousel.png" alt="VIT DANCE CLUB" />
+          <img src="/Carousel/DCCarousel.png" alt="VIT DANCE CLUB" />
         </div>
         <div>
-          <img src="/DCCarousel2.png" alt="VIT DANCE CLUB" />
+          <img src="/Carousel/DCCarousel2.png" alt="VIT DANCE CLUB" />
         </div>
         <div>
-          <img src="/DCCarousel3.png" alt="VIT DANCE CLUB" />
+          <img src="/Carousel/DCCarousel3.png" alt="VIT DANCE CLUB" />
         </div>
       </Carousel>
       <div className="w-full mx-auto text-white text-center mt-8">
@@ -62,26 +62,26 @@ const Slideshow:React.FC<SlideshowProps> = () => {
     </div>
     <div className='py-10'>
     <div className='flex justify-center items-center mt-8 space-x-6'>
-    <Image src='/flaglogo.png' alt='Logo 1' width={40} height={40} style={{ marginRight: '1rem' }} />
-    <Image src='/7.png' alt='Logo 2' width={15} height={15} style={{ marginRight: '4rem' }}/>
-    <Image src='/humanlogo.png' alt='Logo 3' width={40} height={40} />
-    <Image src='/150+.png' alt='Logo 4' width={50} height={50}  style={{ marginRight: '4rem' }}/>
-    <Image src='/taglogo.png' alt='Logo 4' width={50} height={50} />
-    <Image src='/200+.png' alt='Logo 5' width={50} height={50} />
+    <Image src='/icons/flaglogo.png' alt='Logo 1' width={40} height={40} style={{ marginRight: '1rem' }} />
+    <Image src='/icons/7.png' alt='Logo 2' width={15} height={15} style={{ marginRight: '4rem' }}/>
+    <Image src='/icons/humanlogo.png' alt='Logo 3' width={40} height={40} />
+    <Image src='/icons/150+.png' alt='Logo 4' width={50} height={50}  style={{ marginRight: '4rem' }}/>
+    <Image src='/icons/taglogo.png' alt='Logo 4' width={50} height={50} />
+    <Image src='/icons/200+.png' alt='Logo 5' width={50} height={50} />
     </div>
 
         <div className='flex justify-center items-center space-x-16 w-full' style={{ marginTop: '-0.5rem' }} >
-        <Image src='/majorteams.png' alt='Logo 6' width={70} height={70} />
+        <Image src='/icons/majorteams.png' alt='Logo 6' width={70} height={70} />
         <div className='flex justify-center items-center space-x-10'>
-            <Image src='/crewmembers.png' alt='Logo 7' width={70} height={70} style={{ marginRight: '1rem' }}/>
-            <Image src='/performances.png' alt='Logo 8' width={70} height={70} />
+            <Image src='/icons/crewmembers.png' alt='Logo 7' width={70} height={70} style={{ marginRight: '1rem' }}/>
+            <Image src='/icons/performances.png' alt='Logo 8' width={70} height={70} />
     </div>
     </div>
     </div>
     <div className='text-center mt-16 py-6'>
     <h2 className='text-sm text-gray-400'>MAJOR PRIZE WINNING STAGES</h2>
     <div className='flex justify-center items-center mt-4'>
-    <Image src='/festlogo.png' alt='fests won' width={800} height={200} />
+    <Image src='/icons/festlogo.png' alt='fests won' width={800} height={200} />
     </div>
     </div>
 
