@@ -23,8 +23,8 @@ const Recentperformance: React.FC = () => {
             width={669}
           />
         </div>
-        <div>
-          <div className="w-96 h-6 text-white text-3xl font-semibold uppercase leading-normal tracking-wide">
+        <div className="px-32">
+          <div className="w-full h-6 text-white text-3xl font-semibold uppercase leading-normal tracking-wide">
             MOOD INDIGO, IIT Mumbai
           </div>
           <div className="py-12"></div>
@@ -38,7 +38,7 @@ const Recentperformance: React.FC = () => {
           <div className="w-40 h-12 justify-center items-center inline-flex">
             <div className="w-40 h-12 relative bg-white bg-opacity-10 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-6 relative">
-                <div className="w-40 h-6 left-0 top-0 absolute text-center text-white text-xl font-normal leading-normal tracking-wide">
+                <div className="w-40 h-6 left-0 top-2 absolute text-center text-white text-xl font-normal leading-normal tracking-wide">
                   Learn more
                 </div>
               </div>
@@ -46,7 +46,7 @@ const Recentperformance: React.FC = () => {
           </div>
         </div>
         <div>
-          <div className="w-96 h-6 text-white text-3xl font-semibold uppercase leading-normal tracking-wide">
+          <div className="w-full h-6 text-white text-3xl font-semibold uppercase leading-normal tracking-wide pt-6 ">
             world dance day, vit vellore
           </div>
           <div className="py-12"></div>
@@ -60,7 +60,7 @@ const Recentperformance: React.FC = () => {
           <div className="w-40 h-12 justify-center items-center inline-flex">
             <div className="w-40 h-12 relative bg-white bg-opacity-10 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-6 relative">
-                <div className="w-40 h-6 left-0 top-0 absolute text-center text-white text-xl font-normal leading-normal tracking-wide">
+                <div className="w-40 h-6 left-0 top-2 absolute text-center text-white text-xl font-normal leading-normal tracking-wide">
                   Learn more
                 </div>
               </div>
