@@ -3,7 +3,16 @@ import Image from "next/image";
 
 const Recentperformance: React.FC = () => {
   return (
-    <div className="px-64 pb-16 bg-black">
+    <div className="px-64 pb-16 bg-black self-center">
+      <div className="w-96 h-32 px-24 py-10 pb-52 flex-col flex">
+        <div className="text-center text-white text-5xl font-normal leading-10">
+          Recent Performances{" "}
+        </div>
+        <div className="w-96 h-14 text-center text-neutral-400 text-base font-normal leading-7">
+          We have performed in many different stages across India, also
+          conquered levels of awards too{" "}
+        </div>
+      </div>
       <div className="grid grid-cols-2 gap-2">
         <div>
           <Image
