@@ -3,14 +3,14 @@ import Image from "next/image";
 
 const Recentperformance: React.FC = () => {
   return (
-    <div className="px-64 pb-16 bg-black self-center">
-      <div className="w-96 h-32 px-24 py-10 pb-52 flex-col flex">
-        <div className="text-center text-white text-5xl font-normal leading-10">
-          Recent Performances{" "}
+    <div className="px-64 pb-16  self-center">
+      <div className="px-24 py-10 pb- flex-col flex">
+        <div className="text-center text-4xl text-white font-normal">
+          Recent Performances
         </div>
-        <div className="w-96 h-14 text-center text-neutral-400 text-base font-normal leading-7">
+        <div className="text-center text-neutral-400 text-2xl font-normal leading-7 pt-10 ">
           We have performed in many different stages across India, also
-          conquered levels of awards too{" "}
+          conquered levels of awards too
         </div>
       </div>
       <div className="grid grid-cols-2 gap-2">
@@ -25,14 +25,14 @@ const Recentperformance: React.FC = () => {
         </div>
         <div>
           <div className="w-96 h-6 text-white text-3xl font-semibold uppercase leading-normal tracking-wide">
-            MOOD INDIGO, IIT BOMBAY
+            MOOD INDIGO, IIT Mumbai
           </div>
           <div className="py-12"></div>
           <div className="w-96 text-white text-base font-normal leading-7">
             Another amazing performance by our teams securing a new feather in
             the cap for team Mirage and team JNJ Bhangra for the second place in
             Indigo Saga (Thematic Category) and in Sanskriti (Folk Dance
-            Category) at MOOD INDIGO 2022!
+            Category) at MOOD INDIGO
           </div>
           <div className="py-4"></div>
           <div className="w-40 h-12 justify-center items-center inline-flex">
