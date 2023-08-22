@@ -3,6 +3,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { IoCallOutline } from "react-icons/io5";
 import { AiOutlineMail, AiOutlineInstagram } from "react-icons/ai";
 import { PiYoutubeLogo } from "react-icons/pi";
+import Image from "next/image";
 
 type FooterProps = {};
 
@@ -14,7 +15,7 @@ const Footer: React.FC<FooterProps> = () => {
           className={`text-[#A7A9BE] flex flex-col pt-6 text-left text-[1rem] font-semibold gap-1`}
         >
           <div className="flex flex-col items-center">
-            <img src="/DClogo.png" alt="DC Logo" className="w-18 h-18" />
+            <Image src="/DClogo.png" alt="DC Logo" width={80} height={80} />
             <text className="text-xl mt-2">VIT DANCE CLUB</text>
           </div>
 
