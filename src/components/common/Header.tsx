@@ -140,35 +140,35 @@ const Header = () => {
       <Transition.Root show={menuOpen}>
         <BackgroundLayer />
         <SlideOverLayerLeft>
-          <div onClick={() => setShow(false)}>y</div>
-          <div>
-            <div className="w-64 h-6 left-[20px] top-[129px] text-black text-base font-bold uppercase leading-3 tracking-widest">
+          <div className="">
+          <div onClick={() => setShow(false)} >Close </div>
+            <div className="w-64 h-6 left-[20px] top-[129px] font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               The board 2023
             </div>
-            <div className="w-64 h-6 left-[20px] top-[198px] text-black text-base font-bold uppercase leading-3 tracking-widest">
+            <div className="w-64 h-6 left-[20px] top-[198px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               faculty coordinators
             </div>
-            <div className="w-64 h-6 left-[20px] top-[267px] text-black text-base font-bold uppercase leading-3 tracking-widest">
+            <div className="w-64 h-6 left-[20px] top-[267px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               developer team
             </div>
-            <div className="w-64 h-6 left-[20px] top-[336px]  text-black text-base font-bold uppercase leading-3 tracking-widest">
+            <div className="w-64 h-6 left-[20px] top-[336px]  text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               board history
             </div>
-            <div className="w-64 h-6 left-[20px] top-[406px] text-black text-base font-bold uppercase leading-3 tracking-widest">
+            <div className="w-64 h-6 left-[20px] top-[406px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               journey of dc
             </div>
-            <div className="w-64 h-6 left-[20px] top-[476px] text-black text-base font-bold uppercase leading-3 tracking-widest">
+            <div className="w-64 h-6 left-[20px] top-[476px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               Notable alumnis
             </div>
-            <div className="left-[20px] top-[44px] text-black text-lg font-black uppercase leading-3 tracking-widest">
+            <div className="left-[20px] top-[44px] text-lg font-black uppercase leading-3 tracking-widest absolute px-64 whitespace-nowrap">
               menu
             </div>
-            <div className="w-72 h-px left-[12px] top-[233px] absolute border border-black"></div>
-            <div className="w-72 h-px left-[12px] top-[302px] absolute border border-black"></div>
-            <div className="w-72 h-px left-[12px] top-[372px] absolute border border-black"></div>
-            <div className="w-72 h-px left-[12px] top-[442px] absolute border border-black"></div>
-            <div className="w-72 h-px left-[12px] top-[164px] absolute border border-black"></div>
-            <div className="w-80 h-px left-0 top-[76px] absolute border border-black"></div>
+            <div className="w-96 left-44 h-px top-[233px] absolute border border-white px-40"></div>
+            <div className="w-96 left-44 h-px top-[302px] absolute border border-white px-40"></div>
+            <div className="w-96 left-44 h-px top-[372px] absolute border border-white px-40"></div>
+            <div className="w-96 left-44 h-px top-[442px] absolute border border-white px-40"></div>
+            <div className="w-96 left-44 h-px top-[164px] absolute border border-white px-40"></div>
+            <div className="w-96 left-44 h-px top-[76px] absolute border border-white"></div>    
           </div>
         </SlideOverLayerLeft>
       </Transition.Root>
@@ -230,8 +230,8 @@ const SlideOverLayerLeft: React.FC<SlideOverLayerProps> = ({ children }) => (
       <div className="absolute inset-0 overflow-hidden">
         <div className="pointer-events-none fixed inset-y-0 -left-10 flex max-w-full pl-10">
           <div className="pointer-events-auto w-screen max-w-2xl">
-            <div className="flex h-full flex-col overflow-y-scroll bg-white py-6 shadow-xl">
-              <div className="px-4 sm:px-6">{children}</div>
+            <div className="bg-black opacity-80 text-white py-6 shadow-xl h-screen items-center place-items-center">
+              <div className="bg-black">{children}</div>
             </div>
           </div>
         </div>
