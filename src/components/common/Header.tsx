@@ -39,7 +39,7 @@ const Header = () => {
     <header>
       <nav className="w-full bg-black text-white">
         <div className="container mx-auto flex flex-row justify-center w-full h-full ">
-          <div className="">
+          <div className="px-6">
             <Link href="/">
               <Image src="/vitdclogo.svg" alt="DC" width={200} height={200} />
             </Link>
@@ -138,19 +138,25 @@ const Header = () => {
               <div className="py-3"></div>
               <br />
             </span>
+            <Link href={"mailto:vitdcofficial@gmail.com"}>
             <div className="w-80 h-7 left-[92px] top-[204px]   text-lg font-semibold uppercase leading-3 tracking-widest">
               Mail Us
             </div>
+            </Link>
             <div className="w-60 h-px left-[85px] top-[239px]  border border-white"></div>
             <div className="py-3"></div>
+            <Link href='https://www.instagram.com/vitdanceclub/'>
             <div className="w-80 h-7 left-[92px] top-[284px]  text-lg font-semibold uppercase leading-3 tracking-widest">
               Visit Instagram
             </div>
+            </Link>
             <div className="w-64 h-px left-[85px] top-[318px]  border border-white"></div>
             <div className="py-3"></div>
+            <Link href='https://www.youtube.com/results?search_query=vitdanceclub'>
             <div className="w-80 h-7 left-[92px] top-[363px]   text-lg font-semibold uppercase leading-3 tracking-widest">
               Visit YouTube
             </div>
+            </Link>
             <div className="w-64 h-px left-[85px] top-[398px]  border border-white"></div>
             <div className="py-3"></div>
             <div className="w-80 h-16 left-[92px] top-[427px]   text-lg font-semibold uppercase leading-3 tracking-widest">
@@ -171,9 +177,11 @@ const Header = () => {
         <SlideOverLayerLeft>
           <div className="modal-container" onClick={handleCloseModals}>
           <div onClick={() => setShow(false)}> <Image src='/icons/cross.png' alt='X' height={20} width={20}></Image> </div>
+          <Link href='/Board'>
             <div className="w-64 h-6 left-[10px] top-[129px] font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               The board 2023
             </div>
+            </Link>
             <div className="w-64 h-6 left-[10px] top-[198px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               faculty coordinators
             </div>
