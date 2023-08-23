@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
+import { useRouter } from 'next/router'
 import Link from "next/link";
 import Image from "next/image";
 import { Transition } from "@headlessui/react";
@@ -27,6 +28,12 @@ const Header = () => {
   }, [handleCloseModals]);
 
   const [show, setShow] = useState(false);
+  const router = useRouter();
+  const isLinkActive = (pathname) => {
+    return router.pathname === pathname ? 'border-t-2 border-b-2 text-white' : 'text-gray-300 ';
+  };
+
+
 
   return (
     <header>
@@ -37,40 +44,43 @@ const Header = () => {
               <Image src="/vitdclogo.svg" alt="DC" width={200} height={200} />
             </Link>
           </div>
-          <div className="py-8">
+          <div className="py-10">
             <ul className="flex flex-row mt-4 text-white gap-20 text-xl">
               <li>
                 <div
                   onClick={() => setMenuOpen(true)}
-                  className="w-48 h-5 text-center text-white text-base font-normal uppercase leading-3 tracking-widest"
-                >
+                  className={'w-30 text-gray-300 h-5 text-center text-white text-base font-semibold uppercase leading-3 tracking-widest hover:text-white'} >
                   Slide
                 </div>
               </li>
               <li>
                 <Link href="/">
-                  <div className="w-48 h-5 text-center text-white text-base font-normal uppercase leading-3 tracking-widest">
+                  <div className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest hover:text-white
+                    ${isLinkActive('/')}`}>
                     Home
                   </div>
                 </Link>
               </li>
               <li>
                 <Link href="/Gallery">
-                  <div className="w-24 h-5 text-center text-white text-base font-normal uppercase leading-3 tracking-widest">
+                  <div className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest 
+                  hover:text-white ${isLinkActive('/Gallery')}`}>
                     Gallery
                   </div>
                 </Link>
               </li>
               <li>
                 <Link href="/Events">
-                  <div className="w-28 h-5 text-center text-white text-base font-normal uppercase leading-3 tracking-widest">
+                  <div className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest
+                    hover:text-white ${isLinkActive('/Events')}`}>
                     Events
                   </div>
                 </Link>
               </li>
               <li>
                 <Link href="/Achievements">
-                  <div className="w-44 h-5 text-center text-white text-base font-normal uppercase leading-3 tracking-widest">
+                  <div className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest
+                    hover:text-white ${isLinkActive('/Achievements')}`}>
                     Achievements
                   </div>
                 </Link>
@@ -78,8 +88,8 @@ const Header = () => {
               <li>
                 <div
                   onClick={() => setShow(true)}
-                  className="w-48 h-5 text-center text-white text-base font-normal uppercase leading-3 tracking-widest"
-                >
+                  className={`w-30 h-5 text-gray-300  text-center text-base font-semibold uppercase leading-3 tracking-widest
+                  hover:text-white`}>
                   Contact Us
                 </div>
               </li>

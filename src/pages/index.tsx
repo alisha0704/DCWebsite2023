@@ -18,7 +18,6 @@ export default function Home() {
       <Teams />
       <Recentperformance />
       <Footer />
-      <Contactus />
     </main>
   );
 }

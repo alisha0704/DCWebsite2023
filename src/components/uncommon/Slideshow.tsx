@@ -61,7 +61,7 @@ const Slideshow: React.FC<SlideshowProps> = () => {
             <img src="/Carousel/DCCarousel.png" alt="VIT DANCE CLUB" />
           </div>
           <div>
-            <img src="/Carousel/DCCarousel2.png" alt="VIT DANCE CLUB" />
+            <img src="/Carousel/carouselboard.svg" alt="VIT DANCE CLUB" />
           </div>
           <div>
             <img src="/Carousel/DCCarousel3.png" alt="VIT DANCE CLUB" />
@@ -88,13 +88,13 @@ const Slideshow: React.FC<SlideshowProps> = () => {
       </div>
       <div className="w-1/2 mx-auto relative  pt-20 px-20">
         <h1 className="text-white text-4xl">
-          VIT Dance Club promote the dance art form both{" "}
+          VIT Dance Club promotes the dance art forms,{" "}
           <p>
             <span style={{ color: "#3947E2" }}>regional</span> and{" "}
-            <span style={{ color: "#3947E2" }}>western</span> and give
-            opportunity for
+            <span style={{ color: "#3947E2" }}>western</span> and gives an
+            opportunity
           </p>{" "}
-          students to perform
+          to students to perform
         </h1>
         <h5 className="text-gray-400 text-sm pt-4">
           Winners of various dance competitions across the country & club
