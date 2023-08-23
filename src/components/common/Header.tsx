@@ -1,14 +1,31 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Transition } from "@headlessui/react";
 import { Fragment } from "react";
+
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+ 
+  const handleCloseModals = useCallback(() => {
+    setMenuOpen(false);
+    setShow(false);
+  }, []);
+
+  useEffect(() => {
+    const handleEsc = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        handleCloseModals();
+      }
+    };
+    window.addEventListener("keydown", handleEsc);
+    return () => window.removeEventListener("keydown", handleEsc);
+  }, [handleCloseModals]);
+
   const [show, setShow] = useState(false);
 
   return (
@@ -70,11 +87,12 @@ const Header = () => {
           </div>
         </div>
       </nav>
+      { /*Right slider */ }
       <Transition.Root show={show}>
         <BackgroundLayer />
         <SlideOverLayer>
           <div className="w-full">
-            <div onClick={() => setShow(false)}>X</div>
+            <div onClick={() => setShow(false)}><Image src='/icons/cross.png' alt='X' height={15} width={15}></Image></div>
             <div className="w-64 h-5 left-[92px] top-[43px] text-center text-lg font-black uppercase">
               Contact Us
             </div>
@@ -137,27 +155,28 @@ const Header = () => {
           </div>
         </SlideOverLayer>
       </Transition.Root>
+      { /* Left Slider */ }
       <Transition.Root show={menuOpen}>
         <BackgroundLayer />
         <SlideOverLayerLeft>
-          <div className="">
-          <div onClick={() => setShow(false)} >Close </div>
-            <div className="w-64 h-6 left-[20px] top-[129px] font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
+          <div className="modal-container" onClick={handleCloseModals}>
+          <div onClick={() => setShow(false)}> <Image src='/icons/cross.png' alt='X' height={20} width={20}></Image> </div>
+            <div className="w-64 h-6 left-[10px] top-[129px] font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               The board 2023
             </div>
-            <div className="w-64 h-6 left-[20px] top-[198px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
+            <div className="w-64 h-6 left-[10px] top-[198px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               faculty coordinators
             </div>
-            <div className="w-64 h-6 left-[20px] top-[267px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
+            <div className="w-64 h-6 left-[10px] top-[267px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               developer team
             </div>
-            <div className="w-64 h-6 left-[20px] top-[336px]  text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
+            <div className="w-64 h-6 left-[10px] top-[336px]  text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               board history
             </div>
-            <div className="w-64 h-6 left-[20px] top-[406px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
+            <div className="w-64 h-6 left-[10px] top-[406px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               journey of dc
             </div>
-            <div className="w-64 h-6 left-[20px] top-[476px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
+            <div className="w-64 h-6 left-[10px] top-[476px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               Notable alumnis
             </div>
             <div className="left-[20px] top-[44px] text-lg font-black uppercase leading-3 tracking-widest absolute px-64 whitespace-nowrap">
