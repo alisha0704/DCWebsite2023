@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-type AchievementsProps = {
-    
-};
-
-const Achievements:React.FC<AchievementsProps> = () => {
-    
-    return <div>Have a good coding</div>
+const Achievements = () => {
+  return (
+    <div>
+      Hello 
+    </div>
+  )
 }
-export default Achievements;
+
+export default Achievements

@@ -29,7 +29,7 @@ const Header = () => {
 
   const [show, setShow] = useState(false);
   const router = useRouter();
-  const isLinkActive = (pathname) => {
+  const isLinkActive = (pathname: string) => {
     return router.pathname === pathname ? 'border-t-2 border-b-2 text-white' : 'text-gray-300 ';
   };
 

@@ -108,7 +108,7 @@ const Events:React.FC<EventsProps> = () => {
     </div>
     <div className="w-1/2 pt-12 mt-12 ">
       <p className="text-gray-300 text-xl">
-      Riviera is VIT's mega cultural and sports carnival; and the Dance 
+      Riviera is VIT&apos;s mega cultural and sports carnival; and the Dance 
       <p>Club has an opportunity every year to perform on this occasion.</p>
       With thousands in the crowd, you will see us shine and dazzle on
       <p>this amazing stage.</p>
@@ -229,7 +229,7 @@ const Events:React.FC<EventsProps> = () => {
     </div>
     <div className="w-1/2 pt-12 mt-12 ">
       <p className="text-gray-300 text-xl">
-      World Dance Day is the Dance Club's annual and flagship performance, <br/> which we take a lot of pride in. 
+      World Dance Day is the Dance Club&apos;s annual and flagship performance, <br/> which we take a lot of pride in. 
       The event consists of all 7 teams <br/> showcasing their best performances and entertaining the <br/>
       audience for the evening. 
       </p>
