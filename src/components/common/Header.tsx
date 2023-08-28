@@ -81,7 +81,7 @@ const Header = () => {
                 <Link href="/Achievements">
                   <div className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest
                     hover:text-white ${isLinkActive('/Achievements')}`}>
-                    Achievements
+                    Achievement
                   </div>
                 </Link>
               </li>
@@ -90,7 +90,7 @@ const Header = () => {
                   onClick={() => setShow(true)}
                   className={`w-30 h-5 text-gray-300  text-center text-base font-semibold uppercase leading-3 tracking-widest
                   hover:text-white`}>
-                  Contact Us
+                  Contact us
                 </div>
               </li>
             </ul>
