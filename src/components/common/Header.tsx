@@ -49,7 +49,7 @@ const Header = () => {
               <li>
                 <div
                   onClick={() => setMenuOpen(true)}
-                  className={'w-30 text-gray-300 h-5 text-center text-white text-base font-semibold uppercase leading-3 tracking-widest hover:text-white'} >
+                  className={'w-30 text-gray-300 h-5 text-cente text-base font-semibold uppercase leading-3 tracking-widest hover:text-white'} >
                   Slide
                 </div>
               </li>

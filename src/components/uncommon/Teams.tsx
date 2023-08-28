@@ -99,16 +99,12 @@ const Teams: React.FC<TeamsProps> = () => {
         </div>
         <div className="flex-1 ml-10">
           <div className="relative">
-            <img
-              src="/round1.png"
-              alt="Round 1"
-              className="w-45 h-45 object-cover rounded-t"
-            />
-            <img
-              src="/auditions.png"
+            <Image
+              src="/auditionscombined.svg"
               alt="Auditions"
-              className="w-45 h-45 object-cover rounded-t absolute inset-0"
-              style={{ zIndex: 2 }}
+              height={400}
+              width={400}
+              className="w-45 h-45 object-cover rounded-t"
             />
           </div>
         </div>
