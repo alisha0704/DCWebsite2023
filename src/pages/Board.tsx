@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { FiArrowLeft } from "react-icons/fi";
+import Image from "next/image";
 
 type BoardProps = {};
 
@@ -77,11 +78,7 @@ const Board: React.FC<BoardProps> = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 py-8 w-full">
           {images.map((image, index) => (
             <div key={index} className="text-center">
-              <img
-                src={image.imageUrl}
-                alt={`Image ${index + 1}`}
-                className="w-full h-auto rounded-md"
-              />
+              <Image src={image.imageUrl} alt={`Image ${index + 1}`} width={1000} height={1000} />
               <div className="flex flex-col items-center mt-2">
                 <h2 className="text-lg font-semibold text-white mt-2">
                   {image.memberName}
