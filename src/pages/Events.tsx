@@ -22,28 +22,29 @@ const Events:React.FC<EventsProps> = () => {
       );
     };
     const numberOfImages = 3;
-
+    const [activeIndex2, setActiveIndex2] = useState(0);
     const handlePrevClick2= () => {
-      setActiveIndex((prevIndex) =>
+      setActiveIndex2((prevIndex) =>
         prevIndex > 0 ? prevIndex - 1 : numberOfImages2 - 1
       );
     };
   
     const handleNextClick2 = () => {
-      setActiveIndex((prevIndex) =>
+      setActiveIndex2((prevIndex) =>
         prevIndex < numberOfImages2 - 1 ? prevIndex + 1 : 0
       );
     };
     const numberOfImages2 = 4;
+    const [activeIndex3, setActiveIndex3] = useState(0);
 
     const handlePrevClick3 = () => {
-      setActiveIndex((prevIndex) =>
+      setActiveIndex3((prevIndex) =>
         prevIndex > 0 ? prevIndex - 1 : numberOfImages3 - 1
       );
     };
   
     const handleNextClick3 = () => {
-      setActiveIndex((prevIndex) =>
+      setActiveIndex3((prevIndex) =>
         prevIndex < numberOfImages3 - 1 ? prevIndex + 1 : 0
       );
     };
@@ -125,7 +126,7 @@ const Events:React.FC<EventsProps> = () => {
     <div className="w-1/3 p-4 pl-12 ml-12 slideshow-container">
     <Carousel
           showThumbs={false}
-          selectedItem={activeIndex}
+          selectedItem={activeIndex2}
           renderArrowPrev={(onClickHandler, hasPrev, label) =>
             hasPrev && (
               <button
@@ -180,7 +181,7 @@ const Events:React.FC<EventsProps> = () => {
     <div className="w-1/3 p-4 pl-12 ml-12 slideshow-container">
     <Carousel
           showThumbs={false}
-          selectedItem={activeIndex}
+          selectedItem={activeIndex3}
           renderArrowPrev={(onClickHandler, hasPrev, label) =>
             hasPrev && (
               <button
