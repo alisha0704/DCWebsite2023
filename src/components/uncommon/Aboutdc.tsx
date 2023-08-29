@@ -113,8 +113,8 @@ const Aboutdc = () => {
             <div className="flex pt-8 text-3xl font-extrabold"> 
             <AnimatedCounter
                     target={150}
-                    time={1000}
-                    start={75}
+                    time={50}
+                    start={140}
                     shouldAnimate={animated.crewmembers}
                   />
                   +
@@ -126,10 +126,11 @@ const Aboutdc = () => {
             <div className="flex pt-8 text-3xl font-extrabold"> 
             <AnimatedCounter
                     target={200}
-                    time={1000}
-                    start={125}
+                    time={50}
+                    start={190}
                     shouldAnimate={animated.performance}
                   />
+                  +
                   </div>
             <div className="flex font-extralight text-base">PERFORMANCES</div>
           </div>
