@@ -49,10 +49,10 @@ const Achievements = () => {
           <FiArrowLeft className="text-5xl" /> {FiArrowLeft}
         </Link>
         <p className="text-md mb-8 text-gray-300">
-          We never left the stage empty handed, either we win the audience heart
-          or we win the whole event
+          We never leave the stage empty handed, either we win the audience{'\''}s heart
+          or we win the whole event!
         </p>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 py-8 w-full">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-10 py-8 w-full">
           {images.map((image, index) => (
             <div key={index} className="text-center">
               <Image src={image.imageUrl} alt={`Image ${index + 1}`} width={1000} height={1000} />

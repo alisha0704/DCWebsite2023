@@ -75,7 +75,7 @@ const Board: React.FC<BoardProps> = () => {
           Alone you can do so little, together you can do so much. Presenting
           the Board of Dance Club 2023-24.
         </p>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 py-8 w-full">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-14 py-8 w-full">
           {images.map((image, index) => (
             <div key={index} className="text-center">
               <Image src={image.imageUrl} alt={`Image ${index + 1}`} width={1000} height={1000} />
