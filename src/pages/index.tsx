@@ -4,6 +4,7 @@ import Teams from "@/components/uncommon/Teams";
 import Slideshow from "@/components/uncommon/Slideshow";
 import Recentperformance from "@/components/uncommon/Recentperformance";
 import Aboutdc from "@/components/uncommon/Aboutdc";
+import Particles from "react-tsparticles";
 
 const inter = Inter({ subsets: ["latin"] });
 
