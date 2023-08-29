@@ -41,11 +41,11 @@ const Header = () => {
         <div className="container mx-auto flex flex-row justify-center w-full h-full ">
         <div
                   onClick={() => setMenuOpen(true)}
-                  className={'py-10 mt-4'} >
+                  className={'py-10 pr-12 mr-12 mt-4'} >
                   <Image src='/icons/menu.svg' alt='MENU' width={30} height={30}/>
                           
                 </div>
-          <div className="px-6">
+          <div className="px-10">
             <Link href="/">
               <Image src="/vitdclogo.svg" alt="DC" width={200} height={200} />
             </Link>
@@ -181,21 +181,31 @@ const Header = () => {
               The board 2023
             </div>
             </Link>
+            <Link href='/Board'>
             <div className="w-64 h-6 left-[10px] top-[198px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               faculty coordinators
             </div>
+            </Link>
+            <Link href='/'>
             <div className="w-64 h-6 left-[10px] top-[267px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               developer team
             </div>
+            </Link>
+            <Link href='/'>
             <div className="w-64 h-6 left-[10px] top-[336px]  text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               board history
             </div>
+            </Link>
+            <Link href="/Journey">
             <div className="w-64 h-6 left-[10px] top-[406px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               journey of dc
             </div>
+            </Link>
+            <Link href='/'>
             <div className="w-64 h-6 left-[10px] top-[476px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
               Notable alumnis
             </div>
+            </Link>
             <div className="left-[20px] top-[44px] text-lg font-black uppercase leading-3 tracking-widest absolute px-64 whitespace-nowrap">
               menu
             </div>
