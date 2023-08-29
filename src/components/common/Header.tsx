@@ -81,7 +81,7 @@ const Header = () => {
                 <Link href="/Achievements">
                   <div className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest
                     hover:text-white ${isLinkActive('/Achievements')}`}>
-                    Achievement
+                    Achievements
                   </div>
                 </Link>
               </li>

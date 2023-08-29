@@ -317,13 +317,13 @@ const Events: React.FC<EventsProps> = () => {
           </div>
         </div>
       </div>
-      <div className="text-center mb-12 py-8">
+      <div className="text-center mb-8 py-8">
         <h1 className="text-3xl text-white font-semibold mt-8 mb-4 py-12">
           Other Events and Workshops
         </h1>
       </div>
       <div className="container mx-auto py-8">
-        <div className="grid grid-cols-3 w-3/4 gap-4 mx-auto">
+        <div className="grid grid-cols-3 w-3/4 gap-8 mx-auto">
           {images.map((image, index) => (
             <div key={index} className="relative">
               <Image

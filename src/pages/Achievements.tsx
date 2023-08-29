@@ -55,7 +55,10 @@ const Achievements = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-10 py-8 w-full">
           {images.map((image, index) => (
             <div key={index} className="text-center">
-              <Image src={image.imageUrl} alt={`Image ${index + 1}`} width={1000} height={1000} />
+              <Image src={image.imageUrl} 
+              alt={`Image ${index + 1}`}
+               width={1000}
+               height={1000} />
               <div className="flex flex-col items-center mt-2">
                 <h2 className="text-lg font-semibold text-white mt-2">
                   {image.memberName}

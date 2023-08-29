@@ -56,33 +56,27 @@ const Teams: React.FC<TeamsProps> = () => {
         Club consists of seven teams with each junior team of varied dance forms
         across India.
       </p>
-      <div className="grid grid-cols-3 gap-10 px-10 py-8">
-        {teamsData.map((team, index) => (
-          <div
-            key={index}
-            className="rounded bg-gray-100 overflow-hidden relative"
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-8 w-3/4 ">
+          {teamsData.map((image, index) => (
+            <div key={index} className="text-center"
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
-          >
-            <Image
-              src={team.imageSrc}
-              alt={team.danceStyle}
-              height={350}
-              width={350}
-            />
-            {hoveredIndex === index && (
-              <div
-                className="absolute inset-0 bg-black bg-opacity-75 text-white rounded p-4"
-                style={{ display: "block" }}
-              >
-                <h2 className="text-xl font-semibold mb-2">{team.name}</h2>
-                <p className="text-sm text-gray-300">{team.danceStyle}</p>
-                <p className="text-sm mt-4">{team.desc}</p>
+            >
+              <Image src={image.imageSrc} 
+              alt={`Image ${index + 1}`}
+               width={400}
+               height={700} />
+              <div className="flex flex-col opacity-75 items-center mt-2">
+                <h2 className="text-lg font-semibold text-white mt-2">
+                  {image.name}
+                </h2>
+                <h3 className="text-sm text-gray-400 mt-1 mb-8">
+                  {image.danceStyle}
+                </h3>
               </div>
-            )}
-          </div>
-        ))}
-      </div>
+            </div>
+          ))}
+        </div>
       <div className="flex flex-row items-center py-8 px-10 ml-20">
         <div className="flex-1 ml-20">
           <h1 className="text-4xl  mb-2 text-white ml-20">
