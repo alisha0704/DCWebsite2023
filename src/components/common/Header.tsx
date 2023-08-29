@@ -39,6 +39,12 @@ const Header = () => {
     <header>
       <nav className="w-full bg-black text-white">
         <div className="container mx-auto flex flex-row justify-center w-full h-full ">
+        <div
+                  onClick={() => setMenuOpen(true)}
+                  className={'py-10 mt-4'} >
+                  <Image src='/icons/menu.svg' alt='MENU' width={30} height={30}/>
+                          
+                </div>
           <div className="px-6">
             <Link href="/">
               <Image src="/vitdclogo.svg" alt="DC" width={200} height={200} />
@@ -46,13 +52,6 @@ const Header = () => {
           </div>
           <div className="py-10">
             <ul className="flex flex-row mt-4 text-white gap-20 text-xl">
-              <li>
-                <div
-                  onClick={() => setMenuOpen(true)}
-                  className={'w-30 text-gray-300 h-5 text-cente text-base font-semibold uppercase leading-3 tracking-widest hover:text-white'} >
-                  Slide
-                </div>
-              </li>
               <li>
                 <Link href="/">
                   <div className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest hover:text-white
