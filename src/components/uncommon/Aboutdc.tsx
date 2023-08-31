@@ -75,8 +75,8 @@ const Aboutdc = () => {
   return (
     <div className=''>
       
-        <div className="w-1/2 mx-auto relative  pt-20 px-20">
-        <h1 className="text-white text-4xl">
+        <div className=" md:w-1/2 w-full mx-auto relative  pt-20 px-20">
+        <h1 className="text-white text-2xl md:text-3xl lg:text-4xl">
           VIT Dance Club promotes the dance art forms,{" "}
           <p>
             <span style={{ color: "#3947E2" }}>regional</span> and{" "}
@@ -85,12 +85,12 @@ const Aboutdc = () => {
           </p>{" "}
           to students to perform
         </h1>
-        <h5 className="text-gray-400 text-sm pt-4">
+        <h5 className="text-gray-400 text-xs md:text-sm pt-4">
           Winners of various dance competitions across the country & club
           consists of seven major teams of varied dance forms across India.
         </h5>
       </div>
-      <div className="py-10">
+      <div className="py-10 ">
         <div className="flex justify-center items-center mt-8 space-x-6">
           <Image
             src="/icons/flaglogo.png"
@@ -101,7 +101,7 @@ const Aboutdc = () => {
           />
           <div className="flex flex-col text-white gap-1">
             <div className="flex pt-8 text-3xl font-extrabold"> 7</div>
-            <div className="flex font-extralight text-sm">MAJOR TEAMS</div>
+            <div className="flex font-extralight text-xs md:text-sm">MAJOR TEAMS</div>
           </div>
           <Image
             src="/icons/humanlogo.png"
@@ -119,7 +119,7 @@ const Aboutdc = () => {
                   />
                   +
                   </div>
-            <div className="flex font-extralight text-base">CREW MEMBERS</div>
+            <div className="flex font-extralight text-xs md:text-sm ">CREW MEMBERS</div>
           </div>
           <Image src="/icons/taglogo.png" alt="Logo 4" width={50} height={50} />
           <div className="flex flex-col text-white gap-1">
@@ -132,13 +132,13 @@ const Aboutdc = () => {
                   />
                   +
                   </div>
-            <div className="flex font-extralight text-base">PERFORMANCES</div>
+            <div className="flex font-extralight text-xs md:text-sm">PERFORMANCES</div>
           </div>
         </div>
       </div>
       <div className="text-center mt-16 py-6">
-        <h2 className="text-sm text-gray-400">MAJOR PRIZE WINNING STAGES</h2>
-        <div className="flex justify-center items-center mt-4">
+        <h2 className="text-xs md:text-sm text-gray-400">MAJOR PRIZE WINNING STAGES</h2>
+        <div className="flex justify-center px-4 items-center mt-4">
           <Image
             src="/icons/festlogo.png"
             alt="fests won"

@@ -70,7 +70,7 @@ const Teams: React.FC<TeamsProps> = () => {
                 <h2 className="text-xs md:text-md lg:text-lg px-4 text-center max-sm:px-6 pr-8 font-semibold text-white mt-2">
                   {image.name}
                 </h2>
-                <h3 className="text-xs md:text-sm lg:text-md text-center max-sm:px-6 pr-8 text-gray-400 mt-1 mb-8">
+                <h3 className="text-xs md:text-sm lg:text-md text-center max-sm:px-8 max-sm:mr-4 pr-8 text-gray-400 mt-1 mb-8">
                   {image.danceStyle}
                 </h3>
               </div>
