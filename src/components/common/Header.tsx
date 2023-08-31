@@ -1,17 +1,16 @@
 import React, { useState, useEffect, useCallback } from "react";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 import Link from "next/link";
 import Image from "next/image";
 import { Transition } from "@headlessui/react";
 import { Fragment } from "react";
-
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
- 
+
   const handleCloseModals = useCallback(() => {
     setMenuOpen(false);
     setShow(false);
@@ -30,21 +29,21 @@ const Header = () => {
   const [show, setShow] = useState(false);
   const router = useRouter();
   const isLinkActive = (pathname: string) => {
-    return router.pathname === pathname ? 'border-t-2 border-b-2 text-white' : 'text-gray-300 ';
+    return router.pathname === pathname
+      ? "border-t-2 border-b-2 text-white"
+      : "text-gray-300 ";
   };
-
-
 
   return (
     <header>
       <nav className="w-full  bg-black text-white">
         <div className="container mx-auto flex flex-col md:flex-row justify-center w-full h-full ">
-        <div
-                  onClick={() => setMenuOpen(true)}
-                  className={'py-10 pr-12 mr-12 mt-4'} >
-                  <Image src='/icons/menu.svg' alt='MENU' width={30} height={30}/>
-                          
-                </div>
+          <div
+            onClick={() => setMenuOpen(true)}
+            className={"py-10 pr-12 mr-12 mt-4"}
+          >
+            <Image src="/icons/menu.svg" alt="MENU" width={30} height={30} />
+          </div>
           <div className="px-10">
             <Link href="/">
               <Image src="/vitdclogo.svg" alt="DC" width={200} height={200} />
@@ -54,32 +53,40 @@ const Header = () => {
             <ul className="flex flex-col md:flex-row mt-4 text-white gap-20 text-xl">
               <li>
                 <Link href="/">
-                  <div className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest hover:text-white
-                    ${isLinkActive('/')}`}>
+                  <div
+                    className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest hover:text-white
+                    ${isLinkActive("/")}`}
+                  >
                     Home
                   </div>
                 </Link>
               </li>
               <li>
                 <Link href="/Gallery">
-                  <div className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest 
-                  hover:text-white ${isLinkActive('/Gallery')}`}>
+                  <div
+                    className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest 
+                  hover:text-white ${isLinkActive("/Gallery")}`}
+                  >
                     Gallery
                   </div>
                 </Link>
               </li>
               <li>
                 <Link href="/Events">
-                  <div className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest
-                    hover:text-white ${isLinkActive('/Events')}`}>
+                  <div
+                    className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest
+                    hover:text-white ${isLinkActive("/Events")}`}
+                  >
                     Events
                   </div>
                 </Link>
               </li>
               <li>
                 <Link href="/Achievements">
-                  <div className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest
-                    hover:text-white ${isLinkActive('/Achievements')}`}>
+                  <div
+                    className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest
+                    hover:text-white ${isLinkActive("/Achievements")}`}
+                  >
                     Achievements
                   </div>
                 </Link>
@@ -88,20 +95,28 @@ const Header = () => {
                 <div
                   onClick={() => setShow(true)}
                   className={`w-30 h-5 text-gray-300  text-center text-base font-semibold uppercase leading-3 tracking-widest
-                  hover:text-white`}>
+                  hover:text-white`}
+                >
                   Contact us
-                </div>                                 
+                </div>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      { /*Right slider */ }
+      {/*Right slider */}
       <Transition.Root show={show}>
         <BackgroundLayer />
         <SlideOverLayer>
           <div className="w-full">
-            <div onClick={() => setShow(false)}><Image src='/icons/cross.png' alt='X' height={15} width={15}></Image></div>
+            <div onClick={() => setShow(false)}>
+              <Image
+                src="/icons/cross.png"
+                alt="X"
+                height={15}
+                width={15}
+              ></Image>
+            </div>
             <div className="w-64 h-5 left-[92px] top-[43px] text-center text-lg font-black uppercase">
               Contact Us
             </div>
@@ -138,23 +153,23 @@ const Header = () => {
               <br />
             </span>
             <Link href={"mailto:vitdcofficial@gmail.com"}>
-            <div className="w-80 h-7 left-[92px] top-[204px]   text-lg font-semibold uppercase leading-3 tracking-widest">
-              Mail Us
-            </div>
+              <div className="w-80 h-7 left-[92px] top-[204px]   text-lg font-semibold uppercase leading-3 tracking-widest">
+                Mail Us
+              </div>
             </Link>
             <div className="w-60 h-px left-[85px] top-[239px]  border border-white"></div>
             <div className="py-3"></div>
-            <Link href='https://www.instagram.com/vitdanceclub/'>
-            <div className="w-80 h-7 left-[92px] top-[284px]  text-lg font-semibold uppercase leading-3 tracking-widest">
-              Visit Instagram
-            </div>
+            <Link href="https://www.instagram.com/vitdanceclub/">
+              <div className="w-80 h-7 left-[92px] top-[284px]  text-lg font-semibold uppercase leading-3 tracking-widest">
+                Visit Instagram
+              </div>
             </Link>
             <div className="w-64 h-px left-[85px] top-[318px]  border border-white"></div>
             <div className="py-3"></div>
-            <Link href='https://www.youtube.com/results?search_query=vitdanceclub'>
-            <div className="w-80 h-7 left-[92px] top-[363px]   text-lg font-semibold uppercase leading-3 tracking-widest">
-              Visit YouTube
-            </div>
+            <Link href="https://www.youtube.com/results?search_query=vitdanceclub">
+              <div className="w-80 h-7 left-[92px] top-[363px]   text-lg font-semibold uppercase leading-3 tracking-widest">
+                Visit YouTube
+              </div>
             </Link>
             <div className="w-64 h-px left-[85px] top-[398px]  border border-white"></div>
             <div className="py-3"></div>
@@ -170,41 +185,49 @@ const Header = () => {
           </div>
         </SlideOverLayer>
       </Transition.Root>
-      { /* Left Slider */ }
+      {/* Left Slider */}
       <Transition.Root show={menuOpen}>
         <BackgroundLayer />
         <SlideOverLayerLeft>
           <div className="modal-container" onClick={handleCloseModals}>
-          <div onClick={() => setShow(false)}> <Image src='/icons/cross.png' alt='X' height={20} width={20}></Image> </div>
-          <Link href='/Board'>
-            <div className="w-64 h-6 left-[10px] top-[129px] font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
-              The board 2023
+            <div onClick={() => setShow(false)}>
+              {" "}
+              <Image
+                src="/icons/cross.png"
+                alt="X"
+                height={20}
+                width={20}
+              ></Image>{" "}
             </div>
+            <Link href="/Board">
+              <div className="w-64 h-6 left-[10px] top-[129px] font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
+                The board 2023
+              </div>
             </Link>
-            <Link href='/Board'>
-            <div className="w-64 h-6 left-[10px] top-[198px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
-              faculty coordinators
-            </div>
+            <Link href="/Board">
+              <div className="w-64 h-6 left-[10px] top-[198px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
+                faculty coordinators
+              </div>
             </Link>
-            <Link href='/'>
-            <div className="w-64 h-6 left-[10px] top-[267px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
-              developer team
-            </div>
+            <Link href="/">
+              <div className="w-64 h-6 left-[10px] top-[267px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
+                developer team
+              </div>
             </Link>
-            <Link href='/'>
-            <div className="w-64 h-6 left-[10px] top-[336px]  text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
-              board history
-            </div>
+            <Link href="/">
+              <div className="w-64 h-6 left-[10px] top-[336px]  text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
+                board history
+              </div>
             </Link>
             <Link href="/Journey">
-            <div className="w-64 h-6 left-[10px] top-[406px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
-              journey of dc
-            </div>
+              <div className="w-64 h-6 left-[10px] top-[406px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
+                journey of dc
+              </div>
             </Link>
-            <Link href='/'>
-            <div className="w-64 h-6 left-[10px] top-[476px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
-              Notable alumnis
-            </div>
+            <Link href="/">
+              <div className="w-64 h-6 left-[10px] top-[476px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
+                Notable alumnis
+              </div>
             </Link>
             <div className="left-[20px] top-[44px] text-lg font-black uppercase leading-3 tracking-widest absolute px-64 whitespace-nowrap">
               menu
@@ -214,7 +237,7 @@ const Header = () => {
             <div className="w-96 left-44 h-px top-[372px] absolute border border-white px-40"></div>
             <div className="w-96 left-44 h-px top-[442px] absolute border border-white px-40"></div>
             <div className="w-96 left-44 h-px top-[164px] absolute border border-white px-40"></div>
-            <div className="w-96 left-44 h-px top-[76px] absolute border border-white"></div>    
+            <div className="w-96 left-44 h-px top-[76px] absolute border border-white"></div>
           </div>
         </SlideOverLayerLeft>
       </Transition.Root>

@@ -58,10 +58,20 @@ const Slideshow: React.FC<SlideshowProps> = () => {
           }
         >
           <div>
-            <Image src="/Carousel/DCCarousel.png" alt="VIT DANCE CLUB" width={20000} height={20000}/>
+            <Image
+              src="/Carousel/DCCarousel.png"
+              alt="VIT DANCE CLUB"
+              width={20000}
+              height={20000}
+            />
           </div>
           <div>
-            <Image src="/Carousel/carouselboard.svg" alt="VIT DANCE CLUB" width={500} height={500}/>
+            <Image
+              src="/Carousel/carouselboard.svg"
+              alt="VIT DANCE CLUB"
+              width={500}
+              height={500}
+            />
           </div>
         </Carousel>
         <div className="w-full mx-auto text-white text-center mt-8">

@@ -10,7 +10,7 @@ const Achievements = () => {
   useEffect(() => {
     setTimeout(() => setLoading(false), 5000);
     return () => {
-      sessionStorage.removeItem('scrollPosition');
+      sessionStorage.removeItem("scrollPosition");
     };
   }, []);
 
@@ -53,7 +53,9 @@ const Achievements = () => {
       <div className="flex justify-center items-center h-3/4 bg-black">
         <div className="text-center p-8 max-w-screen-lg w-full overflow-y-auto">
           <div className="mb-4">
-            <h1 className="text-xl md:text-2xl lg:text-3xl mb-1 mt-8 text-white">Our Achievements</h1>
+            <h1 className="text-xl md:text-2xl lg:text-3xl mb-1 mt-8 text-white">
+              Our Achievements
+            </h1>
           </div>
           <Link
             href="/"
@@ -62,8 +64,8 @@ const Achievements = () => {
             <FiArrowLeft className="text-5xl" /> {FiArrowLeft}
           </Link>
           <p className="text-sm md:text-md lg:text-xl mb-8 text-gray-300">
-            We never leave the stage empty-handed, either we win the audience&apos;s heart
-            or we win the whole event!
+            We never leave the stage empty-handed, either we win the
+            audience&apos;s heart or we win the whole event!
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-10 py-8 w-full">
             {images.map((image, index) => (

@@ -63,7 +63,9 @@ const Board: React.FC<BoardProps> = () => {
     <div className="flex justify-center items-center h-3/4  bg-black">
       <div className="text-center p-8 max-w-screen-lg w-full overflow-y-auto">
         <div className="mb-4">
-          <h1 className="text-2xl md:text-3xl mb-1 mt-8 text-white">The Board</h1>
+          <h1 className="text-2xl md:text-3xl mb-1 mt-8 text-white">
+            The Board
+          </h1>
         </div>
         <Link
           href="/"
@@ -78,7 +80,12 @@ const Board: React.FC<BoardProps> = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-14 py-8 w-full">
           {images.map((image, index) => (
             <div key={index} className="text-center">
-              <Image src={image.imageUrl} alt={`Image ${index + 1}`} width={1000} height={1000} />
+              <Image
+                src={image.imageUrl}
+                alt={`Image ${index + 1}`}
+                width={1000}
+                height={1000}
+              />
               <div className="flex flex-col items-center mt-2">
                 <h2 className="text-md lg:text-lg font-semibold text-white mt-2">
                   {image.memberName}

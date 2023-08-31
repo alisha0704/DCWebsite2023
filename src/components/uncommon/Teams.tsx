@@ -51,32 +51,38 @@ const Teams: React.FC<TeamsProps> = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   return (
     <div className="flex flex-col items-center p-8 ">
-      <h1 className="text-2xl md:text-3xl lg:text-4xl text-white mb-2">Our Teams</h1>
+      <h1 className="text-2xl md:text-3xl lg:text-4xl text-white mb-2">
+        Our Teams
+      </h1>
       <p className="text-center text:sm md:text-lg lg:text-xl text-gray-400 mb-8">
         Club consists of seven teams with each junior team of varied dance forms
         across India.
       </p>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-8 w-3/4 ">
-          {teamsData.map((image, index) => (
-            <div key={index} className="text-center"
+        {teamsData.map((image, index) => (
+          <div
+            key={index}
+            className="text-center"
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
-            >
-              <Image src={image.imageSrc} 
+          >
+            <Image
+              src={image.imageSrc}
               alt={`Image ${index + 1}`}
-               width={400}
-               height={700} />
-              <div className="flex flex-col opacity-75 items-center mt-2">
-                <h2 className="text-xs md:text-md lg:text-lg px-4 text-center max-sm:px-6 pr-8 font-semibold text-white mt-2">
-                  {image.name}
-                </h2>
-                <h3 className="text-xs md:text-sm lg:text-md text-center max-sm:px-8 max-sm:mr-4 pr-8 text-gray-400 mt-1 mb-8">
-                  {image.danceStyle}
-                </h3>
-              </div>
+              width={400}
+              height={700}
+            />
+            <div className="flex flex-col opacity-75 items-center mt-2">
+              <h2 className="text-xs md:text-md lg:text-lg px-4 text-center max-sm:px-6 pr-8 font-semibold text-white mt-2">
+                {image.name}
+              </h2>
+              <h3 className="text-xs md:text-sm lg:text-md text-center max-sm:px-8 max-sm:mr-4 pr-8 text-gray-400 mt-1 mb-8">
+                {image.danceStyle}
+              </h3>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
+      </div>
       <div className="flex flex-row items-center py-8 md:px-10 ml-20">
         <div className="flex-1 ml-20">
           <h1 className="text-xl md:text-3xl lg:text-4xl mb-2 text-white ml-20">

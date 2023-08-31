@@ -132,7 +132,6 @@ const Events: React.FC<EventsProps> = () => {
             </Carousel>
           </div>
           <div className="text-gray-300 text-xl w-1/2 pt-12 mt-12 ">
-            
             Riviera is VIT&apos;s mega cultural and sports carnival; and the
             Dance
             <br />
