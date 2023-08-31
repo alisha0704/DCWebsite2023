@@ -10,34 +10,34 @@ type FooterProps = {};
 const Footer: React.FC<FooterProps> = () => {
   return (
     <div className=" gap-y-2 justify-around flex flex-col sm:flex-row border-t-[1px] border-gray-700 pt-12 lg:items-stretch items-stretch">
-      <div className="ml-8">
+      <div className="max-sm:ml-8">
         <div
           className={`text-[#A7A9BE] flex flex-col pt-6 text-left text-[1rem] font-semibold gap-1`}
         >
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col md:items-center">
             <Image src="/DClogo.png" alt="DC Logo" width={80} height={80} />
             <text className="text-xl mt-2">VIT DANCE CLUB</text>
           </div>
 
-          <div className="mt-16 ml-10 flex items-center">
+          <div className="mt-16 md:ml-10 flex md:items-center">
             <IoLocationOutline size="2em" />
             <div className="ml-2 text-lg">
               <p>Vellore Institute of Technology</p>
               <p>Katpadi, Vellore, Tamil Nadu</p>
             </div>
           </div>
-          <div className="mt-16 ml-10 flex items-center">
+          <div className="mt-16 md:ml-10 flex  md:items-center">
             <IoCallOutline size="2em" />
             <div className="ml-2 text-lg">
               <p>+91 9840466868</p>
               <p>+91 8078281652</p>
             </div>
           </div>
-          <div className="mt-16 ml-10 flex items-center">
+          <div className="mt-16 md:ml-10 flex md:items-center">
             <AiOutlineMail size="2em" />
             <div className="ml-2 text-lg">@vitdcofficial@gmail.com</div>
           </div>
-          <div className="text-[#A7A9BE] flex md:text-xl text-base pt-10 pb-20 flex items-center ml-10">
+          <div className="text-[#A7A9BE]  md:text-xl text-base pt-10 pb-20 flex md:items-center ml-10">
             <a
               href={"mailto:vitdcofficial@gmail.com"}
               className={`text-black bg-gray-300 font-bold rounded-full text-center sm:px-6 sm:py-5 py-2 px-3 hover:bg-gray-400 hover:text-white transition duration-300 ease-in-out `}
@@ -48,7 +48,7 @@ const Footer: React.FC<FooterProps> = () => {
         </div>
       </div>
 
-      <div className="flex sm:items-center flex-col ml-8 pt-10">
+      <div className="flex md:items-center flex-col ml-8 pt-10">
         <text
           className={`text-gray-400 font-bold text-[1rem] lg:text-[1.5rem] pt-12 gap-6 py-10`}
         >

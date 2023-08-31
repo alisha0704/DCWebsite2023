@@ -37,8 +37,8 @@ const Header = () => {
 
   return (
     <header>
-      <nav className="w-full bg-black text-white">
-        <div className="container mx-auto flex flex-row justify-center w-full h-full ">
+      <nav className="w-full  bg-black text-white">
+        <div className="container mx-auto flex flex-col md:flex-row justify-center w-full h-full ">
         <div
                   onClick={() => setMenuOpen(true)}
                   className={'py-10 pr-12 mr-12 mt-4'} >
@@ -51,7 +51,7 @@ const Header = () => {
             </Link>
           </div>
           <div className="py-10">
-            <ul className="flex flex-row mt-4 text-white gap-20 text-xl">
+            <ul className="flex flex-col md:flex-row mt-4 text-white gap-20 text-xl">
               <li>
                 <Link href="/">
                   <div className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest hover:text-white
