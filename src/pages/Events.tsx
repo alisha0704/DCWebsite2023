@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from "next/image";
+import FullpageLoader from "@/components/common/FullpageLoader";
 
 type EventsProps = {};
 
@@ -19,6 +20,7 @@ const Events: React.FC<EventsProps> = () => {
     );
   };
   const numberOfImages = 3;
+
   const [activeIndex2, setActiveIndex2] = useState(0);
   const handlePrevClick2 = () => {
     setActiveIndex2((prevIndex) =>
@@ -32,8 +34,8 @@ const Events: React.FC<EventsProps> = () => {
     );
   };
   const numberOfImages2 = 4;
-  const [activeIndex3, setActiveIndex3] = useState(0);
 
+  const [activeIndex3, setActiveIndex3] = useState(0);
   const handlePrevClick3 = () => {
     setActiveIndex3((prevIndex) =>
       prevIndex > 0 ? prevIndex - 1 : numberOfImages3 - 1
@@ -56,8 +58,16 @@ const Events: React.FC<EventsProps> = () => {
     "/events/workshop6.svg",
   ];
 
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 5000);
+    sessionStorage.removeItem("scrollPosition");
+  }, []);
+
   return (
     <>
+      <FullpageLoader loading={false} />
       <div className="text-center mb-12 py-8">
         <h1 className="text-3xl text-white font-semibold mb-4">Our Events</h1>
         <p className="text-gray-300 text-xl">
@@ -121,16 +131,15 @@ const Events: React.FC<EventsProps> = () => {
               </div>
             </Carousel>
           </div>
-          <div className="w-1/2 pt-12 mt-12 ">
-            <p className="text-gray-300 text-xl">
-              Riviera is VIT&apos;s mega cultural and sports carnival; and the
-              Dance
-              <p>
-                Club has an opportunity every year to perform on this occasion.
-              </p>
-              With thousands in the crowd, you will see us shine and dazzle on
-              <p>this amazing stage.</p>
-            </p>
+          <div className="text-gray-300 text-xl w-1/2 pt-12 mt-12 ">
+            
+            Riviera is VIT&apos;s mega cultural and sports carnival; and the
+            Dance
+            <br />
+            Club has an opportunity every year to perform on this occasion.
+            <br />
+            With thousands in the crowd, you will see us shine and dazzle on
+            this amazing stage.
           </div>
         </div>
       </div>

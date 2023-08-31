@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
+import FullpageLoader from "@/components/common/FullpageLoader";
 
 const Gallery = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 5000);
+    return () => {
+      sessionStorage.removeItem('scrollPosition');
+    };
+  }, []);
   return (
+    <>
+    <FullpageLoader loading={loading} />
     <div className="">
       <div className="text-center text-white text-2xl md:text-4xl lg:text-5xl px-4 font-normal leading-10 md:mb-4">
         The Gallery
@@ -19,6 +30,7 @@ const Gallery = () => {
       />
       </div>
       </div>
+      </>
   );
 };
 
