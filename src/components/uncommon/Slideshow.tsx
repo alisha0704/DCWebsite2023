@@ -65,10 +65,10 @@ const Slideshow: React.FC<SlideshowProps> = () => {
           </div>
         </Carousel>
         <div className="w-full mx-auto text-white text-center mt-8">
-          <h1 className="text-4xl whitespace-nowrap">
+          <h1 className="text-2xl md:text-3xl lg:4xl whitespace-nowrap">
             Welcome to <span className="font-extrabold">VIT DANCE CLUB</span>
           </h1>
-          <div className="text-gray-400 text-lg">
+          <div className="text-gray-400 text-sm md:text-md lg:text-lg">
             <p className="mt-3">
               The VIT Dance Club provides opportunities to dance lovers to prove
               their talent and is a great platform for the
