@@ -83,9 +83,9 @@ const Teams: React.FC<TeamsProps> = () => {
           </div>
         ))}
       </div>
-      <div className="flex flex-row items-center py-8 md:px-10 ml-20">
-        <div className="flex-1 ml-20">
-          <h1 className="text-xl md:text-3xl lg:text-4xl mb-2 text-white ml-20">
+      <div className="flex flex-col md:flex-row items-center py-8 md:px-10 md:ml-20">
+        <div className="flex-1 md:ml-10 lg:ml-20">
+          <h1 className="text-xl md:text-3xl lg:text-4xl mb-2 text-white lg:ml-20">
             Want to be a part of this{" "}
             <span style={{ color: "#3947E2" }}>family?</span>
             <p>
