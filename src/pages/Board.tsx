@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState, useEffect} from "react";
 import Link from "next/link";
 import { FiArrowLeft } from "react-icons/fi";
 import Image from "next/image";
+import FullpageLoader from "@/components/common/FullpageLoader";
 
 type BoardProps = {};
 
@@ -58,8 +59,18 @@ const Board: React.FC<BoardProps> = () => {
       memberDesgn: "THE OUTREACH HEAD OF VIT DANCE CLUB",
     },
   ];
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 5000);
+    return () => {
+      sessionStorage.removeItem("scrollPosition");
+    };
+  }, []);
 
   return (
+    <div>
+    <FullpageLoader loading={loading} />
     <div className="flex justify-center items-center h-3/4  bg-black">
       <div className="text-center p-8 max-w-screen-lg w-full overflow-y-auto">
         <div className="mb-4">
@@ -98,6 +109,7 @@ const Board: React.FC<BoardProps> = () => {
           ))}
         </div>
       </div>
+    </div>
     </div>
   );
 };

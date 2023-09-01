@@ -50,7 +50,7 @@ const Footer: React.FC<FooterProps> = () => {
 
       <div className="flex md:items-center flex-col ml-8 pt-10">
         <text
-          className={`text-gray-400 font-bold text-[1rem] lg:text-[1.5rem] pt-12 gap-6 py-10`}
+          className={`text-gray-400 font-bold text-[1.2rem] lg:text-[1.5rem] pt-12 gap-6 py-10`}
         >
           Information
         </text>
@@ -77,7 +77,7 @@ const Footer: React.FC<FooterProps> = () => {
 
       <div className="ml-8 py-20">
         <text
-          className={`text-gray-400 font-bold text-[1rem] lg:text-[1.5rem] pt-14 gap-6 py-10`}
+          className={`text-gray-400 font-bold text-[1.2rem] lg:text-[1.5rem] pt-14 gap-6 py-10`}
         >
           Social Media
         </text>
