@@ -89,8 +89,8 @@ const Aboutdc = () => {
           consists of seven major teams of varied dance forms across India.
         </h5>
       </div>
-      <div className="py-10 ">
-        <div className="flex justify-center items-center mt-8 space-x-6">
+      <div className="py-10">
+        <div className="flex justify-center items-center mt-8 space-x-1 md:space-x-6">
           <Image
             src="/icons/flaglogo.png"
             alt="Logo 1"
