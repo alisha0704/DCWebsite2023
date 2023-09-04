@@ -15,7 +15,7 @@ const Journey = () => {
         <div className="relative flex flex-col justify-between ml-[-81px] pt-[345px] gap-[273px] w-3/5 items-end">
           <div className="border-solid border-white w-[1248px] h-[321px] absolute top-6 left-40 border-4 rounded-[400px]" />
           <div className="border-solid border-white w-[1235px] h-[321px] absolute top-[1629px] left-px border-4 rounded-[400px]" />
-          <Image
+          {/* <Image
             src="https://file.rendit.io/n/NyLAYbWx4eaEjnizi7JM.svg"
             alt="Ellipse"
             width={40}
@@ -40,7 +40,7 @@ const Journey = () => {
             alt="Ellipse"
             width={40}
             height={40}
-          />
+          /> */}
 
           <div className="self-stretch relative flex flex-col items-end pt-[297px] pb-[963px] px-64">
             <div className="w-96 h-96 absolute top-[321px] left-40 border-r-4 border-white rounded-[400px]"></div>
@@ -49,7 +49,7 @@ const Journey = () => {
 
             <div className="border-solid border-white w-[1235px] h-[321px] absolute top-0 left-0 border-4 rounded-[400px]" />
             <div className="border-solid border-white w-[1235px] h-[321px] absolute top-[642px] left-px border-4 rounded-[400px]" />
-            <Image
+            {/* <Image
               src="https://file.rendit.io/n/NyLAYbWx4eaEjnizi7JM.svg"
               alt="Ellipse"
               width={40}
@@ -89,14 +89,14 @@ const Journey = () => {
               alt="Ellipse"
               width={40}
               height={40}
-            />
+            /> */}
           </div>
-          <Image
+          {/* <Image
             src="https://file.rendit.io/n/NyLAYbWx4eaEjnizi7JM.svg"
             alt="Ellipse"
             width={40}
             height={40}
-          />
+          /> */}
         </div>
       </div>
     </div>

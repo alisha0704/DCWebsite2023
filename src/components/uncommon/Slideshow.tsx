@@ -20,7 +20,7 @@ const Slideshow: React.FC<SlideshowProps> = () => {
   const numberOfImages = 3;
   return (
     <div className="">
-      <div className="w-1/2 mx-auto relative  pt-20">
+      <div className="">
         <Carousel
           showThumbs={false}
           selectedItem={activeIndex}

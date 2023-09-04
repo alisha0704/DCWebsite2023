@@ -50,7 +50,7 @@ const teamsData = [
 const Teams: React.FC<TeamsProps> = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   return (
-    <div className="flex flex-col items-center p-8 ">
+    <div className="flex flex-col items-center ">
       <h1 className="text-2xl md:text-3xl lg:text-4xl text-white mb-2">
         Our Teams
       </h1>
@@ -58,7 +58,7 @@ const Teams: React.FC<TeamsProps> = () => {
         Club consists of seven teams with each junior team of varied dance forms
         across India.
       </p>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-8 w-3/4 ">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-8">
         {teamsData.map((image, index) => (
           <div
             key={index}
@@ -83,19 +83,16 @@ const Teams: React.FC<TeamsProps> = () => {
           </div>
         ))}
       </div>
-      <div className="flex flex-col md:flex-row items-center py-8 md:px-10 md:ml-20">
-        <div className="flex-1 md:ml-10 lg:ml-20">
-          <h1 className="text-xl md:text-3xl lg:text-4xl mb-2 text-white lg:ml-20">
-            Want to be a part of this{" "}
-            <span style={{ color: "#3947E2" }}>family?</span>
-            <p>
-              <span style={{ color: "#3947E2" }}>VIT Dance Club</span> auditions
-              will be
-            </p>{" "}
-            happening from
+      <div className="flex md:flex-row items-center py-8 md:px-0 md:ml-20">
+        <div className="text-xl md:text-3xl lg:text-4xl mb-2 text-white lg:ml-20 flex-1 md:ml-10">
+          Want to be a part of this{" "}
+          <span style={{ color: "#3947E2" }}>family?</span>
+          <p>
+            <span style={{ color: "#3947E2" }}>VIT Dance Club</span> auditions
+            will be happening from
             <span style={{ color: "#3947E2" }}> January to March</span> every
             year. Stay tuned to our Instagram handle for more updates.
-          </h1>
+          </p>
         </div>
         <div className="flex-1 ml-10">
           <div className="relative">

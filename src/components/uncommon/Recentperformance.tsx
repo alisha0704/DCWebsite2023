@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Recentperformance: React.FC = () => {
   return (
-    <div className="lg:px-64 px-4 pb-16  self-center">
+    <div className="">
       <div className="lg:px-24 py-10 pb- flex-col flex">
         <div className="text-center text-2xl md:text-3xl lg:text-4xl text-white font-normal">
           Recent Performances
@@ -23,11 +23,11 @@ const Recentperformance: React.FC = () => {
             width={669}
           />
         </div>
-        <div className="sm:px-32 px-8 ">
-          <div className="w-full h-6 text-white text-xl md:text-xl lg:text-3xl font-semibold uppercase leading-normal tracking-wide">
+        <div className=" ">
+          <div className="w-full h-6 text-white text-xl md:text-xl lg:text-3xl font-semibold uppercase leading-normal tracking-wide pb-20">
             MOOD INDIGO, IIT Mumbai
           </div>
-          <div className="py-5 md:py-12"></div>
+          
           <div className="md:w-96 text-white text-sm sm:text-base font-normal leading-7">
             Another amazing performance by our teams securing a new feather in
             the cap for team Mirage and team JNJ Bhangra for the second place in
