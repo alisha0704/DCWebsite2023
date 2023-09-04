@@ -74,7 +74,7 @@ const Aboutdc = () => {
 
   return (
     <div className="">
-      <div className=" ">
+      <div className="mt-8 ">
         <h1 className="text-white text-2xl md:text-3xl lg:text-4xl">
           VIT Dance Club promotes the dance art forms,{" "}
           <p>
@@ -154,7 +154,7 @@ const Aboutdc = () => {
           />
         </div>
       </div>
-    </div>
+      </div>
   );
 };
 

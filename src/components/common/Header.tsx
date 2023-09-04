@@ -10,7 +10,11 @@ const Header = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  const [menuOpen2, setMenuOpen2] = useState(false);
 
+  const toggleMenu2 = () => {
+    setMenuOpen2(!menuOpen2); // Toggles the menuOpen state
+  };
   const handleCloseModals = useCallback(() => {
     setMenuOpen(false);
     setShow(false);
@@ -38,13 +42,19 @@ const Header = () => {
     <header>
       <nav className="w-full  bg-black text-white">
         <div className="container mx-auto flex flex-col md:flex-row justify-center w-full h-full ">
+        <div
+         onClick={() => setMenuOpen2(!menuOpen2)} 
+         className="py-10 pr-4 md:pr-12 mr-4 md:mr-12 mt-4 cursor-pointer md:hidden" 
+      >
+       <Image src="/icons/menu.svg" alt="MENU" width={30} height={30} />
+        </div>
           <div
             onClick={() => setMenuOpen(true)}
             className={"py-10 pr-12 mr-12 mt-4"}
           >
             <Image src="/icons/menu.svg" alt="MENU" width={30} height={30} />
           </div>
-          <div className="px-10">
+          <div className={"px-10 ${menuOpen ? 'block' : 'hidden'}"}>
             <Link href="/">
               <Image src="/vitdclogo.svg" alt="DC" width={200} height={200} />
             </Link>
