@@ -15,7 +15,7 @@ const FullpageLoader = ({ loading }: Props) => {
 
   return (
     <div
-      className={`w-full font-bronson flex flex-col items-center justify-center gap-4 h-screen overflow-hidden fixed bg-black transition-all duration-500 ease-in-out text-white ${
+      className={`w- font-bronson flex flex-col items-center justify-center gap-4 h-screen overflow-hidden fixed bg-black transition-all duration-500 ease-in-out text-white ${
         loading ? "opacity-100 z-[120]" : "opacity-0 -z-[120]"
       }`}
     >

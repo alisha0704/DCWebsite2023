@@ -70,6 +70,7 @@ const Board: React.FC<BoardProps> = () => {
 
   return (
     <div>
+      <FullpageLoader loading={loading} />
       <div className="flex justify-center items-center h-3/4  bg-black">
         <div className="text-center p-8 max-w-screen-lg w-full overflow-y-auto">
           <div className="mb-4">

@@ -19,6 +19,7 @@ export default function Home() {
   });
   return (
     <>
+      {/* <FullpageLoader loading={loading} /> */}
       <div>
         <Slideshow />
         <Aboutdc />

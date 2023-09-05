@@ -13,7 +13,7 @@ const Gallery = () => {
   }, []);
   return (
     <>
-
+      <FullpageLoader loading={loading} />
       <div className="">
         <div className="text-center text-white text-2xl md:text-4xl lg:text-5xl px-4 font-normal leading-10 md:mb-4">
           The Gallery
