@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Slideshow: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const numberOfImages = 2;
+  const numberOfImages = 3;
 
   const handlePrevClick = () => {
     setActiveIndex((prevIndex) =>
@@ -17,20 +17,11 @@ const Slideshow: React.FC = () => {
     );
   };
 
-  const imagePaths = [
-    "/Carousel/DCCarousel.png",
-    "/Carousel/carouselboard.svg",
-  ]; // Define your image paths here
-
-  const imageTexts = [
-    "The VIT Dance Club provides opportunities to dance lovers to prove their talent and is a great platform for the students to have their artistic exploration in various styles. It boosts up the morales of the students and makes them reach a point of ecstasy. Dance unleashes us from everything and makes us feel a certain kind of happiness.", // Add your text for the first image
-    "Presenting, the Board of Dance Club 2023-24. Know more about the DC Board Members who are the prime backbone of this dance crew", // Add your text for the second image
-  ];
-
   return (
+    <>
     <div className="relative w-full" data-carousel="static">
       <div className="relative h-96 overflow-hidden rounded-lg">
-        {imagePaths.map((path, index) => (
+        {Array.from({ length: numberOfImages }).map((_, index) => (
           <div
             key={index}
             className={`duration-700 ease-in-out ${
@@ -39,12 +30,11 @@ const Slideshow: React.FC = () => {
             data-carousel-item={index === activeIndex ? "active" : undefined}
           >
             <Image
-              src={path} // Use the image path from the array
+              src={`/example-image-${index + 1}.jpg`} // Replace with your actual image paths
               alt={`Image ${index + 1}`}
-              width={850} // Adjust the width and height as needed
-              height={850}
+              width={500} // Adjust the width and height as needed
+              height={500}
             />
-            <p className="text-center text-white text-5xl z-50">{imageTexts[index]}</p>
           </div>
         ))}
       </div>
@@ -55,9 +45,7 @@ const Slideshow: React.FC = () => {
         data-carousel-prev
         onClick={handlePrevClick}
       >
-        <Image src="/chevron-left.svg" alt="Left arrow" width={50} height={50} />
-        
-                 {/* Left arrow icon */}
+        <span className="text-4xl">&#9664;</span> {/* Left arrow icon */}
       </button>
 
       <button
@@ -66,7 +54,7 @@ const Slideshow: React.FC = () => {
         data-carousel-next
         onClick={handleNextClick}
       >
-        <Image src="/chevron-right.svg" alt="Left arrow" width={50} height={50} /> {/* Right arrow icon */}
+        <span className="text-4xl">&#9654;</span> {/* Right arrow icon */}
       </button>
     </div>
   );

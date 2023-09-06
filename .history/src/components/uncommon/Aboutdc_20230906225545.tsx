@@ -73,7 +73,7 @@ const Aboutdc = () => {
   }, []);
 
   return (
-    <div className="pt-64">
+    <div className="pt-">
       <div className="mt-8 ">
         <h1 className="text-white text-2xl md:text-3xl lg:text-4xl">
           VIT Dance Club promotes the dance art forms,{" "}

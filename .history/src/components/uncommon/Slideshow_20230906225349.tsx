@@ -44,7 +44,7 @@ const Slideshow: React.FC = () => {
               width={850} // Adjust the width and height as needed
               height={850}
             />
-            <p className="text-center text-white text-5xl z-50">{imageTexts[index]}</p>
+            <p className="text-center text-white">{imageTexts[index]}</p>
           </div>
         ))}
       </div>
@@ -55,9 +55,7 @@ const Slideshow: React.FC = () => {
         data-carousel-prev
         onClick={handlePrevClick}
       >
-        <Image src="/chevron-left.svg" alt="Left arrow" width={50} height={50} />
-        
-                 {/* Left arrow icon */}
+        <span className="text-4xl">&#9664;</span> {/* Left arrow icon */}
       </button>
 
       <button
@@ -66,7 +64,7 @@ const Slideshow: React.FC = () => {
         data-carousel-next
         onClick={handleNextClick}
       >
-        <Image src="/chevron-right.svg" alt="Left arrow" width={50} height={50} /> {/* Right arrow icon */}
+        <span className="text-4xl">&#9654;</span> {/* Right arrow icon */}
       </button>
     </div>
   );

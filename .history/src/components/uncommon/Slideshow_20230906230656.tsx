@@ -66,7 +66,7 @@ const Slideshow: React.FC = () => {
         data-carousel-next
         onClick={handleNextClick}
       >
-        <Image src="/chevron-right.svg" alt="Left arrow" width={50} height={50} /> {/* Right arrow icon */}
+        <span className="text-4xl">&#9654;</span> {/* Right arrow icon */}
       </button>
     </div>
   );

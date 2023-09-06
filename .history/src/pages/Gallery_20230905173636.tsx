@@ -14,7 +14,10 @@ const Gallery = () => {
   }, []);
   return (
     <>
-      <div className="backdrop-blur-xl relative ">
+    <body className="bg-white">
+      
+    
+      <div className="">
         <div className="xl:w-full lg:w-3/4 w-full mx-auto text-left border-solid border-white px-14 py-14">
           <div className="text-center text-white text-2xl md:text-4xl lg:text-5xl px-4 font-normal leading-10 md:mb-4">
             The Gallery
@@ -33,10 +36,9 @@ const Gallery = () => {
         </div>
       </div>
       <Footer />
+      </body>
     </>
   );
 };
 
 export default Gallery;
-
-
