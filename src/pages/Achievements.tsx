@@ -50,7 +50,7 @@ const Achievements = () => {
   return (
     <div>
       <div className="flex justify-center items-center h-3/4 bg-black">
-        <div className="text-center p-8 max-w-screen-lg w-full overflow-y-auto">
+        <div className="text-center p-8 overflow-y-auto">
           <div className="mb-4">
             <h1 className="text-xl md:text-2xl lg:text-3xl mb-1 mt-8 text-white">
               Our Achievements
