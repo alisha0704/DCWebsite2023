@@ -13,6 +13,7 @@ const Particle = () => {
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
     // starting from v2 you can add only the features you need reducing the bundle size
     //await loadFull(engine);
+
     await loadSlim(engine);
   }, []);
 
@@ -25,10 +26,7 @@ const Particle = () => {
 
   return (
     <>
-      <div className="z-20">
-        {" "}
-        <Header />{" "}
-      </div>
+
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -36,7 +34,7 @@ const Particle = () => {
         options={{
           background: {
             color: {
-              value: "#0000",
+              value: "",
             },
           },
           fpsLimit: 60,
@@ -44,11 +42,11 @@ const Particle = () => {
             events: {
               onClick: {
                 enable: true,
-                mode: "push",
+                mode: "pull",
               },
               onHover: {
                 enable: true,
-                mode: "repulse",
+                mode: "bubble",
               },
               resize: true,
             },
@@ -58,7 +56,7 @@ const Particle = () => {
               },
               repulse: {
                 distance: 200,
-                duration: 0.4,
+                duration: 0.9,
               },
             },
           },
@@ -67,7 +65,7 @@ const Particle = () => {
               value: "#ffffff",
             },
             links: {
-              color: "#ffffff",
+              color: "#2E86C1",
               distance: 150,
               enable: true,
               opacity: 0.5,
@@ -80,27 +78,27 @@ const Particle = () => {
                 default: "bounce",
               },
               random: false,
-              speed: 6,
+              speed: 2,
               straight: false,
             },
             number: {
               density: {
                 enable: true,
-                area: 800,
+                area: 1500,
               },
-              value: 80,
+              value: 100,
             },
             opacity: {
-              value: 0.5,
+              value: 0.6,
             },
             shape: {
               type: "circle",
             },
             size: {
-              value: { min: 1, max: 5 },
+              value: { min: 1, max: 6 },
             },
           },
-          detectRetina: true,
+          detectRetina: false,
         }}
       />
     </>

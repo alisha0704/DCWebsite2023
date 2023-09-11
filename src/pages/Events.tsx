@@ -3,6 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from "next/image";
 import FullpageLoader from "@/components/common/FullpageLoader";
+import Footer from "@/components/common/Footer";
 
 type EventsProps = {};
 
@@ -343,6 +344,7 @@ const Events: React.FC<EventsProps> = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </>
   );
 };

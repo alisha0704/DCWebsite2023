@@ -39,7 +39,7 @@ const Header = () => {
   };
 
   return (
-    <header>
+    <header className="">
       <nav className="w-full  bg-black text-white">
         <div className="container mx-auto flex flex-col md:flex-row justify-center w-full h-full ">
         <div
