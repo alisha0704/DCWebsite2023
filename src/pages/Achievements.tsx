@@ -58,12 +58,6 @@ const Achievements = () => {
                 Our Achievements
               </h1>
             </div>
-            <Link
-              href="/"
-              className="absolute hidden lg:block top-16 left-14 text-white mt-20 ml-8 pl-16 pt-8"
-            >
-              <FiArrowLeft className="text-5xl" /> {FiArrowLeft}
-            </Link>
             <p className="text-sm md:text-md lg:text-xl mb-8 text-gray-300">
               We never leave the stage empty-handed, either we win the
               audience&apos;s heart or we win the whole event!

@@ -79,12 +79,6 @@ const Board: React.FC<BoardProps> = () => {
                 The Board
               </h1>
             </div>
-            <Link
-              href="/"
-              className="absolute hidden lg:block top-16 left-14 text-white mt-20 ml-8 pl-16 pt-8"
-            >
-              <FiArrowLeft className="text-5xl" /> {FiArrowLeft}
-            </Link>
             <p className="text-sm md:text-md mb-8 text-gray-300">
               Alone you can do so little, together you can do so much.
               Presenting the Board of Dance Club 2023-24.
