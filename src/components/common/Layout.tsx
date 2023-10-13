@@ -5,6 +5,7 @@ import Rightsidebar from "./Rightsidebar";
 import FullpageLoader from "./FullpageLoader";
 import { Container, Engine, Particles } from "tsparticles-engine";
 import { loadSlim } from "tsparticles-slim";
+import Footer from "./Footer";
 
 interface LayoutProps {
   children: ReactNode;
@@ -42,19 +43,19 @@ const Layout = ({ children }: LayoutProps) => {
 
   return (
     <>
-    
       <FullpageLoader loading={loading} />
-      
+
       <Header />
       <main className="flex flex-row">
-            <Leftsidebar />
+        <Leftsidebar />
 
-            <section className="flex min-h-screen flex-1 flex-col items-center bg-dark-1 px-6 pb-10 max-md:pb-32 sm:px-10">
-              <div className="w-full max-w-4xl">{children}</div>
-            </section>
+        <section className="flex min-h-screen flex-1 flex-col items-center bg-dark-1 px-6 pb-10 max-md:pb-32 sm:px-10">
+          <div className="w-full max-w-4xl">{children}</div>
+        </section>
 
-            <Rightsidebar />
-          </main>
+        <Rightsidebar />
+      </main>
+      <Footer />
       {/* <div className="absolute inset-y-0 left-0 w-32">
         <Leftsidebar />
       </div>

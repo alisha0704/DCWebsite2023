@@ -24,7 +24,6 @@ export default function Home() {
         <Aboutdc />
         <Teams />
         <Recentperformance />
-        <Footer />
       </div>
     </>
   );
