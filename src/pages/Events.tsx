@@ -4,6 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from "next/image";
 import FullpageLoader from "@/components/common/FullpageLoader";
 import Footer from "@/components/common/Footer";
+import Link from "next/link";
 
 type EventsProps = {};
 
@@ -68,6 +69,25 @@ const Events: React.FC<EventsProps> = () => {
 
   return (
     <>
+    <Link
+            href="/"
+            className="absolute hidden lg:block text-white mt-6"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              className="w-12 h-12"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
+              />
+            </svg>
+          </Link>
       <div className="text-center mb-12 py-8">
         <h1 className="text-3xl text-white font-semibold mb-4">Our Events</h1>
         <p className="text-gray-300 text-xl">
