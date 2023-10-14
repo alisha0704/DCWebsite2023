@@ -126,7 +126,6 @@ const Board: React.FC<BoardProps> = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

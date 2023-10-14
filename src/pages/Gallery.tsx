@@ -35,7 +35,7 @@ const Gallery = () => {
             />
           </svg>
         </Link>
-        <div className="xl:w-full lg:w-3/4 w-full mx-auto text-left border-solid border-white px-14 py-14">
+        <div className="xl:w-full lg:w-9/10 w-full mx-auto text-left border-solid border-white px-14 py-14">
           <div className="text-center text-white text-2xl md:text-4xl lg:text-5xl px-4 font-normal leading-10 md:mb-4">
             The Gallery
           </div>
@@ -52,7 +52,6 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

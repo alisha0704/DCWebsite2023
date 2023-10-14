@@ -364,7 +364,6 @@ const Events: React.FC<EventsProps> = () => {
           ))}
         </div>
       </div>
-      <Footer />
     </>
   );
 };

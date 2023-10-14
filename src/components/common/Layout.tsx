@@ -43,19 +43,20 @@ const Layout = ({ children }: LayoutProps) => {
 
   return (
     <>
-      <FullpageLoader loading={loading} />
+      {/* <FullpageLoader loading={loading} /> */}
 
       <Header />
       <main className="flex flex-row">
-        <Leftsidebar />
+        {/* <Leftsidebar /> */}
 
-        <section className="flex min-h-screen flex-1 flex-col items-center bg-dark-1 px-6 pb-10 max-md:pb-32 sm:px-10">
+        <section className="flex min-h-screen flex-1 flex-col items-center bg-dark-1 px-6 pb-10 max-md:pb-32 sm:px-6">
           <div className="w-full max-w-4xl">{children}</div>
         </section>
 
-        <Rightsidebar />
+        {/* <Rightsidebar /> */}
       </main>
       <Footer />
+
       {/* <div className="absolute inset-y-0 left-0 w-32">
         <Leftsidebar />
       </div>
