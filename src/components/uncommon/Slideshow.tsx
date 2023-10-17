@@ -44,6 +44,9 @@ const Slideshow: React.FC = () => {
               width={1000} // Adjust the width and height as needed
               height={1000}
             />
+            <div className="absolute bottom-0 left-0 w-full text-center p-4 bg-black bg-opacity-50">
+              <p className=" text-white font-medium text-base">{imageTexts[index]}</p>
+            </div>
           </div>
         ))}
       </div>
@@ -60,7 +63,6 @@ const Slideshow: React.FC = () => {
           width={50}
           height={50}
         />
-
         {/* Left arrow icon */}
       </button>
 
