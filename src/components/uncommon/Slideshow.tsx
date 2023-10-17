@@ -28,7 +28,7 @@ const Slideshow: React.FC = () => {
   ];
 
   return (
-    <div className="relative w-full" data-carousel="static">
+    <div className="relative w-full rounded-l-full rounded-r-full bg-slate-300 px-16 py-8 " data-carousel="static">
       <div className="relative h-96 overflow-hidden rounded-lg">
         {imagePaths.map((path, index) => (
           <div
