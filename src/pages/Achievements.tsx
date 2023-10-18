@@ -148,9 +148,9 @@ const Achievements: React.FC<AchievementsProps> = () => {
       memberDesgn: "THE CO-SECRETARY OF VIT DANCE CLUB",
     },
     {
-      imageUrl: "/achievements/image 55.svg",
-      memberName: "Teerth Amin",
-      memberDesgn: "THE EVENTS HEAD OF VIT DANCE CLUB",
+      imageUrl: "/achievements/2.svg",
+      memberName: "",
+      memberDesgn: "",
     },
     {
       imageUrl: "/achievements/image 86.svg",
@@ -163,9 +163,9 @@ const Achievements: React.FC<AchievementsProps> = () => {
       memberDesgn: "THE DESIGN HEAD OF VIT DANCE CLUB",
     },
     {
-      imageUrl: "/achievements/image 55.svg",
-      memberName: "Raaga Laasya",
-      memberDesgn: "THE EDITORIAL HEAD OF VIT DANCE CLUB",
+      imageUrl: "/achievements/0.svg",
+      memberName: "",
+      memberDesgn: "",
     },
     {
       imageUrl: "/achievements/image 93.svg",
@@ -178,9 +178,9 @@ const Achievements: React.FC<AchievementsProps> = () => {
       memberDesgn: "THE CHAIRPERSON OF VIT DANCE CLUB",
     },
     {
-      imageUrl: "/achievements/image 55.svg",
-      memberName: "Gowri Namboodiri",
-      memberDesgn: "THE VICE-CHAIRPERSON OF VIT DANCE CLUB",
+      imageUrl: "/achievements/2.svg",
+      memberName: "",
+      memberDesgn: "",
     },
     {
       imageUrl: "/achievements/image 89.svg",
@@ -193,9 +193,9 @@ const Achievements: React.FC<AchievementsProps> = () => {
       memberDesgn: "THE CO-SECRETARY OF VIT DANCE CLUB",
     },
     {
-      imageUrl: "/achievements/image 55.svg",
-      memberName: "Teerth Amin",
-      memberDesgn: "THE EVENTS HEAD OF VIT DANCE CLUB",
+      imageUrl: "/achievements/9.svg",
+      memberName: "",
+      memberDesgn: "",
     },
     {
       imageUrl: "/achievements/image 90.svg",
