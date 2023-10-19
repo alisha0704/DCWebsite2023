@@ -18,8 +18,8 @@ const Slideshow: React.FC = () => {
   };
 
   const imagePaths = [
-    "/Carousel/DCCarousel.png",
-    "/Carousel/carouselboard.svg",
+    "/Carousel/IMG_20220922_215922 1.png",
+    "/Carousel/IMAGE.png",
   ];
 
   const imageTexts = [
