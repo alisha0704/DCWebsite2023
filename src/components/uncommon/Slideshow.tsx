@@ -20,16 +20,16 @@ const Slideshow: React.FC = () => {
   const imagePaths = [
     "/Carousel/DCCarousel.png",
     "/Carousel/carouselboard.svg",
-  ]; // Define your image paths here
+  ];
 
   const imageTexts = [
-    "The VIT Dance Club provides opportunities to dance lovers to prove their talent and is a great platform for the students to have their artistic exploration in various styles. It boosts up the morales of the students and makes them reach a point of ecstasy. Dance unleashes us from everything and makes us feel a certain kind of happiness.", // Add your text for the first image
-    "Presenting, the Board of Dance Club 2023-24. Know more about the DC Board Members who are the prime backbone of this dance crew", // Add your text for the second image
+    "The VIT Dance Club provides opportunities to dance lovers to prove their talent and is a great platform for the students to have their artistic exploration in various styles. It boosts up the morales of the students and makes them reach a point of ecstasy. Dance unleashes us from everything and makes us feel a certain kind of happiness.",
+    "Presenting, the Board of Dance Club 2023-24. Know more about the DC Board Members who are the prime backbone of this dance crew",
   ];
 
   return (
     <div className="relative w-full rounded-l-full rounded-r-full bg-slate-300 px-16 py-8 " data-carousel="static">
-      <div className="relative h-96 overflow-hidden rounded-lg">
+      <div className="relative h-full overflow-hidden rounded-lg">
         {imagePaths.map((path, index) => (
           <div
             key={index}
@@ -38,14 +38,18 @@ const Slideshow: React.FC = () => {
             }`}
             data-carousel-item={index === activeIndex ? "active" : undefined}
           >
-            <Image
-              src={path} // Use the image path from the array
-              alt={`Image ${index + 1}`}
-              width={1000} // Adjust the width and height as needed
-              height={1000}
-            />
-            <div className="absolute bottom-0 left-0 w-full text-center p-4 bg-black bg-opacity-50">
-              <p className=" text-white font-medium text-base">{imageTexts[index]}</p>
+            <div className="relative">
+              <Image
+                src={path}
+                alt={`Image ${index + 1}`}
+                width={1000}
+                height={1000}
+              />
+              <div className="relative left-0 w-full text-center p-4 bg-black bg-opacity-50">
+                <p className="text-white font-medium text-base">
+                  {imageTexts[index]}
+                </p>
+              </div>
             </div>
           </div>
         ))}
@@ -63,7 +67,6 @@ const Slideshow: React.FC = () => {
           width={50}
           height={50}
         />
-        {/* Left arrow icon */}
       </button>
 
       <button
@@ -74,11 +77,10 @@ const Slideshow: React.FC = () => {
       >
         <Image
           src="/chevron-right.svg"
-          alt="Left arrow"
+          alt="Right arrow"
           width={50}
           height={50}
-        />{" "}
-        {/* Right arrow icon */}
+        />
       </button>
     </div>
   );
