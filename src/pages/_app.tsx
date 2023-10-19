@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <div className="bg-black">
     <Layout>
-      <div className="z-50 ">
+      <div className=" ">
       <Component {...pageProps} />
       </div>
     </Layout>
