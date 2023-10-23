@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Journey = () => {
   return (
@@ -26,6 +27,14 @@ const Journey = () => {
       <div className="text-center text-gray-400 text-md md:text-lg lg:text-xl font-normal px-4 leading-10 mb-8">
         Lets see through the history of DC&apos;s board members
       </div>
+      <div className="flex max-sm:px-6 justify-center">
+            <Image
+              src="/Group 113 (1).png"
+              alt="Gallery"
+              width={1000}
+              height={300}
+            />
+          </div>
     </>
   );
 };
