@@ -1,4 +1,4 @@
-import Particle from "@/Particles";
+import Particle from "@/pages/Particles";
 import Layout from "@/components/common/Layout";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
