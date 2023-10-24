@@ -25,7 +25,7 @@ const Journey = () => {
         Journey of Dance Club
       </div>
       <div className="text-center text-gray-400 text-md md:text-lg lg:text-xl font-normal px-4 leading-10 mb-8">
-        Lets see through the history of DC&apos;s board members
+        Lets see through the history of Dance Club
       </div>
       <div className="flex max-sm:px-6 justify-center">
             <Image
