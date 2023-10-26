@@ -130,6 +130,65 @@ const Events = () => {
         /> */}
       </div>
       <div className=" text-2xl py-10 font-semibold">
+        ----------Alumni Events----------------------------------------
+      </div>
+      <div className="gap-4 columns-4 py-10">
+        <Image src="/events/gallery3/image 114.svg" alt="" height={1000} width={1000} className="w-full" />
+        <div className="text-center"><h1>GeethaNritya </h1> Alumni Geethanjali Ajith</div>
+        {/* <img
+          className="w-full aspect-video mb-6"
+          src="/events/gallery1/image 106.svg"
+        /> */}
+        <Image src="/events/gallery3/image 119.svg" alt="" height={1000} width={1000} className="w-full" />
+        <div className="text-center"><h1>Taal se taal Mila
+        </h1> Riwaayat alumni Meher Nigam</div>
+        {/* <img
+          className="w-full aspect-square mb-6"
+          src="/events/gallery1/image 25.svg"
+        /> */}
+        <div className="text-center  pt-10"><h1>Groove And Go </h1> Unitrix alumni Sarang Ram</div>
+        <Image src="/events/gallery3/image 121.svg" alt="" height={1000} width={1000} className="w-full" />
+
+        {/* <img
+          className="w-full aspect-square mb-6"
+          src="/events/gallery1/image 109.svg"
+        /> */}
+
+        <div className="text-center"><h1>Flow with it </h1> Chargers alumni Gautham</div>
+        <Image src="/events/gallery3/image 120.svg" alt="" height={1000} width={1000} className="w-full" />
+        {/* <img
+          className="w-full aspect-square mb-6"
+          src="/events/gallery1/image 113.svg"
+        /> */}
+
+        <Image src="/events/gallery3/image 115.svg" alt="" height={1000} width={1000} className="w-full" />
+        <div className="text-center"><h1>Pump it Up </h1>JNJ Bhangra alumni Aniket</div>
+        {/* <img
+          className="w-full aspect-video mb-6"
+          src="/events/gallery1/image 108.svg"
+        /> */}
+
+        <Image src="/events/gallery3/image 118.svg" alt="" height={1000} width={1000} className="w-full" />
+        <div className="text-center"><h1>Noopura </h1>Maya alumni Sariga</div>
+        {/* <img
+          className="w-full aspect-video mb-6"
+          src="/events/gallery1/image 107.svg"
+        /> */}
+        
+        <div className="text-center  pt-10"><h1>Lumiere </h1> Mirage alumni Shubham</div>
+        <Image src="/events/gallery3/image 117.svg" alt="" height={1000} width={1000} className="w-full" />
+        {/* <img
+          className="w-full aspect-square mb-6"
+          src="/events/gallery1/image 111.svg"
+        /> */}
+        <div className="text-center"><h1>Feel The Beat </h1> BBC alumni Aditya Roshan</div>
+        <Image src="/events/gallery3/image 116.svg" alt="" height={1000} width={1000} className="w-full" />
+        {/* <img
+          className="w-full aspect-video mb-6"
+          src="/events/gallery1/image 110.svg"
+        /> */}
+      </div>
+      <div className=" text-2xl py-10 font-semibold">
         ----------Other Offline/Online Events----------------------------------------
       </div>
       <div className="gap-4 columns-4 py-10">
