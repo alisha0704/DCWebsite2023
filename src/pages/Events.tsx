@@ -29,9 +29,25 @@ const Events = () => {
             occasion. With thousands in the crowd, you will see us shine and
             dazzle on this amazing stage.
           </div>
-          Hello 
         </div>
       </div>
+      <div className="border border-gray-600 border-t-0 border-l-0 border-r-0 py-4" />
+      <div className="text-center text-4xl py-4 font-extrabold">World Dance Day</div>
+      <div className="flex items-center py-4">
+        <div className="w-1/2">
+          <Image src="/events/Events2.svg" alt="" height={1000} width={1000} />
+        </div>
+        <div className="w-1/2 text-white px-10">
+          <div>
+            WDD is the Dance Club&apos;s annual and flagship performance, which we
+            take a lot of pride in. The event consists of all 7 teams showcasing
+            their best performances and entertaining the audience for the
+            evening.
+          </div>
+        </div>
+      </div>
+      <div className="text-center text-4xl py-10 font-extrabold">Other Events & Workshops</div>
+      
     </>
   );
 };
