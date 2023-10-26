@@ -65,15 +65,69 @@ const Events = () => {
       </div>
       <div className=" ">
         Step into a world of dance innovation with our series of collaboration
-        dance workshops, brought to you by our dynamic VIT Dance Club. We&apos;ve
-        teamed up with renowned influencers, dance maestros and seasoned dancers
-        to offer an unparalleled learning experience. Get ready to unlock your
-        potential and explore a world of dance styles, from street-smart moves
-        to classical elegance. Join us for a dance journey like no other, where
-        creativity knows no bounds. Elevate your skills and groove alongside the
-        finest in the business. It&apos;s your turn to shine on the dance floor.
-        Don&apos;t miss out on these electrifying workshops, where the magic of
-        movement meets the wisdom of experts!
+        dance workshops, brought to you by our dynamic VIT Dance Club.
+        We&apos;ve teamed up with renowned influencers, dance maestros and
+        seasoned dancers to offer an unparalleled learning experience. Get ready
+        to unlock your potential and explore a world of dance styles, from
+        street-smart moves to classical elegance. Join us for a dance journey
+        like no other, where creativity knows no bounds. Elevate your skills and
+        groove alongside the finest in the business. It&apos;s your turn to
+        shine on the dance floor. Don&apos;t miss out on these electrifying
+        workshops, where the magic of movement meets the wisdom of experts!
+      </div>
+      <div className="gap-8 columns-3 py-10">
+        <Image src="/events/gallery1/image 106.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+        {/* <img
+          className="w-full aspect-video mb-6"
+          src="/events/gallery1/image 106.svg"
+        /> */}
+        <Image src="/events/gallery1/image 25.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+        {/* <img
+          className="w-full aspect-square mb-6"
+          src="/events/gallery1/image 25.svg"
+        /> */}
+        <Image src="/events/gallery1/image 109.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+
+        {/* <img
+          className="w-full aspect-square mb-6"
+          src="/events/gallery1/image 109.svg"
+        /> */}
+
+        <Image src="/events/gallery1/image 113.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+        {/* <img
+          className="w-full aspect-square mb-6"
+          src="/events/gallery1/image 113.svg"
+        /> */}
+
+        <Image src="/events/gallery1/image 108.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+        {/* <img
+          className="w-full aspect-video mb-6"
+          src="/events/gallery1/image 108.svg"
+        /> */}
+
+        <Image src="/events/gallery1/image 107.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+        {/* <img
+          className="w-full aspect-video mb-6"
+          src="/events/gallery1/image 107.svg"
+        /> */}
+
+        <Image src="/events/gallery1/image 111.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+        {/* <img
+          className="w-full aspect-square mb-6"
+          src="/events/gallery1/image 111.svg"
+        /> */}
+
+        <Image src="/events/gallery1/image 110.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+        {/* <img
+          className="w-full aspect-video mb-6"
+          src="/events/gallery1/image 110.svg"
+        /> */}
+
+        <Image src="/events/gallery1/image 112.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+        {/* <img
+          className="w-full aspect-square mb-6"
+          src="/events/gallery1/image 112.svg"
+        /> */}
       </div>
     </>
   );
