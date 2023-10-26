@@ -32,22 +32,49 @@ const Events = () => {
         </div>
       </div>
       <div className="border border-gray-600 border-t-0 border-l-0 border-r-0 py-4" />
-      <div className="text-center text-4xl py-4 font-extrabold">World Dance Day</div>
+      <div className="text-center text-4xl py-4 font-extrabold">
+        World Dance Day
+      </div>
       <div className="flex items-center py-4">
         <div className="w-1/2">
           <Image src="/events/Events2.svg" alt="" height={1000} width={1000} />
         </div>
         <div className="w-1/2 text-white px-10">
           <div>
-            WDD is the Dance Club&apos;s annual and flagship performance, which we
-            take a lot of pride in. The event consists of all 7 teams showcasing
-            their best performances and entertaining the audience for the
-            evening.
+            WDD is the Dance Club&apos;s annual and flagship performance, which
+            we take a lot of pride in. The event consists of all 7 teams
+            showcasing their best performances and entertaining the audience for
+            the evening.
           </div>
         </div>
       </div>
-      <div className="text-center text-4xl py-10 font-extrabold">Other Events & Workshops</div>
-      
+      <div className="text-center text-4xl py-10 font-extrabold">
+        Other Events & Workshops
+      </div>
+
+      <div className="flex justify-center items-center gap-12">
+        <button className="text-white font-bold py-2 px-4 rounded-full border">
+          Internal
+        </button>
+        <button className="text-white font-bold py-2 px-4 rounded-full border">
+          External
+        </button>
+      </div>
+      <div className=" text-2xl py-10 font-semibold">
+        ----------Outreach/Collaborations----------------------------------------
+      </div>
+      <div className=" ">
+        Step into a world of dance innovation with our series of collaboration
+        dance workshops, brought to you by our dynamic VIT Dance Club. We&apos;ve
+        teamed up with renowned influencers, dance maestros and seasoned dancers
+        to offer an unparalleled learning experience. Get ready to unlock your
+        potential and explore a world of dance styles, from street-smart moves
+        to classical elegance. Join us for a dance journey like no other, where
+        creativity knows no bounds. Elevate your skills and groove alongside the
+        finest in the business. It&apos;s your turn to shine on the dance floor.
+        Don&apos;t miss out on these electrifying workshops, where the magic of
+        movement meets the wisdom of experts!
+      </div>
     </>
   );
 };
