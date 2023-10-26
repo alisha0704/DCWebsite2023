@@ -129,6 +129,78 @@ const Events = () => {
           src="/events/gallery1/image 112.svg"
         /> */}
       </div>
+      <div className=" text-2xl py-10 font-semibold">
+        ----------Other Offline/Online Events----------------------------------------
+      </div>
+      <div className="gap-4 columns-4 py-10">
+        <Image src="/events/gallery2/image 24.svg" alt="" height={1000} width={1000} className="w-full mb-6 mt-16" />
+        {/* <img
+          className="w-full aspect-video mb-6"
+          src="/events/gallery1/image 106.svg"
+        /> */}
+        <Image src="/events/gallery2/image 124.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+        {/* <img
+          className="w-full aspect-square mb-6"
+          src="/events/gallery1/image 25.svg"
+        /> */}
+        <Image src="/events/gallery2/image 135.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+
+        {/* <img
+          className="w-full aspect-square mb-6"
+          src="/events/gallery1/image 109.svg"
+        /> */}
+
+        <Image src="/events/gallery2/image 122.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+        {/* <img
+          className="w-full aspect-square mb-6"
+          src="/events/gallery1/image 113.svg"
+        /> */}
+
+        <Image src="/events/gallery2/image 125.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+        {/* <img
+          className="w-full aspect-video mb-6"
+          src="/events/gallery1/image 108.svg"
+        /> */}
+
+        <Image src="/events/gallery2/image 132.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+        {/* <img
+          className="w-full aspect-video mb-6"
+          src="/events/gallery1/image 107.svg"
+        /> */}
+
+        <Image src="/events/gallery2/image 27.svg" alt="" height={1000} width={1000} className="w-full mb-6 pt-10" />
+        {/* <img
+          className="w-full aspect-square mb-6"
+          src="/events/gallery1/image 111.svg"
+        /> */}
+
+        <Image src="/events/gallery2/image 26.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+        {/* <img
+          className="w-full aspect-video mb-6"
+          src="/events/gallery1/image 110.svg"
+        /> */}
+
+        <Image src="/events/gallery2/image 133.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+        {/* <img
+          className="w-full aspect-square mb-6"
+          src="/events/gallery1/image 112.svg"
+        /> */}
+         <Image src="/events/gallery2/image 123.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+        {/* <img
+          className="w-full aspect-square mb-6"
+          src="/events/gallery1/image 112.svg"
+        /> */}
+         <Image src="/events/gallery2/image 28.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+        {/* <img
+          className="w-full aspect-square mb-6"
+          src="/events/gallery1/image 112.svg"
+        /> */}
+         <Image src="/events/gallery2/image 134.svg" alt="" height={1000} width={1000} className="w-full mb-6" />
+        {/* <img
+          className="w-full aspect-square mb-6"
+          src="/events/gallery1/image 112.svg"
+        /> */}
+      </div>
     </>
   );
 };
