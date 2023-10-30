@@ -49,9 +49,9 @@ const Maya = () => {
         <Image
           src="/Maya/image 148.svg"
           alt="BBC"
-          width={500}
-          height={500}
-          className="pt-12"
+          width={5000}
+          height={5000}
+          className="w-full h-full"
         />
         <div className="text-center pt-4 font-semibold">Shreya Mangesh</div>
         <div className="text-center text-xs text-gray-400 font-semibold">
@@ -62,60 +62,8 @@ const Maya = () => {
       <div className="text-center justify-center text-sm text-gray-400">
         Glimpse of our latest performances throughout many events
       </div>
-      <div className="gap-4 columns-2 py-4">
-        <Image
-          src="/BBC/IMG-20230305-WA0029 1.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-        <Image
-          src="/BBC/004A7986 1.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-        <Image
-          src="/BBC/DSC_9641 1.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-
-        <Image
-          src="/BBC/bbc wdd 1.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-
-        <Image
-          src="/BBC/004A7993 1.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-
-        <Image
-          src="/BBC/DSC_9710 1.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-
-        <Image
-          src="/BBC/IMG-20230616-WA0003 1.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6 pt-10"
-        />
+      <div className="py-4">
+        <Image src="/Maya/Group 133.svg" alt="BBC" width={5000} height={5000} />
       </div>
 
       <div className="lg:px-24 py-10 pb- flex-col flex">
@@ -183,7 +131,12 @@ const Maya = () => {
           </div>
         </div>
         <div>
-          <Image src="/Maya/image 156 (1).svg" height={150} width={669} alt="" />
+          <Image
+            src="/Maya/image 156 (1).svg"
+            height={150}
+            width={669}
+            alt=""
+          />
         </div>
       </div>
     </>
