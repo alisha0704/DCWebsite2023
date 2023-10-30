@@ -65,60 +65,8 @@ const Riwaayat = () => {
       <div className="text-center justify-center text-sm text-gray-400">
         Glimpse of our latest performances throughout many events
       </div>
-      <div className="gap-4 columns-2 py-4">
-        <Image
-          src="/BBC/IMG-20230305-WA0029 1.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-        <Image
-          src="/BBC/004A7986 1.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-        <Image
-          src="/BBC/DSC_9641 1.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-
-        <Image
-          src="/BBC/bbc wdd 1.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-
-        <Image
-          src="/BBC/004A7993 1.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-
-        <Image
-          src="/BBC/DSC_9710 1.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-
-        <Image
-          src="/BBC/IMG-20230616-WA0003 1.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6 pt-10"
-        />
+      <div className="py-4">
+      <Image src="/Riwaayat/Group 132.png" alt="BBC" width={5000} height={5000} />
       </div>
 
       <div className="lg:px-24 py-10 pb- flex-col flex">
