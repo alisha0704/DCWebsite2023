@@ -26,7 +26,7 @@ const BBC = () => {
       </div>
       <div className="py-10 text-center justify-center flex border rounded-3xl mt-10">
         <Image src="/BBC/Frame 11.svg" alt="BBC" width={40} height={40} />
-        <div className="px-5 py-2 font-bold text-xl">
+        <div className="px-5 py-2 font-bold text-lg">
           {" "}
           The Junior Dance Team of Bollywood Badmaash Company is{" "}
           <span className="text-[#BBC1FF]"> Bollywood Bandits </span>{" "}
@@ -66,6 +66,7 @@ const BBC = () => {
         Glimpse of our latest performances throughout many events
       </div>
       <div className="gap-4 columns-2 py-4">
+<<<<<<< Updated upstream
         <Image
           src="/BBC/IMG-20230305-WA0029 1.svg"
           alt=""
@@ -188,6 +189,9 @@ const BBC = () => {
         <div>
           <Image src="/BBC/image 156.svg" height={150} width={669} alt="" />
         </div>
+=======
+        <Image src="/BBC/IMG-20230305-WA0029 1.svg" alt="BBC" width={500} height={500} />
+>>>>>>> Stashed changes
       </div>
     </>
   );
