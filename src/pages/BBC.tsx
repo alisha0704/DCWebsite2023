@@ -32,8 +32,42 @@ const BBC = () => {
           <span className="text-[#BBC1FF]"> Bollywood Bandits </span>{" "}
         </div>
       </div>
-      <div className="">
-
+      <div className="gap-4 columns-3 py-10">
+        <Image
+          src="/BBC/Shubhagi.svg"
+          alt="BBC"
+          width={500}
+          height={500}
+          className="pt-12"
+        />
+        <div className="text-center pt-4 font-semibold">SHUBHANGI TIWARI</div>
+        <div className="text-center text-xs text-gray-400 font-semibold ">
+          TEAM REPRESENTATIVE
+        </div>
+        <Image src="/BBC/nikhil.svg" alt="BBC" width={500} height={500} />
+        <div className="text-center pt-4 font-semibold">NIKHIL AGARWAL</div>
+        <div className="text-center text-xs text-gray-400 font-semibold">
+          TEAM HEAD
+        </div>
+        <Image
+          src="/BBC/satwik.svg"
+          alt="BBC"
+          width={500}
+          height={500}
+          className="pt-12"
+        />
+        <div className="text-center pt-4 font-semibold">SATWIK TRIPATHY</div>
+        <div className="text-center text-xs text-gray-400 font-semibold">
+          JDC COORDINATOR - LAASYA
+        </div>
+      </div>
+      <div className="text-3xl text-center font-extrabold">Mini-Gallery</div>
+      <div className="text-center justify-center text-sm text-gray-400">
+        Glimpse of our latest performances throughout many events
+      </div>
+      <div className="gap-4 columns-2 py-4">
+        <Image src="/BBC/IMG-20230305-WA0029 1.svg" alt="BBC" width={500} height={500} />
+        
       </div>
     </>
   );
