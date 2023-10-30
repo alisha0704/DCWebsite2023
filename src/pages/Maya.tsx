@@ -63,7 +63,7 @@ const Maya = () => {
         Glimpse of our latest performances throughout many events
       </div>
       <div className="py-4">
-        <Image src="/Maya/Group 133.svg" alt="BBC" width={5000} height={5000} />
+        <Image src="/Maya/Group 133.png" alt="BBC" width={5000} height={5000} />
       </div>
 
       <div className="lg:px-24 py-10 pb- flex-col flex">
