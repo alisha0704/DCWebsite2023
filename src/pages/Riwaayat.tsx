@@ -134,7 +134,7 @@ const Riwaayat = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg"
-            src="/BBC/4 2.svg"
+            src="/Riwaayat/Jnj 1.svg"
             alt=""
             height={150}
             width={669}
@@ -186,7 +186,7 @@ const Riwaayat = () => {
           </div>
         </div>
         <div>
-          <Image src="/BBC/image 156.svg" height={150} width={669} alt="" />
+          <Image src="/Riwaayat/image 156 (2).svg" height={150} width={669} alt="" />
         </div>
       </div>
     </>
