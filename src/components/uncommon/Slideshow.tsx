@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Slideshow: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const numberOfImages = 2;
+  const numberOfImages = 4;
 
   const handlePrevClick = () => {
     setActiveIndex((prevIndex) =>
@@ -20,15 +20,22 @@ const Slideshow: React.FC = () => {
   const imagePaths = [
     "/Carousel/IMG_20220922_215922 1.png",
     "/Carousel/IMAGE.png",
+    "/Carousel/IMAGE.svg",
+    "/Carousel/IMAGE (1).svg",
   ];
 
   const imageTexts = [
     "The VIT Dance Club provides opportunities to dance lovers to prove their talent and is a great platform for the students to have their artistic exploration in various styles. It boosts up the morales of the students and makes them reach a point of ecstasy. Dance unleashes us from everything and makes us feel a certain kind of happiness.",
     "Presenting, the Board of Dance Club 2023-24. Know more about the DC Board Members who are the prime backbone of this dance crew",
+    "The VIT Dance Club provides opportunities to dance lovers to prove their talent and is a great platform for the students to have their artistic exploration in various styles. It boosts up the morales of the students and makes them reach a point of ecstasy. Dance unleashes us from everything and makes us feel a certain kind of happiness.",
+    "The VIT Dance Club provides opportunities to dance lovers to prove their talent and is a great platform for the students to have their artistic exploration in various styles. It boosts up the morales of the students and makes them reach a point of ecstasy. Dance unleashes us from everything and makes us feel a certain kind of happiness.",
   ];
 
   return (
-    <div className="relative w-full rounded-l-md rounded-r-md bg-slate-300  px-16 py-14 my-10 " data-carousel="static">
+    <div
+      className="relative w-full rounded-l-md rounded-r-md bg-slate-300  px-16 py-14 my-10 "
+      data-carousel="static"
+    >
       <div className="relative h-full overflow-hidden rounded-lg">
         {imagePaths.map((path, index) => (
           <div
