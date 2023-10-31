@@ -66,7 +66,6 @@ const BBC = () => {
         Glimpse of our latest performances throughout many events
       </div>
       <div className="gap-4 columns-2 py-4">
-<<<<<<< Updated upstream
         <Image
           src="/BBC/IMG-20230305-WA0029 1.svg"
           alt=""
@@ -189,9 +188,6 @@ const BBC = () => {
         <div>
           <Image src="/BBC/image 156.svg" height={150} width={669} alt="" />
         </div>
-=======
-        <Image src="/BBC/IMG-20230305-WA0029 1.svg" alt="BBC" width={500} height={500} />
->>>>>>> Stashed changes
       </div>
     </>
   );
