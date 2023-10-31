@@ -62,7 +62,7 @@ const Unitrix:React.FC<UnitrixProps> = () => {
         </div>
         <Image
           src="/Unitrix/satyendra.svg"
-          alt="chargers"
+          alt="Unitrix"
           width={500}
           height={500}
           className="pt-12"
@@ -78,7 +78,7 @@ const Unitrix:React.FC<UnitrixProps> = () => {
       </div>
       <div className="flex justify-center py-4">
         <Image src="/Unitrix/unigallery.png" 
-        alt="Mirage"
+        alt="Unitrix"
          width={1000} 
          height={1000} />
       </div>
@@ -96,7 +96,7 @@ const Unitrix:React.FC<UnitrixProps> = () => {
           <Image
             className="h-auto max-w-full rounded-lg"
             src="/Unitrix/recent1.svg"
-            alt="Mirage"
+            alt="Unitrix"
             height={150}
             width={669}
           />
@@ -148,7 +148,7 @@ const Unitrix:React.FC<UnitrixProps> = () => {
           <Image src="/Unitrix/recent2.svg"
            height={150} 
            width={669}
-            alt="Mirage" />
+            alt="Unitrix" />
         </div>
       </div>
   </div>
