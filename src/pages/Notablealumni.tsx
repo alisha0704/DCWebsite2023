@@ -43,13 +43,13 @@ const Slideshow: React.FC = () => {
 
   return (
     <>
-      <div className="text-[#FFF6E8] font-medium lg:text-4xl text-3xl text-center tracking-widest px-[2vw]">
+      <div className="text-center font-extrabold text-4xl">
         Notable Alumnis
       </div>
-      <div className="text-[#FFF6E8] font-normal lg:text-lg text-xl text-center px-[3vw]">
+      <div className="text-center font-medium text-sm text-gray-400">
         Check out the list of our notable Alumni who are on top of their Passion
       </div>
-      <div className="lg:w-[80vw] mt-[2vh]" id="gallery">
+      <div className="lg:w-[80vw] mt-[2vh]">
         <div className=" mx-auto relative px-[2vw]" data-carousel="static">
           <div className="relative overflow-hidden rounded-lg">
             {imagePaths.map((path, index) => {
@@ -69,7 +69,7 @@ const Slideshow: React.FC = () => {
                       alt={`Image ${index}`}
                       width={200} // Adjust the width and height as needed
                       height={200}
-                      className="border-2 border-red-500"
+                      className=""
                     />
                   </div>
                   <div className="flex items-center">
@@ -78,7 +78,7 @@ const Slideshow: React.FC = () => {
                       alt={`Image ${index + 1}`}
                       width={400} // Adjust the width and height as needed
                       height={400}
-                      className="border-2 border-red-500"
+                      className=""
                     />
                   </div>
                   <div className="flex items-center">
@@ -87,7 +87,7 @@ const Slideshow: React.FC = () => {
                       alt={`Image ${index + 2}`}
                       width={600} // Adjust the width and height as needed
                       height={600}
-                      className="border-2 border-red-500"
+                      className=""
                     />
                   </div>
                   <div className="flex items-center">
@@ -96,7 +96,7 @@ const Slideshow: React.FC = () => {
                       alt={`Image ${index + 3}`}
                       width={400} // Adjust the width and height as needed
                       height={400}
-                      className="border-2 border-red-500"
+                      className=""
                     />
                   </div>
                   <div className="flex items-center">
@@ -105,7 +105,7 @@ const Slideshow: React.FC = () => {
                       alt={`Image ${index + 4}`}
                       width={200} // Adjust the width and height as needed
                       height={200}
-                      className="border-2 border-red-500"
+                      className=""
                     />
                   </div>
                 </div>
@@ -120,7 +120,7 @@ const Slideshow: React.FC = () => {
             onClick={handlePrevClick}
           >
             <Image
-              src="/landingassests/carouselassets/goleft.svg"
+              src="/chevron-left.svg"
               alt="Left arrow"
               width={40}
               height={40}
@@ -136,7 +136,7 @@ const Slideshow: React.FC = () => {
             onClick={handleNextClick}
           >
             <Image
-              src="/landingassests/carouselassets/goright.svg"
+              src="/chevron-right.svg"
               alt="Left arrow"
               width={40}
               height={40}
