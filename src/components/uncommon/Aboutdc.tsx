@@ -76,18 +76,18 @@ const Aboutdc = () => {
     <>
     <div className="">
       <div className=" mx-auto relative pt-20  px-20 pb-10">
-        <div className="text-white text-4xl">
+        <div className="text-white text-4xl text-left">
           VIT Dance Club promotes the dance art forms,{" "}
           <span style={{ color: "#3947E2" }}>regional</span> and{" "}
           <span style={{ color: "#3947E2" }}>western</span> and gives an
           opportunity to students to perform
         </div>
-        <h5 className="text-gray-400 text-sm pt-4">
+        <h5 className="text-gray-400 text-sm pt-4 text-center">
           Winners of various dance competitions across the country & club
           consists of seven major teams of varied dance forms across India.
         </h5>
       </div>
-      <div className="py-2 border pb-8 bg-gray-900">
+      <div className="py-2 border pb-8 bg-gray-900 w-1/2">
         <div className="flex justify-center items-center space-x-6">
           <Image
             src="/icons/flaglogo.png"
