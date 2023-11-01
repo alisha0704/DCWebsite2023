@@ -73,8 +73,9 @@ const Aboutdc = () => {
   }, []);
 
   return (
+    <>
     <div className="">
-      <div className=" mx-auto relative  pt-20 px-20">
+      <div className=" mx-auto relative pt-20  px-20 pb-10">
         <div className="text-white text-4xl">
           VIT Dance Club promotes the dance art forms,{" "}
           <span style={{ color: "#3947E2" }}>regional</span> and{" "}
@@ -86,8 +87,8 @@ const Aboutdc = () => {
           consists of seven major teams of varied dance forms across India.
         </h5>
       </div>
-      <div className="py-10">
-        <div className="flex justify-center items-center mt-8 space-x-6">
+      <div className="py-2 border pb-8 bg-gray-900">
+        <div className="flex justify-center items-center space-x-6">
           <Image
             src="/icons/flaglogo.png"
             alt="Logo 1"
@@ -126,6 +127,7 @@ const Aboutdc = () => {
                 start={125}
                 shouldAnimate={animated.performance}
               />
+              +
             </div>
             <div className="flex font-extralight text-base">PERFORMANCES</div>
           </div>
@@ -143,6 +145,7 @@ const Aboutdc = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
