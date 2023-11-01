@@ -66,15 +66,15 @@ const Teams: React.FC<TeamsProps> = () => {
       <h1 className="text-2xl md:text-3xl lg:text-4xl text-white mb-2">
         Our Teams
       </h1>
-      <p className="text-center text:sm md:text-lg lg:text-xl text-gray-400 mb-8">
+      <p className="text-center text-sm md:text-lg lg:text-xl text-gray-400 mb-8">
         Club consists of seven teams with each junior team of varied dance forms
         across India.
       </p>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-8">
-        {teamsData.map((image, index) => (
+        {teamsData.map((team, index) => (
           <div
             key={index}
-            className="text-center"
+            className="text-center team-container relative"
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
           >
@@ -84,7 +84,7 @@ const Teams: React.FC<TeamsProps> = () => {
               rel="noopener noreferrer"
             >
               <Image
-                src={image.imageSrc}
+                src={team.imageSrc}
                 alt={`Image ${index + 1}`}
                 width={400}
                 height={700}
@@ -92,11 +92,17 @@ const Teams: React.FC<TeamsProps> = () => {
             </a>
             <div className="flex flex-col opacity-75 items-center mt-2">
               <h2 className="text-xs md:text-md lg:text-lg px-4 text-center max-sm:px-6 pr-8 font-semibold text-white mt-2">
-                {image.name}
+                {team.name}
               </h2>
               <h3 className="text-xs md:text-sm lg:text-md text-center max-sm:px-8 max-sm:mr-4 pr-8 text-gray-400 mt-1 mb-8">
-                {image.danceStyle}
+                {team.danceStyle}
               </h3>
+              <button
+                className={`text-xs md:text-sm lg:text-md bg-blue-500 text-white py-1 px-4 rounded-md absolute bottom-4 left-4 right-4 transition-opacity duration-300 
+                ${hoveredIndex === index ? "opacity-100" : "opacity-0"}`}
+              >
+                Know More
+              </button>
             </div>
           </div>
         ))}
@@ -117,8 +123,8 @@ const Teams: React.FC<TeamsProps> = () => {
             <Image
               src="/auditionscombined.svg"
               alt="Auditions"
-              height={400}
-              width={400}
+              height={500}
+              width={500}
               className="w-45 h-45 object-cover rounded-t"
             />
           </div>

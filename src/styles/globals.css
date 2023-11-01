@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Teams.css */
+
+.know-more-button {
+    display: none;
+  }
+  
+  .team-container:hover .know-more-button {
+    display: block;
+  }
+  
