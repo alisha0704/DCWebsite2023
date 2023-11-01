@@ -2,6 +2,17 @@ import React, { useState } from "react";
 import Image from "next/image";
 
 type TeamsProps = {};
+
+const imageLinks = [
+  "/Riwaayat",
+  "/Mirage",
+  "/Unitrix",
+  "/BBC",
+  "/Maya",
+  "/Jnj",
+  "/chargers",
+];
+
 const teamsData = [
   {
     name: "RIWAAYAT",
@@ -49,8 +60,9 @@ const teamsData = [
 
 const Teams: React.FC<TeamsProps> = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+
   return (
-    <div className="flex flex-col items-center ">
+    <div className="flex flex-col items-center">
       <h1 className="text-2xl md:text-3xl lg:text-4xl text-white mb-2">
         Our Teams
       </h1>
@@ -66,12 +78,18 @@ const Teams: React.FC<TeamsProps> = () => {
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
           >
-            <Image
-              src={image.imageSrc}
-              alt={`Image ${index + 1}`}
-              width={400}
-              height={700}
-            />
+            <a
+              href={imageLinks[index]}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={image.imageSrc}
+                alt={`Image ${index + 1}`}
+                width={400}
+                height={700}
+              />
+            </a>
             <div className="flex flex-col opacity-75 items-center mt-2">
               <h2 className="text-xs md:text-md lg:text-lg px-4 text-center max-sm:px-6 pr-8 font-semibold text-white mt-2">
                 {image.name}
@@ -109,4 +127,5 @@ const Teams: React.FC<TeamsProps> = () => {
     </div>
   );
 };
+
 export default Teams;
