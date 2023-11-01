@@ -22,7 +22,7 @@ const Mirage:React.FC<MirageProps> = () => {
     </div>
     <div className="text-center text-gray-400 text-sm md:text-md lg:text-md font-normal mb-8">
     Mirage is one of the seven teams at VIT dance club, with genres ranging from Indo-jazz to contemporary 
-    to semi-classical. The team's outstanding and challenging stunts are one of its key highlights. The team
+    to semi-classical. The team&apos;s outstanding and challenging stunts are one of its key highlights. The team
      has won numerous festivals, including spandan, IIM, CMC, Atharva, Pulse etc.
     </div>
     <div className='flex max-sm:px-6 justify-center'>
