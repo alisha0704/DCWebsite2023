@@ -69,7 +69,7 @@ const Slideshow: React.FC = () => {
         Check out the list of our notable Alumni who are on top of their Passion
       </div>
       </div>
-      <div className="">
+      <div className="pb-10">
         <div className=" mx-auto relative px-[2vw]" data-carousel="static">
           <div className="relative overflow-hidden rounded-lg">
             {imagePaths.map((path, index) => {
