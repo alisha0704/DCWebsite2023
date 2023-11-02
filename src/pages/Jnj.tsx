@@ -20,8 +20,8 @@ const Jnj = () => {
         chosen sounds and music to showcase the spirit and vibrancy embodied
         through this legacy.
       </div>
-      <hr className="my-5" />
-      <div>
+      <hr className="w-3/4 h-0.5 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+      <div className="py-8">
         <Image
           src="/JNJ/004A8077 1.svg"
           alt="BBC"
@@ -30,12 +30,19 @@ const Jnj = () => {
           className="w-full"
         />
       </div>
-      <div className="py-10 text-center justify-center flex border rounded-3xl mt-10">
-        <Image src="/BBC/Frame 11.svg" alt="BBC" width={40} height={40} />
-        <div className="px-5 py-2 font-bold text-lg">
-          {" "}
-          The Junior Dance Team of JnJ Bhangra is{" "}
-          <span className="text-[#BBC1FF]"> Bhangra Folks </span>{" "}
+      <div className="flex justify-center">
+        <div className="px-10 flex items-center">
+        <hr className="w-64 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
+        </div>
+        <div className="py-10 text-center justify-center flex border rounded-3xl">
+          <Image src="/BBC/Frame 11.svg" alt="BBC" width={40} height={40} className="pl-2" />
+          <div className="px-5 py-2 font-bold text-lg">
+            The Junior Dance Team of JnJ Bhangra is{" "}
+            <span className="text-[#BBC1FF]"> Bhangra Folks </span>
+          </div>
+        </div>
+        <div className="px-10 flex items-center">
+        <hr className="w-64 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
         </div>
       </div>
       <div className="gap-4 columns-3 py-10">
