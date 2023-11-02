@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Internalevents from "@/components/uncommon/Internalevents";
+import Externalevents from "@/components/uncommon/Externalevents";
 
 const Events = () => {
+  const [displayInternalEvents, setDisplayInternalEvents] = useState(true);
+
+  const handleInternalClick = () => {
+    setDisplayInternalEvents(true);
+  };
+
+  const handleExternalClick = () => {
+    setDisplayInternalEvents(false);
+  };
   return (
     <>
       <div className="text-white font-extrabold text-4xl text-center">
@@ -54,14 +64,24 @@ const Events = () => {
       </div>
 
       <div className="flex justify-center items-center gap-12">
-        <button className="text-white font-bold py-2 px-4 rounded-full border">
+      <button
+          className={`text-white font-bold py-2 px-4 rounded-full border hover:bg-slate-100 hover:bg-opacity-20 ${
+            displayInternalEvents ? 'bg-slate-100 bg-opacity-20' : ''
+          }`}
+          onClick={handleInternalClick}
+        >
           Internal
         </button>
-        <button className="text-white font-bold py-2 px-4 rounded-full border">
+        <button
+          className={`text-white font-bold py-2 px-4 rounded-full border hover:bg-slate-100 hover:bg-opacity-20 ${
+            !displayInternalEvents ? 'bg-slate-100 bg-opacity-20' : ''
+          }`}
+          onClick={handleExternalClick}
+        >
           External
         </button>
       </div>
-      <Internalevents />
+      {displayInternalEvents ? <Internalevents /> : <Externalevents />}
     </>
   );
 };
