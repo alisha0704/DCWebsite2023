@@ -46,11 +46,11 @@ const Layout = ({ children }: LayoutProps) => {
       {/* <FullpageLoader loading={loading} /> */}
 
       <Header />
-      <main className="flex flex-row text-white">
+      <main className="flex flex-row text-white justify-center items-center">
         {/* <Leftsidebar /> */}
 
         
-          <div className="px-96">{children}</div>
+          <div className="">{children}</div>
         
 
         {/* <Rightsidebar /> */}
