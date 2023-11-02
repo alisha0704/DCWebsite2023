@@ -4,8 +4,20 @@ import Image from 'next/image'
 const Internalevents = () => {
   return (
     <div>
-        <div className=" text-2xl py-10 font-semibold">
-        ----------Outreach/Collaborations----------------------------------------
+        <div className=" text-2xl flex py-10 font-semibold">
+        <Image
+                    src="/line.svg"
+                    alt="Board"
+                    width={110}
+                    height={400}
+                  />
+                  Outreach/Collaborations
+                  <Image
+                    src="/line.svg"
+                    alt="Board"
+                    width={300}
+                    height={300}
+                  />
       </div>
       <div className=" ">
         Step into a world of dance innovation with our series of collaboration
@@ -93,7 +105,20 @@ const Internalevents = () => {
         />
       </div>
       <div className=" text-2xl py-10 font-semibold">
-        ----------Alumni Events----------------------------------------
+      <Image
+                    src="/line.svg"
+                    alt="Board"
+                    width={110}
+                    height={400}
+                  />
+                  Alumni Events 
+                  <Image
+                    src="/line.svg"
+                    alt="Board"
+                    width={300}
+                    height={300}
+                  />
+
       </div>
       <div className="gap-4 columns-4 py-10">
         <Image

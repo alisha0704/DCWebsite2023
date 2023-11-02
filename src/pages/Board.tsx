@@ -287,9 +287,19 @@ const Board: React.FC<BoardProps> = () => {
       </div>
      <div className='py-10'>
       <div className="flex justify-center items-center">
-      <hr/>
+      <Image
+                    src="/line.svg"
+                    alt="Board"
+                    width={300}
+                    height={300}
+                  />
       <span className="text-xl font-semibold">Board of 2022-23</span>
-      <hr/>
+      <Image
+                    src="/line.svg"
+                    alt="Board"
+                    width={300}
+                    height={300}
+                  />
       </div>
       <div className="flex justify-center mt-10 gap-16">
       <Image
@@ -308,9 +318,19 @@ const Board: React.FC<BoardProps> = () => {
      </div>
      <div className='py-10'>
       <div className="flex justify-center items-center">
-      <hr/>
+      <Image
+                    src="/line.svg"
+                    alt="Board"
+                    width={300}
+                    height={300}
+                  />
       <span className="text-xl font-semibold">Board of 2021-22</span>
-      <hr/>
+      <Image
+                    src="/line.svg"
+                    alt="Board"
+                    width={300}
+                    height={300}
+                  />
       </div>
       <div className="flex justify-center mt-10 gap-16">
                   <Image
@@ -323,9 +343,19 @@ const Board: React.FC<BoardProps> = () => {
      </div>
      <div className='py-10'>
       <div className="flex justify-center items-center">
-      <hr/>
+      <Image
+                    src="/line.svg"
+                    alt="Board"
+                    width={300}
+                    height={300}
+                  />
       <span className="text-xl font-semibold">Board of 2020-21</span>
-      <hr/>
+      <Image
+                    src="/line.svg"
+                    alt="Board"
+                    width={300}
+                    height={300}
+                  />
       </div>
       <div className="flex justify-center mt-10 gap-16">
                   <Image
@@ -338,9 +368,19 @@ const Board: React.FC<BoardProps> = () => {
      </div>
      <div className='py-10'>
       <div className="flex justify-center items-center">
-      <hr/>
+      <Image
+                    src="/line.svg"
+                    alt="Board"
+                    width={300}
+                    height={300}
+                  />
       <span className="text-xl font-semibold">Board of 2019-20</span>
-      <hr/>
+      <Image
+                    src="/line.svg"
+                    alt="Board"
+                    width={300}
+                    height={300}
+                  />
       </div>
       <div className="flex justify-center mt-10 gap-16">
                   <Image
