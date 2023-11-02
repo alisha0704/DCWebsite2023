@@ -5,12 +5,7 @@ const Maya = () => {
   return (
     <>
       <div className="flex items-center justify-center">
-        <Image
-          src="/Maya/LOGO (1) 1.svg"
-          alt="BBC"
-          width={150}
-          height={150}
-        />
+        <Image src="/Maya/LOGO (1) 1.svg" alt="BBC" width={75} height={75} />
       </div>
       <div className="text-3xl text-center font-extrabold">MAYA</div>
       <div className="text-center justify-center text-sm text-gray-400">
@@ -19,8 +14,8 @@ const Maya = () => {
         they are versatility of performing both soothing classical compositions
         to ever-jamming pop hits with equal aplomb.
       </div>
-      <hr className="my-5" />
-      <div>
+      <hr className="w-3/4 h-0.5 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+      <div className="py-8">
         <Image
           src="/Maya/004A8099 2.svg"
           alt="BBC"
@@ -29,12 +24,25 @@ const Maya = () => {
           className="w-full"
         />
       </div>
-      <div className="py-10 text-center justify-center flex border rounded-3xl mt-10">
-        <Image src="/BBC/Frame 11.svg" alt="BBC" width={40} height={40} />
-        <div className="px-5 py-2 font-bold text-xl">
-          {" "}
-          The Junior Dance Team of Maya is{" "}
-          <span className="text-[#BBC1FF]"> Laasya </span>{" "}
+      <div className="flex justify-center">
+        <div className="px-10 flex items-center">
+          <hr className="w-60 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
+        </div>
+        <div className="py-10 text-center justify-center flex border rounded-3xl">
+          <Image
+            src="/BBC/Frame 11.svg"
+            alt="BBC"
+            width={40}
+            height={40}
+            className="pl-2"
+          />
+          <div className="px-5 py-2 font-bold text-lg">
+            The Junior Dance Team of Maya is{" "}
+            <span className="text-[#BBC1FF]"> Laasya </span>
+          </div>
+        </div>
+        <div className="px-10 flex items-center">
+          <hr className="w-60 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
         </div>
       </div>
       <div className="gap-4 columns-3 py-10">
@@ -59,7 +67,7 @@ const Maya = () => {
           alt="BBC"
           width={5000}
           height={5000}
-          className="w-full h-full"
+          className="w-full h-full pt-12"
         />
         <div className="text-center pt-4 font-semibold">Shreya Mangesh</div>
         <div className="text-center text-xs text-gray-400 font-semibold">
