@@ -4,6 +4,14 @@ import Image from "next/image";
 const Jnj = () => {
   return (
     <>
+      <div className="flex items-center justify-center">
+        <Image
+          src="/JNJ/Logo (2) 1.svg"
+          alt="BBC"
+          width={150}
+          height={150}
+        />
+      </div>
       <div className="text-3xl text-center font-extrabold">JNJ Bhangra</div>
       <div className="text-center justify-center text-sm text-gray-400">
         JnJ Bhangra is a part of the legacy that celebrates the age old art of
@@ -27,7 +35,7 @@ const Jnj = () => {
         <div className="px-5 py-2 font-bold text-lg">
           {" "}
           The Junior Dance Team of JnJ Bhangra is{" "}
-          <span className="text-[#BBC1FF]"> Bhangra Folks  </span>{" "}
+          <span className="text-[#BBC1FF]"> Bhangra Folks </span>{" "}
         </div>
       </div>
       <div className="gap-4 columns-3 py-10">
@@ -38,12 +46,16 @@ const Jnj = () => {
           height={500}
           className="pt-12"
         />
-        <div className="text-center pt-4 font-semibold uppercase">anshuman gill</div>
+        <div className="text-center pt-4 font-semibold uppercase">
+          anshuman gill
+        </div>
         <div className="text-center text-xs text-gray-400 font-semibold ">
           TEAM REPRESENTATIVE
         </div>
         <Image src="/JNJ/image 151.svg" alt="BBC" width={500} height={500} />
-        <div className="text-center pt-4 font-semibold uppercase">srishti sinha</div>
+        <div className="text-center pt-4 font-semibold uppercase">
+          srishti sinha
+        </div>
         <div className="text-center text-xs text-gray-400 font-semibold">
           TEAM HEAD
         </div>
@@ -54,7 +66,9 @@ const Jnj = () => {
           height={500}
           className="pt-12"
         />
-        <div className="text-center pt-4 font-semibold uppercase">nikita singh</div>
+        <div className="text-center pt-4 font-semibold uppercase">
+          nikita singh
+        </div>
         <div className="text-center text-xs text-gray-400 font-semibold">
           JDC COORDINATOR - LAASYA
         </div>
@@ -132,12 +146,7 @@ const Jnj = () => {
           </div>
         </div>
         <div>
-          <Image
-            src="/JNJ/image 156.svg"
-            height={150}
-            width={669}
-            alt=""
-          />
+          <Image src="/JNJ/image 156.svg" height={150} width={669} alt="" />
         </div>
       </div>
     </>

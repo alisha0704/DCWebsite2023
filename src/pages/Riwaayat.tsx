@@ -4,6 +4,14 @@ import Image from "next/image";
 const Riwaayat = () => {
   return (
     <>
+    <div className="flex items-center justify-center">
+        <Image
+          src="/Riwaayat/Screenshot_2023-03-12-15-57-16-62_7352322957d4404136654ef4adb64504-removebg-preview 1.svg"
+          alt="BBC"
+          width={150}
+          height={150}
+        />
+      </div>
       <div className="text-3xl text-center font-extrabold">RIWAAYAT</div>
       <div className="text-center justify-center text-sm text-gray-400">
         Riwaayat believes in presenting Kathak in the most authentic and

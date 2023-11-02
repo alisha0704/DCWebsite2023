@@ -4,6 +4,14 @@ import Image from "next/image";
 const Maya = () => {
   return (
     <>
+      <div className="flex items-center justify-center">
+        <Image
+          src="/Maya/LOGO (1) 1.svg"
+          alt="BBC"
+          width={150}
+          height={150}
+        />
+      </div>
       <div className="text-3xl text-center font-extrabold">MAYA</div>
       <div className="text-center justify-center text-sm text-gray-400">
         Maya, is the team that can effortlessly synchronize their movements to
