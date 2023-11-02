@@ -50,7 +50,7 @@ const Layout = ({ children }: LayoutProps) => {
         {/* <Leftsidebar /> */}
 
         
-          <div className="">{children}</div>
+          <div className="w-8/12">{children}</div>
         
 
         {/* <Rightsidebar /> */}
