@@ -104,7 +104,7 @@ const Internalevents = () => {
           className="w-full mb-6"
         />
       </div>
-      <div className=" text-2xl py-10 font-semibold">
+      <div className=" text-2xl flex py-10 font-semibold">
       <Image
                     src="/line.svg"
                     alt="Board"
@@ -206,9 +206,22 @@ const Internalevents = () => {
           className="w-full"
         />
       </div>
-      <div className=" text-2xl py-10 font-semibold">
-        ----------Other Offline/Online
-        Events----------------------------------------
+      <div className=" text-2xl flex py-10 font-semibold">
+      <Image
+                    src="/line.svg"
+                    alt="Board"
+                    width={110}
+                    height={400}
+                  />
+                  Other Offline/Online Events
+        <Image
+                    src="/line.svg"
+                    alt="Board"
+                    width={300}
+                    height={300}
+                  />
+
+
       </div>
       <div className="gap-4 columns-4 py-10">
         <Image
