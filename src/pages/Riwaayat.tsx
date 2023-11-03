@@ -12,7 +12,7 @@ const Riwaayat = () => {
           height={150}
         />
       </div>
-      <div className="text-3xl text-center font-extrabold">RIWAAYAT</div>
+      <div className="lg:text-3xl text-xl md:text-2xl text-center font-extrabold">RIWAAYAT</div>
       <div className="text-center justify-center text-sm text-gray-400">
         Riwaayat believes in presenting Kathak in the most authentic and
         classical manner possible. A team known for its emotive style, do not
@@ -34,17 +34,17 @@ const Riwaayat = () => {
       </div>
       <div className="flex justify-center">
         <div className="px-10 flex items-center">
-        <hr className="w-64 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
+        <hr className="w-40 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
         </div>
-        <div className="py-10 text-center justify-center flex border rounded-3xl">
+        <div className="py-6 text-center justify-center flex border rounded-3xl">
           <Image src="/BBC/Frame 11.svg" alt="BBC" width={40} height={40} className="pl-2" />
-          <div className="px-5 py-2 font-bold text-lg">
+          <div className="px-5 py-2 font-bold text-md">
             The Junior Dance Team of Riwaayat is{" "}
             <span className="text-[#BBC1FF]"> Inaayat </span>
           </div>
         </div>
         <div className="px-10 flex items-center">
-        <hr className="w-64 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
+        <hr className="w-40 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
         </div>
       </div>
       <div className="gap-4 columns-3 py-10">
@@ -76,8 +76,8 @@ const Riwaayat = () => {
           JDC COORDINATOR - INAAYAT
         </div>
       </div>
-      <div className="text-3xl text-center font-extrabold">Mini-Gallery</div>
-      <div className="text-center justify-center text-sm text-gray-400">
+      <div className="text-2xl text-center font-extrabold">Mini-Gallery</div>
+      <div className="text-center justify-center text-sm text-gray-400 pb-6">
         Glimpse of our latest performances throughout many events
       </div>
       <div className="py-4">
@@ -85,7 +85,7 @@ const Riwaayat = () => {
       </div>
 
       <div className="lg:px-24 py-10 pb- flex-col flex">
-        <div className="text-center text-2xl md:text-3xl lg:text-4xl text-white font-medium">
+        <div className="text-center text-xl md:text-2xl text-white font-medium">
           Recent Performances
         </div>
         <div className="text-center text-neutral-400 pt-3 font-normal ">
@@ -104,7 +104,7 @@ const Riwaayat = () => {
           />
         </div>
         <div className="px-10">
-          <div className="w-full h-6 text-white text-xl md:text-xl lg:text-xl font-semibold uppercase leading-normal tracking-wide pb-10">
+          <div className="w-full h-6 text-white text-md md:text-lg font-semibold uppercase leading-normal tracking-wide pb-10">
             World dance day, vit vellore
           </div>
 
@@ -118,7 +118,7 @@ const Riwaayat = () => {
           <div className="w-40 h-12 justify-center items-center ">
             <div className="w-40 h-12 relative bg-white bg-opacity-10 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-6 absolute">
-                <div className="w-40 h-6 left-0 top-2 absolute text-center text-white text-md md:text-xl font-normal leading-normal tracking-wide ">
+                <div className="w-40 h-6 left-0 top-2 absolute text-center text-white text-md md:text-lg font-normal leading-normal tracking-wide ">
                   Watch Now
                 </div>
               </div>
@@ -126,7 +126,7 @@ const Riwaayat = () => {
           </div>
         </div>
         <div className="">
-          <div className="w-full h-6 px-6 text-white text-xl md:text-xl lg:text-xl font-semibold uppercase leading-normal tracking-wide pt-6 ">
+          <div className="w-full h-6 px-6 text-white text-md md:text-lg font-semibold uppercase leading-normal tracking-wide pt-6 ">
             international dance day, vit vellore
           </div>
           <div className="py-8"></div>
@@ -139,7 +139,7 @@ const Riwaayat = () => {
           <div className="w-40 h-12  max-sm:px-10 justify-center items-center inline-flex">
             <div className="w-40 h-12 relative bg-white bg-opacity-10 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-6 relative">
-                <div className="w-40 h-6 top-2 absolute text-center text-white text-md md:text-xl font-normal leading-normal tracking-wide">
+                <div className="w-40 h-6 top-2 absolute text-center text-white text-md md:text-lg font-normal leading-normal tracking-wide">
                   Watch Now
                 </div>
               </div>

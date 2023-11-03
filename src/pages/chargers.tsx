@@ -16,7 +16,7 @@ const chargers:React.FC<chargersProps> = () => {
               height={100}
             />
           </div>
-    <div className="text-center text-white text-lg md:text-xl font-extrabold px-4  leading-12 tracking-widest md:mb-4">
+    <div className="text-center text-white text-lg md:text-xl lg:text-3xl font-extrabold px-4  leading-12 tracking-widest md:mb-4">
       CHARGERS
     </div>
     <div className="text-center text-gray-400 text-sm md:text-md lg:text-md font-normal mb-8">

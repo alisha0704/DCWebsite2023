@@ -13,7 +13,7 @@ const BBC = () => {
         />
       </div>
 
-      <div className="text-3xl text-center font-extrabold">
+      <div className="lg:text-3xl text-xl md:text-2xl text-center font-extrabold">
         BOLLYWOOD BADMAASH COMPANY
       </div>
       <div className="text-center justify-center text-sm text-gray-400">
