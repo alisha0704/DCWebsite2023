@@ -71,6 +71,13 @@ const Events = () => {
           </div>
         </div>
       </div>
+      <div className="flex justify-center items-center py-10">
+      <div className="w-full px-10 gap-12 max-w-screen-lg flex justify-around">
+        <img src="/Events/pradeep.svg" alt="Image 1" className="w-1/3" />
+        <img src="/Events/jishnu.svg" alt="Image 2" className="w-1/3" />
+        <img src="/Events/raghavan.svg" alt="Image 3" className="w-1/3" />
+      </div>
+    </div>
       <div className="border border-gray-600 border-t-0 border-l-0 border-r-0 py-4" />
       <div className="text-center text-4xl py-4 font-extrabold">
         World Dance Day

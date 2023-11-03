@@ -44,7 +44,7 @@ const Gallery = () => {
           </div>
           <div className="flex max-sm:px-6 justify-center">
             <Image
-              src="/GalleryFinal.png"
+              src="/GalleryImage.png"
               alt="Gallery"
               width={1000}
               height={300}
