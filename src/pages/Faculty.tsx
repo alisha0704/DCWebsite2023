@@ -38,7 +38,7 @@ const Faculty = () => {
         <div className="flex justify-center items-center bg-black">
           <div className="text-center p-8 max-w-screen-lg w-full overflow-y-auto">
             <div className="mb-4">
-              <div className="text-2xl md:text-3xl mb-1 mt-8 text-white">
+              <div className="text-2xl font-bold tracking-wide md:text-3xl mb-1 mt-8 text-white">
                 Faculty Coordinators
               </div>
             </div>
