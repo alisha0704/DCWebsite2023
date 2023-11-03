@@ -11,7 +11,7 @@ const Faculty = () => {
         },
         {
             imageUrl: "Faculty/fac1.svg",
-            memberName: "PROF SWARNALATHA P",
+            memberName: "PROF RAJU",
             memberDesgn: "FACULTY COORDINATOR",
         },
   ];
