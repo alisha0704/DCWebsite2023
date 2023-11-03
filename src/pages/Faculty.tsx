@@ -44,7 +44,7 @@ const Faculty = () => {
             </div>
             <p className="text-sm md:text-md mb-8 text-gray-300">
             Meet our dedicated faculty coordinators who play a crucial role in the smooth functioning of our dance club. 
-            They are dedicated mentors who guide and inspire the club's members to explore their passion for dance.
+            They are dedicated mentors who guide and inspire the club&apos;s members to explore their passion for dance.
             Our faculty coordinators are the backbone of our dance club, fostering a nurturing environment for aspiring 
             dancers and ensuring that the club continues to thrive as a hub of creativity and expression on our campus.
             </p>
