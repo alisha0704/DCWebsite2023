@@ -24,6 +24,7 @@ const chargers:React.FC<chargersProps> = () => {
     With their electrifying choreography, energy, synchronicity, and an irresistible dose of swag. A team with a 
     decade-strong legacy of unstoppable journey.
     </div>
+    <hr className="w-3/4 h-0.5 mx-auto my-4 bg-gray-700 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
     <div className='flex max-sm:px-6 justify-center'>
     <Image
               src="/Teams/chargers.svg"
@@ -32,12 +33,19 @@ const chargers:React.FC<chargersProps> = () => {
               height={1000}
             />
     </div>
-    <div className="py-10 text-center justify-center flex border rounded-3xl mt-10">
-        <Image src="/BBC/Frame 11.svg" alt="BBC" width={40} height={40} />
-        <div className="px-5 py-2 font-bold text-lg">
-          {" "}
-          The Junior Dance Team of Chargers is{" "}
-          <span className="text-[#BBC1FF]"> Energizers </span>{" "}
+    <div className="flex justify-center py-10">
+        <div className="px-10 flex items-center ">
+        <hr className="w-48 h-0.5 mx-auto bg-gray-700 border-0 rounded-sm md:my-2" />
+        </div>
+        <div className="py-6 text-center justify-center flex border rounded-3xl">
+          <Image src="/BBC/Frame 11.svg" alt="BBC" width={40} height={40} className="pl-2" />
+          <div className="px-5  font-bold text-md">
+            The Junior Dance Team of Chargers is{" "}
+            <span className="text-[#BBC1FF]"> Energizers </span>
+          </div>
+        </div>
+        <div className="px-10 flex items-center">
+        <hr className="w-48 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
         </div>
       </div>
       <div className="gap-4 columns-3 py-10">
@@ -71,18 +79,18 @@ const chargers:React.FC<chargersProps> = () => {
           JDC COORDINATOR - ENERGIZERS
         </div>
       </div>
-      <div className="text-3xl text-center font-extrabold">Mini-Gallery</div>
-      <div className="text-center justify-center text-sm text-gray-400">
+      <div className="text-2xl text-center font-extrabold">Mini-Gallery</div>
+      <div className="text-center justify-center text-sm text-gray-400 pb-4">
         Glimpse of our latest performances throughout many events
       </div>
       <div className="flex justify-center py-4">
-        <Image src="/Chargers/chargersgallery.svg" 
+        <Image src="/Chargers/chargersmini.png" 
         alt="Chargers"
          width={1000} 
          height={1000} />
       </div>
       <div className="lg:px-24 py-10 pb- flex-col flex">
-        <div className="text-center text-2xl md:text-3xl lg:text-4xl text-white font-medium">
+        <div className="text-center text-lg md:text-xl lg:text-2xl text-white font-semibold">
           Recent Performances
         </div>
         <div className="text-center text-neutral-400 pt-3 font-normal ">
@@ -101,7 +109,7 @@ const chargers:React.FC<chargersProps> = () => {
           />
         </div>
         <div className="px-10">
-          <div className="w-full h-6 text-white text-xl md:text-xl lg:text-xl font-semibold uppercase leading-normal tracking-wide pb-10">
+          <div className="w-full h-6 text-white text-md md:text-lg font-semibold uppercase leading-normal tracking-wide pb-10">
             World dance day, vit vellore
           </div>
 
@@ -115,7 +123,7 @@ const chargers:React.FC<chargersProps> = () => {
           <div className="w-40 h-12 justify-center items-center ">
             <div className="w-40 h-12 relative bg-white bg-opacity-10 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-6 absolute">
-                <div className="w-40 h-6 left-0 top-2 absolute text-center text-white text-md md:text-xl font-normal leading-normal tracking-wide ">
+                <div className="w-40 h-6 left-0 top-2 absolute text-center text-white text-md md:text-lg font-normal leading-normal tracking-wide ">
                   Watch Now
                 </div>
               </div>
@@ -123,7 +131,7 @@ const chargers:React.FC<chargersProps> = () => {
           </div>
         </div>
         <div className="">
-          <div className="w-full h-6 px-6 text-white text-xl md:text-xl lg:text-xl font-semibold uppercase leading-normal tracking-wide pt-6 ">
+          <div className="w-full h-6 px-6 text-white text-md md:text-lg font-semibold uppercase leading-normal tracking-wide pt-6 ">
             international dance day, vit vellore
           </div>
           <div className="py-8"></div>
@@ -136,7 +144,7 @@ const chargers:React.FC<chargersProps> = () => {
           <div className="w-40 h-12  max-sm:px-10 justify-center items-center inline-flex">
             <div className="w-40 h-12 relative bg-white bg-opacity-10 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-6 relative">
-                <div className="w-40 h-6 top-2 absolute text-center text-white text-md md:text-xl font-normal leading-normal tracking-wide">
+                <div className="w-40 h-6 top-2 absolute text-center text-white text-md md:text-lg font-normal leading-normal tracking-wide">
                   Watch Now
                 </div>
               </div>
