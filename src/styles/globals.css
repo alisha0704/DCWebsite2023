@@ -11,4 +11,28 @@
   .team-container:hover .know-more-button {
     display: block;
   }
-  
+
+
+
+/* globals.css or your custom CSS file */
+.background-image {
+  background: url("/background.png") center/cover no-repeat;
+  backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
+  background-color: rgba(0, 0, 0, 1); /* Update the background color and opacity as needed */
+  position: relative;
+  background-attachment: scroll; /* Add this property to make the image scroll with the page */
+}
+
+/* Optionally, you can add a pseudo-element for additional styling */
+.background-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color opacity */
+  z-index: -1;
+}
+
+

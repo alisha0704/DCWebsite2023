@@ -6,12 +6,12 @@ import Image from "next/image";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className="bg-black">
-    <Layout>
-      <div className=" ">
-      <Component {...pageProps} />
-      </div>
-    </Layout>
+    <div className="background-image">
+      <Layout>
+        <div className="">
+          <Component {...pageProps} />
+        </div>
+      </Layout>
     </div>
   );
 }
