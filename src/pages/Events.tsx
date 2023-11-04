@@ -43,41 +43,42 @@ const Events = () => {
               className="pt-3 absolute top-0"
             />
             <Image
-              src="/events/IMG-20230305-WA0029 6.svg"
+              src="/events/Group 639.svg"
               alt=""
               height={1000}
               width={1000}
               className="opacity-1 hover:opacity-[0%] relative top-[17.5%] pt-3"
             />
-            <div className="absolute top-0  left-0 text-white px-10">
-              <div className="py-6 mt-12 group-hover:block hidden">
-                Get ready to dance your heart out with our incredible lineup of
-                five sensational events! From fierce battles to creative
-                competitions, our events promise non-stop excitement and
-                electrifying performances. Join us in celebrating the power of
-                dance, where every move tells a story and every beat ignites
-                your spirit, exclusively at Riviera.
-              </div>
-              <div className="py-6 mt-12 group-hover:hidden block">
-                Riviera is VIT&apos;s mega cultural and sports carnival; and the
-                Dance Club has an opportunity every year to perform on this
-                occasion. With thousands in the crowd, you will see us shine and
-                dazzle on this amazing stage.
-              </div>
-              <button className="text-white text-md tracking-wide font-normal py-1 px-8 rounded-md border hover:bg-slate-100 hover:bg-opacity-20 ">
-                Know More
-              </button>
-            </div>
           </div>
         </div>
       </div>
       <div className="flex justify-center items-center py-10">
-      <div className="w-full px-10 gap-12 max-w-screen-lg flex justify-around">
-        <img src="/Events/pradeep.svg" alt="Image 1" className="w-1/3" />
-        <img src="/Events/jishnu.svg" alt="Image 2" className="w-1/3" />
-        <img src="/Events/raghavan.svg" alt="Image 3" className="w-1/3" />
+        <div className="w-full px-10 gap-12 max-w-screen-lg flex justify-around">
+          <Image
+            src="/events/pradeep.svg"
+            alt="Image 1"
+            className="w-1/3"
+            height={100}
+            width={100}
+          />
+
+          <Image
+            src="/events/jishnu.svg"
+            alt="Image 2"
+            className="w-1/3"
+            height={100}
+            width={100}
+          />
+
+          <Image
+            src="/events/raghavan.svg"
+            alt="Image 3"
+            className="w-1/3"
+            height={100}
+            width={100}
+          />
+        </div>
       </div>
-    </div>
       <div className="border border-gray-600 border-t-0 border-l-0 border-r-0 py-4" />
       <div className="text-center text-4xl py-4 font-extrabold">
         World Dance Day
