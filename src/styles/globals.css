@@ -5,20 +5,23 @@
 /* Teams.css */
 
 .know-more-button {
-    display: none;
-  }
-  
-  .team-container:hover .know-more-button {
-    display: block;
-  }
+  display: none;
+}
 
-
+.team-container:hover .know-more-button {
+  display: block;
+}
 
 /* globals.css or your custom CSS file */
 .background-image {
   background: url("/background.png") center/cover no-repeat;
   backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
-  background-color: rgba(0, 0, 0, 1); /* Update the background color and opacity as needed */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    1
+  ); /* Update the background color and opacity as needed */
   position: relative;
   background-attachment: scroll; /* Add this property to make the image scroll with the page */
 }
@@ -31,8 +34,11 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color opacity */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.85
+  ); /* Adjust the background color opacity */
   z-index: -1;
 }
-
-
