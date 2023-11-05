@@ -342,7 +342,7 @@ const Achievements: React.FC<AchievementsProps> = () => {
           </svg>
         </Link>
         <div className="flex justify-center items-center bg-black">
-          <div className="text-center p-8 w-3/5 overflow-y-auto">
+          <div className="text-center p-8 w-4/5 overflow-y-auto">
             <div className="mb-4">
               <div className="text-2xl md:text-3xl mb-1 mt-8 text-white">
                 Our Achievements
