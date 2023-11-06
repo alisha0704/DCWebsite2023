@@ -1,15 +1,12 @@
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
-type StudioProps = {
-    
-};
+type StudioProps = {};
 
-const Studio:React.FC<StudioProps> = () => {
-    
-    return (
-        <>
+const Studio: React.FC<StudioProps> = () => {
+  return (
+    <>
       <div className="backdrop-blur-xl relative ">
         <Link
           href="/"
@@ -31,28 +28,26 @@ const Studio:React.FC<StudioProps> = () => {
           </svg>
         </Link>
         <div className="xl:w-full lg:w-9/10 w-full mx-auto text-left border-solid border-white px-14 py-14">
-          <div className="text-center font-extrabold text-white text-lg md:text-xl lg:text-2xl px-4 tracking-wider leading-10 md:mb-4">
+          <div className="text-center font-black text-white text-lg md:text-xl lg:text-2xl px-4 tracking-wider leading-10 md:mb-4">
             OUR STUDIO
           </div>
-          <div className="text-center text-gray-400 text-sm  md:text-md font-normal mb-8">
-          Our college dance club is proud to have state-of-the-art facilities and infrastructure that provide the perfect stage 
-          for dancers to shine.It&apos;s a space where creativity, artistry, and camaraderie flourish, and where students can explore
-          their passion for dance to the fullest. Our dance studio features:
+          <div className="text-center text-gray-400 text-base  md:text-md font-normal mb-8">
+            Our college dance club is proud to have state-of-the-art facilities
+            and infrastructure that provide the perfect stage for dancers to
+            shine.It&apos;s a space where creativity, artistry, and camaraderie
+            flourish, and where students can explore their passion for dance to
+            the fullest. Our dance studio features:
           </div>
-          <div className="text-center font-bold text-white text-sm md:text-md tracking-wide leading-10 md:mb-4">
-            CHANGING AND REST AREAS | SPACIOUS DANCE FLOOR | MIRRORED WALLS | STORAGE SPACE | HIGH-QUALITY SOUND SYSTEM
+          <div className="text-center font-bold text-white text-base md:text-md tracking-wide leading-10 md:mb-4">
+            CHANGING AND REST AREAS | SPACIOUS DANCE FLOOR | MIRRORED WALLS |
+            STORAGE SPACE | HIGH-QUALITY SOUND SYSTEM
           </div>
           <div className="flex max-sm:px-6 justify-center">
-            <Image
-              src="/studio.png"
-              alt="Gallery"
-              width={1000}
-              height={300}
-            />
+            <Image src="/studio.png" alt="Gallery" width={1000} height={300} />
           </div>
         </div>
       </div>
     </>
-    )
-}
+  );
+};
 export default Studio;

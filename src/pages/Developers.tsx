@@ -40,7 +40,7 @@ const Developers = () => {
         <div className="flex justify-center items-center bg-black">
           <div className="text-center p-8 max-w-screen-lg w-full overflow-y-auto">
             <div className="mb-4">
-              <div className="text-2xl font-bold tracking-wide md:text-3xl mb-1 mt-8 text-white">
+              <div className="text-2xl font-extrabold tracking-wide md:text-3xl mb-1 mt-8 text-white">
                 Developers Team
               </div>
             </div>
@@ -49,7 +49,7 @@ const Developers = () => {
               website.
             </p>
             <div className="flex justify-center items-center">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-16 py-8 md:w-2/3">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:w-2/3">
               {images.map((image, index) => (
                 <div key={index} className="text-center">
                   <Image
