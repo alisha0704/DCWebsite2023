@@ -7,6 +7,7 @@ import Aboutdc from "@/components/uncommon/Aboutdc";
 import { useEffect, useState } from "react";
 import FullpageLoader from "@/components/common/FullpageLoader";
 import Buttletin from "@/components/uncommon/Bulltein";
+import Audition from "@/components/uncommon/Audition";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,11 +21,12 @@ export default function Home() {
   });
   return (
     <>
-      <div className="">
+      <div className="gap-9">
         <Slideshow />
         <Aboutdc />
         <Teams />
-        {/* <Buttletin /> */}
+        <Buttletin />
+        <Audition />
         <Recentperformance />
       </div>
     </>

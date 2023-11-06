@@ -64,90 +64,64 @@ const Teams: React.FC<TeamsProps> = () => {
   return (
     <div className="flex flex-col items-center backdrop-blur-2xl">
       <div className="backdrop-blur-2xl">
-      <h1 className="text-2xl md:text-3xl lg:text-4xl pt-12 text-white mb-2">
-        Our Teams
-      </h1>
-      <p className="text-center text-sm md:text-lg lg:text-xl text-gray-400 mb-8">
-        Club consists of seven teams with each junior team of varied dance forms
-        across India.
-      </p>
-      <div className="flex justify-center">
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-6">
-      
-        {teamsData.map((team, index) => (
-          <div
-            key={index}
-            className="text-center team-container relative"
-            onMouseEnter={() => setHoveredIndex(index)}
-            onMouseLeave={() => setHoveredIndex(null)}
-          >
-            <a
-              href={imageLinks[index]}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src={team.imageSrc}
-                alt={`Image ${index + 1}`}
-                width={400}
-                height={700}
-                className="hover:scale-105"
-              />
-            </a>
-            <div className="flex flex-col opacity-80 backdrop-blur-2xl items-center mt-2">
-              <h2 className="text-xs md:text-md lg:text-xl px-4 text-center max-sm:px-6 pr-8 font-semibold text-white mt-2">
-                {team.name}
-              </h2>
+        <h1 className="text-2xl md:text-3xl lg:text-4xl pt-12 text-white mb-2">
+          Our Teams
+        </h1>
+        <p className="text-center text-sm md:text-lg lg:text-xl text-gray-400 mb-8">
+          Club consists of seven teams with each junior team of varied dance
+          forms across India.
+        </p>
+        <div className="flex justify-center">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-6">
+            {teamsData.map((team, index) => (
               <div
-                  className="text-xs md:text-sm lg:text-lg text-center max-sm:px-8 max-sm:mr-4 pr-8 text-gray-100 mt-1 mb-8"
-                  onMouseEnter={() => setHoveredIndex(index)}
-                  onMouseLeave={() => setHoveredIndex(null)}
+                key={index}
+                className="text-center team-container relative"
+                onMouseEnter={() => setHoveredIndex(index)}
+                onMouseLeave={() => setHoveredIndex(null)}
+              >
+                <a
+                  href={imageLinks[index]}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  {hoveredIndex === index ? (
-                    <button className="text-lg text-gray-400 tracking-wide">
-                     <div className="flex gap-4">
-                      Learn More 
-                      <Image
-                      src="/icons/sidearrow.svg"
-                      alt=""
-                      width={8}
-                      height={8}
-              />
-              </div>
-                    </button>
-                  ) : (
-                    team.danceStyle
-                  )}
-                </div>
+                  <Image
+                    src={team.imageSrc}
+                    alt={`Image ${index + 1}`}
+                    width={400}
+                    height={700}
+                    className="hover:scale-105"
+                  />
+                </a>
+                <div className="flex flex-col opacity-80 backdrop-blur-2xl items-center mt-2">
+                  <h2 className="text-xs md:text-md lg:text-xl px-4 text-center max-sm:px-6 pr-8 font-semibold text-white mt-2">
+                    {team.name}
+                  </h2>
+                  <div
+                    className="text-xs md:text-sm lg:text-lg text-center max-sm:px-8 max-sm:mr-4 pr-8 text-gray-100 mt-1 mb-8"
+                    onMouseEnter={() => setHoveredIndex(index)}
+                    onMouseLeave={() => setHoveredIndex(null)}
+                  >
+                    {hoveredIndex === index ? (
+                      <button className="text-lg text-gray-400 tracking-wide">
+                        <div className="flex gap-4">
+                          Learn More
+                          <Image
+                            src="/icons/sidearrow.svg"
+                            alt=""
+                            width={8}
+                            height={8}
+                          />
+                        </div>
+                      </button>
+                    ) : (
+                      team.danceStyle
+                    )}
                   </div>
-           </div>
-        ))}
-         <div className="hidden md:block md:w-1/3"></div>
-        
-      </div>
-      </div>
-      </div>
-      
-      <div className="flex md:flex-row items-center py-8 ">
-        <div className="text-xl md:text-3xl lg:text-3xl mb-2 text-left text-white flex-1 ">
-          Want to be a part of this{" "}
-          <span style={{ color: "#3947E2" }}>family?</span>
-          <p>
-            <span style={{ color: "#3947E2" }}>VIT Dance Club</span> auditions
-            will be happening from
-            <span style={{ color: "#3947E2" }}> January to March</span> every
-            year. Stay tuned to our Instagram handle for more updates.
-          </p>
-        </div>
-        <div className="flex-1 ml-10">
-          <div className="relative">
-            <Image
-              src="/auditionscombined.svg"
-              alt="Auditions"
-              height={500}
-              width={500}
-              className="w-45 h-45 object-cover rounded-t"
-            />
+                </div>
+              </div>
+            ))}
+            <div className="hidden md:block md:w-1/3"></div>
           </div>
         </div>
       </div>
