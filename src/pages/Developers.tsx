@@ -20,7 +20,7 @@ const Developers = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="backdrop-blur-xl">
         <Link href="/" className="absolute hidden lg:block pt-14 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ const Developers = () => {
             />
           </svg>
         </Link>
-        <div className="flex justify-center items-center bg-black">
+        <div className="flex justify-center items-center ">
           <div className="text-center p-8 max-w-screen-lg w-full overflow-y-auto">
             <div className="mb-4">
               <div className="text-2xl font-extrabold tracking-wide md:text-3xl mb-1 mt-8 text-white">
