@@ -42,3 +42,21 @@
   ); /* Adjust the background color opacity */
   z-index: -1;
 }
+
+/* styles.css */
+
+.slideshow-container {
+  display: flex;
+  transition: transform 0.5s ease; /* Add a transition for smooth sliding */
+  will-change: transform;
+  overflow: hidden; /* Hide overflowing images */
+  white-space: nowrap; /* Prevent line breaks between images */
+}
+
+.slideshow-item {
+  flex: 0 0 100%; /* Make sure each image takes the full width */
+}
+
+.slideshow-container:not(:first-child) {
+  transform: translateX(calc(-100% * var(--active-index))); /* Translate to show the active image */
+}
