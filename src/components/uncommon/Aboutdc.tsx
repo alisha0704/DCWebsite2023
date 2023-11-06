@@ -87,7 +87,8 @@ const Aboutdc = () => {
           consists of seven major teams of varied dance forms across India.
         </h5>
       </div>
-      <div className="py-2 border pb-8 bg-gray-900 w-1/2">
+      
+      <div className="py-2 pb-8 backdrop-blur-3xl items-center w-2/3">
         <div className="flex justify-center items-center space-x-6">
           <Image
             src="/icons/flaglogo.png"
@@ -98,7 +99,7 @@ const Aboutdc = () => {
           />
           <div className="flex flex-col text-white gap-1">
             <div className="flex pt-8 text-3xl font-extrabold"> 7</div>
-            <div className="flex font-extralight text-sm">MAJOR TEAMS</div>
+            <div className="flex font-extralight text-xs">MAJOR TEAMS</div>
           </div>
           <Image
             src="/icons/humanlogo.png"
@@ -108,31 +109,31 @@ const Aboutdc = () => {
           />
           <div className="flex flex-col text-white gap-1">
             <div className="flex pt-8 text-3xl font-extrabold">
-              <AnimatedCounter
-                target={150}
-                time={1000}
-                start={75}
-                shouldAnimate={animated.crewmembers}
-              />
-              +
+              150k
             </div>
-            <div className="flex font-extralight text-base">CREW MEMBERS</div>
+            <div className="flex font-extralight text-xs">CREW MEMBERS</div>
           </div>
-          <Image src="/icons/taglogo.png" alt="Logo 4" width={50} height={50} />
+          <Image 
+          src="/icons/taglogo.png" 
+          alt="Logo 4"
+          width={40} 
+          height={40}
+           />
           <div className="flex flex-col text-white gap-1">
             <div className="flex pt-8 text-3xl font-extrabold">
               <AnimatedCounter
                 target={200}
-                time={1000}
-                start={125}
+                time={50}
+                start={190}
                 shouldAnimate={animated.performance}
               />
               +
             </div>
-            <div className="flex font-extralight text-base">PERFORMANCES</div>
+            <div className="flex font-extralight text-xs">PERFORMANCES</div>
           </div>
         </div>
       </div>
+      
       <div className="text-center mt-16 py-6">
         <h2 className="text-sm text-gray-400">MAJOR PRIZE WINNING STAGES</h2>
         <div className="flex justify-center items-center mt-4">

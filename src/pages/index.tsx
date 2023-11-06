@@ -19,7 +19,7 @@ export default function Home() {
   });
   return (
     <>
-      <div>
+      <div className="backdrop-blur-xl">
         <Slideshow />
         <Aboutdc />
         <Teams />
