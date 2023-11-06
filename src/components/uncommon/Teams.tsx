@@ -62,8 +62,9 @@ const Teams: React.FC<TeamsProps> = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
-    <div className="flex flex-col items-center">
-      <h1 className="text-2xl md:text-3xl lg:text-4xl text-white mb-2">
+    <div className="flex flex-col items-center backdrop-blur-2xl">
+      <div className="backdrop-blur-2xl">
+      <h1 className="text-2xl md:text-3xl lg:text-4xl pt-12 text-white mb-2">
         Our Teams
       </h1>
       <p className="text-center text-sm md:text-lg lg:text-xl text-gray-400 mb-8">
@@ -125,6 +126,8 @@ const Teams: React.FC<TeamsProps> = () => {
         
       </div>
       </div>
+      </div>
+      
       <div className="flex md:flex-row items-center py-8 ">
         <div className="text-xl md:text-3xl lg:text-3xl mb-2 text-left text-white flex-1 ">
           Want to be a part of this{" "}
