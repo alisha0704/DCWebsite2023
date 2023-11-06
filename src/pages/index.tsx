@@ -6,6 +6,7 @@ import Recentperformance from "@/components/uncommon/Recentperformance";
 import Aboutdc from "@/components/uncommon/Aboutdc";
 import { useEffect, useState } from "react";
 import FullpageLoader from "@/components/common/FullpageLoader";
+import Buttletin from "@/components/uncommon/Bulltein";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,10 +20,11 @@ export default function Home() {
   });
   return (
     <>
-      <div className="backdrop-blur-xl">
+      <div className="">
         <Slideshow />
         <Aboutdc />
         <Teams />
+        {/* <Buttletin /> */}
         <Recentperformance />
       </div>
     </>
