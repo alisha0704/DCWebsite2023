@@ -3,7 +3,7 @@ import React from "react";
 const Bulltein = () => {
   return (
     <>
-      <div className="flex gap-24 justify-center backdrop-blur-2xl">
+      <div className="flex gap-24 justify-center backdrop-blur-2xl py-10">
         <div className="text-5xl text-left py-20">
           We&apos;re more than <span className="font-bold"> dancers;</span>{" "}
           <br />
