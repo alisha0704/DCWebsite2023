@@ -19,18 +19,18 @@ const Slideshow: React.FC = () => {
 
   const imagePaths = [
     "/Carousel/IMG_20220922_215922 1.png",
-    "/Carousel/IMAGE.png",
     "/Carousel/IMAGE.svg",
     "/Carousel/IMAGE (1).svg",
+    "/Carousel/IMAGE.png",
   ];
 
   const imageText = ["Welcome to", "The", "Welcome to", "Welcome to"];
 
   const imageTextLast = [
     "VIT DANCE CLUB",
+    "VIT DANCE CLUB",
+    "VIT DANCE CLUB",
     "Board",
-    "VIT DANCE CLUB",
-    "VIT DANCE CLUB",
   ];
 
   const imageTexts = [
