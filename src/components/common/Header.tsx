@@ -120,7 +120,7 @@ const Header = () => {
         <SlideOverLayer>
           <div className="">
             <div onClick={() => setShow(false)} className="flex">
-              <Image src="/icons/cross.png" alt="X" height={15} width={15} />
+              <Image src="/icons/cross.png" alt="X" height={20} width={20} />
               <div className="w-full h-5 left-[92px] top-[43px] text-center text-lg font-black uppercase">
                 Contact Us
               </div>
@@ -153,7 +153,7 @@ const Header = () => {
           <div className="" onClick={handleCloseModals}>
             <div onClick={() => setShow(false)} className="flex">
               {" "}
-              <div className="text-lg font-black uppercase leading-3 tracking-widest">
+              <div className="text-lg font-black uppercase leading-3 tracking-widest mt-5">
                 menu
               </div>
               <Image
@@ -161,47 +161,32 @@ const Header = () => {
                 alt="X"
                 height={20}
                 width={20}
-                className=""
+                className="mx-80 mt-5"
               />
             </div>
-            <hr />
-            <Link href="/Board">
-              <div className="w-64 h-6 left-[10px] top-[129px] font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
-                The board 2023
-              </div>
-            </Link>
-            <Link href="/Board">
-              <div className="w-64 h-6 left-[10px] top-[198px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
-                faculty coordinators
-              </div>
-            </Link>
-            <Link href="/">
-              <div className="w-64 h-6 left-[10px] top-[267px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
-                developer team
-              </div>
-            </Link>
-            <Link href="/">
-              <div className="w-64 h-6 left-[10px] top-[336px]  text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
-                studio
-              </div>
-            </Link>
-            <Link href="/Journey">
-              <div className="w-64 h-6 left-[10px] top-[406px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
-                journey of dc
-              </div>
-            </Link>
-            <Link href="/">
-              <div className="w-64 h-6 left-[10px] top-[476px] text-base font-bold uppercase leading-3 tracking-widest absolute px-52 whitespace-nowrap">
-                Notable alumnis
-              </div>
-            </Link>
-            {/* <div className="w-96 left-44 h-px top-[233px] absolute border border-white px-40"></div>
-            <div className="w-96 left-44 h-px top-[302px] absolute border border-white px-40"></div>
-            <div className="w-96 left-44 h-px top-[372px] absolute border border-white px-40"></div>
-            <div className="w-96 left-44 h-px top-[442px] absolute border border-white px-40"></div>
-            <div className="w-96 left-44 h-px top-[164px] absolute border border-white px-40"></div>
-            <div className="w-96 left-44 h-px top-[76px] absolute border border-white"></div> */}
+            <hr className="w-full h-0.5 mt-1 bg-white border-0 rounded" />
           </div>
+          <div className="px-8 pt-5 pb-3 uppercase font-bold mt-6">
+            the board 2023
+          </div>
+          <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
+          <div className="px-8 pt-5 pb-3 uppercase font-bold">
+            faculty coordinators
+          </div>
+          <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
+          <div className="px-8 pt-5 pb-3 uppercase font-bold">
+            developer team
+          </div>
+          <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
+          <div className="px-8 pt-5 pb-3 uppercase font-bold">
+            notable alumnis
+          </div>
+          <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
+          <div className="px-8 pt-5 pb-3 uppercase font-bold">
+            journey of dc
+          </div>
+          <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
+          <div className="px-8 pt-5 pb-3 uppercase font-bold">our studio</div>
         </SlideOverLayerLeft>
       </Transition.Root>
     </header>
@@ -261,9 +246,9 @@ const SlideOverLayerLeft: React.FC<SlideOverLayerProps> = ({ children }) => (
     <div className="z-[150] fixed inset-0 overflow-hidden">
       <div className="absolute inset-0 overflow-hidden">
         <div className="pointer-events-none fixed inset-y-0 -left-10 flex max-w-full pl-10">
-          <div className="pointer-events-auto w-screen max-w-2xl">
+          <div className="pointer-events-auto w-screen max-w-md">
             <div className="bg-black opacity-80 text-white py-6 shadow-xl h-screen items-center place-items-center">
-              <div className="bg-black">{children}</div>
+              <div className="bg-black px-5">{children}</div>
             </div>
           </div>
         </div>
