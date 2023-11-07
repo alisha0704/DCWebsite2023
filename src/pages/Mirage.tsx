@@ -57,7 +57,7 @@ const Mirage:React.FC<MirageProps> = () => {
           alt="Mirage"
           width={500}
           height={500}
-          className=""
+          className="md:pt-12"
         />
         <div className="text-center pt-4 font-semibold">ALISHA BANDYOPADHYAY</div>
         <div className="text-center text-xs text-gray-400 font-semibold ">
@@ -67,7 +67,7 @@ const Mirage:React.FC<MirageProps> = () => {
          alt="chargers" 
          width={500} 
          height={500} 
-         className="pt-12"
+         className="max-md:pt-12"
          />
         <div className="text-center pt-4 font-semibold">SAMAJA M S</div>
         <div className="text-center text-xs text-gray-400 font-semibold">

@@ -67,7 +67,7 @@ const Riwaayat = () => {
         alt="BBC" 
         width={500}
         height={500}
-        className="pt-12"
+        className="max-md:pt-12"
          />
         <div className="text-center pt-4 font-semibold">RAAGA LAASYA</div>
         <div className="text-center text-xs text-gray-400 font-semibold ">
@@ -86,7 +86,7 @@ const Riwaayat = () => {
         </div>
       </div>
       <div className=" text-xl md:text-2xl text-center font-extrabold">Mini-Gallery</div>
-      <div className="text-center justify-center text-xs text-gray-400 pb-6">
+      <div className="text-center justify-center text-xs md:text-sm text-gray-400 pb-6">
         Glimpse of our latest performances throughout many events
       </div>
       <div className="py-4">
