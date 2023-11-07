@@ -166,27 +166,39 @@ const Header = () => {
             </div>
             <hr className="w-full h-0.5 mt-1 bg-white border-0 rounded" />
           </div>
-          <div className="px-8 pt-5 pb-3 uppercase font-bold mt-6">
-            the board 2023
-          </div>
+          <Link href="/Board">
+            <div className="px-8 pt-5 pb-3 uppercase font-bold mt-6">
+              the board 2023
+            </div>
+          </Link>
           <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
-          <div className="px-8 pt-5 pb-3 uppercase font-bold">
-            faculty coordinators
-          </div>
+          <Link href="/Faculty">
+            <div className="px-8 pt-5 pb-3 uppercase font-bold">
+              faculty coordinators
+            </div>
+          </Link>
           <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
-          <div className="px-8 pt-5 pb-3 uppercase font-bold">
-            developer team
-          </div>
+          <Link href="/Developers">
+            <div className="px-8 pt-5 pb-3 uppercase font-bold">
+              developer team
+            </div>
+          </Link>
           <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
-          <div className="px-8 pt-5 pb-3 uppercase font-bold">
-            notable alumnis
-          </div>
+          <Link href="/Notablealumni">
+            <div className="px-8 pt-5 pb-3 uppercase font-bold">
+              notable alumnis
+            </div>
+          </Link>
           <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
-          <div className="px-8 pt-5 pb-3 uppercase font-bold">
-            journey of dc
-          </div>
+          <Link href="/Journey">
+            <div className="px-8 pt-5 pb-3 uppercase font-bold">
+              journey of dc
+            </div>
+          </Link>
           <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
-          <div className="px-8 pt-5 pb-3 uppercase font-bold">our studio</div>
+          <Link href="/Studio">
+            <div className="px-8 pt-5 pb-3 uppercase font-bold">our studio</div>
+          </Link>
         </SlideOverLayerLeft>
       </Transition.Root>
     </header>

@@ -28,13 +28,9 @@ const Journey = () => {
         Lets see through the history of Dance Club
       </div>
       <div className="flex max-sm:px-6 justify-center">
-            <Image
-              src="/Group 113 (1).png"
-              alt="Gallery"
-              width={1000}
-              height={300}
-            />
-          </div>
+        <Image src="/Group 640.png" alt="Journey" width={1000} height={300} />
+      </div>
+      
     </>
   );
 };
