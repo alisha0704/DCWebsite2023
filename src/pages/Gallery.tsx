@@ -4,6 +4,11 @@ import FullpageLoader from "@/components/common/FullpageLoader";
 import Footer from "@/components/common/Footer";
 import Link from "next/link";
 
+import { Montserrat } from 'next/font/google'
+ 
+const monte = Montserrat({ subsets: ['latin'] })
+ 
+
 const Gallery = () => {
   const [loading, setLoading] = useState(true);
 
@@ -36,8 +41,8 @@ const Gallery = () => {
           </svg>
         </Link>
         <div className="xl:w-full lg:w-9/10 w-full mx-auto text-left border-solid border-white px-2 md:px-14 py-14">
-          <div className="text-center text-white text-xl md:text-2xl lg:text-3xl px-4 font-bold md:mb-2 tracking-wide">
-            THE GALLERY
+          <div className="text-center text-white text-xl md:text-2xl lg:text-3xl px-4 font-bold md:mb-2 tracking-wide ">
+           <div className={monte.className}> THE GALLERY </div>
           </div>
           <div className="text-center text-gray-400 text-sm md:text-md lg:text-lg font-normal px-4 leading-4 ">
             A room to witness a glimpse of our performances and styles

@@ -105,7 +105,7 @@ const Board: React.FC<BoardProps> = () => {
               Presenting the Board of Dance Club 2023-24.
             </p>
             <div className="flex justify-center items-center">
-            <div className="grid grid-cols-2 md:grid-cols-2 gap-14 py-8 w-3/4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-14 py-8 md:w-3/4">
               {firstFourImages.map((image, index) => (
                 <div key={index} className="text-center">
                   <Image
@@ -127,7 +127,7 @@ const Board: React.FC<BoardProps> = () => {
             </div>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-14 py-8 w-full">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-14 py-8 w-full">
               {remainingImages.map((image, index) => (
                 <div key={index} className="text-center">
                   <Image
@@ -158,6 +158,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
+                    className="max-md:hidden"
                   />
       <span className="text-xl font-semibold">Board of 2022-23</span>
       <Image
@@ -165,9 +166,11 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
+                    className="max-md:hidden"
                   />
       </div>
-      <div className="flex justify-center mt-10 gap-16">
+      <div className="flex justify-center items-center">
+      <div className=" grid grid-cols-1 md:grid-cols-2   mt-10 px-6 gap-16">
       <Image
                     src="/board/board221.svg"
                     alt="Board"
@@ -182,6 +185,7 @@ const Board: React.FC<BoardProps> = () => {
                   />
      </div>
      </div>
+     </div>
      <div className='py-10'>
       <div className="flex justify-center items-center">
       <Image
@@ -189,6 +193,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
+                    className="max-md:hidden"
                   />
       <span className="text-xl font-semibold">Board of 2021-22</span>
       <Image
@@ -196,9 +201,10 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
+                    className="max-md:hidden"
                   />
       </div>
-      <div className="flex justify-center mt-10 gap-16">
+      <div className="flex justify-center px-6 mt-10 gap-16">
                   <Image
                     src="/board/board21.svg"
                     alt="Board"
@@ -214,6 +220,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
+                    className="max-md:hidden"
                   />
       <span className="text-xl font-semibold">Board of 2020-21</span>
       <Image
@@ -221,9 +228,10 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
+                    className="max-md:hidden"
                   />
       </div>
-      <div className="flex justify-center mt-10 gap-16">
+      <div className="flex justify-center px-6 mt-10 gap-16">
                   <Image
                     src="/board/board20.svg"
                     alt="Board"
@@ -239,6 +247,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
+                    className="max-md:hidden"
                   />
       <span className="text-xl font-semibold">Board of 2019-20</span>
       <Image
@@ -246,9 +255,10 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
+                    className="max-md:hidden"
                   />
       </div>
-      <div className="flex justify-center mt-10 gap-16">
+      <div className="flex justify-center px-6 mt-10 gap-16">
                   <Image
                     src="/board/board19.svg"
                     alt="Board"
