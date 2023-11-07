@@ -324,7 +324,7 @@ const Achievements: React.FC<AchievementsProps> = () => {
 
   return (
     <>
-      <div className="backdrop-blur-xl">
+      <div className="backdrop-blur-2xl">
         <Link href="/" className="absolute hidden lg:block pt-14 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"

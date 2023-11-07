@@ -5,6 +5,7 @@ import Image from "next/image";
 const Journey = () => {
   return (
     <>
+    <div className="backdrop-blur-2xl backdrop-brightness-150 ">
       <Link href="/" className="absolute hidden lg:block text-white mt-14 pt-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -21,16 +22,17 @@ const Journey = () => {
           />
         </svg>
       </Link>
-      <div className="text-center text-white text-2xl md:text-4xl lg:text-5xl px-4 font-normal leading-10 md:mb-4">
+      <div className="py-4"></div>
+      <div className="text-center text-white text-md md:text-xl lg:text-2xl px-4 uppercase font-bold tracking-wide leading-2 pt-12  md:mb-1">
         Journey of Dance Club
       </div>
-      <div className="text-center text-gray-400 text-md md:text-lg lg:text-xl font-normal px-4 leading-10 mb-8">
-        Lets see through the history of Dance Club
+      <div className="text-center text-gray-400 text-xs  font-normal px-4 mb-8">
+      Lets see through the history of DC&apos;s board members
       </div>
-      <div className="flex max-sm:px-6 justify-center">
+      <div className="flex justify-center">
         <Image src="/Group 640.png" alt="Journey" width={1000} height={300} />
       </div>
-      
+      </div>
     </>
   );
 };
