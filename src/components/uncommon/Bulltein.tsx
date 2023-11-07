@@ -3,8 +3,9 @@ import React from "react";
 const Bulltein = () => {
   return (
     <>
-      <div className="flex gap-24 justify-center backdrop-blur-2xl py-10">
-        <div className="text-5xl text-left py-20">
+      <div className="py-14"></div>
+      <div className="flex gap-24 justify-center backdrop-blur-2xl backdrop-brightness-200 py-10 px-6">
+        <div className="text-4xl tracking-wide text-left py-20">
           We&apos;re more than <span className="font-bold"> dancers;</span>{" "}
           <br />
           we&apos;re a <span className="font-bold">family.</span> Bound by
