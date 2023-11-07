@@ -64,7 +64,7 @@ const Recentperformance: React.FC = () => {
           <div className="py-8"></div>
           <div className="md:px-4 md:pl-6 text-white text-xs leading-6 text-left pb-4">
           Missed our world dance day performance?<br/>
-          Don't sweat it cause we've bought world dance day to YOU! <br/>
+          Don&apos;t sweat it cause we&apos;ve bought world dance day to YOU! <br/>
           Presenting a plethora of performances by our very own dance teams <br/>
           click below & enjoy the performance.
           </div>
