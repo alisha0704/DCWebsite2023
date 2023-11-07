@@ -41,8 +41,8 @@ const Aboutdc = () => {
     mentors: false,
     internships: false,
     bootcamps: false,
-    performance: true,
-    crewmembers: true,
+    performance: false,
+    crewmembers: false,
   });
 
   useEffect(() => {
@@ -54,7 +54,7 @@ const Aboutdc = () => {
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
-        const counterName = (entry.target as HTMLElement).dataset.counter;
+        const counterName = entry.target.getAttribute("data-counter");
         if (entry.isIntersecting && counterName) {
           setAnimated((prevAnimated) => ({
             ...prevAnimated,
@@ -66,7 +66,7 @@ const Aboutdc = () => {
 
     const counterElements = document.querySelectorAll("[data-counter]");
     counterElements.forEach((element) => {
-      observer.observe(element);
+      observer.observe(element as HTMLElement); // Use type assertion
     });
 
     return () => observer.disconnect();
@@ -74,78 +74,79 @@ const Aboutdc = () => {
 
   return (
     <>
-    <div className="">
-      <div className=" mx-auto relative pt-20  px-20 pb-10">
-        <div className="text-white text-4xl text-left">
-          VIT Dance Club promotes the dance art forms,{" "}
-          <span style={{ color: "#3947E2" }}>regional</span> and{" "}
-          <span style={{ color: "#3947E2" }}>western</span> and gives an
-          opportunity to students to perform
+      <div className="">
+        <div className=" mx-auto relative pt-20  px-20 pb-10">
+          <div className="text-white text-4xl text-left">
+            VIT Dance Club promotes the dance art forms,{" "}
+            <span style={{ color: "#A0FF90" }}>regional</span> and{" "}
+            <span style={{ color: "#A0FF90" }}>western</span> and gives an
+            opportunity to students to perform
+          </div>
+          <h5 className="text-gray-400 text-sm pt-4 text-center">
+            Winners of various dance competitions across the country & club
+            consists of seven major teams of varied dance forms across India.
+          </h5>
         </div>
-        <h5 className="text-gray-400 text-sm pt-4 text-center">
-          Winners of various dance competitions across the country & club
-          consists of seven major teams of varied dance forms across India.
-        </h5>
-      </div>
-      
-      <div className="py-2 pb-8 backdrop-blur-3xl backdrop-brightness-200 items-center w-2/3">
-        <div className="flex justify-center items-center space-x-6">
-          <Image
-            src="/icons/flaglogo.png"
-            alt="Logo 1"
-            width={40}
-            height={40}
-            style={{ marginRight: "1rem" }}
-          />
-          <div className="flex flex-col text-white gap-1">
-            <div className="flex pt-8 text-3xl font-extrabold"> 7</div>
-            <div className="flex font-extralight text-xs">MAJOR TEAMS</div>
-          </div>
-          <Image
-            src="/icons/humanlogo.png"
-            alt="Logo 3"
-            width={40}
-            height={40}
-          />
-          <div className="flex flex-col text-white gap-1">
-            <div className="flex pt-8 text-3xl font-extrabold">
-              150k
-            </div>
-            <div className="flex font-extralight text-xs">CREW MEMBERS</div>
-          </div>
-          <Image 
-          src="/icons/taglogo.png" 
-          alt="Logo 4"
-          width={40} 
-          height={40}
-           />
-          <div className="flex flex-col text-white gap-1">
-            <div className="flex pt-8 text-3xl font-extrabold">
-              <AnimatedCounter
-                target={200}
-                time={50}
-                start={190}
-                shouldAnimate={animated.performance}
+
+        <div className="flex justify-center items-center">
+          <div className="py-2 backdrop-blur-3xl backdrop-brightness-200 items-center w-2/3">
+            <div className="flex justify-center items-center space-x-6">
+              <Image
+                src="/icons/flaglogo.png"
+                alt="Logo 1"
+                width={40}
+                height={40}
+                style={{ marginRight: "1rem" }}
               />
-              +
+              <div className="flex flex-col text-white gap-1">
+                <div className="flex pt-8 text-3xl font-extrabold">7</div>
+                <div className="flex font-extralight text-xs">MAJOR TEAMS</div>
+              </div>
+              <Image
+                src="/icons/humanlogo.png"
+                alt="Logo 3"
+                width={40}
+                height={40}
+              />
+              <div className="flex flex-col text-white gap-1">
+                <div className="flex pt-8 text-3xl font-extrabold">150k</div>
+                <div className="flex font-extralight text-xs">CREW MEMBERS</div>
+              </div>
+              <Image
+                src="/icons/taglogo.png"
+                alt="Logo 4"
+                width={40}
+                height={40}
+              />
+              <div className="flex flex-col text-white gap-1">
+                <div className="flex pt-8 text-3xl font-extrabold">
+                  <AnimatedCounter
+                    target={200}
+                    time={50}
+                    start={190}
+                    shouldAnimate={animated.performance}
+                  />
+                  +
+                </div>
+                <div className="flex font-extralight text-xs">PERFORMANCES</div>
+              </div>
             </div>
-            <div className="flex font-extralight text-xs">PERFORMANCES</div>
           </div>
         </div>
-      </div>
-      
-      <div className="text-center mt-16 py-6">
-        <h2 className="text-sm text-gray-400">MAJOR PRIZE WINNING STAGES</h2>
-        <div className="flex justify-center items-center mt-4">
-          <Image
-            src="/icons/festlogo.png"
-            alt="fests won"
-            width={800}
-            height={200}
-          />
+        <hr className="w-3/5 h-0.5 mx-auto bg-gray-400 border-0 rounded my-5" />
+        <div className="text-center ">
+          <h2 className="text-sm text-gray-400">MAJOR PRIZE WINNING STAGES</h2>
+          <div className="flex justify-center items-center mt-4">
+            <Image
+              src="/icons/festlogo.png"
+              alt="fests won"
+              width={800}
+              height={200}
+            />
+          </div>
         </div>
+        <hr className="w-3/5 h-0.5 mx-auto bg-gray-400 border-0 rounded my-5" />
       </div>
-    </div>
     </>
   );
 };

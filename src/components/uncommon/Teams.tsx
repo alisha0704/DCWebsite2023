@@ -50,6 +50,7 @@ const teamsData = [
     imageSrc: "/Teams/JNJ.png",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada eget justo sed faucibus. Nulla facilisi. Curabitur volutpat fringilla tortor, non viverra odio vestibulum eu. Suspendisse potenti.",
   },
+  
   {
     name: "CHARGERS",
     danceStyle: "SOUTH INDIAN KUTHU AND WESTERN",
@@ -76,9 +77,12 @@ const Teams: React.FC<TeamsProps> = () => {
             {teamsData.map((team, index) => (
               <div
                 key={index}
-                className="text-center team-container relative"
+                className={`text-center team-container relative ${
+                  index === teamsData.length - 1 ? "last-team" : ""
+                }`}
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
+                style={index === teamsData.length - 1 ? { margin: "0 auto" } : {}}
               >
                 <a
                   href={imageLinks[index]}
@@ -121,7 +125,6 @@ const Teams: React.FC<TeamsProps> = () => {
                 </div>
               </div>
             ))}
-            <div className="hidden md:block md:w-1/3"></div>
           </div>
         </div>
       </div>

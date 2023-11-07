@@ -45,12 +45,13 @@ const Slideshow: React.FC = () => {
             }`}
             data-carousel-item={index === activeIndex ? "active" : undefined}
           >
-            <div className="relative">
+            <div className="relative flex flex-col items-center justify-center">
               <Image
                 src={path}
                 alt={`Image ${index + 1}`}
                 width={1000}
                 height={1000}
+                className=""
               />
               <div className="relative left-0 w-full text-center p-4 backdrop-blur-2xl bg-opacity-50">
                 <p className="text-white font-medium text-base">
