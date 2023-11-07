@@ -27,18 +27,18 @@ const Studio: React.FC<StudioProps> = () => {
             />
           </svg>
         </Link>
-        <div className="xl:w-full lg:w-9/10 w-full mx-auto text-left border-solid border-white px-14 py-14">
+        <div className="xl:w-full lg:w-9/10 w-full mx-auto text-left border-solid border-white py-14">
           <div className="text-center font-black text-white text-lg md:text-xl lg:text-2xl px-4 tracking-wider leading-10 md:mb-4">
             OUR STUDIO
           </div>
-          <div className="text-center text-gray-400 text-base  md:text-md font-normal mb-8">
+          <div className="text-center text-gray-400 text-xs md:text-sm font-normal mb-2 md:mb-8 md:px-14">
             Our college dance club is proud to have state-of-the-art facilities
             and infrastructure that provide the perfect stage for dancers to
             shine.It&apos;s a space where creativity, artistry, and camaraderie
             flourish, and where students can explore their passion for dance to
             the fullest. Our dance studio features:
           </div>
-          <div className="text-center font-bold text-white text-base md:text-md tracking-wide leading-10 md:mb-4">
+          <div className="text-center font-bold text-white text-sm md:text-md tracking-wide leading-10 mb-6">
             CHANGING AND REST AREAS | SPACIOUS DANCE FLOOR | MIRRORED WALLS |
             STORAGE SPACE | HIGH-QUALITY SOUND SYSTEM
           </div>
