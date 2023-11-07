@@ -15,7 +15,7 @@ const Gallery = () => {
   }, []);
   return (
     <>
-      <div className="backdrop-blur-xl relative ">
+      <div className="backdrop-blur-2xl relative ">
         <Link
           href="/"
           className="absolute hidden lg:block text-white mt-14 pt-2"
@@ -35,14 +35,15 @@ const Gallery = () => {
             />
           </svg>
         </Link>
-        <div className="xl:w-full lg:w-9/10 w-full mx-auto text-left border-solid border-white px-14 py-14">
-          <div className="text-center text-white text-2xl md:text-4xl lg:text-5xl px-4 font-normal leading-10 md:mb-4">
-            The Gallery
+        <div className="xl:w-full lg:w-9/10 w-full mx-auto text-left border-solid border-white px-2 md:px-14 py-14">
+          <div className="text-center text-white text-xl md:text-2xl lg:text-3xl px-4 font-bold md:mb-2 tracking-wide">
+            THE GALLERY
           </div>
-          <div className="text-center text-gray-400 text-md md:text-lg lg:text-xl font-normal px-4 leading-10 mb-8">
+          <div className="text-center text-gray-400 text-sm md:text-md lg:text-lg font-normal px-4 leading-4 ">
             A room to witness a glimpse of our performances and styles
           </div>
-          <div className="flex max-sm:px-6 justify-center">
+          <hr className="w-3/4 h-0.5 mx-auto my-4 bg-gray-700 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+          <div className="flex justify-center">
             <Image
               src="/GalleryImage.png"
               alt="Gallery"
