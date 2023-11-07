@@ -45,26 +45,14 @@ const Layout = ({ children }: LayoutProps) => {
     <>
       {/* <FullpageLoader loading={loading} /> */}
 
+      <Leftsidebar />
+      <Rightsidebar />
       <Header />
       <main className="flex flex-row text-white justify-center items-center">
-        {/* <Leftsidebar /> */}
-
-        
-          <div className="w-8/12">{children}</div>
-        
-
-        {/* <Rightsidebar /> */}
+        <div className="w-8/12">{children}</div>
       </main>
       <Footer />
 
-      {/* <div className="absolute inset-y-0 left-0 w-32">
-        <Leftsidebar />
-      </div>
-      <div className="absolute inset-y-0 right-0 w-32">
-        <Rightsidebar />
-      </div> */}
-
-      {/* {children} */}
     </>
   );
 };

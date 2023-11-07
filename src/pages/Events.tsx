@@ -50,7 +50,7 @@ const Events = () => {
                 width={1000}
                 className="opacity-1 hover:opacity-[0%] relative top-[17.5%] pt-3"
               />
-              <div className="absolute top-0  left-0 text-white px-10">
+              <div className="absolute top-0  left-0 text-white px-10 h-0">
                 <div className="py-6 mt-12 group-hover:block hidden">
                   Get ready to dance your heart out with our incredible lineup
                   of five sensational events! From fierce battles to creative
@@ -59,7 +59,7 @@ const Events = () => {
                   dance, where every move tells a story and every beat ignites
                   your spirit, exclusively at Riviera.
                 </div>
-                <div className="py-6 mt-12 group-hover:hidden block">
+                <div className="py-6 mt-12 relative group-hover:hidden block">
                   Riviera is VIT&apos;s mega cultural and sports carnival; and
                   the Dance Club has an opportunity every year to perform on
                   this occasion. With thousands in the crowd, you will see us
@@ -130,7 +130,7 @@ const Events = () => {
                 width={1000}
                 className=" opacity-1 hover:opacity-[0%] relative "
               />
-              <div className="absolute top-0 left-0 text-white px-10">
+              <div className="absolute top-0 left-0 text-white px-10 h-0">
                 <div className="py-6 mt-12 group-hover:text-transparent">
                   Riviera is VIT&apos;s mega cultural and sports carnival; and
                   the Dance Club has an opportunity every year to perform on
