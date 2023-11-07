@@ -5,7 +5,7 @@ import Image from "next/image";
 const Developers = () => {
   const images = [
     {
-      imageUrl: "/Developers/Group 632.svg",
+      imageUrl: "/Developers/nandin.svg",
     },
     {
       imageUrl: "/Developers/Group 633.svg",
@@ -20,7 +20,7 @@ const Developers = () => {
 
   return (
     <>
-      <div className="backdrop-blur-xl">
+      <div className="backdrop-blur-2xl backdrop-brightness-125">
         <Link href="/" className="absolute hidden lg:block pt-14 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -39,12 +39,12 @@ const Developers = () => {
         </Link>
         <div className="flex justify-center items-center ">
           <div className="text-center p-8 max-w-screen-lg w-full overflow-y-auto">
-            <div className="mb-4">
-              <div className="text-2xl font-extrabold tracking-wide md:text-3xl mb-1 mt-8 text-white">
+            <div className="mb-1">
+              <div className="text-lg font-bold uppercase tracking-wider md:text-2xl mt-8 text-white">
                 Developers Team
               </div>
             </div>
-            <p className="text-sm md:text-md mb-8 text-gray-300">
+            <p className="text-xs md:text-md mb-8 text-gray-300">
               Meet the creative UIUX Team and the talented Developers of this
               website.
             </p>
