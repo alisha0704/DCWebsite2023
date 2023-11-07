@@ -24,6 +24,15 @@ const Slideshow: React.FC = () => {
     "/Carousel/IMAGE (1).svg",
   ];
 
+  const imageText = ["Welcome to", "The", "Welcome to", "Welcome to"];
+
+  const imageTextLast = [
+    "VIT DANCE CLUB",
+    "Board",
+    "VIT DANCE CLUB",
+    "VIT DANCE CLUB",
+  ];
+
   const imageTexts = [
     "The VIT Dance Club provides opportunities to dance lovers to prove their talent and is a great platform for the students to have their artistic exploration in various styles. It boosts up the morales of the students and makes them reach a point of ecstasy. Dance unleashes us from everything and makes us feel a certain kind of happiness.",
     "Presenting, the Board of Dance Club 2023-24. Know more about the DC Board Members who are the prime backbone of this dance crew",
@@ -54,6 +63,14 @@ const Slideshow: React.FC = () => {
                 className=""
               />
               <div className="relative left-0 w-full text-center p-4 backdrop-blur-2xl bg-opacity-50">
+                <div className="flex text-center justify-center">
+                  <p className="py-2 text-white font-medium text-4xl text-center">
+                    {imageText[index]}
+                  </p>
+                  <p className="py-2 text-white font-extrabold text-4xl text-center px-2">
+                    {imageTextLast[index]}
+                  </p>
+                </div>
                 <p className="text-white font-medium text-base">
                   {imageTexts[index]}
                 </p>
