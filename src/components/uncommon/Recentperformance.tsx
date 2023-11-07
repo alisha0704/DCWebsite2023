@@ -29,7 +29,7 @@ const Recentperformance: React.FC = () => {
             mood indigo, iit bombay
           </div>
 
-          <div className="md:w-98 text-white text-xs font-normal leading-6 text-left justify-center items-center">
+          <div className="md:w-98 text-white text-xs font-normal max-sm:px-2 leading-6 text-left justify-center items-center">
           Another amazing performance by our teams securing 
           a new feather in the cap for team Mirage and team 
           JNJ Bhangra  for the second place in Indigo Saga
@@ -38,7 +38,7 @@ const Recentperformance: React.FC = () => {
           </div>
           <div className="py-1"></div>
           <button>
-          <div className="w-40 h-12 justify-center items-center ">
+          <div className="w-40 h-12 justify-center items-center max-sm:px-2 ">
             <div className="w-40 h-10 relative bg-white bg-opacity-10 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-4 absolute">
                 <div className="w-40 h-6 left-0 top-2 absolute text-center text-white text-md font-normal leading-normal tracking-wide ">
@@ -62,14 +62,14 @@ const Recentperformance: React.FC = () => {
             world dance day, vit vellore
           </div>
           <div className="py-8"></div>
-          <div className="md:px-4 md:pl-6 text-white text-xs leading-6 text-left pb-4">
+          <div className="md:px-4 md:pl-6 text-white text-xs leading-6 max-sm:px-2 text-left pb-4">
           Missed our world dance day performance?<br/>
           Don&apos;t sweat it cause we&apos;ve bought world dance day to YOU! <br/>
           Presenting a plethora of performances by our very own dance teams <br/>
           click below & enjoy the performance.
           </div>
           <button>
-          <div className="pl-10 w-40 h-10  max-sm:px-10 justify-center items-center inline-flex">
+          <div className="pl-10 w-40 h-10  max-sm:px-2 justify-center items-center  inline-flex">
             <div className="w-40 h-10 relative bg-white bg-opacity-10 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-4 relative">
                 <div className="w-40 h-6 top-2 absolute text-center text-white text-md font-normal leading-normal tracking-wide">

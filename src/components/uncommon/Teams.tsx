@@ -63,17 +63,17 @@ const Teams: React.FC<TeamsProps> = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
-    <div className="flex flex-col items-center px-12 backdrop-blur-2xl backdrop-brightness-200">
+    <div className="flex flex-col items-center md:px-12 px-2 backdrop-blur-2xl backdrop-brightness-200">
       <div className="backdrop-blur-2xl">
-        <h1 className="text-2xl md:text-3xl text-center lg:text-4xl pt-12 text-white mb-2">
+        <h1 className="text-2xl md:text-3xl text-center font-semibold lg:text-4xl pt-12 text-white mb-2">
           Our Teams
         </h1>
-        <p className="text-center text-sm md:text-lg lg:text-xl text-gray-400 mb-8">
+        <p className="text-center text-xs md:text-md lg:text-xl text-gray-400 mb-8">
           Club consists of seven teams with each junior team of varied dance
           forms across India.
         </p>
         <div className="flex justify-center">
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 py-6">
             {teamsData.map((team, index) => (
               <div
                 key={index}
@@ -98,11 +98,11 @@ const Teams: React.FC<TeamsProps> = () => {
                   />
                 </a>
                 <div className="flex flex-col opacity-80 backdrop-blur-2xl items-center mt-2">
-                  <h2 className="text-xs md:text-md lg:text-xl px-4 text-center max-sm:px-6 pr-8 font-semibold text-white mt-2">
+                  <h2 className="text-lg md:text-xl lg:text-xl px-4 text-center max-sm:px-6 pr-8 font-semibold text-white mt-2">
                     {team.name}
                   </h2>
                   <div
-                    className="text-xs md:text-sm lg:text-lg text-center max-sm:px-8 max-sm:mr-4 pr-8 text-gray-100 mt-1 mb-8 "
+                    className="text-sm md:text-md lg:text-lg text-center text-gray-100 mt-1 mb-8 "
                     onMouseEnter={() => setHoveredIndex(index)}
                     onMouseLeave={() => setHoveredIndex(null)}
                   >

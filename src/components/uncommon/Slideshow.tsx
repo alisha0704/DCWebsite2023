@@ -20,7 +20,7 @@ const Slideshow: React.FC = () => {
   const imagePaths = [
     "/Carousel/IMG_20220922_215922 1.png",
     "/Carousel/IMAGE.svg",
-    "/Carousel/IMAGE (1).svg",
+    "/Carousel/boardimg.svg",
     "/Carousel/IMAGE.png",
   ];
 
@@ -42,7 +42,7 @@ const Slideshow: React.FC = () => {
 
   return (
     <div
-      className="relative w-full rounded-l-md rounded-r-md backdrop-filter backdrop-blur-xl backdrop-brightness-200 px-16 py-16 my-10 "
+      className="relative w-full rounded-l-md rounded-r-md backdrop-filter backdrop-blur-xl backdrop-brightness-200 md:px-16 md:py-16 my-10 "
       data-carousel="static"
     >
       <div className="relative h-full overflow-hidden rounded-lg">
@@ -62,16 +62,16 @@ const Slideshow: React.FC = () => {
                 height={1000}
                 className=""
               />
-              <div className="relative left-0 w-full text-center p-4 backdrop-blur-2xl bg-opacity-50">
+              <div className="relative left-0 w-full text-center md:p-4 backdrop-blur-2xl bg-opacity-50">
                 <div className="flex text-center justify-center">
-                  <p className="py-2 text-white font-medium text-4xl text-center">
+                  <p className="py-2 text-white font-medium text-sm md:text-2xl lg:text-4xl text-center">
                     {imageText[index]}
                   </p>
-                  <p className="py-2 text-white font-extrabold text-4xl text-center px-2">
+                  <p className="py-2 text-white font-extrabold text-sm md:text-2xl lg:text-4xl  text-center px-2">
                     {imageTextLast[index]}
                   </p>
                 </div>
-                <p className="text-white font-medium text-base">
+                <p className="text-white font-medium text-xs md:text-base">
                   {imageTexts[index]}
                 </p>
               </div>
@@ -91,6 +91,7 @@ const Slideshow: React.FC = () => {
           alt="Left arrow"
           width={50}
           height={50}
+          className="max-sm:hidden"
         />
       </button>
 
@@ -105,6 +106,7 @@ const Slideshow: React.FC = () => {
           alt="Right arrow"
           width={50}
           height={50}
+          className="max-sm:hidden"
         />
       </button>
     </div>

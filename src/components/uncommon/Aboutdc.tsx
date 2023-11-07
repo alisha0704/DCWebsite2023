@@ -75,20 +75,20 @@ const Aboutdc = () => {
   return (
     <>
       <div className="">
-        <div className=" mx-auto relative pt-20  px-20 pb-10">
-          <div className="text-white text-4xl text-left">
+        <div className=" mx-auto relative pt-6 md:pt-20 px-1 md:px-10 lg:px-20 pb-10">
+          <div className="text-white text-xl md:text-2xl lg:text-4xl text-left">
             VIT Dance Club promotes the dance art forms,{" "}
             <span style={{ color: "#A0FF90" }}>regional</span> and{" "}
             <span style={{ color: "#A0FF90" }}>western</span> and gives an
             opportunity to students to perform
           </div>
-          <h5 className="text-gray-400 text-sm pt-4 text-left">
+          <h5 className="text-gray-400 text-xs md:text-sm pt-4 text-left">
           Club consists of seven major teams of varied dance forms across India & Winners of various dance competitions across the country.
           </h5>
         </div>
 
         <div className="flex justify-center items-center">
-          <div className="py-2 backdrop-blur-3xl backdrop-brightness-200 items-center w-2/3">
+          <div className="py-4 md:backdrop-blur-3xl md:backdrop-brightness-200 items-center w-2/3   ">
             <div className="flex justify-center items-center space-x-6">
               <Image
                 src="/icons/flaglogo.png"
@@ -98,7 +98,7 @@ const Aboutdc = () => {
                 style={{ marginRight: "1rem" }}
               />
               <div className="flex flex-col text-white gap-1">
-                <div className="flex pt-8 text-3xl font-extrabold">7</div>
+                <div className="flex text-xl md:text-3xl font-extrabold">7</div>
                 <div className="flex font-extralight text-xs">MAJOR TEAMS</div>
               </div>
               <Image
@@ -108,7 +108,7 @@ const Aboutdc = () => {
                 height={40}
               />
               <div className="flex flex-col text-white gap-1">
-                <div className="flex pt-8 text-3xl font-extrabold">150k</div>
+                <div className="flex  text-xl md:text-3xl font-extrabold">150k</div>
                 <div className="flex font-extralight text-xs">CREW MEMBERS</div>
               </div>
               <Image
@@ -118,7 +118,7 @@ const Aboutdc = () => {
                 height={40}
               />
               <div className="flex flex-col text-white gap-1">
-                <div className="flex pt-8 text-3xl font-extrabold">
+                <div className="flex  text-xl md:text-3xl font-extrabold">
                   <AnimatedCounter
                     target={200}
                     time={50}
