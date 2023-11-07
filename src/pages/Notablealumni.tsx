@@ -44,6 +44,7 @@ const Slideshow: React.FC = () => {
 
   return (
     <>
+     <div className="backdrop-blur-2xl backdrop-brightness-100">
       <Link href="/" className="absolute hidden lg:block text-white mt-14 pt-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -61,10 +62,10 @@ const Slideshow: React.FC = () => {
         </svg>
       </Link>
       <div className="py-10">
-        <div className="text-center font-extrabold text-4xl">
+        <div className="text-center font-bold tracking-wider uppercase text-lg md:text-2xl">
           Notable Alumnis
         </div>
-        <div className="text-center font-medium text-sm text-gray-400 pb-10">
+        <div className="text-center font-medium text-xs md:text-sm px-2 text-gray-400  md:pb-10">
           Check out the list of our notable Alumni who are on top of their Passion
         </div>
       </div>
@@ -143,6 +144,7 @@ const Slideshow: React.FC = () => {
               alt="Left arrow"
               width={50}
               height={50}
+              
             />
           </button>
 
@@ -160,6 +162,7 @@ const Slideshow: React.FC = () => {
             />
           </button>
         </div>
+      </div>
       </div>
     </>
   );
