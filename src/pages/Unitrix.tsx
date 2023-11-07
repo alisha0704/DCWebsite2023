@@ -57,7 +57,7 @@ const Unitrix:React.FC<UnitrixProps> = () => {
           alt="Unitrix"
           width={500}
           height={500}
-          className=""
+          className="md:pt-12"
         />
         <div className="text-center pt-4 font-semibold">ADITI SUDHIR</div>
         <div className="text-center text-xs text-gray-400 font-semibold ">
@@ -67,7 +67,7 @@ const Unitrix:React.FC<UnitrixProps> = () => {
          alt="Unitrix"
          width={500} 
          height={500}
-         className="pt-12"
+         className="max-md:pt-12"
           />
         <div className="text-center pt-4 font-semibold">SANJANA AWASTHI</div>
         <div className="text-center text-xs text-gray-400 font-semibold">
@@ -75,7 +75,7 @@ const Unitrix:React.FC<UnitrixProps> = () => {
         </div>
         <Image
           src="/Unitrix/satyendra.svg"
-          alt="chargers"
+          alt="Unitrix"
           width={500}
           height={500}
           className="pt-12"
@@ -91,7 +91,7 @@ const Unitrix:React.FC<UnitrixProps> = () => {
       </div>
       <div className="flex justify-center py-4">
         <Image src="/Unitrix/unigallery.png" 
-        alt="Mirage"
+        alt="Unitrix"
          width={1000} 
          height={1000} />
       </div>
@@ -110,7 +110,7 @@ const Unitrix:React.FC<UnitrixProps> = () => {
           <Image
             className="h-auto max-w-full rounded-lg"
             src="/Unitrix/recent1.svg"
-            alt="Mirage"
+            alt="Untrix"
             height={150}
             width={669}
           />
