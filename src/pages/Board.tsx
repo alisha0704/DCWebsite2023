@@ -73,7 +73,7 @@ const Board: React.FC<BoardProps> = () => {
 
   return (
     <>
-      <div className="container backdrop-blur-2xl backdrop-brightness-150">
+      <div className="container backdrop-blur-xl backdrop-brightness-150">
       <Link
               href="/"
               className="absolute hidden lg:block pt-14 text-white"
