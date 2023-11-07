@@ -40,7 +40,7 @@ const Header = () => {
 
   return (
     <header className="">
-      <nav className="w-full  bg-black text-white">
+      <nav className="w-full backdrop-blur-3xl text-white">
         <div className="container mx-auto flex flex-col md:flex-row justify-center w-full h-full ">
           <div
             onClick={() => setMenuOpen2(!menuOpen2)}

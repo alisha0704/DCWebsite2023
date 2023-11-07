@@ -14,7 +14,7 @@
 
 /* globals.css or your custom CSS file */
 .background-image {
-  background: url("/background.png") center/cover no-repeat;
+  background: url("/backgroundfinal.png") center/cover no-repeat;
   backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
   background-color: rgba(
     0,
@@ -59,4 +59,11 @@
 
 .slideshow-container:not(:first-child) {
   transform: translateX(calc(-100% * var(--active-index))); /* Translate to show the active image */
+}
+
+
+.secondary-background-image {
+  background: url("/landingpage.png") center/cover no-repeat; /* Replace with the actual path to your second image */
+  position: relative;
+  background-attachment: scroll; /* Add this property to make the image scroll with the page */
 }
