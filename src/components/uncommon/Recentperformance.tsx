@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Recentperformance: React.FC = () => {
   return (
-    <div className="backdrop-blur-3xl backdrop-brightness-125">
+    <div className="backdrop-blur-3xl backdrop-brightness-200">
       <div className="lg:px-24 py-10 pb- flex-col flex">
         <div className="text-center text-2xl md:text-3xl lg:text-4xl text-white font-normal">
           Recent Performances

@@ -33,7 +33,7 @@ const Slideshow: React.FC = () => {
 
   return (
     <div
-      className="relative w-full rounded-l-md rounded-r-md backdrop-filter backdrop-blur-xl backdrop-brightness-150 px-16 py-16 my-10 "
+      className="relative w-full rounded-l-md rounded-r-md backdrop-filter backdrop-blur-xl backdrop-brightness-200 px-16 py-16 my-10 "
       data-carousel="static"
     >
       <div className="relative h-full overflow-hidden rounded-lg">
@@ -52,7 +52,7 @@ const Slideshow: React.FC = () => {
                 width={1000}
                 height={1000}
               />
-              <div className="relative left-0 w-full text-center p-4 bg-black bg-opacity-50">
+              <div className="relative left-0 w-full text-center p-4 backdrop-blur-2xl bg-opacity-50">
                 <p className="text-white font-medium text-base">
                   {imageTexts[index]}
                 </p>

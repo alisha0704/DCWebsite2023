@@ -88,7 +88,7 @@ const Aboutdc = () => {
         </h5>
       </div>
       
-      <div className="py-2 pb-8 backdrop-blur-3xl items-center w-2/3">
+      <div className="py-2 pb-8 backdrop-blur-3xl backdrop-brightness-200 items-center w-2/3">
         <div className="flex justify-center items-center space-x-6">
           <Image
             src="/icons/flaglogo.png"

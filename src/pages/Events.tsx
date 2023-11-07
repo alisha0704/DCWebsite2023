@@ -16,15 +16,15 @@ const Events = () => {
   return (
     <>
       <div className="backdrop-blur-3xl">
-        <div className="text-white font-extrabold text-4xl text-center">
+        <div className="text-white font-bold text-2xl text-center">
           OUR EVENTS
-          <p className="text-base font-medium py-3">
+          <p className="text-sm font-medium py-3">
             Brace yourself for a high-octane dose of entertainment. Here are the
             events we performed lately.
           </p>
         </div>
         <div className="border border-gray-600" />
-        <div className="text-center text-4xl py-4 font-extrabold">Riviera</div>
+        <div className="text-center text-2xl py-4 font-bold">Riviera</div>
         <div className="flex items-center">
           <div className="">
             <Image
@@ -72,8 +72,9 @@ const Events = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center py-10">
+        <div className="flex  justify-center items-center py-10">
           <div className="w-full px-10 gap-12 max-w-screen-lg flex justify-around">
+            <div>
             <Image
               src="/events/pradeep.svg"
               alt="Image 1"
@@ -97,6 +98,7 @@ const Events = () => {
               height={100}
               width={100}
             />
+            </div>
           </div>
         </div>
         <div className="border border-gray-600 border-t-0 border-l-0 border-r-0 py-4" />
