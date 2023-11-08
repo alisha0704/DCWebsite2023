@@ -10,10 +10,10 @@ const Achievements: React.FC<AchievementsProps> = () => {
       imageUrl: "/achievements/2.svg",
     },
     {
-      imageUrl: "/achievements/image 33 (2).svg",
+      imageUrl: "/achievements/image 33 (1).png",
       eventName: "SYNAPSE - 2023",
-      eventDesc: "DUET DANCE- 1ST & 2ND PLACE",
-      winningTeam: "JNJ BHANGRA & CHARGERS",
+      eventDesc: "DUET DANCE- 1ST PLACE",
+      winningTeam: "JNJ BHANGRA",
     },
     {
       imageUrl: "/achievements/image 33.png",
@@ -25,13 +25,32 @@ const Achievements: React.FC<AchievementsProps> = () => {
       imageUrl: "/achievements/2.svg",
     },
     {
-      imageUrl: "/achievements/image 95.svg",
-      eventName: "REVIVALS - 2023",
-      eventDesc: "TRADITIONALS DANCE -2ND PLACE",
-      winningTeam: "MIRAGE",
+      imageUrl: "/achievements/image 95.png",
+      eventName: "Synapse - 2023",
+      eventDesc: "DUET DANCE -2ND PLACE",
+      winningTeam: "CHARGERS",
     },
+
     {
       imageUrl: "/achievements/image 34.svg",
+      eventName: "VIBRANCE - 2023",
+      eventDesc: "THEMATIC CATEGORY - WINNERS",
+      winningTeam: "MAYA",
+    },
+    {
+      imageUrl: "/achievements/2.svg",
+      eventName: "",
+      eventDesc: "",
+      winningTeam: "",
+    },
+    {
+      imageUrl: "/achievements/image 95.png",
+      eventName: "VIBRANCE - 2023",
+      eventDesc: "THEMATIC CATEGORY - WINNERS",
+      winningTeam: "MAYA",
+    },
+    {
+      imageUrl: "/achievements/image 34 (1).svg",
       eventName: "VIBRANCE - 2023",
       eventDesc: "THEMATIC CATEGORY - WINNERS",
       winningTeam: "MAYA",
