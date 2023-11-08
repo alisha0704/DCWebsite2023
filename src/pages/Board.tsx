@@ -73,10 +73,10 @@ const Board: React.FC<BoardProps> = () => {
 
   return (
     <>
-      <div className="container backdrop-blur-xl backdrop-brightness-150">
+      <div className="container backdrop-blur-xl backdrop-brightness-100">
       <Link
               href="/"
-              className="absolute hidden lg:block pt-14 text-white"
+              className="absolute hidden lg:block  px-6 pt-14 text-white"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@ const Board: React.FC<BoardProps> = () => {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                className="w-12 h-12"
+                className="w-6 h-6 "
               >
                 <path
                   stroke-linecap="round"
@@ -201,7 +201,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className="max-md:hidden"
+                    className="max-md:hidden px-2"
                   />
       </div>
       <div className="flex justify-center px-6 mt-10 gap-16">
@@ -220,7 +220,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className="max-md:hidden"
+                    className="max-md:hidden px-2"
                   />
       <span className="text-xl font-semibold">Board of 2020-21</span>
       <Image
@@ -228,7 +228,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className="max-md:hidden"
+                    className="max-md:hidden px-2"
                   />
       </div>
       <div className="flex justify-center px-6 mt-10 gap-16">

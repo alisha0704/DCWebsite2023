@@ -151,7 +151,7 @@ const BBC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
         <div>
           <Image
-            className="h-auto max-w-full rounded-lg"
+            className="h-auto max-w-full pb-8 px-8 rounded-lg"
             src="/BBC/4 2.svg"
             alt=""
             height={150}
@@ -203,7 +203,7 @@ const BBC = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="p-8">
           <Image src="/BBC/image 156.svg" height={150} width={669} alt="" />
         </div>
       </div>

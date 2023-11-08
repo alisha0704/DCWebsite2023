@@ -106,7 +106,7 @@ const chargers:React.FC<chargersProps> = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
         <div>
           <Image
-            className="h-auto max-w-full rounded-lg"
+            className="h-auto max-w-full pb-8 px-8 rounded-lg"
             src="/Chargers/chargersrecent.svg"
             alt="Chargers"
             height={150}
@@ -118,7 +118,7 @@ const chargers:React.FC<chargersProps> = () => {
             World dance day, vit vellore
           </div>
 
-          <div className="md:w-96 text-white text-sm sm:text-base font-normal leading-7 text-left justify-center items-center">
+          <div className="md:w-96 text-white text-sm sm:text-base font-normal max-sm:px-4 leading-7 text-left justify-center items-center">
            Chargers stole the spotlight on World Dance Day 2019, transcending the college realm
            with a performance that echoes far beyond. With over 12 million views on YouTube,
             their groundbreaking routine sparked a nationwide sensation and has left their 
@@ -140,7 +140,7 @@ const chargers:React.FC<chargersProps> = () => {
             international dance day, vit vellore
           </div>
           <div className="py-8"></div>
-          <div className="md:px-4 md:pl-6 text-white text-sm leading-7 text-left pb-4">
+          <div className="md:px-4 md:pl-6 text-white text-sm leading-7 max:sm:px-4 text-left pb-4">
             Missed our International dance day performance? Don&apos;t sweat it
             cause we&apos;ve bought international dance day TO YOU! <br />{" "}
             Presenting a plethora of performances by our very own dance teams.
@@ -158,7 +158,7 @@ const chargers:React.FC<chargersProps> = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className='p-8'>
           <Image src="/Chargers/chargersrecent2.svg"
            height={150} 
            width={669}

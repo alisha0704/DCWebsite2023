@@ -95,7 +95,7 @@ const Maya = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
         <div>
           <Image
-            className="h-auto max-w-full rounded-lg"
+            className="h-auto max-w-full px-8 pb-8 rounded-lg"
             src="/Maya/4 2 (1).svg"
             alt=""
             height={150}
@@ -147,7 +147,7 @@ const Maya = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="p-8">
           <Image
             src="/Maya/image 156 (1).svg"
             height={150}

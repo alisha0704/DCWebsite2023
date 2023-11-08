@@ -21,7 +21,7 @@ export default function Home() {
   });
   return (
     <>
-      <div className="gap-9 backdrop-blur-3xl  backdrop-brightness-150">
+      <div className="backdrop-blur-2xl">
         <Slideshow />
         <Aboutdc />
         <Teams />

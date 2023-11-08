@@ -20,7 +20,7 @@ const Developers = () => {
 
   return (
     <>
-      <div className="backdrop-blur-2xl backdrop-brightness-125">
+      <div className="backdrop-blur-2xl backdrop-brightness-100">
         <Link href="/" className="absolute hidden lg:block pt-14 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@ const Developers = () => {
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="currentColor"
-            className="w-12 h-12"
+            className="w-6 h-6"
           >
             <path
               strokeLinecap="round"
@@ -44,12 +44,12 @@ const Developers = () => {
                 Developers Team
               </div>
             </div>
-            <p className="text-xs md:text-md mb-8 text-gray-300">
+            <p className="text-xs md:text-md mb-8 md:mb-14 text-gray-300">
               Meet the creative UIUX Team and the talented Developers of this
               website.
             </p>
             <div className="flex justify-center items-center">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:w-2/3">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:w-3/4">
               {images.map((image, index) => (
                 <div key={index} className="text-center">
                   <Image

@@ -105,7 +105,7 @@ const Riwaayat = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
         <div>
           <Image
-            className="h-auto max-w-full rounded-lg"
+            className="h-auto max-w-full pb-8 px-8 rounded-lg"
             src="/Riwaayat/Jnj 1.svg"
             alt=""
             height={150}
@@ -157,7 +157,7 @@ const Riwaayat = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="p-8">
           <Image src="/Riwaayat/image 156 (2).svg" height={150} width={669} alt="" />
         </div>
       </div>

@@ -109,7 +109,7 @@ const Mirage:React.FC<MirageProps> = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
         <div>
           <Image
-            className="h-auto max-w-full rounded-lg"
+            className="h-auto max-w-full pb-8 px-8 rounded-lg"
             src="/Mirage/recent1.svg"
             alt="Mirage"
             height={150}
@@ -149,8 +149,8 @@ const Mirage:React.FC<MirageProps> = () => {
             Presenting a plethora of performances by our very own dance teams.
             click below & enjoy the performance.
           </div>
-          <div className="w-40 h-12  max-sm:px-10 justify-center items-center inline-flex">
-            <div className="w-40 h-12 relative bg-white bg-opacity-10 rounded-sm flex-col justify-start items-start flex">
+          <div className="w-40 h-12 max-sm:px-10 justify-center items-center inline-flex">
+            <div className="w-40 h-12  relative bg-white bg-opacity-10 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-4 relative">
                 <div className="w-40 h-4 top-2 absolute text-center text-white text-md md:text-lg font-normal leading-normal tracking-wide">
                   Watch Now
@@ -161,7 +161,7 @@ const Mirage:React.FC<MirageProps> = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className='p-8'>
           <Image src="/Mirage/recent2.svg"
            height={150} 
            width={669}

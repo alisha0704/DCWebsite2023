@@ -6,14 +6,14 @@ const Journey = () => {
   return (
     <>
     <div className="backdrop-blur-2xl backdrop-brightness-150 ">
-      <Link href="/" className="absolute hidden lg:block text-white mt-14 pt-2">
+      <Link href="/" className="absolute hidden lg:block text-white mt-14 pt-2 px-4">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          className="w-12 h-12"
+          className="w-6 h-6 "
         >
           <path
             stroke-linecap="round"

@@ -125,9 +125,8 @@ const Header = () => {
       <Transition.Root show={show}>
         <BackgroundLayer />
         <SlideOverLayer>
-          <div className="">
-            <div onClick={() => setShow(false)} className="flex">
-              <Image src="/icons/cross.png" alt="X" height={20} width={20} />
+          <div  onClick={() => setShow(false)} className="">
+            <div className="flex">
               <div className="w-full h-5 left-[92px] top-[43px] text-center text-lg font-black uppercase">
                 Contact Us
               </div>
@@ -139,13 +138,17 @@ const Header = () => {
             </div>
             <div className="px-28 pt-5 pb-3 uppercase font-bold">mail us</div>
             <hr className="w-1/2 h-0.5 mx-24 bg-gray-500 border-0 rounded" />
+            <Link href="https://www.instagram.com/vitdanceclub/" >
             <div className="px-28 pt-5 pb-3 uppercase font-bold">
               visit instagram
             </div>
+            </Link>
             <hr className="w-1/2 h-0.5 mx-24 bg-gray-500 border-0 rounded" />
+            <Link href="https://www.youtube.com/@vitdanceclub9231" >
             <div className="px-28 pt-5 pb-3 uppercase font-bold">
               visit YouTube
             </div>
+            </Link>
             <hr className="w-1/2 h-0.5 mx-24 bg-gray-500 border-0 rounded" />
             <div className="px-28 pt-5 uppercase font-bold">phone</div>
             <div className="px-28 uppercase font-bold">+91 9840466868</div>

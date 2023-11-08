@@ -7,7 +7,7 @@ type StudioProps = {};
 const Studio: React.FC<StudioProps> = () => {
   return (
     <>
-      <div className="backdrop-blur-xl relative ">
+      <div className="backdrop-blur-2xl relative ">
         <Link
           href="/"
           className="absolute hidden lg:block text-white mt-14 pt-2"
@@ -18,7 +18,7 @@ const Studio: React.FC<StudioProps> = () => {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="w-12 h-12"
+            className="w-6 h-6"
           >
             <path
               stroke-linecap="round"

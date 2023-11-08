@@ -18,7 +18,7 @@ const Faculty = () => {
 
   return (
     <>
-      <div className="backdrop-blur-2xl backdrop-brightness-150">
+      <div className="backdrop-blur-2xl backdrop-brightness-100">
         <Link href="/" className="absolute hidden lg:block pt-14 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ const Faculty = () => {
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="currentColor"
-            className="w-12 h-12"
+            className="w-6 h-6"
           >
             <path
               strokeLinecap="round"
