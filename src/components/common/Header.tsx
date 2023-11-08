@@ -51,7 +51,7 @@ const Header = () => {
             onClick={() => setMenuOpen2(!menuOpen2)}
             className="py-10 pr-4 md:pr-12 mr-4 md:mr-12 mt-4 cursor-pointer md:hidden"
           >
-            <Image src="/icons/menu.svg" alt="MENU" width={30} height={30} />
+            <Image src="/icons/menu.svg" alt="MENU" width={50} height={50} />
           </div>
           <div
             onClick={() => setMenuOpen(true)}

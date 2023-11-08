@@ -174,14 +174,14 @@ const Board: React.FC<BoardProps> = () => {
       <Image
                     src="/board/board221.svg"
                     alt="Board"
-                    width={250}
-                    height={250}
+                    width={400}
+                    height={400}
                   />
                   <Image
                     src="/board/board222.svg"
                     alt="Board"
-                    width={250}
-                    height={250}
+                    width={400}
+                    height={400}
                   />
      </div>
      </div>
@@ -208,8 +208,8 @@ const Board: React.FC<BoardProps> = () => {
                   <Image
                     src="/board/board21.svg"
                     alt="Board"
-                    width={250}
-                    height={250}
+                    width={500}
+                    height={500}
                   />
      </div>
      </div>
@@ -235,8 +235,8 @@ const Board: React.FC<BoardProps> = () => {
                   <Image
                     src="/board/board20.svg"
                     alt="Board"
-                    width={250}
-                    height={250}
+                    width={500}
+                    height={500}
                   />
      </div>
      </div>
@@ -262,8 +262,8 @@ const Board: React.FC<BoardProps> = () => {
                   <Image
                     src="/board/board19.svg"
                     alt="Board"
-                    width={250}
-                    height={250}
+                    width={500}
+                    height={500}
                   />
      </div>
      </div>
