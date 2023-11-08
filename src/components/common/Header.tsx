@@ -37,10 +37,15 @@ const Header = () => {
       ? "border-t-2 border-b-2 text-white"
       : "text-gray-300 ";
   };
-
+  
+   const [showMobileMenu, setShowMobileMenu] = useState(false);
+  
+  const toggleMobileMenu = () => {
+    setShowMobileMenu(!showMobileMenu);
+  };
   return (
     <header className="">
-      <nav className="w-full backdrop-blur-3xl text-white">
+      <nav className="w-full backdrop-blur-3xl bg-black text-white">
         <div className="container mx-auto flex flex-col md:flex-row justify-center w-full h-full ">
           <div
             onClick={() => setMenuOpen2(!menuOpen2)}
@@ -114,6 +119,8 @@ const Header = () => {
           </div>
         </div>
       </nav>
+
+
       {/*Right slider */}
       <Transition.Root show={show}>
         <BackgroundLayer />

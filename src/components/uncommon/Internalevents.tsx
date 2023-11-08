@@ -4,12 +4,13 @@ import Image from 'next/image'
 const Internalevents = () => {
   return (
     <div>
-        <div className=" text-2xl flex py-10 font-semibold">
+        <div className="text-lg md:text-xl lg:text-2xl  flex py-10 gap-8 font-bold md:font-semibold px-3">
         <Image
                     src="/line.svg"
                     alt="Board"
                     width={110}
                     height={400}
+                    className='max-md:hidden'
                   />
                   Outreach/Collaborations
                   <Image
@@ -17,9 +18,10 @@ const Internalevents = () => {
                     alt="Board"
                     width={300}
                     height={300}
+                    className='max-md:hidden'
                   />
       </div>
-      <div className=" ">
+      <div className="px-6 ">
         Step into a world of dance innovation with our series of collaboration
         dance workshops, brought to you by our dynamic VIT Dance Club.
         We&apos;ve teamed up with renowned influencers, dance maestros and
@@ -31,7 +33,7 @@ const Internalevents = () => {
         shine on the dance floor. Don&apos;t miss out on these electrifying
         workshops, where the magic of movement meets the wisdom of experts!
       </div>
-      <div className="gap-8 columns-3 py-10">
+      <div className="gap-8 columns-1 md:columns-2 lg:columns-3 py-10 px-8">
         <Image
           src="/events/gallery1/image 106.svg"
           alt=""
@@ -104,12 +106,13 @@ const Internalevents = () => {
           className="w-full mb-6"
         />
       </div>
-      <div className=" text-2xl flex py-10 font-semibold">
+      <div className="text-lg md:text-xl lg:text-2xl flex py-10 gap-8 font-bold md:font-semibold px-3">
       <Image
                     src="/line.svg"
                     alt="Board"
                     width={110}
                     height={400}
+                    className='max-md:hidden'
                   />
                   Alumni Events 
                   <Image
@@ -117,10 +120,11 @@ const Internalevents = () => {
                     alt="Board"
                     width={300}
                     height={300}
+                    className='max-md:hidden'
                   />
 
       </div>
-      <div className="gap-4 columns-4 py-10">
+      <div className="gap-4 columns-1 md:columns-2 lg:columns-4 py-10 px-8">
         <Image
           src="/events/gallery3/image 114.svg"
           alt=""
@@ -128,8 +132,8 @@ const Internalevents = () => {
           width={1000}
           className="w-full"
         />
-        <div className="text-center">
-          <h1>GeethaNritya </h1> Alumni Geethanjali Ajith
+        <div className="text-center pt-3 pb-6">
+          <h1 className='font-bold'>GeethaNritya </h1> Unitrix Alumni Geethanjali Ajith
         </div>
         <Image
           src="/events/gallery3/image 119.svg"
@@ -138,11 +142,11 @@ const Internalevents = () => {
           width={1000}
           className="w-full"
         />
-        <div className="text-center">
-          <h1>Taal se taal Mila</h1> Riwaayat alumni Meher Nigam
+        <div className="text-center pt-3 pb-6">
+          <h1 className='font-bold'>Taal se taal Mila</h1> Riwaayat alumni Meher Nigam
         </div>
-        <div className="text-center  pt-10">
-          <h1>Groove And Go </h1> Unitrix alumni Sarang Ram
+        <div className="text-center pb-5 pt-10">
+          <h1 className='font-bold'>Groove And Go </h1> Unitrix Alumni Sarang Ram
         </div>
         <Image
           src="/events/gallery3/image 121.svg"
@@ -152,8 +156,8 @@ const Internalevents = () => {
           className="w-full"
         />
 
-        <div className="text-center">
-          <h1>Flow with it </h1> Chargers alumni Gautham
+        <div className="text-center py-4">
+          <h1 className='font-bold'>Flow with it </h1> Chargers Alumni Gautham
         </div>
         <Image
           src="/events/gallery3/image 120.svg"
@@ -170,8 +174,8 @@ const Internalevents = () => {
           width={1000}
           className="w-full"
         />
-        <div className="text-center">
-          <h1>Pump it Up </h1>JNJ Bhangra alumni Aniket
+        <div className="text-center pt-3 pb-6">
+          <h1 className='font-bold'>Pump it Up </h1>JNJ Bhangra Alumni Aniket
         </div>
 
         <Image
@@ -181,12 +185,12 @@ const Internalevents = () => {
           width={1000}
           className="w-full"
         />
-        <div className="text-center">
-          <h1>Noopura </h1>Maya alumni Sariga
+        <div className="text-center pt-3">
+          <h1 className='font-bold'>Noopura </h1>Maya Alumni Sariga
         </div>
 
-        <div className="text-center  pt-10">
-          <h1>Lumiere </h1> Mirage alumni Shubham
+        <div className="text-center  pt-10 pb-5">
+          <h1 className='font-bold'>Lumiere </h1> Mirage Alumni Shubham Mittal
         </div>
         <Image
           src="/events/gallery3/image 117.svg"
@@ -195,8 +199,8 @@ const Internalevents = () => {
           width={1000}
           className="w-full"
         />
-        <div className="text-center">
-          <h1>Feel The Beat </h1> BBC alumni Aditya Roshan
+        <div className="text-center pt-3 pb-4">
+          <h1 className='font-bold'>Feel The Beat </h1> BBC Alumni Aditya Roshan
         </div>
         <Image
           src="/events/gallery3/image 116.svg"
@@ -206,12 +210,13 @@ const Internalevents = () => {
           className="w-full"
         />
       </div>
-      <div className=" text-2xl flex py-10 font-semibold">
+      <div className=" text-lg md:text-xl lg:text-2xl flex py-10 gap-8 font-bold md:font-semibold px-3">
       <Image
                     src="/line.svg"
                     alt="Board"
                     width={110}
                     height={400}
+                    className='max-md:hidden'
                   />
                   Other Offline/Online Events
         <Image
@@ -219,11 +224,12 @@ const Internalevents = () => {
                     alt="Board"
                     width={300}
                     height={300}
+                    className='max-md:hidden'
                   />
 
 
       </div>
-      <div className="gap-4 columns-4 py-10">
+      <div className="gap-4 columns-1 md:columns-2 lg:columns-4 py-10 px-8">
         <Image
           src="/events/gallery2/image 24.svg"
           alt=""

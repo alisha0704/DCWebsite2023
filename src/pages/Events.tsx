@@ -15,7 +15,7 @@ const Events = () => {
   };
   return (
     <>
-      <div className="backdrop-blur-3xl">
+      <div className="backdrop-blur-2xl ">
         <div className="text-white font-bold text-2xl text-center">
           OUR EVENTS
           <p className="text-sm font-medium py-3">
@@ -72,8 +72,8 @@ const Events = () => {
             </div>
           </div>
         </div>
-        <div className="flex  justify-center items-center py-10">
-          <div className="w-full px-10 gap-12 max-w-screen-lg flex justify-around">
+        <div className="flex justify-center items-center py-10">
+          <div className="w-full px-10 gap-12 max-w-screen-lg flex flex-col  md:flex-row  justify-around">
             
             <Image
               src="/events/pradeep.svg"
@@ -102,10 +102,10 @@ const Events = () => {
           </div>
         </div>
         <div className="border border-gray-600 border-t-0 border-l-0 border-r-0 py-4" />
-        <div className="text-center text-4xl py-4 font-extrabold">
+        <div className="text-center text-2xl py-4 font-bold">
           World Dance Day
         </div>
-        <div className="flex items-center py-4">
+        <div className="flex  items-center py-4">
           <div className="">
             <Image
               src="/events/Events2.svg"
@@ -144,12 +144,12 @@ const Events = () => {
             </div>
           </div>
         </div>
-        <div className="text-center text-4xl py-10 font-extrabold">
+        <div className="text-center text-2xl py-10 font-extrabold">
           Other Events & Workshops
         </div>
 
-        <div className="backdrop-brightness-150">
-          <div className="flex justify-center items-center gap-12">
+        <div className="backdrop-brightness-200 backdrop-blur-2xl">
+          <div className="flex justify-center items-center gap-12 py-4">
             <button
               className={`text-white font-bold py-2 px-4 rounded-full border hover:bg-slate-100 hover:bg-opacity-20 ${
                 displayInternalEvents ? "bg-slate-100 bg-opacity-20" : ""
