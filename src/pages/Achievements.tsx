@@ -181,7 +181,7 @@ const Achievements: React.FC<AchievementsProps> = () => {
       winningTeam: "GEETHU AJITH AND SAPTHA AJITH",
     },
     {
-      imageUrl: "/achievements/2.svg",
+      imageUrl: "/achievements/1 (2).svg",
     },
     {
       imageUrl: "/achievements/image 89.svg",
@@ -241,7 +241,7 @@ const Achievements: React.FC<AchievementsProps> = () => {
       winningTeam: "JNJ BHANGRA",
     },
     {
-      imageUrl: "/achievements/2.svg",
+      imageUrl: "/achievements/1 (2).svg",
     },
     {
       imageUrl: "/achievements/8.svg",
