@@ -24,7 +24,7 @@ const Slideshow: React.FC = () => {
     "/Carousel/IMAGE.png",
   ];
 
-  const imageText = ["Welcome to", "The", "Welcome to", "Welcome to"];
+  const imageText = ["Welcome to", "Welcome to", "Welcome to", "The"];
 
   const imageTextLast = [
     "VIT DANCE CLUB",
