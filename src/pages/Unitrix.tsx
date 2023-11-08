@@ -108,7 +108,7 @@ const Unitrix:React.FC<UnitrixProps> = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
         <div>
           <Image
-            className="h-auto max-w-full pb-8 px-8 rounded-lg"
+            className="h-auto max-w-full px-6 pb-6 rounded-lg"
             src="/Unitrix/recent1.svg"
             alt="Untrix"
             height={150}
@@ -160,7 +160,7 @@ const Unitrix:React.FC<UnitrixProps> = () => {
             </div>
           </div>
         </div>
-        <div className='p-8'>
+        <div className='p-6'>
           <Image src="/Unitrix/recent2.svg"
            height={150} 
            width={669}
