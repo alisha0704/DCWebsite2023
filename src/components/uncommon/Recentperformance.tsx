@@ -17,7 +17,7 @@ const Recentperformance: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
         <div>
           <Image
-            className="h-auto max-w-full rounded-lg"
+            className="h-auto max-w-full rounded-lg px-6 pb-6"
             src="/moodindigoevents.svg"
             alt=""
             height={150}
@@ -92,7 +92,7 @@ const Recentperformance: React.FC = () => {
         </div>
         <div>
           <Image
-            className="h-auto max-w-full rounded-lg"
+            className="h-auto max-w-full rounded-lg p-6"
             src="/wddevent2.svg"
             alt=""
             height={50}

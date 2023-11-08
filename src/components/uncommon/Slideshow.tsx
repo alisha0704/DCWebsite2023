@@ -42,7 +42,7 @@ const Slideshow: React.FC = () => {
 
   return (
     <div
-      className="relative w-full rounded-l-md rounded-r-md backdrop-filter backdrop-blur-xl backdrop-brightness-200 md:px-16 md:py-16 my-10 "
+      className="relative  rounded-l-md rounded-r-md backdrop-filter backdrop-blur-xl backdrop-brightness-200 md:px-12 md:py-16 my-10 "
       data-carousel="static"
     >
       <div className="relative h-full overflow-hidden rounded-lg">
