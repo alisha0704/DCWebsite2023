@@ -7,7 +7,7 @@ type AchievementsProps = {};
 const Achievements: React.FC<AchievementsProps> = () => {
   const images = [
     {
-      imageUrl: "/achievements/2.svg",
+      imageUrl: "/3(DC).png",
     },
     {
       imageUrl: "/achievements/image 33 (1).png",
@@ -22,7 +22,7 @@ const Achievements: React.FC<AchievementsProps> = () => {
       winningTeam: "UNITRIX ",
     },
     {
-      imageUrl: "/achievements/2.svg",
+      imageUrl: "/2(DC).png",
     },
     {
       imageUrl: "/achievements/image 95.png",
@@ -38,16 +38,16 @@ const Achievements: React.FC<AchievementsProps> = () => {
       winningTeam: "MAYA",
     },
     {
-      imageUrl: "/achievements/2.svg",
+      imageUrl: "/1(DC).png",
       eventName: "",
       eventDesc: "",
       winningTeam: "",
     },
     {
-      imageUrl: "/achievements/image 95.png",
-      eventName: "VIBRANCE - 2023",
-      eventDesc: "THEMATIC CATEGORY - WINNERS",
-      winningTeam: "MAYA",
+      imageUrl: "/image 95 (2).png",
+      eventName: "REVIVALS - 2023",
+      eventDesc: "TRADITIONAL DANCE - 2ND PLACE",
+      winningTeam: "MIRAGE",
     },
     {
       imageUrl: "/achievements/image 34 (1).svg",
