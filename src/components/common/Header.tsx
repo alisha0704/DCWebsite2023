@@ -289,7 +289,7 @@ const SlideOverLayerLeft: React.FC<SlideOverLayerProps> = ({ children }) => (
     <div className="z-[150] fixed inset-0 overflow-hidden">
       <div className="absolute inset-0 overflow-hidden">
         <div className="pointer-events-none fixed inset-y-0 -left-10 flex max-w-full pl-10">
-          <div className="pointer-events-auto w-screen max-w-md w-screen">
+          <div className="pointer-events-auto w-screen max-w-md">
             <div className="bg-black opacity-80 text-white py-6 shadow-xl h-screen items-center place-items-center">
               <div className="bg-black px-5">{children}</div>
             </div>

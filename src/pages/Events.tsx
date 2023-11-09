@@ -101,7 +101,7 @@ const Events = () => {
             <Link href="https://www.youtube.com/playlist?list=PL2AAy2dym7040Yesecx7_eRBhmxSETbuH">
               <div className="pb-2 relative">
                 <Image
-                  src="/Group 636.png"
+                  src="/events/events2hover.png"
                   alt=""
                   width={1000}
                   height={1000}
