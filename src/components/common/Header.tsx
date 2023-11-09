@@ -37,9 +37,9 @@ const Header = () => {
       ? "border-t-2 border-b-2 text-white"
       : "text-gray-300 ";
   };
-  
-   const [showMobileMenu, setShowMobileMenu] = useState(false);
-  
+
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
+
   const toggleMobileMenu = () => {
     setShowMobileMenu(!showMobileMenu);
   };
@@ -48,71 +48,67 @@ const Header = () => {
       <nav className="w-full backdrop-blur-3xl bg-black text-white">
         <div className="container mx-auto flex flex-col md:flex-row justify-center w-full h-full ">
           <div
-            onClick={() => setMenuOpen2(!menuOpen2)}
-            className="py-10 pr-4 md:pr-12 mr-4 md:mr-12 mt-4 cursor-pointer md:hidden"
-          >
-            <Image src="/icons/menu.svg" alt="MENU" width={50} height={50} />
-          </div>
-          <div
             onClick={() => setMenuOpen(true)}
-            className={"py-10 pr-12 mr-12 mt-4"}
+            className={
+              "py-10 pr-12 mr-12 mt-4 Ssm:absolute Ssm:top-0 Ssm:left-0"
+            }
           >
             <Image src="/icons/menu.svg" alt="MENU" width={30} height={30} />
           </div>
-          <div className={"px-10 ${menuOpen ? 'block' : 'hidden'}"}>
-            <Link href="/">
+          <div className={" ${menuOpen ? 'block' : 'hidden'}"}>
+            <Link href="/" className="flex justify-center items-center">
               <Image src="/vitdclogo.svg" alt="DC" width={200} height={200} />
             </Link>
           </div>
           <div className="py-10">
-            <ul className="flex flex-col md:flex-row mt-4 text-white gap-20 text-xl">
+            <ul className="flex flex-col md:flex-row mt-4 text-white Ssm:gap-2 lg:gap-20 text-xl">
               <li>
-                <Link href="/">
+                <Link href="/" className="">
                   <div
-                    className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest hover:text-white
+                    className={`w-30 h-5 text-gray-300  text-base font-semibold p-[1rem]  text-center uppercase leading-3 tracking-widest hover:text-white flex justify-center items-center
                     ${isLinkActive("/")}`}
                   >
-                    Home
+                    <p>Home</p>
                   </div>
                 </Link>
               </li>
               <li>
                 <Link href="/Gallery">
                   <div
-                    className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest 
+                    className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest  flex justify-center items-center p-[1rem]
                   hover:text-white ${isLinkActive("/Gallery")}`}
                   >
-                    Gallery
+                    <p>Gallery</p>
                   </div>
                 </Link>
               </li>
               <li>
                 <Link href="/Events">
                   <div
-                    className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest
+                    className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest flex justify-center items-center p-[1rem]
                     hover:text-white ${isLinkActive("/Events")}`}
                   >
-                    Events
+                    <p>Events</p>
                   </div>
                 </Link>
               </li>
               <li>
                 <Link href="/Achievements">
                   <div
-                    className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest
+                    className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest flex justify-center items-center p-[1rem]
                     hover:text-white ${isLinkActive("/Achievements")}`}
                   >
-                    Achievements
+                    <p>Achievements</p>
                   </div>
                 </Link>
               </li>
               <li>
                 <div
                   onClick={() => setShow(true)}
-                  className={`w-30 h-5 text-gray-300  text-center text-base font-semibold uppercase leading-3 tracking-widest
+                  className={`w-30 h-5 text-gray-300  text-center text-base font-semibold uppercase leading-3 tracking-widest flex justify-center items-center p-[1rem]
                   hover:text-white`}
                 >
-                  Contact us
+                  <p>Contact us</p>
                 </div>
               </li>
             </ul>
@@ -120,12 +116,11 @@ const Header = () => {
         </div>
       </nav>
 
-
       {/*Right slider */}
       <Transition.Root show={show}>
         <BackgroundLayer />
         <SlideOverLayer>
-          <div  onClick={() => setShow(false)} className="">
+          <div onClick={() => setShow(false)} className="">
             <div className="flex">
               <div className="w-full h-5 left-[92px] top-[43px] text-center text-lg font-black uppercase">
                 Contact Us
@@ -138,16 +133,16 @@ const Header = () => {
             </div>
             <div className="px-28 pt-5 pb-3 uppercase font-bold">mail us</div>
             <hr className="w-1/2 h-0.5 mx-24 bg-gray-500 border-0 rounded" />
-            <Link href="https://www.instagram.com/vitdanceclub/" >
-            <div className="px-28 pt-5 pb-3 uppercase font-bold">
-              visit instagram
-            </div>
+            <Link href="https://www.instagram.com/vitdanceclub/">
+              <div className="px-28 pt-5 pb-3 uppercase font-bold">
+                visit instagram
+              </div>
             </Link>
             <hr className="w-1/2 h-0.5 mx-24 bg-gray-500 border-0 rounded" />
-            <Link href="https://www.youtube.com/@vitdanceclub9231" >
-            <div className="px-28 pt-5 pb-3 uppercase font-bold">
-              visit YouTube
-            </div>
+            <Link href="https://www.youtube.com/@vitdanceclub9231">
+              <div className="px-28 pt-5 pb-3 uppercase font-bold">
+                visit YouTube
+              </div>
             </Link>
             <hr className="w-1/2 h-0.5 mx-24 bg-gray-500 border-0 rounded" />
             <div className="px-28 pt-5 uppercase font-bold">phone</div>
@@ -161,17 +156,20 @@ const Header = () => {
         <BackgroundLayer />
         <SlideOverLayerLeft>
           <div className="" onClick={handleCloseModals}>
-            <div onClick={() => setShow(false)} className="flex">
+            <div
+              onClick={() => setShow(false)}
+              className="flex w-full justify-between items-center"
+            >
               {" "}
-              <div className="text-lg font-black uppercase leading-3 tracking-widest mt-5">
+              <div className="text-lg font-black uppercase leading-3 tracking-widest py-[1rem]">
                 menu
               </div>
               <Image
                 src="/icons/cross.png"
                 alt="X"
-                height={20}
-                width={20}
-                className="mx-80 mt-5"
+                height={15}
+                width={15}
+                className=""
               />
             </div>
             <hr className="w-full h-0.5 mt-1 bg-white border-0 rounded" />
@@ -246,7 +244,7 @@ const SlideOverLayer: React.FC<SlideOverLayerProps> = ({ children }) => (
       <div className="absolute inset-0 overflow-hidden">
         <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-48">
           <div className="pointer-events-auto w-screen max-w-md">
-            <div className="bg-black opacity-80 text-white py-6 shadow-xl h-screen items-center place-items-center">
+            <div className="bg-black opacity-80 text-white py-6 shadow-xl h-screen items-center place-items-center w-full">
               <div className="">{children}</div>
             </div>
           </div>
