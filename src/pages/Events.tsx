@@ -127,13 +127,13 @@ const Events = () => {
                 className="pt-1 absolute top-0"
               />
               <Image
-                src="/events/Events2.svg"
+                src="/Frame 86.png"
                 alt=""
                 height={1000}
                 width={1000}
                 className=" opacity-1 hover:opacity-[0%] relative "
               />
-              <div className="absolute top-0 left-0 text-white px-10 h-0">
+              {/* <div className="absolute top-0 left-0 text-white px-10 h-0">
                 <div className="py-6 mt-12 group-hover:text-transparent">
                   Riviera is VIT&apos;s mega cultural and sports carnival; and
                   the Dance Club has an opportunity every year to perform on
@@ -143,7 +143,7 @@ const Events = () => {
                 <button className="text-white text-md tracking-wide font-normal py-1 px-8 rounded-md border hover:bg-slate-100 hover:bg-opacity-20 ">
                   Watch Now
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
