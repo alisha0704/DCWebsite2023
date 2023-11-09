@@ -20,7 +20,7 @@ const Slideshow: React.FC = () => {
   const imagePaths = [
     "/Carousel/IMG_20220922_215922 1.png",
     "/Carousel/IMAGE.svg",
-    "/Carousel/boardimg.svg",
+    "/Carousel/Rectangle 64.png",
     "/Carousel/IMAGE.png",
   ];
 
