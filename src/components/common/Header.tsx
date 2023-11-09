@@ -124,7 +124,14 @@ const Header = () => {
         <SlideOverLayer>
           <div  onClick={() => setShow(false)} className="">
             <div className="flex">
-              <div className="w-full h-5 left-[92px] top-[43px] text-center text-lg font-black uppercase">
+            <Image
+                src="/icons/cross.png"
+                alt="X"
+                height={20}
+                width={20}
+                className=""
+              />
+              <div className="w-full h-5 left-[85px] top-[43px] text-center text-lg font-black uppercase">
                 Contact Us
               </div>
             </div>
