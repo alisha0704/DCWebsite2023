@@ -41,6 +41,29 @@ const Slideshow: React.FC = () => {
     "/NotableAlumni/Soumi.svg",
     "/NotableAlumni/Vaishnavi.svg",
   ];
+  const imageLinks = [
+    "https://instagram.com/twinnoxx?igshid=NzZlODBkYWE4Ng==",
+    "https://instagram.com/bharath_kanth?igshid=NzZlODBkYWE4Ng==",
+    "https://instagram.com/poornima_ravii?igshid=NzZlODBkYWE4Ng==",
+    "https://instagram.com/am.ri_tha?igshid=NzZlODBkYWE4Ng==",
+    "https://instagram.com/dance678withkhyati?igshid=NzZlODBkYWE4Ng==",
+    "https://instagram.com/__twirls__?igshid=NzZlODBkYWE4Ng==",
+    "https://instagram.com/adipadi24?igshid=NzZlODBkYWE4Ng==",
+    "https://instagram.com/anshgv_?igshid=NzZlODBkYWE4Ng==",
+    "https://instagram.com/geethuajith?igshid=NzZlODBkYWE4Ng==",
+    "https://instagram.com/_._krishna_._04?igshid=NzZlODBkYWE4Ng==",
+    "https://instagram.com/aasthaassingh?igshid=NzZlODBkYWE4Ng==",
+    "https://instagram.com/meher.kathak?igshid=NzZlODBkYWE4Ng==",
+    "https://instagram.com/neeraja_nair__?igshid=NzZlODBkYWE4Ng==",
+    "https://instagram.com/naatya_?igshid=NzZlODBkYWE4Ng==",
+    "https://instagram.com/vaibhav_murugesan?igshid=NzZlODBkYWE4Ng==",
+    "https://instagram.com/vidishhaaaa?igshid=NzZlODBkYWE4Ng==",
+    "",
+    "https://instagram.com/worldofdalia?igshid=NzZlODBkYWE4Ng==",
+    "https://instagram.com/prekshi.vyas?igshid=NzZlODBkYWE4Ng==",
+    "https://instagram.com/soumiihazraa?igshid=NzZlODBkYWE4Ng==",
+    "https://instagram.com/vaishnavi_____shukla?igshid=NzZlODBkYWE4Ng==",
+  ]
 
   return (
     <>
@@ -84,6 +107,7 @@ const Slideshow: React.FC = () => {
                   }
                 >
                   <div className="flex items-center">
+                    <Link href={imageLinks[index % 21]}>
                     <Image
                       src={imagePaths[index % 21]}
                       alt={`Image ${index}`}
@@ -91,8 +115,10 @@ const Slideshow: React.FC = () => {
                       height={250}
                       className=""
                     />
+                    </Link>
                   </div>
                   <div className="flex items-center">
+                  <Link href={imageLinks[(index+1) % 21]}>
                     <Image
                       src={imagePaths[(index + 1) % 21]}
                       alt={`Image ${index + 1}`}
@@ -100,8 +126,10 @@ const Slideshow: React.FC = () => {
                       height={350}
                       className=""
                     />
+                    </Link>
                   </div>
                   <div className="flex items-center">
+                  <Link href={imageLinks[(index+2) % 21]}>
                     <Image
                       src={imagePaths[(index + 2) % 21]}
                       alt={`Image ${index + 2}`}
@@ -109,8 +137,10 @@ const Slideshow: React.FC = () => {
                       height={450}
                       className=""
                     />
+                    </Link>
                   </div>
                   <div className="flex items-center">
+                  <Link href={imageLinks[(index+3) % 21]}>
                     <Image
                       src={imagePaths[(index + 3) % 21]}
                       alt={`Image ${index + 3}`}
@@ -118,8 +148,10 @@ const Slideshow: React.FC = () => {
                       height={350}
                       className=""
                     />
+                    </Link>
                   </div>
                   <div className="flex items-center">
+                  <Link href={imageLinks[(index+4) % 21]}>
                     <Image
                       src={imagePaths[(index + 4) % 21]}
                       alt={`Image ${index + 4}`}
@@ -127,6 +159,7 @@ const Slideshow: React.FC = () => {
                       height={250}
                       className=""
                     />
+                    </Link>
                   </div>
                 </div>
               );

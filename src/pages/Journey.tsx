@@ -23,10 +23,10 @@ const Journey = () => {
         </svg>
       </Link>
       <div className="py-4"></div>
-      <div className="text-center text-white text-md md:text-xl lg:text-2xl px-4 uppercase font-bold tracking-wide leading-2 pt-12  md:mb-1">
+      <div className="text-center text-white text-md md:text-xl lg:text-4xl px-4 uppercase font-bold tracking-wide leading-2 pt-12  md:mb-1">
         Journey of Dance Club
       </div>
-      <div className="text-center text-gray-400 text-xs  font-normal px-4 mb-8">
+      <div className="text-center text-gray-400 text-md  font-normal px-4 mb-8">
       Lets see through the history of DC&apos;s board members
       </div>
       <div className="flex justify-center">
