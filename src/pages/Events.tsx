@@ -118,7 +118,7 @@ const Events = () => {
             />
           </div>
           <div className="flex items-center relative group">
-            <div className=" relative">
+            <div className="pb-2 relative">
               <Image
                 src="/Group 636.png"
                 alt=""
@@ -129,9 +129,9 @@ const Events = () => {
               <Image
                 src="/Frame 86.png"
                 alt=""
-                height={1000}
-                width={1000}
-                className=" opacity-1 hover:opacity-[0%] relative "
+                height={1030}
+                width={1030}
+                className=" opacity-1 hover:opacity-[0%] relative pt-1 "
               />
               {/* <div className="absolute top-0 left-0 text-white px-10 h-0">
                 <div className="py-6 mt-12 group-hover:text-transparent">
