@@ -73,7 +73,7 @@ const Teams: React.FC<TeamsProps> = () => {
           forms across India.
         </p>
         <div className="flex justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-16 py-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-20 py-6">
             {teamsData.map((team, index) => (
               <div
                 key={index}
@@ -97,8 +97,8 @@ const Teams: React.FC<TeamsProps> = () => {
                     className="hover:scale-105"
                   />
                 </a>
-                <div className="flex flex-col opacity-80 backdrop-blur-2xl items-center mt-2">
-                  <h2 className="text-lg md:text-xl lg:text-xl px-4 text-center max-sm:px-6 pr-8 font-semibold text-white mt-2">
+                <div className="flex flex-col rounded-xl opacity-80 backdrop-blur-2xl items-center mt-2">
+                  <h2 className="text-lg px-4 text-center max-sm:px-6 pr-8 font-semibold leading-0 text-white mt-2">
                     {team.name}
                   </h2>
                   <div
@@ -107,7 +107,7 @@ const Teams: React.FC<TeamsProps> = () => {
                     onMouseLeave={() => setHoveredIndex(null)}
                   >
                     {hoveredIndex === index ? (
-                      <button className="text-lg text-gray-400 tracking-wide ">
+                      <button className="text-md text-gray-400 tracking-wide ">
                         <div className="flex gap-4 ">
                           Learn More
                           <Image
@@ -119,7 +119,9 @@ const Teams: React.FC<TeamsProps> = () => {
                         </div>
                       </button>
                     ) : (
-                      team.danceStyle
+                      <h4 className="text-sm">
+                      {team.danceStyle}
+                      </h4>
                     )}
                   </div>
                 </div>

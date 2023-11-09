@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Recentperformance: React.FC = () => {
   return (
@@ -37,9 +38,9 @@ const Recentperformance: React.FC = () => {
             (Folk Dance Category) at MOOD INDIGO 2022!
           </div>
           <div className="py-1"></div>
-          <button>
+          <Link href="https://youtu.be/Upn-LNyNXkc?si=dGMLR_9yLfFxwJsG">
           <div className="w-40 h-12 justify-center items-center max-sm:px-2 ">
-            <div className="w-40 h-10 relative bg-white bg-opacity-10 rounded-sm flex-col justify-start items-start flex">
+            <div className="w-40 h-10 relative bg-white bg-opacity-10 hover:opacity-30 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-4 absolute">
                 <div className="w-40 h-6 left-0 top-2 absolute text-center text-white text-md font-normal leading-normal tracking-wide ">
                 <div className="flex gap-4 px-5">
@@ -55,7 +56,7 @@ const Recentperformance: React.FC = () => {
               </div>
             </div>
           </div>
-          </button>
+          </Link>
         </div>
         <div className="">
           <div className="w-full h-6 max-sm:text-center px-6 text-white text-md md:text-xl font-semibold uppercase leading-normal tracking-wide pt-6 ">
@@ -68,9 +69,9 @@ const Recentperformance: React.FC = () => {
           Presenting a plethora of performances by our very own dance teams <br/>
           click below & enjoy the performance.
           </div>
-          <button>
+          <Link href="https://youtube.com/playlist?list=PL2AAy2dym7040Yesecx7_eRBhmxSETbuH&si=_ZhdUgbpWYx5PWyN">
           <div className="pl-10 w-40 h-10  max-sm:px-2 justify-center items-center  inline-flex">
-            <div className="w-40 h-10 relative bg-white bg-opacity-10 rounded-sm flex-col justify-start items-start flex">
+            <div className="w-40 h-10 relative bg-white bg-opacity-10 hover:opacity-30 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-4 relative">
                 <div className="w-40 h-6 top-2 absolute text-center text-white text-md font-normal leading-normal tracking-wide">
                  <div className="flex gap-4 px-5">
@@ -88,7 +89,7 @@ const Recentperformance: React.FC = () => {
               <div className="w-6 h-7 origin-top-left rotate-[-34.72deg] bg-gradient-to-b from-pink-400 to-violet-700 rounded-full blur-xl" />
             </div>
           </div>
-          </button>
+          </Link>
         </div>
         <div>
           <Image
