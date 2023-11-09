@@ -42,15 +42,15 @@ const Events = () => {
                 <Image
                   src="/Frame 92.png"
                   alt=""
-                  width={990}
-                  height={990}
-                  className="absolute"
+                  width={1000}
+                  height={1000}
+                  className="absolute pt-3"
                 />
                 <Image
                   src="/Frame 89.png"
                   alt=""
-                  height={1150}
-                  width={1150}
+                  height={1175}
+                  width={1175}
                   className="opacity-1 relative hover:opacity-[0%] pt-3"
                 />
               </div>
