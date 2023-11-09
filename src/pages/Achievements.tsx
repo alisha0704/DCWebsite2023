@@ -7,9 +7,6 @@ type AchievementsProps = {};
 const Achievements: React.FC<AchievementsProps> = () => {
   const images = [
     {
-      imageUrl: "/3(DC).png",
-    },
-    {
       imageUrl: "/achievements/image 33 (1).png",
       eventName: "SYNAPSE - 2023",
       eventDesc: "DUET DANCE- 1ST PLACE",
@@ -20,9 +17,6 @@ const Achievements: React.FC<AchievementsProps> = () => {
       eventName: "SYNAPSE - 2023",
       eventDesc: "CHOREONITE- 1ST PLACE",
       winningTeam: "UNITRIX ",
-    },
-    {
-      imageUrl: "/2(DC).png",
     },
     {
       imageUrl: "/achievements/image 95.png",
@@ -38,12 +32,6 @@ const Achievements: React.FC<AchievementsProps> = () => {
       winningTeam: "MAYA",
     },
     {
-      imageUrl: "/1(DC).png",
-      eventName: "",
-      eventDesc: "",
-      winningTeam: "",
-    },
-    {
       imageUrl: "/image 95 (2).png",
       eventName: "REVIVALS - 2023",
       eventDesc: "TRADITIONAL DANCE - 2ND PLACE",
@@ -55,6 +43,8 @@ const Achievements: React.FC<AchievementsProps> = () => {
       eventDesc: "THEMATIC CATEGORY - WINNERS",
       winningTeam: "MAYA",
     },
+  ]
+  const images2 = [
     {
       imageUrl: "/achievements/image 81.svg",
       eventName: "MOOD INDIGO - 2022",
@@ -372,8 +362,41 @@ const Achievements: React.FC<AchievementsProps> = () => {
               We never left the stage empty handed, either we win the audience
               heart of we win the whole event
             </p>
-            <div className="grid grid-cols-2 md:grid-cols-3 px-8 gap-14 py-8 w-full">
+            <div className="flex">
+              <div className="w-1/3">
+                <Image 
+                src="/achievements/achievements2023.png"
+                alt=""
+                width={1000}
+                height={1000}
+                />
+              </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 px-8 gap-14 py-8 w-2/3">
               {images.map((image, index) => (
+                <div key={index} className="text-center">
+                  <Image
+                    src={image.imageUrl}
+                    alt={`Image ${index + 1}`}
+                    width={1000}
+                    height={1000}
+                  />
+                  <div className="flex flex-col items-center mt-2">
+                    <h2 className="text-md lg:text-lg font-semibold text-white mt-2">
+                      {image.eventName}
+                    </h2>
+                    <h3 className="text-xs lg:text-sm text-gray-400 mt-1">
+                      {image.eventDesc}
+                    </h3>
+                    <h3 className="text-xs lg:text-sm text-gray-400 mb-8">
+                      {image.winningTeam}
+                    </h3>
+                  </div>
+                </div>
+              ))}
+            </div>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 px-8 gap-14 py-8 w-full">
+              {images2.map((image, index) => (
                 <div key={index} className="text-center">
                   <Image
                     src={image.imageUrl}
