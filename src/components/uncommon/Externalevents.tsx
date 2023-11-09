@@ -9,7 +9,7 @@ const Externalevents = () => {
         Srishti School 2022
         <Image src="/line.svg" alt="Board" width={390} height={390} className="max-md:hidden"/>
       </div>
-      <div className="px-5 ">
+      <div className="px-5 text-lg">
         Dance club conducted workshops at Srishti school, near VIT Vellore for
         the academic years 2022 and 2023. We believe that learning should be a
         joyful experience. Our fun dance workshop for school kids is designed to

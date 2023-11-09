@@ -19,27 +19,27 @@ const Slideshow: React.FC = () => {
   };
 
   const imagePaths = [
-    "/NotableAlumni/Group 141.svg",
-    "/NotableAlumni/Group 153.svg",
-    "/NotableAlumni/Group 160.svg",
-    "/NotableAlumni/Group 144.svg",
-    "/NotableAlumni/Group 146.svg",
-    "/NotableAlumni/Group 161.svg",
-    "/NotableAlumni/Group 143.svg",
-    "/NotableAlumni/Group 147.svg",
-    "/NotableAlumni/Group 148.svg",
-    "/NotableAlumni/Group 149.svg",
-    "/NotableAlumni/Group 150.svg",
-    "/NotableAlumni/Group 145.svg",
-    "/NotableAlumni/Group 152.svg",
-    "/NotableAlumni/Group 151.svg",
-    "/NotableAlumni/Group 159.svg",
-    "/NotableAlumni/Group 142.svg",
-    "/NotableAlumni/Group 158.svg",
-    "/NotableAlumni/Group 154.svg",
-    "/NotableAlumni/Group 155.svg",
-    "/NotableAlumni/Group 157.svg",
-    "/NotableAlumni/Group 156.svg",
+    "/NotableAlumni/Shirish.svg",
+    "/NotableAlumni/Bharath.svg",
+    "/NotableAlumni/Poornima.svg",
+    "/NotableAlumni/AmrithaK.svg",
+    "/NotableAlumni/Khyati.svg",
+    "/NotableAlumni/Ashwathy.svg",
+    "/NotableAlumni/Adi.svg",
+    "/NotableAlumni/Ansh.svg",
+    "/NotableAlumni/Geethanjali.svg",
+    "/NotableAlumni/Krishna.svg",
+    "/NotableAlumni/Aastha.svg",
+    "/NotableAlumni/Meher.svg",
+    "/NotableAlumni/Neeraja.svg",
+    "/NotableAlumni/Sreenidhi.svg",
+    "/NotableAlumni/Vaibhav.svg",
+    "/NotableAlumni/vidisha.svg",
+    "/NotableAlumni/Amreeta.svg",
+    "/NotableAlumni/Dalia.svg",
+    "/NotableAlumni/Prekshi.svg",
+    "/NotableAlumni/Soumi.svg",
+    "/NotableAlumni/Vaishnavi.svg",
   ];
 
   return (
@@ -62,10 +62,10 @@ const Slideshow: React.FC = () => {
         </svg>
       </Link>
       <div className="py-10">
-        <div className="text-center font-bold tracking-wider uppercase text-lg md:text-2xl">
+        <div className="text-center font-bold tracking-wider uppercase text-lg md:text-4xl">
           Notable Alumnis
         </div>
-        <div className="text-center font-medium text-xs md:text-sm px-2 text-gray-400  md:pb-10">
+        <div className="text-center font-medium text-md max-sm:text-sm px-2 text-gray-400  md:pb-10">
           Check out the list of our notable Alumni who are on top of their Passion
         </div>
       </div>
@@ -87,8 +87,8 @@ const Slideshow: React.FC = () => {
                     <Image
                       src={imagePaths[index % 21]}
                       alt={`Image ${index}`}
-                      width={150}
-                      height={150}
+                      width={250}
+                      height={250}
                       className=""
                     />
                   </div>
@@ -96,15 +96,6 @@ const Slideshow: React.FC = () => {
                     <Image
                       src={imagePaths[(index + 1) % 21]}
                       alt={`Image ${index + 1}`}
-                      width={250}
-                      height={250}
-                      className=""
-                    />
-                  </div>
-                  <div className="flex items-center">
-                    <Image
-                      src={imagePaths[(index + 2) % 21]}
-                      alt={`Image ${index + 2}`}
                       width={350}
                       height={350}
                       className=""
@@ -112,10 +103,19 @@ const Slideshow: React.FC = () => {
                   </div>
                   <div className="flex items-center">
                     <Image
+                      src={imagePaths[(index + 2) % 21]}
+                      alt={`Image ${index + 2}`}
+                      width={450}
+                      height={450}
+                      className=""
+                    />
+                  </div>
+                  <div className="flex items-center">
+                    <Image
                       src={imagePaths[(index + 3) % 21]}
                       alt={`Image ${index + 3}`}
-                      width={250}
-                      height={250}
+                      width={350}
+                      height={350}
                       className=""
                     />
                   </div>
@@ -123,8 +123,8 @@ const Slideshow: React.FC = () => {
                     <Image
                       src={imagePaths[(index + 4) % 21]}
                       alt={`Image ${index + 4}`}
-                      width={150}
-                      height={150}
+                      width={250}
+                      height={250}
                       className=""
                     />
                   </div>

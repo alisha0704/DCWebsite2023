@@ -351,7 +351,7 @@ const Achievements: React.FC<AchievementsProps> = () => {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="w-12 h-12"
+            className="w-6 h-6"
           >
             <path
               stroke-linecap="round"
@@ -361,18 +361,18 @@ const Achievements: React.FC<AchievementsProps> = () => {
           </svg>
         </Link>
         <div className="flex justify-center items-center">
-          <div className="text-center p-8 w-4/5 overflow-y-auto">
+          <div className="text-center p-8 w-full overflow-y-auto">
             <div className="mb-4">
-              <div className="text-2xl md:text-3xl mb-1 mt-8 text-white">
+              <div className="text-2xl md:text-3xl tracking-wide uppercase font-bold mb-1 mt-8 text-white">
                 Our Achievements
               </div>
             </div>
 
-            <p className="text-sm md:text-md mb-8 text-gray-300">
+            <p className="text-sm md:text-lg mb-8 text-gray-300">
               We never left the stage empty handed, either we win the audience
               heart of we win the whole event
             </p>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-14 py-8 w-full">
+            <div className="grid grid-cols-2 md:grid-cols-3 px-8 gap-14 py-8 w-full">
               {images.map((image, index) => (
                 <div key={index} className="text-center">
                   <Image

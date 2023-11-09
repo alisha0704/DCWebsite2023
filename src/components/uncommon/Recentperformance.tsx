@@ -8,7 +8,7 @@ const Recentperformance: React.FC = () => {
         <div className="text-center text-2xl md:text-3xl lg:text-4xl text-white font-normal">
           Recent Performances
         </div>
-        <div className="text-center text-neutral-400 text-sm font-normal leading-7 pt-4 ">
+        <div className="text-center text-neutral-400 text-md font-normal leading-7 pt-4 ">
           We have performed in many different stages across India, also
           conquered levels of awards too
         </div>
@@ -25,11 +25,11 @@ const Recentperformance: React.FC = () => {
           />
         </div>
         <div className="md:px-10">
-          <div className="w-full h-6 max-sm:text-center text-white text-md md:text-lg font-semibold uppercase leading-normal tracking-wide pb-10">
+          <div className="w-full h-6 max-sm:text-center text-white text-md md:text-xl font-semibold uppercase leading-normal tracking-wide pb-10">
             mood indigo, iit bombay
           </div>
 
-          <div className="md:w-98 text-white text-xs font-normal max-sm:px-2 leading-6 text-left justify-center items-center">
+          <div className="md:w-98 text-white text-sm font-normal max-sm:px-2 leading-6 text-left justify-center items-center">
           Another amazing performance by our teams securing 
           a new feather in the cap for team Mirage and team 
           JNJ Bhangra  for the second place in Indigo Saga
@@ -58,11 +58,11 @@ const Recentperformance: React.FC = () => {
           </button>
         </div>
         <div className="">
-          <div className="w-full h-6 max-sm:text-center px-6 text-white text-md md:text-lg font-semibold uppercase leading-normal tracking-wide pt-6 ">
+          <div className="w-full h-6 max-sm:text-center px-6 text-white text-md md:text-xl font-semibold uppercase leading-normal tracking-wide pt-6 ">
             world dance day, vit vellore
           </div>
           <div className="py-8"></div>
-          <div className="md:px-4 md:pl-6 text-white text-xs leading-6 max-sm:px-2 text-left pb-4">
+          <div className="md:px-4 md:pl-6 text-white text-sm leading-6 max-sm:px-2 text-left pb-4">
           Missed our world dance day performance?<br/>
           Don&apos;t sweat it cause we&apos;ve bought world dance day to YOU! <br/>
           Presenting a plethora of performances by our very own dance teams <br/>

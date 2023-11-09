@@ -21,7 +21,7 @@ const Internalevents = () => {
                     className='max-md:hidden'
                   />
       </div>
-      <div className="px-6 ">
+      <div className="px-6 text-lg">
         Step into a world of dance innovation with our series of collaboration
         dance workshops, brought to you by our dynamic VIT Dance Club.
         We&apos;ve teamed up with renowned influencers, dance maestros and

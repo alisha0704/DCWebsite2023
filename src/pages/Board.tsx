@@ -96,11 +96,11 @@ const Board: React.FC<BoardProps> = () => {
         <div className="flex justify-center items-center ">
           <div className="text-center p-8 max-w-screen-lg w-full overflow-y-auto">
             <div className="mb-4">
-              <div className="text-3xl font-bold md:text-3xl mb-1 mt-8 text-white tracking-wide">
+              <div className="text-4xl font-bold md:text-3xl mb-1 mt-8 text-white tracking-wide">
                 THE BOARD
               </div>
             </div>
-            <p className="text-sm md:text-md mb-8 text-gray-300">
+            <p className="text-sm md:text-lg mb-8 text-gray-300">
               Alone you can do so little, together you can do so much.
               Presenting the Board of Dance Club 2023-24.
             </p>
@@ -160,7 +160,7 @@ const Board: React.FC<BoardProps> = () => {
                     height={300}
                     className="max-md:hidden"
                   />
-      <span className="text-xl font-semibold">Board of 2022-23</span>
+      <span className="text-2xl font-semibold">Board of 2022-23</span>
       <Image
                     src="/line.svg"
                     alt="Board"
@@ -195,7 +195,7 @@ const Board: React.FC<BoardProps> = () => {
                     height={300}
                     className="max-md:hidden"
                   />
-      <span className="text-xl font-semibold">Board of 2021-22</span>
+      <span className="text-2xl font-semibold">Board of 2021-22</span>
       <Image
                     src="/line.svg"
                     alt="Board"
@@ -222,7 +222,7 @@ const Board: React.FC<BoardProps> = () => {
                     height={300}
                     className="max-md:hidden px-2"
                   />
-      <span className="text-xl font-semibold">Board of 2020-21</span>
+      <span className="text-2xl font-semibold">Board of 2020-21</span>
       <Image
                     src="/line.svg"
                     alt="Board"
@@ -249,7 +249,7 @@ const Board: React.FC<BoardProps> = () => {
                     height={300}
                     className="max-md:hidden"
                   />
-      <span className="text-xl font-semibold">Board of 2019-20</span>
+      <span className="text-2xl font-semibold">Board of 2019-20</span>
       <Image
                     src="/line.svg"
                     alt="Board"

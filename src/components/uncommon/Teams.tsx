@@ -73,7 +73,7 @@ const Teams: React.FC<TeamsProps> = () => {
           forms across India.
         </p>
         <div className="flex justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 py-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-16 py-6">
             {teamsData.map((team, index) => (
               <div
                 key={index}

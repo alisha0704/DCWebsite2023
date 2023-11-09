@@ -16,15 +16,16 @@ const Events = () => {
   return (
     <>
       <div className="backdrop-blur-2xl ">
-        <div className="text-white font-bold text-2xl text-center">
+        <div className="text-white font-bold text-4xl pt-6 text-center">
           OUR EVENTS
-          <p className="text-sm font-medium py-3">
+          </div>
+          <p className="text-lg text-center font-medium py-4">
             Brace yourself for a high-octane dose of entertainment. Here are the
             events we performed lately.
           </p>
-        </div>
+        
         <div className="border border-gray-600" />
-        <div className="text-center text-2xl py-4 font-bold">Riviera</div>
+        <div className="text-center text-3xl py-6 font-bold">Riviera</div>
         <div className="flex items-center">
           <div className="">
             <Image
@@ -104,7 +105,7 @@ const Events = () => {
           </div>
         </div>
         <div className="border border-gray-600 border-t-0 border-l-0 border-r-0 py-4" />
-        <div className="text-center text-2xl py-4 font-bold">
+        <div className="text-center text-3xl py-6 font-bold">
           World Dance Day
         </div>
         <div className="flex  items-center py-4">
@@ -146,7 +147,7 @@ const Events = () => {
             </div>
           </div>
         </div>
-        <div className="text-center text-2xl py-10 font-extrabold">
+        <div className="text-center text-4xl py-10 font-extrabold">
           Other Events & Workshops
         </div>
 

@@ -38,11 +38,11 @@ const Faculty = () => {
         <div className="flex justify-center items-center">
           <div className="text-center p-8 max-w-screen-lg w-full overflow-y-auto">
             <div className="mb-4">
-              <div className="text-2xl font-bold tracking-wide md:text-2xl mb-1 mt-8 text-white uppercase">
+              <div className="text-2xl font-bold tracking-wide md:text-4xl mb-1 mt-8 text-white uppercase">
                 Faculty Coordinators
               </div>
             </div>
-            <p className="text-sm md:text-md mb-8 text-gray-300">
+            <p className="text-md max-sm:text-sm mb-8 text-gray-300 pb-10">
               Meet our dedicated faculty coordinators who play a crucial role in
               the smooth functioning of our dance club. They are dedicated
               mentors who guide and inspire the club&apos;s members to explore
@@ -52,7 +52,7 @@ const Faculty = () => {
               creativity and expression on our campus.
             </p>
             <div className="flex justify-center items-center">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-16 py-8 md:w-2/3">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-52 py-12 md:w-4/5">
                 {images.map((image, index) => (
                   <div key={index} className="text-center">
                     <Image

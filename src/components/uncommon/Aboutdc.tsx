@@ -75,19 +75,19 @@ const Aboutdc = () => {
   return (
     <>
       <div className="">
-        <div className=" mx-auto relative pt-6 md:pt-20 px-1 md:px-10 lg:px-20 pb-10">
-          <div className="text-white text-xl md:text-2xl lg:text-4xl text-left">
+        <div className=" mx-auto relative pt-6 md:pt-20 px-1 md:px-10 lg:px-20 pb-16 mb-10">
+          <div className="text-white text-xl md:text-3xl lg:text-4xl text-left">
             VIT Dance Club promotes the dance art forms,{" "}
             <span style={{ color: "#A0FF90" }}>regional</span> and{" "}
             <span style={{ color: "#A0FF90" }}>western</span> and gives an
             opportunity to students to perform
           </div>
-          <h5 className="text-gray-400 text-xs md:text-sm pt-4 text-left">
+          <h5 className="text-gray-400 text-sm pt-4 text-left">
           Club consists of seven major teams of varied dance forms across India & Winners of various dance competitions across the country.
           </h5>
         </div>
 
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center  pb-6 items-center">
           <div className="py-4 md:backdrop-blur-3xl md:backdrop-brightness-200 items-center w-2/3   ">
             <div className="flex justify-center items-center space-x-6">
               <Image
@@ -97,9 +97,9 @@ const Aboutdc = () => {
                 height={40}
                 style={{ marginRight: "1rem" }}
               />
-              <div className="flex flex-col text-white gap-1">
+              <div className="flex flex-col text-white gap-1 px-4">
                 <div className="flex text-xl md:text-3xl font-extrabold">7</div>
-                <div className="flex font-extralight text-xs">MAJOR TEAMS</div>
+                <div className="flex font-extralight text-sm">MAJOR TEAMS</div>
               </div>
               <Image
                 src="/icons/humanlogo.png"
@@ -107,9 +107,9 @@ const Aboutdc = () => {
                 width={40}
                 height={40}
               />
-              <div className="flex flex-col text-white gap-1">
+              <div className="flex flex-col text-white gap-1 px-4 ">
                 <div className="flex  text-xl md:text-3xl font-extrabold">150k</div>
-                <div className="flex font-extralight text-xs">CREW MEMBERS</div>
+                <div className="flex font-extralight text-sm">CREW MEMBERS</div>
               </div>
               <Image
                 src="/icons/taglogo.png"
@@ -117,24 +117,24 @@ const Aboutdc = () => {
                 width={40}
                 height={40}
               />
-              <div className="flex flex-col text-white gap-1">
+              <div className="flex flex-col text-white px-4 gap-1">
                 <div className="flex  text-xl md:text-3xl font-extrabold">
                   <AnimatedCounter
                     target={200}
                     time={50}
-                    start={190}
+                    start={200}
                     shouldAnimate={animated.performance}
                   />
                   +
                 </div>
-                <div className="flex font-extralight text-xs">PERFORMANCES</div>
+                <div className="flex font-extralight text-sm">PERFORMANCES</div>
               </div>
             </div>
           </div>
         </div>
         <hr className="w-3/5 h-0.5 mx-auto bg-gray-400 border-0 rounded my-5" />
         <div className="text-center ">
-          <h2 className="text-sm text-gray-400">MAJOR PRIZE WINNING STAGES</h2>
+          <h2 className="text-md text-gray-400">MAJOR PRIZE WINNING STAGES</h2>
           <div className="flex justify-center items-center mt-4">
             <Image
               src="/icons/festlogo.png"
