@@ -178,7 +178,7 @@ const Header = () => {
               the board 2023
             </div>
           </Link>
-          <Link href="/Achievements">
+          {/* <Link href="/Achievements">
                   <div
                     className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest flex justify-center items-center p-[1rem]
                     hover:text-white ${isLinkActive("/Achievements")}`}
@@ -201,7 +201,7 @@ const Header = () => {
                   >
                     <p>Home</p>
                   </div>
-                </Link>
+                </Link> */}
           <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
           <Link href="/Faculty">
             <div className="px-8 pt-5 pb-3 uppercase font-bold">
