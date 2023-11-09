@@ -4,6 +4,7 @@ import { IoCallOutline } from "react-icons/io5";
 import { AiOutlineMail, AiOutlineInstagram } from "react-icons/ai";
 import { PiYoutubeLogo } from "react-icons/pi";
 import Image from "next/image";
+import Link from "next/link";
 
 type FooterProps = {};
 
@@ -19,7 +20,7 @@ const Footer: React.FC<FooterProps> = () => {
             <text className="text-xl mt-2">VIT DANCE CLUB</text>
           </div>
 
-          <div className="mt-16 md:ml-10 flex md:items-center"> 
+          <div className="mt-16 md:ml-10 flex md:items-center">
             <IoLocationOutline size="2em" />
             <div className="ml-2 text-lg">
               <p>Vellore Institute of Technology</p>
@@ -60,14 +61,14 @@ const Footer: React.FC<FooterProps> = () => {
           <a href="#" className="py-4 hover:underline">
             Home
           </a>
-          <a href="#" className="py-4 hover:underline">
+          <a href="Gallery" className="py-4 hover:underline">
             Gallery
           </a>
-          <a href="#" className="py-4 hover:underline">
+          <a href="Events" className="py-4 hover:underline">
             Events
           </a>
-          <a href="#" className="py-4 hover:underline">
-            Certifications
+          <a href="Achievements" className="py-4 hover:underline">
+          Achievements
           </a>
           <a href="#" className="py-4 hover:underline">
             Contacts
