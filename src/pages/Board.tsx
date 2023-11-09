@@ -105,7 +105,7 @@ const Board: React.FC<BoardProps> = () => {
               Presenting the Board of Dance Club 2023-24.
             </p>
             <div className="flex justify-center items-center">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-14 py-8 md:w-3/4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-24 py-8 md:w-3/4">
               {firstFourImages.map((image, index) => (
                 <div key={index} className="text-center">
                   <Image
@@ -174,14 +174,14 @@ const Board: React.FC<BoardProps> = () => {
       <Image
                     src="/board/board221.svg"
                     alt="Board"
-                    width={400}
-                    height={400}
+                    width={450}
+                    height={450}
                   />
                   <Image
                     src="/board/board222.svg"
                     alt="Board"
-                    width={400}
-                    height={400}
+                    width={450}
+                    height={450}
                   />
      </div>
      </div>
