@@ -97,9 +97,9 @@ const Aboutdc = () => {
                 height={40}
                 style={{ marginRight: "1rem" }}
               />
-              <div className="flex flex-col text-white gap-1 px-4">
+              <div className="flex flex-col text-white gap-1  md:px-4">
                 <div className="flex text-xl md:text-3xl font-extrabold">7</div>
-                <div className="flex font-extralight text-sm">MAJOR TEAMS</div>
+                <div className="flex font-extralight text-xs md:text-sm">MAJOR TEAMS</div>
               </div>
               <Image
                 src="/icons/humanlogo.png"
@@ -107,9 +107,9 @@ const Aboutdc = () => {
                 width={40}
                 height={40}
               />
-              <div className="flex flex-col text-white gap-1 px-4 ">
+              <div className="flex flex-col text-white gap-1 md:px-4 ">
                 <div className="flex  text-xl md:text-3xl font-extrabold">150k</div>
-                <div className="flex font-extralight text-sm">CREW MEMBERS</div>
+                <div className="flex font-extralight text-xs md:text-sm">CREW MEMBERS</div>
               </div>
               <Image
                 src="/icons/taglogo.png"
@@ -117,7 +117,7 @@ const Aboutdc = () => {
                 width={40}
                 height={40}
               />
-              <div className="flex flex-col text-white px-4 gap-1">
+              <div className="flex flex-col text-white md:px-4  gap-1">
                 <div className="flex  text-xl md:text-3xl font-extrabold">
                   <AnimatedCounter
                     target={200}
@@ -127,7 +127,7 @@ const Aboutdc = () => {
                   />
                   +
                 </div>
-                <div className="flex font-extralight text-sm">PERFORMANCES</div>
+                <div className="flex font-extralight text-xs md:text-sm">PERFORMANCES</div>
               </div>
             </div>
           </div>
