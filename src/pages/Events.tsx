@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Internalevents from "@/components/uncommon/Internalevents";
 import Externalevents from "@/components/uncommon/Externalevents";
+import Link from "next/link";
 
 const Events = () => {
   const [displayInternalEvents, setDisplayInternalEvents] = useState(true);
@@ -18,12 +19,12 @@ const Events = () => {
       <div className="backdrop-blur-2xl ">
         <div className="text-white font-bold text-4xl pt-6 text-center">
           OUR EVENTS
-          </div>
-          <p className="text-lg text-center font-medium py-4">
-            Brace yourself for a high-octane dose of entertainment. Here are the
-            events we performed lately.
-          </p>
-        
+        </div>
+        <p className="text-lg text-center font-medium py-4">
+          Brace yourself for a high-octane dose of entertainment. Here are the
+          events we performed lately.
+        </p>
+
         <div className="border border-gray-600" />
         <div className="text-center text-3xl py-6 font-bold">Riviera</div>
         <div className="flex items-center">
@@ -38,20 +39,20 @@ const Events = () => {
           <div>
             <div className="relative group">
               <div className="flex flex-col  md:flex-row ">
-              <Image
-                src="/events/Group 636.png"
-                alt=""
-                width={1000}
-                height={1000}
-                className="pt-3 absolute top-0"
-              />
-              <Image
-                src="/events/IMG-20230305-WA0029 6.svg"
-                alt=""
-                height={1000}
-                width={1000}
-                className="opacity-1 hover:opacity-[0%] relative top-[17.5%] pt-3"
-              />
+                <Image
+                  src="/events/Group 636.png"
+                  alt=""
+                  width={1000}
+                  height={1000}
+                  className="pt-3 absolute top-0"
+                />
+                <Image
+                  src="/events/IMG-20230305-WA0029 6.svg"
+                  alt=""
+                  height={1000}
+                  width={1000}
+                  className="opacity-1 hover:opacity-[0%] relative top-[17.5%] pt-3"
+                />
               </div>
               <div className="absolute top-0  left-0 text-white md:px-10 h-0">
                 <div className="py-6 max-sm:text-xs mt-12 group-hover:block hidden">
@@ -77,7 +78,6 @@ const Events = () => {
         </div>
         <div className="flex justify-center items-center py-10">
           <div className="w-full px-10 gap-12 max-w-screen-lg flex flex-col  md:flex-row  justify-around">
-            
             <Image
               src="/events/pradeep.svg"
               alt="Image 1"
@@ -101,7 +101,6 @@ const Events = () => {
               height={100}
               width={100}
             />
-            
           </div>
         </div>
         <div className="border border-gray-600 border-t-0 border-l-0 border-r-0 py-4" />
@@ -118,22 +117,23 @@ const Events = () => {
             />
           </div>
           <div className="flex items-center relative group">
-            <div className="pb-2 relative">
-              <Image
-                src="/Group 636.png"
-                alt=""
-                width={1000}
-                height={1000}
-                className="pt-1 absolute top-0"
-              />
-              <Image
-                src="/Frame 86.png"
-                alt=""
-                height={1030}
-                width={1030}
-                className=" opacity-1 hover:opacity-[0%] relative pt-1 "
-              />
-              {/* <div className="absolute top-0 left-0 text-white px-10 h-0">
+            <Link href="https://www.youtube.com/playlist?list=PL2AAy2dym7040Yesecx7_eRBhmxSETbuH">
+              <div className="pb-2 relative">
+                <Image
+                  src="/Group 636.png"
+                  alt=""
+                  width={1000}
+                  height={1000}
+                  className="pt-1 absolute top-0"
+                />
+                <Image
+                  src="/Frame 86.png"
+                  alt=""
+                  height={1030}
+                  width={1030}
+                  className=" opacity-1 hover:opacity-[0%] relative pt-1 "
+                />
+                {/* <div className="absolute top-0 left-0 text-white px-10 h-0">
                 <div className="py-6 mt-12 group-hover:text-transparent">
                   Riviera is VIT&apos;s mega cultural and sports carnival; and
                   the Dance Club has an opportunity every year to perform on
@@ -144,7 +144,8 @@ const Events = () => {
                   Watch Now
                 </button>
               </div> */}
-            </div>
+              </div>
+            </Link>
           </div>
         </div>
         <div className="text-center text-4xl py-10 font-extrabold">
