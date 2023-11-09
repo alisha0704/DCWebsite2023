@@ -362,8 +362,8 @@ const Achievements: React.FC<AchievementsProps> = () => {
               We never left the stage empty handed, either we win the audience
               heart of we win the whole event
             </p>
-            <div className="flex">
-              <div className="w-1/3">
+            <div className="flex flex-col md:flex-row">
+              <div className="w-full md:w-1/3">
                 <Image 
                 src="/achievements/achievements2023.png"
                 alt=""
@@ -371,7 +371,7 @@ const Achievements: React.FC<AchievementsProps> = () => {
                 height={1000}
                 />
               </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 px-8 gap-14 py-8 w-2/3">
+            <div className="grid grid-cols-1 md:grid-cols-2 px-8 gap-14 py-8 w-full md:w-2/3">
               {images.map((image, index) => (
                 <div key={index} className="text-center">
                   <Image
