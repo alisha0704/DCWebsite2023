@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
+import Link from "next/link";
 const Jnj = () => {
   return (
     <>
@@ -120,8 +120,9 @@ const Jnj = () => {
             to the universal language of dance.
           </div>
           <div className="py-2"></div>
+          <Link href="https://youtu.be/mhoUY7dIlRQ?si=1_kyND1wOExIrEYz">
           <div className="w-40 h-12 justify-center items-center ">
-            <div className="w-40 h-12 relative bg-white bg-opacity-10 rounded-sm flex-col justify-start items-start flex">
+            <div className="w-40 h-12 relative bg-white bg-opacity-10 hover:opacity-30 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-6 absolute">
                 <div className="w-40 h-6 left-0 top-2 absolute text-center text-white text-md md:text-lg font-normal leading-normal tracking-wide ">
                   Watch Now
@@ -129,6 +130,7 @@ const Jnj = () => {
               </div>
             </div>
           </div>
+          </Link>
         </div>
         <div className="">
           <div className="w-full h-6 max-sm:text-center px-6 text-white text-md md:text-lg font-semibold uppercase leading-normal tracking-wide pt-6 ">
@@ -141,8 +143,9 @@ const Jnj = () => {
             Presenting a plethora of performances by our very own dance teams.
             click below & enjoy the performance.
           </div>
+          <Link href="https://youtu.be/l6voSdXop_s?si=08c7Ae-qBtEdePwX">
           <div className="pl-10 w-40 h-10  max-sm:px-10 justify-center items-center inline-flex">
-            <div className="w-40 h-12 relative bg-white bg-opacity-10 rounded-sm flex-col justify-start items-start flex">
+            <div className="w-40 h-12 relative bg-white bg-opacity-10 hover:opacity-30 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-6 relative">
                 <div className="w-40 h-6 top-2 absolute text-center text-white text-md md:text-lg font-normal leading-normal tracking-wide">
                   Watch Now
@@ -152,6 +155,7 @@ const Jnj = () => {
               <div className="w-6 h-7 origin-top-left rotate-[-34.72deg] bg-gradient-to-b from-pink-400 to-violet-700 rounded-full blur-xl" />
             </div>
           </div>
+          </Link>
         </div>
         <div className="p-8">
           <Image src="/JNJ/image 156.svg" height={150} width={669} alt="" />

@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-
+import Link from 'next/link';
 type chargersProps = {
     
 };
@@ -125,8 +125,9 @@ const chargers:React.FC<chargersProps> = () => {
             imprint in the hearts of viewers across the world.
           </div>
           <div className="py-2"></div>
-          <div className="w-40 h-12 justify-center items-center ">
-            <div className="w-40 h-12 relative bg-white bg-opacity-10 rounded-sm flex-col justify-start items-start flex">
+          <Link href="https://youtu.be/edGx8Fhkx0w?si=LW4Ze_Yp3szJKxKe">
+          <div className="w-40 h-12 justify-center items-center  ">
+            <div className="w-40 h-12 relative bg-white bg-opacity-10 hover:opacity-30 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-6 absolute">
                 <div className="w-40 h-6 left-0 top-2 absolute text-center text-white text-md md:text-lg font-normal leading-normal tracking-wide ">
                   Watch Now
@@ -134,6 +135,7 @@ const chargers:React.FC<chargersProps> = () => {
               </div>
             </div>
           </div>
+          </Link>
         </div>
         <div className="">
           <div className="w-full h-6 max-sm:text-center px-6 text-white text-md md:text-lg font-semibold uppercase leading-normal tracking-wide pt-6 ">
@@ -146,8 +148,9 @@ const chargers:React.FC<chargersProps> = () => {
             Presenting a plethora of performances by our very own dance teams.
             click below & enjoy the performance.
           </div>
+          <Link href="https://youtu.be/HXiuLFHN9ts?si=kzdrXtLqRrkTb4iE">
           <div className="pl-10 w-40 h-10  max-sm:px-10 justify-center items-center inline-flex">
-            <div className="w-40 h-12 relative bg-white bg-opacity-10 rounded-sm flex-col justify-start items-start flex">
+            <div className="w-40 h-12 relative bg-white bg-opacity-10 hover:opacity-30 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-6 relative">
                 <div className="w-40 h-6 top-2 absolute text-center text-white text-md md:text-lg font-normal leading-normal tracking-wide">
                   Watch Now
@@ -157,6 +160,7 @@ const chargers:React.FC<chargersProps> = () => {
               <div className="w-6 h-7 origin-top-left rotate-[-34.72deg] bg-gradient-to-b from-pink-400 to-violet-700 rounded-full blur-xl" />
             </div>
           </div>
+          </Link>
         </div>
         <div className='p-8'>
           <Image src="/Chargers/chargersrecent2.svg"
