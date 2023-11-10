@@ -5,7 +5,7 @@ import Image from "next/image";
 const Developers = () => {
   const images = [
     {
-      imageUrl: "/Developers/nandin.svg",
+      imageUrl: "/Developers/Group 632.png",
     },
     {
       imageUrl: "/Developers/Group 633.svg",
