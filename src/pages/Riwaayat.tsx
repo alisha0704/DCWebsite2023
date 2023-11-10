@@ -19,8 +19,8 @@ const Riwaayat = () => {
         Riwaayat believes in presenting Kathak in the most authentic and
         classical manner possible. A team known for its emotive style, do not
         underestimate the power we are capable of generating with our rapid
-        footwork and breakneck chakkars.This team is known for its 3Gs-girls
-        grace and growth.From depicting stories of Lord Krishna to choosing some
+        footwork and breakneck chakkars.This team is known for its 3Gs-Girls,
+        Grace and Growth.From depicting stories of Lord Krishna to choosing some
         of the most recent, trending songs, we have something for everyone in
         the audience.
       </div>
@@ -43,7 +43,7 @@ const Riwaayat = () => {
            alt="BBC" 
            width={40}
            height={40} className="pl-2  " />
-          <div className="md:px-5 px-1 py-1 md:py-2 font-bold text-sm md:text-md">
+          <div className="md:px-5 px-1 py-1 md:py-2 font-bold text-sm md:text-lg">
             The Junior Dance Team of Riwaayat is{" "}
             <span className="text-[#BBC1FF]"> Inaayat </span>
           </div>

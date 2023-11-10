@@ -37,7 +37,7 @@ const Jnj = () => {
         </div>
         <div className="py-6 text-center justify-center flex border rounded-3xl">
           <Image src="/BBC/Frame 11.svg" alt="BBC" width={40} height={40} className="pl-2" />
-          <div className="px-2 py-1 md:py-2 font-bold text-sm md:text-md">
+          <div className="px-2 py-1 md:py-2 font-bold text-sm md:text-lg">
             The Junior Dance Team of JnJ Bhangra is{" "}
             <span className="text-[#BBC1FF]"> Bhangra Folks </span>
           </div>

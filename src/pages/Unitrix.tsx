@@ -42,7 +42,7 @@ const Unitrix:React.FC<UnitrixProps> = () => {
         </div>
         <div className="py-6 text-center justify-center flex border rounded-3xl">
           <Image src="/BBC/Frame 11.svg" alt="BBC" width={40} height={40} className="pl-2" />
-          <div className="px-5 py-1 font-bold text-sm md:text-md">
+          <div className="px-5 py-1 font-bold text-sm md:text-lg">
             The Junior Dance Team of  Unitrix is{" "}
             <span className="text-[#BBC1FF]"> Trixters </span>
           </div>

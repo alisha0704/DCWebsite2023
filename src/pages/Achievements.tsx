@@ -39,9 +39,9 @@ const Achievements: React.FC<AchievementsProps> = () => {
     },
     {
       imageUrl: "/achievements/image 34 (1).svg",
-      eventName: "VIBRANCE - 2023",
-      eventDesc: "THEMATIC CATEGORY - WINNERS",
-      winningTeam: "MAYA",
+      eventName: "ATHARV RANBHOOMI'23",
+      eventDesc: "VERVE - 3RD PLACE",
+      winningTeam: "BBC",
     },
   ]
   const images2 = [

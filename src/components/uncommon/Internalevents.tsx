@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Internalevents = () => {
   return (
     <div>
-        <div className="text-lg md:text-xl lg:text-2xl  flex py-10 gap-8 font-bold md:font-semibold px-3">
+        <div className="text-lg md:text-xl lg:text-2xl  uppercase flex py-10 gap-8 font-bold  px-3">
         <Image
                     src="/line.svg"
                     alt="Board"
@@ -106,7 +106,7 @@ const Internalevents = () => {
           className="w-full mb-6"
         />
       </div>
-      <div className="text-lg md:text-xl lg:text-2xl flex py-10 gap-8 font-bold md:font-semibold px-3">
+      <div className="text-lg md:text-xl lg:text-2xl uppercase flex py-10 gap-8 font-bold  px-3">
       <Image
                     src="/line.svg"
                     alt="Board"
@@ -210,7 +210,7 @@ const Internalevents = () => {
           className="w-full"
         />
       </div>
-      <div className=" text-lg md:text-xl lg:text-2xl flex py-10 gap-8 font-bold md:font-semibold px-3">
+      <div className=" text-lg md:text-xl lg:text-2xl uppercase flex py-10 gap-8 font-bold px-3">
       <Image
                     src="/line.svg"
                     alt="Board"
