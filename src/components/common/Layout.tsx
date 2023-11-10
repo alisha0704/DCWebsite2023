@@ -43,7 +43,7 @@ const Layout = ({ children }: LayoutProps) => {
 
   return (
     <>
-      {/* <FullpageLoader loading={loading} /> */}
+      <FullpageLoader loading={loading} />
 
       <Leftsidebar />
       <Rightsidebar />

@@ -68,3 +68,9 @@
   background-attachment: scroll; /* Add this property to make the image scroll with the page */
 }
 
+/* Add these styles to your CSS file or style block */
+.image-class {
+  max-width: 100%;
+  height: auto;
+  /* Add any other styling properties you need */
+}
