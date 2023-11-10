@@ -58,9 +58,9 @@ const Footer: React.FC<FooterProps> = () => {
         <div
           className={`text-[#A7A9BE] text-lg flex flex-col pt-8 text-left text-[1rem] font-semibold gap-1`}
         >
-          <a href="/" className="py-4 hover:underline">
+          <Link href="/" className="py-4 hover:underline">
             Home
-          </a>
+          </Link>
           <a href="Gallery" className="py-4 hover:underline">
             Gallery
           </a>
