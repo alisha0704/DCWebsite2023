@@ -40,7 +40,7 @@ const Achievements: React.FC<AchievementsProps> = () => {
     {
       imageUrl: "/achievements/image 34 (1).svg",
       eventName: "ATHARV RANBHOOMI'23",
-      eventDesc: "VERVE-3RD PLACE",
+      eventDesc: "VERVE - 3RD PLACE",
       winningTeam: "BBC",
     },
   ]

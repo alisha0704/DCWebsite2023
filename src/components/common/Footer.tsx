@@ -49,7 +49,7 @@ const Footer: React.FC<FooterProps> = () => {
         </div>
       </div>
 
-      <div className="flex md:items-center flex-col ml-8 pt-10">
+      <div className="flex md:items-center flex-col ml-8 pt-14 mt-2">
         <text
           className={`text-gray-400 font-bold text-[1.2rem] lg:text-[1.5rem] pt-12 gap-6 py-10`}
         >
@@ -76,7 +76,7 @@ const Footer: React.FC<FooterProps> = () => {
         </div>
       </div>
 
-      <div className="ml-8 py-20">
+      <div className="ml-8 py-20 mt-8">
         <text
           className={`text-gray-400 font-bold text-[1.2rem] lg:text-[1.5rem] pt-14 gap-6 py-10`}
         >
