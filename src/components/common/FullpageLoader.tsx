@@ -10,15 +10,21 @@ const FullpageLoader = ({ loading }: Props) => {
 
   useEffect(() => {
     let blinkCount = 0;
-    const blinkInterval = 4000 / 3; // Blink every 1/3 of the total duration
+    const blinkInterval = 4000 / 6; // Blink every 1/6th of the total duration
 
     const blinkImage = () => {
-      if (blinkCount < 6) {
-        setShowImage((prev) => !prev);
+      if (blinkCount < 1) {
+        setShowImage(true);
         blinkCount += 1;
         setTimeout(blinkImage, blinkInterval);
       } else {
+        // After blinking n times, hide the image with ease-out transition
         setShowImage(false);
+
+        // After 1 second, make the image visible with ease-in transition
+        setTimeout(() => {
+          setShowImage(true);
+        }, 500);
       }
     };
 
@@ -36,16 +42,21 @@ const FullpageLoader = ({ loading }: Props) => {
         loading ? "opacity-100 z-[120]" : "opacity-0 -z-[120]"
       }`}
     >
-      {showImage && (
+      <div
+        className="image-container"
+        style={{
+          opacity: showImage ? 1 : 0,
+          transition: "opacity 0.5s ease-in-out",
+        }}
+      >
         <Image
-          src="/DClogo.png" // Replace with the actual image source
+          src="/vitdclogo.svg" // Replace with the actual image source
           alt="Loading Image"
-          className="image-class" // Add your image styling class check global css
-          height={200}
-          width={200}
+          className="image-class" // Add your image styling class
+          height={300}
+          width={300}
         />
-      )}
-      <div className="text-4xl max-lg:text-3xl">Loading assets...</div>
+      </div>
     </div>
   );
 };
