@@ -10,12 +10,13 @@ const FullpageLoader = ({ loading }: Props) => {
 
   useEffect(() => {
     let blinkCount = 0;
-    const blinkInterval = 4000 / 6; // Blink every 1/6th of the total duration
+    const totalBlinks = 2; // Blink twice
+    const blinkInterval = 1000 / (totalBlinks * 2); // Blink every 1/4th of the total duration
 
     const blinkImage = () => {
-      if (blinkCount < 1) {
-        setShowImage(true);
-        blinkCount += 1;
+      if (blinkCount < totalBlinks * 2) {
+        setShowImage((prev) => !prev);
+        blinkCount += 2;
         setTimeout(blinkImage, blinkInterval);
       } else {
         // After blinking n times, hide the image with ease-out transition
@@ -53,8 +54,8 @@ const FullpageLoader = ({ loading }: Props) => {
           src="/vitdclogo.svg" // Replace with the actual image source
           alt="Loading Image"
           className="image-class" // Add your image styling class
-          height={300}
-          width={300}
+          height={500}
+          width={500}
         />
       </div>
     </div>
