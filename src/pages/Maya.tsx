@@ -13,7 +13,7 @@ const Maya = () => {
       <div className="text-center justify-center text-sm text-gray-400">
         Maya, is the team that can effortlessly synchronize their movements to
         any music because they find their true selves in classical dance. And
-        they are versatility of performing both soothing classical compositions
+        they are versatile in performing both soothing classical compositions
         to ever-jamming pop hits with equal aplomb.
       </div>
       <hr className="w-3/4 h-0.5 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
@@ -38,7 +38,7 @@ const Maya = () => {
             height={40}
             className="pl-2"
           />
-          <div className="px-5 py-1 font-bold text-sm md:text-md">
+          <div className="px-5 py-1 font-bold text-sm md:text-lg">
             The Junior Dance Team of Maya is{" "}
             <span className="text-[#BBC1FF]"> Laasya </span>
           </div>

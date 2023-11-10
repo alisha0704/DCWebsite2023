@@ -22,7 +22,7 @@ const BBC = () => {
         We are known for giving breathtaking performances with a tinge of
         badtameezi, a pinch of badmashi and a whole lot of dance. With our
         vibrant & energetic moves, and captivating expressions, our dancers
-        makes experience everyone the heart of Bollywood&apos;s film industry
+        makes everyone experience the heart of Bollywood&apos;s film industry
         and its culture.
       </div>
       <hr className="w-3/4 h-0.5 mx-auto my-4 bg-gray-700 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
@@ -41,7 +41,7 @@ const BBC = () => {
         </div>
         <div className="py-6 text-center justify-center flex border rounded-3xl">
           <Image src="/BBC/Frame 11.svg" alt="BBC" width={40} height={40} className="pl-2" />
-          <div className="px-5 py-2 font-bold text-sm md:text-md">
+          <div className="px-5 py-2 font-bold text-sm md:text-lg">
             The Junior Dance Team of Bollywood Badmaash Company is{" "}
             <span className="text-[#BBC1FF]"> Bollywood Bandits </span>
           </div>

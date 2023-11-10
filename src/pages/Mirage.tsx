@@ -42,7 +42,7 @@ const Mirage:React.FC<MirageProps> = () => {
         </div>
         <div className="py-6 text-center justify-center flex border rounded-3xl">
           <Image src="/BBC/Frame 11.svg" alt="BBC" width={40} height={40} className="pl-2" />
-          <div className="px-5 py-1 font-bold text-sm md:text-md">
+          <div className="px-5 py-1 font-bold text-sm md:text-lg">
             The Junior Dance Team of Mirage is{" "}
             <span className="text-[#BBC1FF]"> Mirudra </span>
           </div>

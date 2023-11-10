@@ -4,7 +4,7 @@ import Image from "next/image";
 const Externalevents = () => {
   return (
     <div>
-      <div className="text-lg md:text-xl lg:text-2xl flex py-10 font-bold md:font-semibold gap-8 px-3">
+      <div className="text-lg md:text-xl lg:text-2xl flex py-10 font-bold uppercase gap-8 px-3">
         <Image src="/line.svg" alt="Board" width={110} height={400} className="max-md:hidden" />
         Srishti School 2022
         <Image src="/line.svg" alt="Board" width={390} height={390} className="max-md:hidden"/>
@@ -45,7 +45,7 @@ const Externalevents = () => {
           className=""
         />
       </div>
-      <div className="text-lg md:text-xl lg:text-2xl flex py-10 font-bold md:font-semibold gap-8 px-3">
+      <div className="text-lg md:text-xl lg:text-2xl flex py-10 font-bold uppercase gap-8 px-3">
         <Image src="/line.svg" alt="Board" width={110} height={400} className="max-md:hidden" />
         Srishti School 2023
         <Image src="/line.svg" alt="Board" width={390} height={390} className="max-md:hidden" />

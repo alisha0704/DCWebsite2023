@@ -129,7 +129,7 @@ const Header = () => {
                 alt="X"
                 height={20}
                 width={20}
-                className=""
+                className="w-[20px]"
               />
               <div className="w-full h-5 left-[85px] top-[43px] text-center text-lg font-black uppercase">
                 Contact Us
