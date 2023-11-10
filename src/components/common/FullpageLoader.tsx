@@ -41,7 +41,7 @@ const FullpageLoader = ({ loading }: Props) => {
 
   return (
     <div
-      className={`w-full font-bronson flex flex-col items-center justify-center gap-4 h-screen overflow-hidden fixed bg-black transition-all duration-500 ease-in-out text-white ${
+      className={`w-full font-bronson flex flex-col items-center justify-center gap-4 h-screen overflow-hidden fixed bg-black transition-all duration-700 ease-in-out text-white ${
         loading ? "opacity-100 z-[120]" : "opacity-0 -z-[120]"
       }`}
     >
@@ -49,7 +49,7 @@ const FullpageLoader = ({ loading }: Props) => {
         className="image-container"
         style={{
           opacity: showImage ? 1 : 0,
-          transition: "opacity 0.5s ease-in-out",
+          transition: "opacity 0.7s ease-in-out",
         }}
       >
         <Image
