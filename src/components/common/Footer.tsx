@@ -5,7 +5,7 @@ import { AiOutlineMail, AiOutlineInstagram } from "react-icons/ai";
 import { PiYoutubeLogo } from "react-icons/pi";
 import Image from "next/image";
 import Link from "next/link";
-
+import { PiFacebookLogoBold } from "react-icons/pi";
 type FooterProps = {};
 
 const Footer: React.FC<FooterProps> = () => {
@@ -96,6 +96,9 @@ const Footer: React.FC<FooterProps> = () => {
           </a>
           <a className="py-3" href={"mailto:vitdcofficial@gmail.com"}>
             <AiOutlineMail size="3em" />
+          </a>
+          <a className="py-3" href="https://www.facebook.com/vitdc/">
+            <PiFacebookLogoBold size="3em" />
           </a>
         </div>
       </div>
