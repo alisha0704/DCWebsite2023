@@ -9,32 +9,34 @@ const FullpageLoader = ({ loading }: Props) => {
   const [showImage, setShowImage] = useState(true);
 
   useEffect(() => {
-    let blinkCount = 0;
-    const totalBlinks = 2; // Blink twice
-    const blinkInterval = 1000 / (totalBlinks * 2); // Blink every 1/4th of the total duration
+    let intervalId: NodeJS.Timeout;
 
-    const blinkImage = () => {
-      if (blinkCount < totalBlinks * 2) {
+    const startBlinking = () => {
+      intervalId = setInterval(() => {
         setShowImage((prev) => !prev);
-        blinkCount += 2;
-        setTimeout(blinkImage, blinkInterval);
-      } else {
-        // After blinking n times, hide the image with ease-out transition
-        setShowImage(false);
+      }, 900);
+    };
 
-        // After 1 second, make the image visible with ease-in transition
-        setTimeout(() => {
-          setShowImage(true);
-        }, 500);
-      }
+    const stopBlinking = () => {
+      clearInterval(intervalId);
+      setShowImage(false);
+
+      setTimeout(() => {
+        setShowImage(true);
+      }, 900);
     };
 
     if (loading) {
-      blinkImage();
+      startBlinking();
+    } else {
+      stopBlinking();
     }
 
     // Cleanup the interval when the component unmounts or loading becomes false
-    return () => setShowImage(false);
+    return () => {
+      clearInterval(intervalId);
+      setShowImage(false);
+    };
   }, [loading]);
 
   return (
