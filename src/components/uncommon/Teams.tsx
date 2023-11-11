@@ -50,12 +50,6 @@ const teamsData = [
     imageSrc: "/Teams/JNJ.png",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada eget justo sed faucibus. Nulla facilisi. Curabitur volutpat fringilla tortor, non viverra odio vestibulum eu. Suspendisse potenti.",
   },
-  {
-    name: "CHARGERS",
-    danceStyle: "SOUTH INDIAN KUTHU AND WESTERN",
-    imageSrc: "/Teams/Chargers.png",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada eget justo sed faucibus. Nulla facilisi. Curabitur volutpat fringilla tortor, non viverra odio vestibulum eu. Suspendisse potenti.",
-  },
 ];
 
 const Teams: React.FC<TeamsProps> = () => {
@@ -126,6 +120,55 @@ const Teams: React.FC<TeamsProps> = () => {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </div>
+      <div className="justify-center text-center">
+        <div
+          className={`text-center team-container relative ${
+            teamsData.length === teamsData.length - 1 ? "last-team" : ""
+          }`}
+          onMouseEnter={() => setHoveredIndex(teamsData.length)}
+          onMouseLeave={() => setHoveredIndex(null)}
+        >
+          <a
+            href={imageLinks[teamsData.length]}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/Teams/Chargers.png"
+              alt=""
+              width={350}
+              height={600}
+              className="hover:scale-105"
+            />
+          </a>
+          <div className="flex flex-col rounded-xl opacity-80 backdrop-blur-2xl items-center mt-2">
+            <h2 className="text-lg px-4 text-center max-sm:px-6 pr-8 font-semibold leading-0 text-white mt-2">
+              CHARGERS
+            </h2>
+            <div
+              className="text-sm md:text-md lg:text-lg text-center text-gray-100 mt-1 mb-8 "
+              onMouseEnter={() => setHoveredIndex(teamsData.length)}
+              onMouseLeave={() => setHoveredIndex(null)}
+            >
+              {hoveredIndex === teamsData.length ? (
+                <button className="text-md text-gray-400 tracking-wide ">
+                  <div className="flex gap-4 ">
+                    Learn More
+                    <Image
+                      src="/icons/sidearrow.svg"
+                      alt=""
+                      width={8}
+                      height={8}
+                    />
+                  </div>
+                </button>
+              ) : (
+                <h4 className="text-sm">SOUTH INDIAN KUTHU AND WESTERN</h4>
+              )}
+            </div>
           </div>
         </div>
       </div>
