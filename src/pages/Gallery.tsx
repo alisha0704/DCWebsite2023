@@ -50,7 +50,7 @@ const Gallery = () => {
           <hr className="w-3/4 h-0.5 mx-auto my-4 bg-gray-700 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
           <div className="flex justify-center">
             <Image
-              src="/GalleryImage.png"
+              src="/GalleryImage.webp"
               alt="Gallery"
               width={1000}
               height={300}
