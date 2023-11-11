@@ -1,26 +1,38 @@
 import Particle from "@/pages/Particles";
+import React, { ReactNode, useEffect, useState } from "react";
 import Layout from "@/components/common/Layout";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import Image from "next/image";
-import { Metadata } from "next";
+import FullpageLoader from "@/components/common/FullpageLoader";
 
-export const metadata: Metadata = {
-  title: {
-    template: "VIT DANCE CLUB",
-    default: "VIT DANCE CLUB",
-  },
-  description: "The official website of Dance Club of VIT Vellore.",
+interface LayoutProps {
+  children: ReactNode;
+}
+
+const App = ({ Component, pageProps }: AppProps<any>) => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => setLoading(false), 5000);
+
+    return () => {
+      clearTimeout(timeoutId);
+      sessionStorage.removeItem("scrollPosition");
+    };
+  }, []);
+
+  return (
+    <>
+      <FullpageLoader loading={loading} />
+      <div className="background-image">
+        <Layout>
+          <div className="">
+            <Component {...pageProps} />
+          </div>
+        </Layout>
+      </div>
+    </>
+  );
 };
 
-export default function App({ Component, pageProps }: AppProps) {
-  return (
-    <div className="background-image">
-      <Layout>
-        <div className="">
-          <Component {...pageProps} />
-        </div>
-      </Layout>
-    </div>
-  );
-}
+export default App;
