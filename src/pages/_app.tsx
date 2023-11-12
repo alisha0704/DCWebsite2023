@@ -33,11 +33,11 @@ const App = ({ Component, pageProps }: AppProps<any>) => {
         <title>VIT Dance Club</title>
         <meta
           name="description"
-          content="This is the official website of VIT Dance Club"
+          content="Official Website of VIT Dance Club"
         />
-        <meta property="og:image" content="https://i.imgur.com/oXPWynA.jpg" />
-        <meta property="og:image:width" content="720" />
-        <meta property="og:image:height" content="720" />
+        <meta property="og:image" content="https://imgur.com/a/VnVpSeT" />
+        <meta property="og:image:width" content="1000" />
+        <meta property="og:image:height" content="1000" />
         <meta
           property="og:image:alt"
           content="VIT Dance Club"
