@@ -11,10 +11,9 @@ interface LayoutProps {
 }
 
 export const metadata: Metadata = {
-  title: 'VIT Dance Club',
-  description: '...',
-}
-
+  title: "VIT Dance Club",
+  description: "...",
+};
 
 const App = ({ Component, pageProps }: AppProps<any>) => {
   const [loading, setLoading] = useState(true);
@@ -30,10 +29,20 @@ const App = ({ Component, pageProps }: AppProps<any>) => {
 
   return (
     <>
-    <Head>
-      <title>VIT Dance Club</title>
-      <meta name="description" content="This is the official website of VIT Dance Club" />
-    </Head>
+      <Head>
+        <title>VIT Dance Club</title>
+        <meta
+          name="description"
+          content="This is the official website of VIT Dance Club"
+        />
+        <meta property="og:image" content="https://i.imgur.com/oXPWynA.jpg" />
+        <meta property="og:image:width" content="720" />
+        <meta property="og:image:height" content="720" />
+        <meta
+          property="og:image:alt"
+          content="VIT Dance Club"
+        />
+      </Head>
       <FullpageLoader loading={loading} />
       <div className="background-image">
         <Layout>
