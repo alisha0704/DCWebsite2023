@@ -58,7 +58,7 @@ const Events = () => {
           </div>
         </div>
         <div className="flex justify-center items-center py-10">
-          <div className="w-full px-10 gap-12 max-w-screen-lg flex flex-col  md:flex-row  justify-around">
+          <div className="w-full px-10 gap-12 max-w-screen-lg flex flex-col md:flex-row justify-around">
             <Image
               src="/events/pradeep.svg"
               alt="Image 1"
