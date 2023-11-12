@@ -31,17 +31,11 @@ const App = ({ Component, pageProps }: AppProps<any>) => {
     <>
       <Head>
         <title>VIT Dance Club</title>
-        <meta
-          name="description"
-          content="Official Website of VIT Dance Club"
-        />
+        <meta name="description" content="Official Website of VIT Dance Club" />
         <meta property="og:image" content="https://i.imgur.com/EplzPYG.png" />
         <meta property="og:image:width" content="720" />
         <meta property="og:image:height" content="720" />
-        <meta
-          property="og:image:alt"
-          content="VIT Dance Club"
-        />
+        <meta property="og:image:alt" content="VIT Dance Club" />
       </Head>
       <FullpageLoader loading={loading} />
       <div className="background-image">
