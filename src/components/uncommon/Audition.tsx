@@ -14,7 +14,7 @@ const Audition = () => {
             year. Stay tuned to our Instagram handle for more updates.
           </p>
         </div>
-        <div className="flex-1 ml-10">
+        <div className="flex-1 lg:ml-10">
           <div className="relative">
             <Image
               src="/auditionscombined.svg"

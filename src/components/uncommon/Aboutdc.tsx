@@ -88,7 +88,7 @@ const Aboutdc = () => {
         </div>
 
         <div className="flex  justify-center  pb-6 items-center">
-          <div className="py-4 md:backdrop-blur-3xl md:backdrop-brightness-200 items-center w-2/3   ">
+          <div className="py-4 md:backdrop-blur-3xl md:backdrop-brightness-200 items-center lg:w-2/3   ">
             <div className="flex justify-center items-center space-x-2 md:space-x-6">
               <Image
                 src="/icons/flaglogo.png"

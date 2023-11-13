@@ -25,19 +25,19 @@ const Recentperformance: React.FC = () => {
             width={669}
           />
         </div>
-        <div className="md:px-10">
-          <div className="w-full h-6 max-sm:text-center text-white text-md md:text-xl font-semibold uppercase leading-normal tracking-wide pb-10">
-            mood indigo, iit bombay
+        <div className="sm:px-2 md:px-10 ">
+          <div className="w-full h-6 max-sm:text-center  text-white text-md md:text-lg  font-semibold uppercase leading-normal tracking-wide pb-10">
+            mood indigo,  IIT Bombay
           </div>
 
-          <div className="md:w-98 text-white text-base font-normal max-sm:px-2 leading-6 text-left justify-center items-center">
+          <div className="md:w-96 text-white text-sm sm:text-base font-normal leading-7 text-left justify-center items-center">
           Another amazing performance by our teams securing 
           a new feather in the cap for team Mirage and team 
           JNJ Bhangra  for the second place in Indigo Saga
            (Thematic Category) and in Sanskriti
             (Folk Dance Category) at MOOD INDIGO 2022!
           </div>
-          <div className="py-1"></div>
+          <div className="py-2"></div>
           <Link href="https://youtu.be/Upn-LNyNXkc?si=dGMLR_9yLfFxwJsG">
           <div className="w-40 h-12 justify-center items-center max-sm:px-2 ">
             <div className="w-40 h-10 relative bg-white bg-opacity-10 hover:opacity-30 rounded-sm flex-col justify-start items-start flex">
@@ -58,12 +58,12 @@ const Recentperformance: React.FC = () => {
           </div>
           </Link>
         </div>
-        <div className="">
-          <div className="w-full h-6 max-sm:text-center px-6 text-white text-md md:text-xl font-semibold uppercase leading-normal tracking-wide pt-6 ">
-            world dance day, vit vellore
+        <div className="sm:px-2 md:px-5">
+        <div className="w-full h-6 max-sm:text-center px-6 text-white text-md md:text-lg font-semibold uppercase leading-normal tracking-wide pt-6 ">
+        world dance day, vit vellore
           </div>
           <div className="py-8"></div>
-          <div className="md:px-4 md:pl-6 text-white text-base leading-6 max-sm:px-2 text-left pb-4">
+          <div className="md:px-4 md:pl-6 text-white sm:text-base font-normal leading-7 text-left pb-4">
           Missed our world dance day performance?<br/>
           Don&apos;t sweat it cause we&apos;ve bought world dance day to YOU! <br/>
           Presenting a plethora of performances by our very own dance teams <br/>

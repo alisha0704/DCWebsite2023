@@ -3,9 +3,9 @@ import React from "react";
 const Bulltein = () => {
   return (
     <>
-      <div className=""></div>
-      <div className="flex max-md:flex-col md:gap-24 justify-center backdrop-blur-2xl backdrop-brightness-200 py-10 px-6">
-        <div className="sm:text-xl md:text-2xl lg:text-4xl tracking-wide text-left py-4 md:py-20">
+      <div className="py-16"></div>
+      <div className="flex flex-col lg:flex-row lg:gap-24 justify-center backdrop-blur-2xl backdrop-brightness-200 py-10 px-6">
+        <div className="sm:text-3xl md:text-3xl lg:text-4xl tracking-wide text-center lg:text-left py-4 md:py-20">
           We&apos;re more than <span className="font-bold"> dancers;</span>{" "}
           <br />
           we&apos;re a <span className="font-bold">family.</span> Bound by
@@ -18,7 +18,7 @@ const Bulltein = () => {
         <div className="border border-white px-8 rounded-xl py-4">
           <div className="font-bold text-lg md:text-xl lg:text-3xl text-center">Bulletin Board</div>
           <hr className="border-white py-2" />
-          <div>
+          <div className="">
             <ul className="list-disc">
               <li className="max-sm:text-sm">Founded in 2003.</li>
               <li className="text-[#CDD2FF] max-sm:text-sm">

@@ -74,7 +74,7 @@ const Teams: React.FC<TeamsProps> = () => {
           forms across India.
         </p>
         <div className="flex justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 py-6">
+          <div className="grid grid-cols-1  lg:grid-cols-3 gap-20 py-6">
             {teamsData.map((team, index) => (
               <div
                 key={index}
@@ -138,8 +138,8 @@ const Teams: React.FC<TeamsProps> = () => {
           <Image
             src={chargersteam.imageSrc}
             alt={`Image`}
-            width={260}
-            height={260}
+            width={400}
+            height={700}
             className={`rounded-md ${hovered ? "hover:scale-105" : ""}`}
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
