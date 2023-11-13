@@ -168,7 +168,7 @@ const Slideshow: React.FC = () => {
 
           <button
             type="button"
-            className="absolute top-0 left-60 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            className="absolute top-0 left-12 lg:left-60 z-30 flex items-center justify-center h-full lg:px-4 cursor-pointer group focus:outline-none"
             data-carousel-prev
             onClick={handlePrevClick}
           >
@@ -183,7 +183,7 @@ const Slideshow: React.FC = () => {
 
           <button
             type="button"
-            className="absolute top-0 right-60 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            className="absolute top-0 right-12 lg:right-60 z-30 flex items-center justify-center h-full lg:px-4 cursor-pointer group focus:outline-none"
             data-carousel-next
             onClick={handleNextClick}
           >
