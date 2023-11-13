@@ -10,7 +10,7 @@ interface AnimatedCounterProps {
 
 function AnimatedCounter({
   target,
-  time = 200000,
+  time = 2000, // Adjusted time value
   start = 0,
   shouldAnimate,
 }: AnimatedCounterProps) {
@@ -20,6 +20,8 @@ function AnimatedCounter({
     if (!shouldAnimate) return;
 
     const increment = (target - start) / time;
+    const animationTime = Math.abs(target - current) / increment;
+
     const handle = setInterval(() => {
       if (current < target) {
         setCurrent((prevCurrent) => prevCurrent + increment);
@@ -83,12 +85,12 @@ const Aboutdc = () => {
             opportunity to students to perform
           </div>
           <h5 className="text-gray-400 text-sm md:text-base pt-4 text-left">
-          Club consists of seven major teams of varied dance forms across India & Winners of various dance competitions across the country.
+            Club consists of seven major teams of varied dance forms across India & Winners of various dance competitions across the country.
           </h5>
         </div>
 
-        <div className="flex  justify-center  pb-6 items-center">
-          <div className="py-4 md:backdrop-blur-3xl md:backdrop-brightness-200 items-center lg:w-2/3   ">
+        <div className="flex justify-center pb-6 items-center">
+          <div className="py-4 md:backdrop-blur-3xl md:backdrop-brightness-200 items-center lg:w-2/3">
             <div className="flex justify-center items-center space-x-2 md:space-x-6">
               <Image
                 src="/icons/flaglogo.png"
@@ -97,7 +99,7 @@ const Aboutdc = () => {
                 height={40}
                 style={{ marginRight: "1rem" }}
               />
-              <div className="flex flex-col text-white   md:px-4">
+              <div className="flex flex-col text-white md:px-4">
                 <div className="flex text-xl md:text-3xl font-extrabold">7</div>
                 <div className="flex font-extralight text-xs md:text-sm">MAJOR TEAMS</div>
               </div>
@@ -107,8 +109,8 @@ const Aboutdc = () => {
                 width={40}
                 height={40}
               />
-              <div className="flex flex-col text-white  md:px-4 ">
-                <div className="flex  text-xl md:text-3xl font-extrabold">150k</div>
+              <div className="flex flex-col text-white md:px-4">
+                <div className="flex text-xl md:text-3xl font-extrabold">150K</div>
                 <div className="flex font-extralight text-xs md:text-sm">CREW MEMBERS</div>
               </div>
               <Image
@@ -117,12 +119,12 @@ const Aboutdc = () => {
                 width={40}
                 height={40}
               />
-              <div className="flex flex-col text-white md:px-4  ">
-                <div className="flex  text-xl md:text-3xl font-extrabold">
+              <div className="flex flex-col text-white md:px-4">
+                <div className="flex text-xl md:text-3xl font-extrabold">
                   <AnimatedCounter
                     target={200}
-                    time={50}
-                    start={200}
+                    time={2000} // Adjust the time as needed
+                    start={100}
                     shouldAnimate={animated.performance}
                   />
                   +
@@ -133,7 +135,7 @@ const Aboutdc = () => {
           </div>
         </div>
         <hr className="w-3/5 h-0.5 mx-auto bg-gray-400 border-0 rounded my-5" />
-        <div className="text-center ">
+        <div className="text-center">
           <h2 className="text-md text-gray-400">MAJOR PRIZE WINNING STAGES</h2>
           <div className="flex justify-center items-center mt-4">
             <Image
