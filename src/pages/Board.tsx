@@ -105,7 +105,7 @@ const Board: React.FC<BoardProps> = () => {
               Presenting the Board of Dance Club 2023-24.
             </p>
             <div className="flex justify-center items-center">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-24 py-8 md:w-3/4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-14 lg:gap-24 py-8 lg:w-3/4">
               {firstFourImages.map((image, index) => (
                 <div key={index} className="text-center">
                   <Image
@@ -127,7 +127,7 @@ const Board: React.FC<BoardProps> = () => {
             </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-14 py-8 w-full">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 py-8 w-full">
               {remainingImages.map((image, index) => (
                 <div key={index} className="text-center">
                   <Image
@@ -158,7 +158,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className="max-md:hidden"
+                    className="md:hidden lg:block"
                   />
       <span className="text-2xl font-semibold">Board of 2022-23</span>
       <Image
@@ -166,11 +166,11 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className="max-md:hidden"
+                    className="hidden lg:block"
                   />
       </div>
       <div className="flex justify-center items-center">
-      <div className=" grid grid-cols-1 md:grid-cols-2   mt-10 px-6 gap-16">
+      <div className=" grid grid-cols-1 lg::grid-cols-2   mt-10 px-6 gap-16">
       <Image
                     src="/board/board221.svg"
                     alt="Board"
@@ -193,7 +193,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className="max-md:hidden"
+                    className="md:hidden lg:block"
                   />
       <span className="text-2xl font-semibold">Board of 2021-22</span>
       <Image
@@ -201,7 +201,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className="max-md:hidden px-2"
+                    className="md:hidden lg:block px-2"
                   />
       </div>
       <div className="flex justify-center px-6 mt-10 gap-16">
@@ -220,7 +220,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className="max-md:hidden px-2"
+                    className="md:hidden lg:block px-2"
                   />
       <span className="text-2xl font-semibold">Board of 2020-21</span>
       <Image
@@ -228,7 +228,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className="max-md:hidden px-2"
+                    className="md:hidden lg:block px-2"
                   />
       </div>
       <div className="flex justify-center px-6 mt-10 gap-16">
@@ -247,7 +247,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className="max-md:hidden"
+                    className="md:hidden lg:block"
                   />
       <span className="text-2xl font-semibold">Board of 2019-20</span>
       <Image
@@ -255,7 +255,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className="max-md:hidden"
+                    className="md:hidden lg:block"
                   />
       </div>
       <div className="flex justify-center px-6 mt-10 gap-16">

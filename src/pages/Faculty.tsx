@@ -52,7 +52,7 @@ const Faculty = () => {
               creativity and expression on our campus.
             </p>
             <div className="flex justify-center items-center">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-52 py-12 md:w-4/5">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-52 py-12 md:w-4/5">
                 {images.map((image, index) => (
                   <div key={index} className="text-center">
                     <Image

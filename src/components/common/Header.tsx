@@ -46,7 +46,7 @@ const Header = () => {
   return (
     <header className="">
       <nav className="w-full backdrop-blur-3xl bg-black text-white">
-        <div className="container mx-auto flex flex-col md:flex-row justify-center w-full h-full ">
+        <div className="container mx-auto flex flex-col lg:flex-row justify-center w-full h-full ">
          
           <div
             onClick={() => setMenuOpen(true)}
@@ -60,7 +60,7 @@ const Header = () => {
             </Link>
           </div>
           <div className="py-10">
-            <ul className="flex flex-col md:flex-row mt-4 text-white Ssm:gap-2 lg:gap-20 text-xl">
+            <ul className="flex flex-col lg:flex-row mt-4 text-white sm:gap-2  lg:gap-20 lg:text-xl">
               <li>
                 <Link href="/" className="">
                   <div
