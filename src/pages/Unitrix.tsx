@@ -42,7 +42,11 @@ const Unitrix:React.FC<UnitrixProps> = () => {
         </div>
         <div className="py-6 text-center justify-center flex border rounded-3xl">
           <Image src="/BBC/Frame 11.svg" alt="BBC" width={40} height={40} className="pl-2" />
+<<<<<<< Updated upstream
           <div className="px-5 py-1 font-bold text-sm md:text-lg">
+=======
+          <div className="px-5 py-1 font-bold text-sm md:text-md">
+>>>>>>> Stashed changes
             The Junior Dance Team of  Unitrix is{" "}
             <span className="text-[#BBC1FF]"> Trixters </span>
           </div>
@@ -58,7 +62,11 @@ const Unitrix:React.FC<UnitrixProps> = () => {
           alt="Unitrix"
           width={500}
           height={500}
+<<<<<<< Updated upstream
           className="md:pt-12"
+=======
+          className=""
+>>>>>>> Stashed changes
         />
         <div className="text-center pt-4 font-semibold">ADITI SUDHIR</div>
         <div className="text-center text-xs text-gray-400 font-semibold ">
@@ -68,7 +76,11 @@ const Unitrix:React.FC<UnitrixProps> = () => {
          alt="Unitrix"
          width={500} 
          height={500}
+<<<<<<< Updated upstream
          className="max-md:pt-12"
+=======
+         className="pt-12"
+>>>>>>> Stashed changes
           />
         <div className="text-center pt-4 font-semibold">SANJANA AWASTHI</div>
         <div className="text-center text-xs text-gray-400 font-semibold">
@@ -151,9 +163,14 @@ const Unitrix:React.FC<UnitrixProps> = () => {
             Presenting a plethora of performances by our very own dance teams.
             click below & enjoy the performance.
           </div>
+<<<<<<< Updated upstream
           <Link href="https://youtu.be/ep_FveQXjZE?si=-nCHYN9AJlO7JAmh">
           <div className="pl-10 w-40 h-10  max-sm:px-10 justify-center items-center inline-flex">
             <div className="w-40 h-12 relative bg-white bg-opacity-10 hover:opacity-30 rounded-sm flex-col justify-start items-start flex">
+=======
+          <div className="pl-10 w-40 h-10  max-sm:px-10 justify-center items-center inline-flex">
+            <div className="w-40 h-12 relative bg-white bg-opacity-10 rounded-sm flex-col justify-start items-start flex">
+>>>>>>> Stashed changes
               <div className="w-40 h-6 relative">
                 <div className="w-40 h-6 top-2 absolute text-center text-white text-md md:text-lg font-normal leading-normal tracking-wide">
                   Watch Now
