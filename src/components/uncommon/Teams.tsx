@@ -128,14 +128,14 @@ const Teams: React.FC<TeamsProps> = () => {
         </div>
       </div>
 
-      <div className="flex justify-center pb-8 w-1/3">
-        <div className="text-center w-4/5 relative">
+      <div className="flex justify-center pb-8 lg:w-1/3 w-full px-4">
+        <div className="text-center w-full relative">
           <Link href="/chargers">
             <Image
               src={chargersteam.imageSrc}
               alt={`Image`}
-              width={400}
-              height={700}
+              width={350}
+              height={650}
               className={`rounded-md ${hovered ? "hover:scale-105" : ""}`}
               onMouseEnter={() => setHovered(true)}
               onMouseLeave={() => setHovered(false)}
