@@ -37,17 +37,17 @@ const chargers:React.FC<chargersProps> = () => {
     </div>
     <div className="flex justify-center py-10">
         <div className="md:px-10 flex items-center max-md:hidden">
-        <hr className="w-48 h-0.5 mx-auto bg-gray-700 border-0 rounded-sm md:my-2" />
+        <hr className="w-12 lg:w-48 h-0.5 mx-auto bg-gray-700 border-0 rounded-sm md:my-2" />
         </div>
         <div className="py-6 text-center justify-center flex border rounded-3xl">
           <Image src="/BBC/Frame 11.svg" alt="BBC" width={40} height={40} className="pl-2" />
-          <div className="px-5 font-bold text-sm md:text-lg">
+          <div className="px-5 font-bold text-sm lg:text-lg">
             The Junior Dance Team of Chargers is{" "}
             <span className="text-[#BBC1FF]"> Energizers </span>
           </div>
         </div>
         <div className="px-10 flex items-center max-md:hidden">
-        <hr className="w-48 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
+        <hr className="w-12 lg:w-48 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
         </div>
       </div>
       <div className="gap-4 columns-1 md:columns-3 py-10">
@@ -58,7 +58,9 @@ const chargers:React.FC<chargersProps> = () => {
           height={500}
           className="md:pt-12"
         />
-        <div className="text-center pt-4 font-semibold">VAISHNAVI P MAHESH</div>
+        <div className="text-center pt-4 text-sm lg:text-md font-semibold uppercase">
+          VAISHNAVI P MAHESH
+        </div>
         <div className="text-center text-xs text-gray-400 font-semibold ">
           TEAM REPRESENTATIVE
         </div>
@@ -113,20 +115,20 @@ const chargers:React.FC<chargersProps> = () => {
             width={669}
           />
         </div>
-        <div className="md:px-10">
-          <div className="w-full h-6 max-sm:text-center text-white text-md md:text-lg font-semibold uppercase leading-normal tracking-wide pb-10">
+        <div className="sm:px-2 md:px-10 ">
+          <div className="w-full h-6 max-sm:text-center  text-white text-md md:text-lg  font-semibold uppercase leading-normal tracking-wide pb-10">
             World dance day, vit vellore
           </div>
 
-          <div className="md:w-96 text-white text-sm sm:text-base font-normal max-sm:px-4 leading-7 text-left justify-center items-center">
-           Chargers stole the spotlight on World Dance Day 2019, transcending the college realm
-           with a performance that echoes far beyond. With over 12 million views on YouTube,
-            their groundbreaking routine sparked a nationwide sensation and has left their 
-            imprint in the hearts of viewers across the world.
+          <div className="md:w-96 text-white text-sm sm:text-base font-normal leading-7 text-left justify-center items-center">
+            Experience a mesmerizing celebration of rhythm and culture paying
+            ode to World Dance Day with our dynamic performance.It is a night of
+            breathtaking choreography and boundless creativity as we pay homage
+            to the universal language of dance.
           </div>
           <div className="py-2"></div>
           <Link href="https://youtu.be/edGx8Fhkx0w?si=LW4Ze_Yp3szJKxKe">
-          <div className="w-40 h-12 justify-center items-center  ">
+          <div className="w-40 h-12 justify-center items-center ">
             <div className="w-40 h-12 relative bg-white bg-opacity-10 hover:opacity-30 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-6 absolute">
                 <div className="w-40 h-6 left-0 top-2 absolute text-center text-white text-md md:text-lg font-normal leading-normal tracking-wide ">
@@ -137,20 +139,20 @@ const chargers:React.FC<chargersProps> = () => {
           </div>
           </Link>
         </div>
-        <div className="">
-          <div className="w-full h-6 max-sm:text-center px-6 text-white text-md md:text-lg font-semibold uppercase leading-normal tracking-wide pt-6 ">
+        <div className="sm:px-2 md:px-5">
+        <div className="w-full h-6 max-sm:text-center px-6 text-white text-md md:text-lg font-semibold uppercase leading-normal tracking-wide pt-6 ">
             international dance day, vit vellore
           </div>
           <div className="py-8"></div>
-          <div className="md:px-4 md:pl-6 text-white text-sm leading-7 max:sm:px-4 text-left pb-4">
+          <div className="md:px-4 md:pl-6 text-white sm:text-base font-normal leading-7 text-left pb-4">
             Missed our International dance day performance? Don&apos;t sweat it
             cause we&apos;ve bought international dance day TO YOU! <br />{" "}
             Presenting a plethora of performances by our very own dance teams.
             click below & enjoy the performance.
           </div>
           <Link href="https://youtu.be/HXiuLFHN9ts?si=kzdrXtLqRrkTb4iE">
-          <div className="pl-10 w-40 h-10  max-sm:px-10 justify-center items-center inline-flex">
-            <div className="w-40 h-12 relative bg-white bg-opacity-10 hover:opacity-30 rounded-sm flex-col justify-start items-start flex">
+          <div className="pl-12 w-40 h-10  max-sm:px-10 justify-center items-center inline-flex">
+            <div className=" w-40 h-12 relative bg-white bg-opacity-10 hover:opacity-30 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-6 relative">
                 <div className="w-40 h-6 top-2 absolute text-center text-white text-md md:text-lg font-normal leading-normal tracking-wide">
                   Watch Now

@@ -17,17 +17,17 @@ const Events = () => {
   return (
     <>
       <div className="backdrop-blur-2xl ">
-        <div className="text-white font-bold text-4xl pt-6 text-center">
+        <div className="text-white font-bold text-2xl md:text-3xl lg:text-4xl pt-6 text-center">
           OUR EVENTS
         </div>
-        <p className="text-lg text-center font-medium py-4">
+        <p className="text-md md:text-lg text-center font-medium py-4">
           Brace yourself for a high-octane dose of entertainment. Here are the
           events we performed lately.
         </p>
 
         <div className="border border-gray-600" />
-        <div className="text-center text-3xl py-6 font-bold">Riviera</div>
-        <div className="flex items-center">
+        <div className="text-center text-2xl md:text-3xl py-6 font-bold">Riviera</div>
+        <div className="flex flex-col md:flex-row items-center">
           <div className="">
             <Image
               src="/events/IMG-20230305-WA0029 6.svg"
@@ -62,7 +62,7 @@ const Events = () => {
             <Image
               src="/events/pradeep.svg"
               alt="Image 1"
-              className="w-1/3"
+              className="lg:w-1/3 w-full"
               height={100}
               width={100}
             />
@@ -70,7 +70,7 @@ const Events = () => {
             <Image
               src="/events/jishnu.svg"
               alt="Image 2"
-              className="w-1/3"
+              className="lg:w-1/3 w-full"
               height={100}
               width={100}
             />
@@ -78,17 +78,17 @@ const Events = () => {
             <Image
               src="/events/raghavan.svg"
               alt="Image 3"
-              className="w-1/3"
+              className="lg:w-1/3 w-full"
               height={100}
               width={100}
             />
           </div>
         </div>
         <div className="border border-gray-600 border-t-0 border-l-0 border-r-0 py-4" />
-        <div className="text-center text-3xl py-6 font-bold">
+        <div className="text-center text-2xl md:text-3xl py-6 font-bold">
           World Dance Day
         </div>
-        <div className="flex  items-center py-4">
+        <div className="flex flex-col md:flex-row items-center py-4">
           <div className="">
             <Image
               src="/events/Events2.svg"
@@ -118,7 +118,7 @@ const Events = () => {
             </Link>
           </div>
         </div>
-        <div className="text-center text-4xl py-10 font-extrabold">
+        <div className="text-center text-2xl md:text-3xl lg:text-4xl py-10 font-extrabold">
           Other Events & Workshops
         </div>
 

@@ -10,7 +10,7 @@ const Internalevents = () => {
                     alt="Board"
                     width={110}
                     height={400}
-                    className='max-md:hidden'
+                    className='max-lg:hidden'
                   />
                   Outreach/Collaborations
                   <Image
@@ -18,10 +18,10 @@ const Internalevents = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className='max-md:hidden'
+                    className='max-lg:hidden'
                   />
       </div>
-      <div className="px-6 text-lg">
+      <div className="px-6 text-base md:text-md lg:text-lg">
         Step into a world of dance innovation with our series of collaboration
         dance workshops, brought to you by our dynamic VIT Dance Club.
         We&apos;ve teamed up with renowned influencers, dance maestros and
@@ -112,7 +112,7 @@ const Internalevents = () => {
                     alt="Board"
                     width={110}
                     height={400}
-                    className='max-md:hidden'
+                    className='max-lg:hidden'
                   />
                   Alumni Events 
                   <Image
@@ -120,7 +120,7 @@ const Internalevents = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className='max-md:hidden'
+                    className='max-lg:hidden'
                   />
 
       </div>
@@ -216,7 +216,7 @@ const Internalevents = () => {
                     alt="Board"
                     width={110}
                     height={400}
-                    className='max-md:hidden'
+                    className='max-lg:hidden'
                   />
                   Other Offline/Online Events
         <Image
@@ -224,7 +224,7 @@ const Internalevents = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className='max-md:hidden'
+                    className='max-lg:hidden'
                   />
 
 

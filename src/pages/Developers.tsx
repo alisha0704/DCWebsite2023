@@ -49,7 +49,7 @@ const Developers = () => {
               website.
             </p>
             <div className="flex justify-center items-center">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-36 md:w-5/6">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-36 md:w-5/6">
               {images.map((image, index) => (
                 <div key={index} className="text-center">
                   <Image

@@ -37,17 +37,17 @@ const BBC = () => {
       </div>
       <div className="flex justify-center">
         <div className="px-10 flex items-center max-md:hidden">
-        <hr className="w-30 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
+        <hr className="w-8 lg:w-30 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
         </div>
         <div className="py-6 text-center justify-center flex border rounded-3xl">
           <Image src="/BBC/Frame 11.svg" alt="BBC" width={40} height={40} className="pl-2" />
-          <div className="px-5 py-2 font-bold text-sm md:text-lg">
+          <div className="px-5 py-2 font-bold text-sm lg::text-lg">
             The Junior Dance Team of Bollywood Badmaash Company is{" "}
             <span className="text-[#BBC1FF]"> Bollywood Bandits </span>
           </div>
         </div>
         <div className="px-10 flex items-center max-md:hidden">
-        <hr className="w-30 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
+        <hr className="w-8 lg:w-30 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
         </div>
       </div>
 
@@ -159,8 +159,8 @@ const BBC = () => {
             width={669}
           />
         </div>
-        <div className="md:px-10">
-          <div className="w-full h-6 max-sm:text-center text-white text-md md:text-lg font-semibold uppercase leading-normal tracking-wide pb-10">
+        <div className="sm:px-2 md:px-10 ">
+          <div className="w-full h-6 max-sm:text-center  text-white text-md md:text-lg  font-semibold uppercase leading-normal tracking-wide pb-10">
             World dance day, vit vellore
           </div>
 
@@ -171,7 +171,7 @@ const BBC = () => {
             to the universal language of dance.
           </div>
           <div className="py-2"></div>
-          <Link href="https://www.youtube.com/watch?v=uhGysVr3YrQ">
+          <Link href="https://youtu.be/uhGysVr3YrQ?si=abTze75tAAKGRhVM">
           <div className="w-40 h-12 justify-center items-center ">
             <div className="w-40 h-12 relative bg-white bg-opacity-10 hover:opacity-30 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-6 absolute">
@@ -183,20 +183,20 @@ const BBC = () => {
           </div>
           </Link>
         </div>
-        <div className="">
-          <div className="w-full h-6 max-sm:text-center px-6 text-white text-md md:text-lg font-semibold uppercase leading-normal tracking-wide pt-6 ">
+        <div className="sm:px-2 md:px-5">
+        <div className="w-full h-6 max-sm:text-center px-6 text-white text-md md:text-lg font-semibold uppercase leading-normal tracking-wide pt-6 ">
             international dance day, vit vellore
           </div>
           <div className="py-8"></div>
-          <div className="md:px-4 md:pl-6 text-white text-sm leading-7 text-left pb-4">
+          <div className="md:px-4 md:pl-6 text-white sm:text-base font-normal leading-7 text-left pb-4">
             Missed our International dance day performance? Don&apos;t sweat it
             cause we&apos;ve bought international dance day TO YOU! <br />{" "}
             Presenting a plethora of performances by our very own dance teams.
             click below & enjoy the performance.
           </div>
-          <div className="pl-10 w-40 h-10  max-sm:px-10 justify-center items-center inline-flex">
-            <Link href="https://youtu.be/_6ZZQzl2kQ8?si=ankmnng4p4CZuoom">
-            <div className="w-40 h-12 relative bg-white bg-opacity-10 hover:opacity-30 rounded-sm flex-col justify-start items-start flex">
+          <Link href="https://youtu.be/_6ZZQzl2kQ8?si=ankmnng4p4CZuoom">
+          <div className="pl-12 w-40 h-10  max-sm:px-10 justify-center items-center inline-flex">
+            <div className=" w-40 h-12 relative bg-white bg-opacity-10 hover:opacity-30 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-6 relative">
                 <div className="w-40 h-6 top-2 absolute text-center text-white text-md md:text-lg font-normal leading-normal tracking-wide">
                   Watch Now
@@ -205,8 +205,8 @@ const BBC = () => {
               <div className="w-5 h-5 origin-top-left rotate-[-34.72deg] bg-gradient-to-b from-emerald-300 to-green-600 rounded-full blur-xl" />
               <div className="w-6 h-7 origin-top-left rotate-[-34.72deg] bg-gradient-to-b from-pink-400 to-violet-700 rounded-full blur-xl" />
             </div>
-            </Link>
           </div>
+          </Link>
         </div>
         <div className="p-8">
           <Image src="/BBC/image 156.svg" height={150} width={669} alt="" />

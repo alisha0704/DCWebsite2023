@@ -38,17 +38,17 @@ const Mirage:React.FC<MirageProps> = () => {
     </div>
     <div className="flex justify-center py-10">
         <div className="px-10 flex items-center max-md:hidden">
-        <hr className="w-44 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
+        <hr className="w-12 lg:w-44 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
         </div>
         <div className="py-6 text-center justify-center flex border rounded-3xl">
           <Image src="/BBC/Frame 11.svg" alt="BBC" width={40} height={40} className="pl-2" />
-          <div className="px-5 py-1 font-bold text-sm md:text-lg">
+          <div className="px-5 py-1 font-bold text-sm lg:text-lg">
             The Junior Dance Team of Mirage is{" "}
             <span className="text-[#BBC1FF]"> Mirudra </span>
           </div>
         </div>
         <div className="px-10 flex items-center max-md:hidden">
-        <hr className="w-44 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
+        <hr className="w-12 lg:w-44 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
         </div>
       </div>
 
@@ -60,7 +60,7 @@ const Mirage:React.FC<MirageProps> = () => {
           height={500}
           className="md:pt-12"
         />
-        <div className="text-center pt-4 font-semibold">ALISHA BANDYOPADHYAY</div>
+        <div className="text-center pt-4 text-sm lg:text-md font-semibold">ALISHA BANDYOPADHYAY</div>
         <div className="text-center text-xs text-gray-400 font-semibold ">
           TEAM HEAD
         </div>
@@ -117,7 +117,7 @@ const Mirage:React.FC<MirageProps> = () => {
             width={669}
           />
         </div>
-        <div className="md:px-10">
+        <div className="sm:px-2 md:px-10 ">
           <div className="w-full h-6 max-sm:text-center  text-white text-md md:text-lg  font-semibold uppercase leading-normal tracking-wide pb-10">
             World dance day, vit vellore
           </div>
@@ -141,7 +141,7 @@ const Mirage:React.FC<MirageProps> = () => {
           </div>
           </Link>
         </div>
-        <div className="">
+        <div className="sm:px-2 md:px-5">
         <div className="w-full h-6 max-sm:text-center px-6 text-white text-md md:text-lg font-semibold uppercase leading-normal tracking-wide pt-6 ">
             international dance day, vit vellore
           </div>
@@ -153,10 +153,10 @@ const Mirage:React.FC<MirageProps> = () => {
             click below & enjoy the performance.
           </div>
           <Link href="https://youtu.be/q8Y9SxSxrvc?si=l5M2kzFzBaxvQrly">
-          <div className="w-40 h-12 max-sm:px-10 justify-center items-center inline-flex">
-            <div className="w-40 h-12  relative bg-white bg-opacity-10 hover:opacity-30 rounded-sm flex-col justify-start items-start flex">
-              <div className="w-40 h-4 relative">
-                <div className="w-40 h-4 top-2 absolute text-center text-white text-md md:text-lg font-normal leading-normal tracking-wide">
+          <div className="pl-12 w-40 h-10  max-sm:px-10 justify-center items-center inline-flex">
+            <div className=" w-40 h-12 relative bg-white bg-opacity-10 hover:opacity-30 rounded-sm flex-col justify-start items-start flex">
+              <div className="w-40 h-6 relative">
+                <div className="w-40 h-6 top-2 absolute text-center text-white text-md md:text-lg font-normal leading-normal tracking-wide">
                   Watch Now
                 </div>
               </div>
