@@ -41,7 +41,7 @@ const Journey = () => {
           alt="Journey"
           width={315}
           height={315}
-          className="absolute bottom-12 right-80"
+          className="absolute bottom-4 lg:bottom-12 right-12 lg:right-82  w-1/3"
         />
         </Link>
       </div>
