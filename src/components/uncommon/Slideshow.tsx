@@ -41,10 +41,7 @@ const Slideshow: React.FC = () => {
   ];
 
   return (
-    <div
-      className="relative  rounded-l-md rounded-r-md backdrop-filter backdrop-blur-xl backdrop-brightness-200 md:px-12 md:py-16 my-10 "
-      data-carousel="static"
-    >
+    <div className="relative  rounded-l-md rounded-r-md backdrop-filter backdrop-blur-xl backdrop-brightness-200 md:px-12 md:py-16 my-10 ">
       <div className="relative h-full overflow-hidden rounded-lg">
         {imagePaths.map((path, index) => (
           <div
@@ -82,30 +79,30 @@ const Slideshow: React.FC = () => {
 
       <button
         type="button"
-        className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        className="absolute -top-20 left-0 z-30 flex items-center justify-center h-full px-20 cursor-pointer group focus:outline-none"
         data-carousel-prev
         onClick={handlePrevClick}
       >
         <Image
           src="/chevron-left.svg"
           alt="Left arrow"
-          width={50}
-          height={50}
+          width={75}
+          height={75}
           className="max-sm:hidden"
         />
       </button>
 
       <button
         type="button"
-        className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        className="absolute -top-20 right-0 z-30 flex items-center justify-center h-full px-20 cursor-pointer group focus:outline-none"
         data-carousel-next
         onClick={handleNextClick}
       >
         <Image
           src="/chevron-right.svg"
           alt="Right arrow"
-          width={50}
-          height={50}
+          width={75}
+          height={75}
           className="max-sm:hidden"
         />
       </button>
