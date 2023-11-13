@@ -64,7 +64,7 @@ const Teams: React.FC<TeamsProps> = () => {
   const [hovered, setHovered] = useState(false);
 
   return (
-    <div className="flex flex-col items-center md:px-12 px-2 backdrop-blur-2xl  backdrop-brightness-200">
+    <div className="flex flex-col items-center md:px-12 backdrop-blur-2xl  backdrop-brightness-200">
       <div className="">
         <h1 className="text-2xl md:text-3xl text-center font-semibold lg:text-4xl pt-6 text-white mb-2">
           Our Teams
@@ -129,7 +129,7 @@ const Teams: React.FC<TeamsProps> = () => {
       </div>
 
       <div className="flex justify-center pb-8">
-        <div className="text-center team-container relative">
+        <div className="text-center w-4/5 relative">
           <Link href="/chargers">
             <Image
               src={chargersteam.imageSrc}
