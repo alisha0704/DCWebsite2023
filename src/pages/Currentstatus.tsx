@@ -1,13 +1,11 @@
-import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
-import { Montserrat } from 'next/font/google'
-
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 const Currentstatus = () => {
   return (
     <>
-    <div className="backdrop-blur-2xl relative ">
+      <div className="backdrop-blur-2xl relative">
         <Link
           href="/"
           className="absolute hidden lg:block text-white mt-14 pt-2"
@@ -28,25 +26,36 @@ const Currentstatus = () => {
           </svg>
         </Link>
         <div className="xl:w-full lg:w-9/10 w-full mx-auto text-left border-solid border-white px-2 md:px-4 py-14">
-          <div className="text-center text-white text-xl md:text-2xl lg:text-4xl px-4 font-bold md:mb-2 tracking-wide ">
+          <div className="text-center text-white text-xl md:text-2xl lg:text-4xl px-4 font-bold md:mb-2 tracking-wide">
             <div className=""> CURRENT STATUS OF DC </div>
           </div>
-          <div className="text-center text-gray-400 text-sm md:text-md lg:text-lg font-normal px-4 leading-4 ">
+          <div className="text-center text-gray-400 text-sm md:text-md lg:text-lg font-normal px-4 leading-4">
             Total Strength of main dancers 175
           </div>
           <hr className="w-3/4 h-0.5 mx-auto my-4 bg-gray-700 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
-          <div className="flex justify-center">
-            <Image
-              src="/Frame 81 (1).png"
-              alt=""
-              width={1000}
-              height={300}
-            />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <Link href="https://www.instagram.com/vitdanceclub/">
+              <Image
+                src="/Status/status3.png"
+                alt=""
+                width={1000}
+                height={300}
+              />
+            </Link>
+            <Link href="https://www.youtube.com/@vitdanceclub9231">
+              <Image
+                src="/Status/Status2.png"
+                alt=""
+                width={1000}
+                height={300}
+              />
+            </Link>
+            <Image src="/Status/status3.png" alt="" width={1000} height={300} />
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Currentstatus
+export default Currentstatus;
