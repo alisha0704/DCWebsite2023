@@ -3,7 +3,7 @@ import React from "react";
 const Bulltein = () => {
   return (
     <>
-      <div className="py-14"></div>
+      <div className=""></div>
       <div className="flex max-md:flex-col md:gap-24 justify-center backdrop-blur-2xl backdrop-brightness-200 py-10 px-6">
         <div className="sm:text-xl md:text-2xl lg:text-4xl tracking-wide text-left py-4 md:py-20">
           We&apos;re more than <span className="font-bold"> dancers;</span>{" "}
