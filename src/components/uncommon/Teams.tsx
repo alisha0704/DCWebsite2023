@@ -53,12 +53,19 @@ const teamsData = [
   },
 ];
 
+const chargersteam = {
+  name: 'CHARGERS',
+  imageSrc: '/Teams/Chargers.png',
+  danceStyle: 'SOUTH INDIAN KUTHU AND WESTERN',
+};
+
 const Teams: React.FC<TeamsProps> = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const [hovered, setHovered] = useState(false);
 
   return (
     <div className="flex flex-col items-center md:px-12 px-2 backdrop-blur-2xl  backdrop-brightness-200">
-      <div className="backdrop-blur-2xl">
+      <div className="">
         <h1 className="text-2xl md:text-3xl text-center font-semibold lg:text-4xl pt-6 text-white mb-2">
           Our Teams
         </h1>
@@ -124,57 +131,46 @@ const Teams: React.FC<TeamsProps> = () => {
           </div>
         </div>
       </div>
-      <div className="justify-center text-center">
-        <Link href="/chargers"></Link>
-          <div
-            className={`text-center team-container relative ${
-              teamsData.length === teamsData.length - 1 ? "last-team" : ""
-            }`}
-            onMouseEnter={() => setHoveredIndex(teamsData.length)}
-            onMouseLeave={() => setHoveredIndex(null)}
-          >
-            <a
-              href={imageLinks[teamsData.length]}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/Teams/Chargers.png"
-                alt=""
-                width={350}
-                height={600}
-                className="hover:scale-105"
-              />
-            </a>
-            <div className="flex flex-col rounded-xl opacity-80 backdrop-blur-2xl items-center mt-2">
-              <h2 className="text-lg px-4 text-center max-sm:px-6 pr-8 font-semibold leading-0 text-white mt-2">
-                CHARGERS
-              </h2>
-              <div
-                className="text-sm md:text-md lg:text-lg text-center text-gray-100 mt-1 mb-8 "
-                onMouseEnter={() => setHoveredIndex(teamsData.length)}
-                onMouseLeave={() => setHoveredIndex(null)}
-              >
-                {hoveredIndex === teamsData.length ? (
-                  <button className="text-md text-gray-400 tracking-wide ">
-                    <div className="flex gap-4 ">
-                      Learn More
-                      <Image
-                        src="/icons/sidearrow.svg"
-                        alt=""
-                        width={8}
-                        height={8}
-                      />
-                    </div>
-                  </button>
-                ) : (
-                  <h4 className="text-sm">SOUTH INDIAN KUTHU AND WESTERN</h4>
-                )}
-              </div>
-            </div>
+
+      <div className="flex justify-center pb-8">
+      <div className="text-center team-container relative">
+        <a href="/chargers" target="_blank" rel="noopener noreferrer">
+          <Image
+            src={chargersteam.imageSrc}
+            alt={`Image`}
+            width={260}
+            height={260}
+            className={`rounded-md ${hovered ? "hover:scale-105" : ""}`}
+            onMouseEnter={() => setHovered(true)}
+            onMouseLeave={() => setHovered(false)}
+          />
+        </a>
+        <div className="flex flex-col rounded-xl opacity-80 backdrop-blur-2xl items-center mt-2">
+          <h2 className="text-lg px-4 text-center max-sm:px-6 pr-8 font-semibold leading-0 text-white ">
+            {chargersteam.name}
+          </h2>
+          <div className="text-sm md:text-md lg:text-lg text-center text-gray-100 mt-1 mb-8">
+            {hovered ? (
+              <button className="text-md text-gray-400 tracking-wide">
+                <div className="flex gap-4 ">
+                  Learn More
+                  <Image
+                    src="/icons/sidearrow.svg"
+                    alt=""
+                    width={8}
+                    height={8}
+                  />
+                </div>
+              </button>
+            ) : (
+              <h4 className="text-sm">{chargersteam.danceStyle}</h4>
+            )}
           </div>
-        
+        </div>
       </div>
+    </div>
+
+
     </div>
   );
 };

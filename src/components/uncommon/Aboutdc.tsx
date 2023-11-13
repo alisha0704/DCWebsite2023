@@ -87,9 +87,9 @@ const Aboutdc = () => {
           </h5>
         </div>
 
-        <div className="flex justify-center  pb-6 items-center">
+        <div className="flex  justify-center  pb-6 items-center">
           <div className="py-4 md:backdrop-blur-3xl md:backdrop-brightness-200 items-center w-2/3   ">
-            <div className="flex justify-center items-center space-x-6">
+            <div className="flex justify-center items-center space-x-2 md:space-x-6">
               <Image
                 src="/icons/flaglogo.png"
                 alt="Logo 1"
@@ -97,7 +97,7 @@ const Aboutdc = () => {
                 height={40}
                 style={{ marginRight: "1rem" }}
               />
-              <div className="flex flex-col text-white gap-1  md:px-4">
+              <div className="flex flex-col text-white   md:px-4">
                 <div className="flex text-xl md:text-3xl font-extrabold">7</div>
                 <div className="flex font-extralight text-xs md:text-sm">MAJOR TEAMS</div>
               </div>
@@ -107,7 +107,7 @@ const Aboutdc = () => {
                 width={40}
                 height={40}
               />
-              <div className="flex flex-col text-white gap-1 md:px-4 ">
+              <div className="flex flex-col text-white  md:px-4 ">
                 <div className="flex  text-xl md:text-3xl font-extrabold">150k</div>
                 <div className="flex font-extralight text-xs md:text-sm">CREW MEMBERS</div>
               </div>
@@ -117,7 +117,7 @@ const Aboutdc = () => {
                 width={40}
                 height={40}
               />
-              <div className="flex flex-col text-white md:px-4  gap-1">
+              <div className="flex flex-col text-white md:px-4  ">
                 <div className="flex  text-xl md:text-3xl font-extrabold">
                   <AnimatedCounter
                     target={200}
