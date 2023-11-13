@@ -54,9 +54,9 @@ const teamsData = [
 ];
 
 const chargersteam = {
-  name: 'CHARGERS',
-  imageSrc: '/Teams/Chargers.png',
-  danceStyle: 'SOUTH INDIAN KUTHU AND WESTERN',
+  name: "CHARGERS",
+  imageSrc: "/Teams/Chargers.png",
+  danceStyle: "SOUTH INDIAN KUTHU AND WESTERN",
 };
 
 const Teams: React.FC<TeamsProps> = () => {
@@ -87,11 +87,7 @@ const Teams: React.FC<TeamsProps> = () => {
                   index === teamsData.length - 1 ? { margin: "0 auto" } : {}
                 }
               >
-                <a
-                  href={imageLinks[index]}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href={imageLinks[index]}>
                   <Image
                     src={team.imageSrc}
                     alt={`Image ${index + 1}`}
@@ -133,44 +129,42 @@ const Teams: React.FC<TeamsProps> = () => {
       </div>
 
       <div className="flex justify-center pb-8">
-      <div className="text-center team-container relative">
-        <a href="/chargers" target="_blank" rel="noopener noreferrer">
-          <Image
-            src={chargersteam.imageSrc}
-            alt={`Image`}
-            width={400}
-            height={700}
-            className={`rounded-md ${hovered ? "hover:scale-105" : ""}`}
-            onMouseEnter={() => setHovered(true)}
-            onMouseLeave={() => setHovered(false)}
-          />
-        </a>
-        <div className="flex flex-col rounded-xl opacity-80 backdrop-blur-2xl items-center mt-2">
-          <h2 className="text-lg px-4 text-center max-sm:px-6 pr-8 font-semibold leading-0 text-white ">
-            {chargersteam.name}
-          </h2>
-          <div className="text-sm md:text-md lg:text-lg text-center text-gray-100 mt-1 mb-8">
-            {hovered ? (
-              <button className="text-md text-gray-400 tracking-wide">
-                <div className="flex gap-4 ">
-                  Learn More
-                  <Image
-                    src="/icons/sidearrow.svg"
-                    alt=""
-                    width={8}
-                    height={8}
-                  />
-                </div>
-              </button>
-            ) : (
-              <h4 className="text-sm">{chargersteam.danceStyle}</h4>
-            )}
+        <div className="text-center team-container relative">
+          <Link href="/chargers">
+            <Image
+              src={chargersteam.imageSrc}
+              alt={`Image`}
+              width={400}
+              height={700}
+              className={`rounded-md ${hovered ? "hover:scale-105" : ""}`}
+              onMouseEnter={() => setHovered(true)}
+              onMouseLeave={() => setHovered(false)}
+            />
+          </Link>
+          <div className="flex flex-col rounded-xl opacity-80 backdrop-blur-2xl items-center mt-2">
+            <h2 className="text-lg px-4 text-center max-sm:px-6 pr-8 font-semibold leading-0 text-white ">
+              {chargersteam.name}
+            </h2>
+            <div className="text-sm md:text-md lg:text-lg text-center text-gray-100 mt-1 mb-8">
+              {hovered ? (
+                <button className="text-md text-gray-400 tracking-wide">
+                  <div className="flex gap-4 ">
+                    Learn More
+                    <Image
+                      src="/icons/sidearrow.svg"
+                      alt=""
+                      width={8}
+                      height={8}
+                    />
+                  </div>
+                </button>
+              ) : (
+                <h4 className="text-sm">{chargersteam.danceStyle}</h4>
+              )}
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-
     </div>
   );
 };
