@@ -28,7 +28,7 @@ const Events = () => {
         <div className="border border-gray-600" />
         <div className="text-center text-2xl md:text-3xl py-6 font-bold">Riviera</div>
         <div className="flex flex-col md:flex-row items-center">
-          <div className="">
+          <div className="max-sm:hidden">
             <Image
               src="/events/IMG-20230305-WA0029 6.svg"
               alt=""
@@ -89,7 +89,7 @@ const Events = () => {
           World Dance Day
         </div>
         <div className="flex flex-col md:flex-row items-center py-4">
-          <div className="">
+          <div className="max-sm:hidden">
             <Image
               src="/events/Events2.svg"
               alt=""
