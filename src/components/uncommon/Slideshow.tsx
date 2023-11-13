@@ -92,6 +92,7 @@ const Slideshow: React.FC = () => {
         />
       </button>
 
+
       <button
         type="button"
         className="absolute -top-20 right-0 z-30 flex items-center justify-center h-full px-20 cursor-pointer group focus:outline-none"
