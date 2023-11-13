@@ -128,7 +128,7 @@ const Teams: React.FC<TeamsProps> = () => {
         </div>
       </div>
 
-      <div className="flex justify-center pb-8">
+      <div className="flex justify-center pb-8 w-1/3">
         <div className="text-center w-4/5 relative">
           <Link href="/chargers">
             <Image
