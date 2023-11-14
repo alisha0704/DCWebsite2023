@@ -6,7 +6,9 @@ import { Transition } from "@headlessui/react";
 import { Fragment } from "react";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
@@ -37,209 +39,246 @@ const Header = () => {
       ? "border-t-2 border-b-2 text-white"
       : "text-gray-300 ";
   };
-  
-   const [showMobileMenu, setShowMobileMenu] = useState(false);
-  
+
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
+
   const toggleMobileMenu = () => {
     setShowMobileMenu(!showMobileMenu);
   };
   return (
-    <header className="">
-      <nav className="w-full backdrop-blur-3xl bg-black text-white">
-        <div className="container mx-auto flex flex-col lg:flex-row justify-center w-full h-full ">
-         
-          <div
-            onClick={() => setMenuOpen(true)}
-            className={"py-10 pr-12 mr-12 mt-4 Ssm:absolute Ssm:top-0 Ssm:left-0"}
+    <>
+      {/* <div
+        className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${
+          isOpen ? "block" : "hidden"
+        }`}
+      >
+        <div className="text-sm lg:flex-grow">
+          <a
+            href="#"
+            className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
           >
-            <Image src="/icons/menu.svg" alt="MENU" width={30} height={30} />
-          </div>
-          <div className={" ${menuOpen ? 'block' : 'hidden'}"}>
-            <Link href="/" className="flex justify-center items-center">
-              <Image src="/vitdclogo.svg" alt="DC" width={200} height={200} />
-            </Link>
-          </div>
-          <div className="py-10">
-            <ul className="flex flex-col lg:flex-row mt-4 text-white sm:gap-2  lg:gap-20 lg:text-xl">
-              <li>
-                <Link href="/" className="">
-                  <div
-                    className={`w-30 h-5 text-gray-300  text-base font-semibold p-[1rem]  text-center uppercase leading-3 tracking-widest hover:text-white flex justify-center items-center
-                    ${isLinkActive("/")}`}
-                  >
-                    <p>Home</p>
-                  </div>
-                </Link>
-              </li>
-              <li>
-                <Link href="/Gallery">
-                  <div
-                    className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest  flex justify-center items-center p-[1rem]
-                  hover:text-white ${isLinkActive("/Gallery")}`}
-                  >
-                     <p>Gallery</p>
-                  </div>
-                </Link>
-              </li>
-              <li>
-                <Link href="/Events">
-                  <div
-                    className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest flex justify-center items-center p-[1rem]
-                    hover:text-white ${isLinkActive("/Events")}`}
-                  >
-                     <p>Events</p>
-                  </div>
-                </Link>
-              </li>
-              <li>
-                <Link href="/Achievements">
-                  <div
-                    className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest flex justify-center items-center p-[1rem]
-                    hover:text-white ${isLinkActive("/Achievements")}`}
-                  >
-                    <p>Achievements</p>
-                  </div>
-                </Link>
-              </li>
-              <li>
-                <div
-                  onClick={() => setShow(true)}
-                  className={`w-30 h-5 text-gray-300  text-center text-base font-semibold uppercase leading-3 tracking-widest flex justify-center items-center p-[1rem]
-                  hover:text-white`}
-                >
-                  <p>
-                  Contact us
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
+            First Link
+          </a>
+          <a
+            href="#"
+            className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
+          >
+            Second Link
+          </a>
+          <a
+            href="#"
+            className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
+          >
+            Third Link
+          </a>
+          <a
+            href="#"
+            className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
+          >
+            Fourth Link
+          </a>
         </div>
-      </nav>
-
-
-      {/*Right slider */}
-      <Transition.Root show={show}>
-        <BackgroundLayer />
-        <SlideOverLayer>
-          <div  onClick={() => setShow(false)} className="">
-            <div className="flex">
-            <Image
-                src="/icons/cross.png"
-                alt="X"
-                height={20}
-                width={20}
-                className="w-[20px]"
-              />
-              <div className="w-full h-5 left-[85px] top-[43px] text-center text-lg font-black uppercase">
-                Contact Us
-              </div>
+        <div>
+        </div> */}
+      {/* </div> */}
+      <header className="">
+        <div className="block lg:hidden">
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="flex items-center px-3 py-2 rounded text-white"
+          >
+            <svg
+              className={`fill-current h-3 w-3 ${isOpen ? "hidden" : "block"}`}
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+            <svg
+              className={`fill-current h-3 w-3 ${isOpen ? "block" : "hidden"}`}
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
+            </svg>
+          </button>
+        </div>
+        {/* Mobile Menu Hamburger ends */}
+        <nav className="w-full backdrop-blur-3xl bg-black text-white ">
+          <div className="container mx-auto flex flex-col lg:flex-row justify-center w-full h-full max-sm:hidden max-md:hidden">
+            <div
+              onClick={() => setMenuOpen(true)}
+              className={
+                "py-10 pr-12 mr-12 mt-4 Ssm:absolute Ssm:top-0 Ssm:left-0"
+              }
+            >
+              <Image src="/icons/menu.svg" alt="MENU" width={30} height={30} />
             </div>
-            <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-4" />
-            <div className="px-20 uppercase font-bold">
-              NOTE: contact us for collaboration, fest invites, events and
-              queries
+            <div className={" ${menuOpen ? 'block' : 'hidden'}"}>
+              <Link href="/" className="flex justify-center items-center">
+                <Image src="/vitdclogo.svg" alt="DC" width={200} height={200} />
+              </Link>
             </div>
-            <div className="px-28 pt-5 pb-3 uppercase font-bold">mail us</div>
-            <hr className="w-1/2 h-0.5 mx-24 bg-gray-500 border-0 rounded" />
-            <Link href="https://www.instagram.com/vitdanceclub/" >
-            <div className="px-28 pt-5 pb-3 uppercase font-bold">
-              visit instagram
-            </div>
-            </Link>
-            <hr className="w-1/2 h-0.5 mx-24 bg-gray-500 border-0 rounded" />
-            <Link href="https://www.youtube.com/@vitdanceclub9231" >
-            <div className="px-28 pt-5 pb-3 uppercase font-bold">
-              visit YouTube
-            </div>
-            </Link>
-            <hr className="w-1/2 h-0.5 mx-24 bg-gray-500 border-0 rounded" />
-            <div className="px-28 pt-5 uppercase font-bold">phone</div>
-            <div className="px-28 uppercase font-bold">+91 9840466868</div>
-            <div className="px-28 uppercase font-bold">+91 8078281652</div>
-          </div>
-        </SlideOverLayer>
-      </Transition.Root>
-      {/* Left Slider */}
-      <Transition.Root show={menuOpen}>
-        <BackgroundLayer />
-        <SlideOverLayerLeft>
-          <div className="" onClick={handleCloseModals}>
-            <div onClick={() => setShow(false)} className="flex w-full justify-between items-center">
-              {" "}
-              <div className="text-lg font-black uppercase leading-3 tracking-widest py-[1rem]">
-                menu
-              </div>
-              <Image
-                src="/icons/cross.png"
-                alt="X"
-                height={15}
-                width={15}
-                className=""
-              />
-            </div>
-            <hr className="w-full h-0.5 mt-1 bg-white border-0 rounded" />
-          </div>
-          <Link href="/Board">
-            <div className="px-8 pt-5 pb-3 uppercase font-bold mt-6">
-              the board 2023
-            </div>
-          </Link>
-          {/* <Link href="/Achievements">
-                  <div
-                    className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest flex justify-center items-center p-[1rem]
-                    hover:text-white ${isLinkActive("/Achievements")}`}
-                  >
-                    <p>Achievements</p>
-                  </div>
-                </Link>
-          <Link href="/Gallery">
-                  <div
-                    className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest  flex justify-center items-center p-[1rem]
-                  hover:text-white ${isLinkActive("/Gallery")}`}
-                  >
-                     <p>Gallery</p>
-                  </div>
-                </Link>
-          <Link href="/" className="">
-                  <div
-                    className={`w-30 h-5 text-gray-300  text-base font-semibold p-[1rem]  text-center uppercase leading-3 tracking-widest hover:text-white flex justify-center items-center
+            <div className="py-10">
+              <ul className="flex flex-col lg:flex-row mt-4 text-white sm:gap-2  lg:gap-20 lg:text-xl">
+                <li>
+                  <Link href="/" className="">
+                    <div
+                      className={`w-30 h-5 text-gray-300  text-base font-semibold p-[1rem]  text-center uppercase leading-3 tracking-widest hover:text-white flex justify-center items-center
                     ${isLinkActive("/")}`}
+                    >
+                      <p>Home</p>
+                    </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/Gallery">
+                    <div
+                      className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest  flex justify-center items-center p-[1rem]
+                  hover:text-white ${isLinkActive("/Gallery")}`}
+                    >
+                      <p>Gallery</p>
+                    </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/Events">
+                    <div
+                      className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest flex justify-center items-center p-[1rem]
+                    hover:text-white ${isLinkActive("/Events")}`}
+                    >
+                      <p>Events</p>
+                    </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/Achievements">
+                    <div
+                      className={`w-30 h-5 text-gray-300 text-center text-base font-semibold uppercase leading-3 tracking-widest flex justify-center items-center p-[1rem]
+                    hover:text-white ${isLinkActive("/Achievements")}`}
+                    >
+                      <p>Achievements</p>
+                    </div>
+                  </Link>
+                </li>
+                <li>
+                  <div
+                    onClick={() => setShow(true)}
+                    className={`w-30 h-5 text-gray-300  text-center text-base font-semibold uppercase leading-3 tracking-widest flex justify-center items-center p-[1rem]
+                  hover:text-white`}
                   >
-                    <p>Home</p>
+                    <p>Contact us</p>
                   </div>
-                </Link> */}
-          <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
-          <Link href="/Faculty">
-            <div className="px-8 pt-5 pb-3 uppercase font-bold">
-              faculty coordinators
+                </li>
+              </ul>
             </div>
-          </Link>
-          <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
-          <Link href="/Developers">
-            <div className="px-8 pt-5 pb-3 uppercase font-bold">
-              developer team
+          </div>
+        </nav>
+
+        {/*Right slider */}
+        <Transition.Root show={show}>
+          <BackgroundLayer />
+          <SlideOverLayer>
+            <div onClick={() => setShow(false)} className="">
+              <div className="flex">
+                <Image
+                  src="/icons/cross.png"
+                  alt="X"
+                  height={20}
+                  width={20}
+                  className="w-[20px]"
+                />
+                <div className="w-full h-5 left-[85px] top-[43px] text-center text-lg font-black uppercase">
+                  Contact Us
+                </div>
+              </div>
+              <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-4" />
+              <div className="px-20 uppercase font-bold">
+                NOTE: contact us for collaboration, fest invites, events and
+                queries
+              </div>
+              <div className="px-28 pt-5 pb-3 uppercase font-bold">mail us</div>
+              <hr className="w-1/2 h-0.5 mx-24 bg-gray-500 border-0 rounded" />
+              <Link href="https://www.instagram.com/vitdanceclub/">
+                <div className="px-28 pt-5 pb-3 uppercase font-bold">
+                  visit instagram
+                </div>
+              </Link>
+              <hr className="w-1/2 h-0.5 mx-24 bg-gray-500 border-0 rounded" />
+              <Link href="https://www.youtube.com/@vitdanceclub9231">
+                <div className="px-28 pt-5 pb-3 uppercase font-bold">
+                  visit YouTube
+                </div>
+              </Link>
+              <hr className="w-1/2 h-0.5 mx-24 bg-gray-500 border-0 rounded" />
+              <div className="px-28 pt-5 uppercase font-bold">phone</div>
+              <div className="px-28 uppercase font-bold">+91 9840466868</div>
+              <div className="px-28 uppercase font-bold">+91 8078281652</div>
             </div>
-          </Link>
-          <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
-          <Link href="/Notablealumni">
-            <div className="px-8 pt-5 pb-3 uppercase font-bold">
-              notable alumnis
+          </SlideOverLayer>
+        </Transition.Root>
+        {/* Left Slider */}
+        <Transition.Root show={menuOpen}>
+          <BackgroundLayer />
+          <SlideOverLayerLeft>
+            <div className="" onClick={handleCloseModals}>
+              <div
+                onClick={() => setShow(false)}
+                className="flex w-full justify-between items-center"
+              >
+                {" "}
+                <div className="text-lg font-black uppercase leading-3 tracking-widest py-[1rem]">
+                  menu
+                </div>
+                <Image
+                  src="/icons/cross.png"
+                  alt="X"
+                  height={15}
+                  width={15}
+                  className=""
+                />
+              </div>
+              <hr className="w-full h-0.5 mt-1 bg-white border-0 rounded" />
             </div>
-          </Link>
-          <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
-          <Link href="/Journey">
-            <div className="px-8 pt-5 pb-3 uppercase font-bold">
-              journey of dc
-            </div>
-          </Link>
-          <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
-          <Link href="/Studio">
-            <div className="px-8 pt-5 pb-3 uppercase font-bold">our studio</div>
-          </Link>
-        </SlideOverLayerLeft>
-      </Transition.Root>
-    </header>
+            <Link href="/Board">
+              <div className="px-8 pt-5 pb-3 uppercase font-bold mt-6">
+                the board 2023
+              </div>
+            </Link>
+            <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
+            <Link href="/Faculty">
+              <div className="px-8 pt-5 pb-3 uppercase font-bold">
+                faculty coordinators
+              </div>
+            </Link>
+            <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
+            <Link href="/Developers">
+              <div className="px-8 pt-5 pb-3 uppercase font-bold">
+                developer team
+              </div>
+            </Link>
+            <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
+            <Link href="/Notablealumni">
+              <div className="px-8 pt-5 pb-3 uppercase font-bold">
+                notable alumnis
+              </div>
+            </Link>
+            <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
+            <Link href="/Journey">
+              <div className="px-8 pt-5 pb-3 uppercase font-bold">
+                journey of dc
+              </div>
+            </Link>
+            <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
+            <Link href="/Studio">
+              <div className="px-8 pt-5 pb-3 uppercase font-bold">
+                our studio
+              </div>
+            </Link>
+          </SlideOverLayerLeft>
+        </Transition.Root>
+      </header>
+    </>
   );
 };
 
