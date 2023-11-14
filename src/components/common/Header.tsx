@@ -57,11 +57,11 @@ const Header = () => {
               height={75}
               className="py-4 px-2 pl-4"
             />
-            
+
             <div className="text-white justify-center text-center pl-4 pt-7 text-2xl font-bold">
               VIT Dance Club{" "}
             </div>
-            
+
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="flex items-center px-3 py-2 rounded text-white absolute right-7 top-7"
@@ -253,9 +253,9 @@ const Header = () => {
                   alt="X"
                   height={20}
                   width={20}
-                  className="w-[20px]"
+                  className="lg:ml-20"
                 />
-                <div className="w-full h-5 left-[85px] top-[43px] max-sm:text-left max-sm:px-6 text-center text-lg font-black uppercase">
+                <div className="lg:ml-16 h-5 max-sm:text-left max-sm:px-6 text-lg font-black uppercase">
                   Contact Us
                 </div>
               </div>
