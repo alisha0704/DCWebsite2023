@@ -82,26 +82,34 @@ const Header = () => {
         </div> */}
       {/* </div> */}
       <header className="">
-        <div className="block lg:hidden">
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="flex items-center px-3 py-2 rounded text-white"
-          >
-            <svg
-              className={`fill-current h-3 w-3 ${isOpen ? "hidden" : "block"}`}
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
+        <div className="">
+          
+          <div className="block lg:hidden bg-black flex">
+          <Image src="/vitdclogo.svg" alt="DC" width={75} height={75} />
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="flex items-center px-3 py-2 rounded text-white absolute right-5 top-3"
             >
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-            </svg>
-            <svg
-              className={`fill-current h-3 w-3 ${isOpen ? "block" : "hidden"}`}
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
-            </svg>
-          </button>
+              <svg
+                className={`fill-current h-3 w-3 ${
+                  isOpen ? "hidden" : "block"
+                }`}
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+              </svg>
+              <svg
+                className={`fill-current h-3 w-3 ${
+                  isOpen ? "block" : "hidden"
+                }`}
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
+              </svg>
+            </button>
+          </div>
         </div>
         {/* Mobile Menu Hamburger ends */}
         <nav className="w-full backdrop-blur-3xl bg-black text-white ">
@@ -174,34 +182,68 @@ const Header = () => {
             </div>
           </div>
           <div
-            className={`w-full block flex-grow ${
-              isOpen ? "block" : "hidden"
-            }`}
+            className={`w-full block flex-grow ${isOpen ? "block" : "hidden"}`}
           >
             <div className="text-sm lg:flex-grow">
               <a
-                href="#"
+                href=" / "
                 className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
               >
                 HOME
               </a>
               <a
-                href="#"
+                href="/Gallery "
                 className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
               >
-                Second Link
+                GALLERY
               </a>
               <a
-                href="#"
+                href="/Events "
                 className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
               >
-                Third Link
+                EVENTS
               </a>
               <a
-                href="#"
+                href="/Achievements "
                 className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
               >
-                Fourth Link
+                ACHIEVEMENTS
+              </a>
+              <a
+                href="/Board "
+                className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
+              >
+                THE BOARD 2023
+              </a>
+              <a
+                href="/Faculty "
+                className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
+              >
+                FACULTY COORDINATORS
+              </a>
+              <a
+                href="/Developers "
+                className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
+              >
+                DEVELOPER TEAM
+              </a>
+              <a
+                href="/Notablealumni "
+                className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
+              >
+                NOTABLE ALUMNIS
+              </a>
+              <a
+                href="/Journey "
+                className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
+              >
+                JOURNEY OF DC
+              </a>
+              <a
+                href="/Studio "
+                className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
+              >
+                OUR STUDIO
               </a>
             </div>
             <div></div>
