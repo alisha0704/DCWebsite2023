@@ -124,7 +124,7 @@ const Aboutdc = () => {
                   <AnimatedCounter
                     target={200}
                     time={2000} // Adjust the time as needed
-                    start={100}
+                    start={200}
                     shouldAnimate={animated.performance}
                   />
                   +
