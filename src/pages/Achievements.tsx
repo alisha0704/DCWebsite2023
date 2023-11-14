@@ -359,8 +359,8 @@ const Achievements: React.FC<AchievementsProps> = () => {
             </div>
 
             <p className="text-md md:text-lg mb-8 text-gray-300">
-              We never left the stage empty handed, either we win the audience
-              heart of we win the whole event
+              We never leave the stage empty handed, either we win the audience's
+              heart or we win the whole event
             </p>
             <div className="flex flex-col lg:flex-row">
               <div className="w-full lg:w-1/3">
