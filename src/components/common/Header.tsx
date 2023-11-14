@@ -50,7 +50,16 @@ const Header = () => {
       <header className="">
         <div className="">
           <div className="block lg:hidden bg-black flex">
-            <Image src="/vitdclogo.svg" alt="DC" width={175} height={175} />
+            <Image
+              src="/black n white logo 2.svg"
+              alt="DC"
+              width={75}
+              height={75}
+              className="py-4 px-2 pl-4"
+            />
+            <div className="text-white justify-center text-center px-10 pt-7 text-2xl font-bold">
+              VIT Dance Club{" "}
+            </div>
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="flex items-center px-3 py-2 rounded text-white absolute right-7 top-7"
