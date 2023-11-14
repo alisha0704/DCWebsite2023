@@ -47,48 +47,13 @@ const Header = () => {
   };
   return (
     <>
-      {/* <div
-        className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${
-          isOpen ? "block" : "hidden"
-        }`}
-      >
-        <div className="text-sm lg:flex-grow">
-          <a
-            href="#"
-            className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
-          >
-            First Link
-          </a>
-          <a
-            href="#"
-            className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
-          >
-            Second Link
-          </a>
-          <a
-            href="#"
-            className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
-          >
-            Third Link
-          </a>
-          <a
-            href="#"
-            className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
-          >
-            Fourth Link
-          </a>
-        </div>
-        <div>
-        </div> */}
-      {/* </div> */}
       <header className="">
         <div className="">
-          
           <div className="block lg:hidden bg-black flex">
-          <Image src="/vitdclogo.svg" alt="DC" width={75} height={75} />
+            <Image src="/vitdclogo.svg" alt="DC" width={125} height={125} />
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="flex items-center px-3 py-2 rounded text-white absolute right-5 top-3"
+              className="flex items-center px-3 py-2 rounded text-white absolute right-7 top-7"
             >
               <svg
                 className={`fill-current h-3 w-3 ${
@@ -184,67 +149,83 @@ const Header = () => {
           <div
             className={`w-full block flex-grow ${isOpen ? "block" : "hidden"}`}
           >
-            <div className="text-sm lg:flex-grow">
+            <div className="text-sm lg:flex-grow text-center py-1 pb-4">
               <a
                 href=" / "
                 className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
               >
                 HOME
               </a>
+              <hr className="w-2/3 h-0.5 mx-auto bg-gray-500 border-0 rounded my-1" />
               <a
                 href="/Gallery "
                 className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
               >
                 GALLERY
               </a>
+              <hr className="w-2/3 h-0.5 mx-auto bg-gray-500 border-0 rounded my-1" />
               <a
                 href="/Events "
                 className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
               >
                 EVENTS
               </a>
+              <hr className="w-2/3 h-0.5 mx-auto bg-gray-500 border-0 rounded my-1" />
               <a
                 href="/Achievements "
                 className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
               >
                 ACHIEVEMENTS
               </a>
+              <hr className="w-2/3 h-0.5 mx-auto bg-gray-500 border-0 rounded my-1" />
               <a
                 href="/Board "
                 className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
               >
                 THE BOARD 2023
               </a>
+              <hr className="w-2/3 h-0.5 mx-auto bg-gray-500 border-0 rounded my-1" />
               <a
                 href="/Faculty "
                 className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
               >
                 FACULTY COORDINATORS
               </a>
+              <hr className="w-2/3 h-0.5 mx-auto bg-gray-500 border-0 rounded my-1" />
               <a
                 href="/Developers "
                 className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
               >
                 DEVELOPER TEAM
               </a>
+              <hr className="w-2/3 h-0.5 mx-auto bg-gray-500 border-0 rounded my-1" />
               <a
                 href="/Notablealumni "
                 className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
               >
                 NOTABLE ALUMNIS
               </a>
+              <hr className="w-2/3 h-0.5 mx-auto bg-gray-500 border-0 rounded my-1" />
               <a
                 href="/Journey "
                 className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
               >
                 JOURNEY OF DC
               </a>
+              <hr className="w-2/3 h-0.5 mx-auto bg-gray-500 border-0 rounded my-1" />
               <a
                 href="/Studio "
                 className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
               >
                 OUR STUDIO
               </a>
+              <hr className="w-2/3 h-0.5 mx-auto bg-gray-500 border-0 rounded my-1" />
+              <div
+                onClick={() => setShow(true)}
+                className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
+              >
+                CONTACT US 
+              </div>
             </div>
             <div></div>
           </div>
