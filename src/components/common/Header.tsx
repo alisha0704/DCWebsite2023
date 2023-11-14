@@ -224,7 +224,7 @@ const Header = () => {
                 onClick={() => setShow(true)}
                 className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
               >
-                CONTACT US 
+                CONTACT US
               </div>
             </div>
             <div></div>
@@ -244,32 +244,32 @@ const Header = () => {
                   width={20}
                   className="w-[20px]"
                 />
-                <div className="w-full h-5 left-[85px] top-[43px] text-center text-lg font-black uppercase">
+                <div className="w-full h-5 left-[85px] top-[43px] max-sm:text-left max-sm:px-6 text-center text-lg font-black uppercase">
                   Contact Us
                 </div>
               </div>
-              <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-4" />
-              <div className="px-20 uppercase font-bold">
+              <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-4 max-sm:w-1/2 max-sm:mx-7" />
+              <div className="px-20 uppercase font-bold max-sm:px-1">
                 NOTE: contact us for collaboration, fest invites, events and
                 queries
               </div>
-              <div className="px-28 pt-5 pb-3 uppercase font-bold">mail us</div>
-              <hr className="w-1/2 h-0.5 mx-24 bg-gray-500 border-0 rounded" />
+              <div className="px-20 uppercase font-bold max-sm:px-1">mail us</div>
+              <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-4 max-sm:w-1/2 max-sm:mx-7" />
               <Link href="https://www.instagram.com/vitdanceclub/">
-                <div className="px-28 pt-5 pb-3 uppercase font-bold">
+                <div className="px-20 uppercase font-bold max-sm:px-1">
                   visit instagram
                 </div>
               </Link>
-              <hr className="w-1/2 h-0.5 mx-24 bg-gray-500 border-0 rounded" />
+              <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-4 max-sm:w-1/2 max-sm:mx-7" />
               <Link href="https://www.youtube.com/@vitdanceclub9231">
-                <div className="px-28 pt-5 pb-3 uppercase font-bold">
+                <div className="px-20 uppercase font-bold max-sm:px-1">
                   visit YouTube
                 </div>
               </Link>
-              <hr className="w-1/2 h-0.5 mx-24 bg-gray-500 border-0 rounded" />
-              <div className="px-28 pt-5 uppercase font-bold">phone</div>
-              <div className="px-28 uppercase font-bold">+91 9840466868</div>
-              <div className="px-28 uppercase font-bold">+91 8078281652</div>
+              <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-4 max-sm:w-1/2 max-sm:mx-7" />
+              <div className="px-20 uppercase font-bold max-sm:px-1">phone</div>
+              <div className="px-20 uppercase font-bold max-sm:px-1">+91 9840466868</div>
+              <div className="px-20 uppercase font-bold max-sm:px-1">+91 8078281652</div>
             </div>
           </SlideOverLayer>
         </Transition.Root>
