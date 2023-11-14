@@ -9,9 +9,9 @@ const Recentperformance: React.FC = () => {
         <div className="text-center text-2xl md:text-3xl lg:text-4xl text-white font-normal">
           Recent Performances
         </div>
-        <div className="text-center text-neutral-400 text-md font-normal leading-7 pt-4 ">
+        <div className="text-center text-neutral-400 text-lg font-normal leading-7 pt-4 ">
           We have performed in many different stages across India, also
-          conquered levels of awards too
+          conquered levels of awards too.
         </div>
         <hr className="w-5/6 h-0.5 mx-auto my-4 bg-gray-100 border-0 rounded md:my-3 dark:bg-gray-700"></hr>
       </div>

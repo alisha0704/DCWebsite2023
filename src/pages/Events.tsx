@@ -26,7 +26,7 @@ const Events = () => {
         </p>
 
         <div className="border border-gray-600" />
-        <div className="text-center text-2xl md:text-3xl py-6 font-bold">Riviera</div>
+        <div className="text-center text-2xl md:text-3xl py-6 uppercase font-bold">Riviera</div>
         <div className="flex flex-col md:flex-row items-center">
           <div className="max-sm:hidden">
             <Image
@@ -85,7 +85,7 @@ const Events = () => {
           </div>
         </div>
         <div className="border border-gray-600 border-t-0 border-l-0 border-r-0 py-4" />
-        <div className="text-center text-2xl md:text-3xl py-6 font-bold">
+        <div className="text-center uppercase text-2xl md:text-3xl py-6 font-bold">
           World Dance Day
         </div>
         <div className="flex flex-col md:flex-row items-center py-4">

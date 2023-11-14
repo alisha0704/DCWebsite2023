@@ -34,7 +34,7 @@ const Currentstatus = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <Link href="https://www.instagram.com/vitdanceclub/">
               <Image
-                src="/Status/status1.png"
+                src="/Status/Status1.png"
                 alt=""
                 width={1000}
                 height={300}

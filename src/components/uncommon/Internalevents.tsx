@@ -251,6 +251,13 @@ const Internalevents = () => {
           width={1000}
           className="w-full mb-6"
         />
+         <Image
+          src="/events/groovix.jpg"
+          alt=""
+          height={1000}
+          width={1000}
+          className="w-full mb-6"
+        />
 
         <Image
           src="/events/gallery2/image 122.svg"
@@ -275,13 +282,20 @@ const Internalevents = () => {
           width={1000}
           className="w-full mb-6"
         />
+         <Image
+          src="/events/hookit.jpg"
+          alt=""
+          height={1000}
+          width={1000}
+          className="w-full mb-6"
+        />
 
         <Image
           src="/events/gallery2/image 27.svg"
           alt=""
           height={1000}
           width={1000}
-          className="w-full mb-6 pt-10"
+          className="w-full mb-6 pt-14"
         />
 
         <Image
@@ -294,6 +308,13 @@ const Internalevents = () => {
 
         <Image
           src="/events/gallery2/image 133.svg"
+          alt=""
+          height={1000}
+          width={1000}
+          className="w-full mb-6"
+        />
+        <Image
+          src="/events/naachfiesta.jpg"
           alt=""
           height={1000}
           width={1000}
@@ -320,6 +341,14 @@ const Internalevents = () => {
           width={1000}
           className="w-full mb-6"
         />
+         <Image
+          src="/events/tango.jpg"
+          alt=""
+          height={1000}
+          width={1000}
+          className="w-full mb-6"
+        />
+        
       </div>
     </div>
   )

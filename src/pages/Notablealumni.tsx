@@ -89,7 +89,7 @@ const Slideshow: React.FC = () => {
           Notable Alumnis
         </div>
         <div className="text-center font-medium text-md max-sm:text-sm px-2 text-gray-400  md:pb-10">
-          Check out the list of our notable Alumni who are on top of their Passion
+          Check out the list of our Notable Alumni who are on top of their Passion.
         </div>
       </div>
       <div className="pb-10">

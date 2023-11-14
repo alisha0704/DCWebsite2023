@@ -30,14 +30,14 @@ const Journey = () => {
           Journey of Dance Club
         </div>
         <div className="text-center text-gray-400 text-md  font-normal px-4 mb-8">
-          Lets see through the history of DC&apos;s board members
+          Let us go through the journey of Dance Club!
         </div>
         <div className="flex justify-center">
           <Image src="/Group 640.png" alt="Journey" width={1000} height={300} />
         </div>
         <Link href="/Currentstatus">
         <Image
-          src="/JourneyButton.png"
+          src="/journeystats.png"
           alt="Journey"
           width={315}
           height={315}
