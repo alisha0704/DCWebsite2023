@@ -49,7 +49,7 @@ const Header = () => {
     <>
       <header className="">
         <div className="">
-          <div className="block lg:hidden bg-black flex">
+          <div className=" lg:hidden bg-black flex">
             <Image src="/vitdclogo.svg" alt="DC" width={175} height={175} />
             <button
               onClick={() => setIsOpen(!isOpen)}

@@ -158,7 +158,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className="md:hidden lg:block"
+                    className="hidden lg:block"
                   />
       <span className="text-2xl font-semibold">Board of 2022-23</span>
       <Image
@@ -193,7 +193,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className="md:hidden lg:block"
+                    className="hidden lg:block"
                   />
       <span className="text-2xl font-semibold">Board of 2021-22</span>
       <Image
@@ -201,7 +201,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className="md:hidden lg:block px-2"
+                    className="hidden lg:block px-2"
                   />
       </div>
       <div className="flex justify-center px-6 mt-10 gap-16">
@@ -220,7 +220,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className="md:hidden lg:block px-2"
+                    className="hidden lg:block px-2"
                   />
       <span className="text-2xl font-semibold">Board of 2020-21</span>
       <Image
@@ -228,7 +228,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className="md:hidden lg:block px-2"
+                    className="hidden lg:block px-2"
                   />
       </div>
       <div className="flex justify-center px-6 mt-10 gap-16">
@@ -247,7 +247,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className="md:hidden lg:block"
+                    className="hidden lg:block"
                   />
       <span className="text-2xl font-semibold">Board of 2019-20</span>
       <Image
@@ -255,7 +255,7 @@ const Board: React.FC<BoardProps> = () => {
                     alt="Board"
                     width={300}
                     height={300}
-                    className="md:hidden lg:block"
+                    className="hidden lg:block"
                   />
       </div>
       <div className="flex justify-center px-6 mt-10 gap-16">
