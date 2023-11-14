@@ -170,7 +170,7 @@ const Board: React.FC<BoardProps> = () => {
                   />
       </div>
       <div className="flex justify-center items-center">
-      <div className=" grid grid-cols-1 lg::grid-cols-2   mt-10 px-6 gap-16">
+      <div className=" grid grid-cols-1 lg:grid-cols-2   mt-10 px-6 gap-16">
       <Image
                     src="/board/board221.svg"
                     alt="Board"
