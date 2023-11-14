@@ -50,13 +50,13 @@ const Header = () => {
       <header className="">
         <div className="">
           <div className="block lg:hidden bg-black flex">
-            <Image src="/vitdclogo.svg" alt="DC" width={125} height={125} />
+            <Image src="/vitdclogo.svg" alt="DC" width={175} height={175} />
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="flex items-center px-3 py-2 rounded text-white absolute right-7 top-7"
             >
               <svg
-                className={`fill-current h-3 w-3 ${
+                className={`fill-current h-6 w-6 ${
                   isOpen ? "hidden" : "block"
                 }`}
                 viewBox="0 0 20 20"
@@ -65,7 +65,7 @@ const Header = () => {
                 <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
               </svg>
               <svg
-                className={`fill-current h-3 w-3 ${
+                className={`fill-current h-6 w-6 ${
                   isOpen ? "block" : "hidden"
                 }`}
                 viewBox="0 0 20 20"
@@ -248,28 +248,34 @@ const Header = () => {
                   Contact Us
                 </div>
               </div>
-              <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-4 max-sm:w-1/2 max-sm:mx-7" />
-              <div className="px-20 uppercase font-bold max-sm:px-1">
+              <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-4 max-sm:w-3/4 max-sm:mx-auto" />
+              <div className="px-20 uppercase font-bold max-sm:px-8">
                 NOTE: contact us for collaboration, fest invites, events and
                 queries
               </div>
-              <div className="px-20 uppercase font-bold max-sm:px-1">mail us</div>
-              <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-4 max-sm:w-1/2 max-sm:mx-7" />
+              <div className="px-20 uppercase font-bold max-sm:px-8 pt-4">
+                mail us
+              </div>
+              <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-1 max-sm:w-3/4 max-sm:mx-auto" />
               <Link href="https://www.instagram.com/vitdanceclub/">
-                <div className="px-20 uppercase font-bold max-sm:px-1">
+                <div className="px-20 uppercase font-bold max-sm:px-8 pt-4">
                   visit instagram
                 </div>
               </Link>
-              <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-4 max-sm:w-1/2 max-sm:mx-7" />
+              <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-1 max-sm:w-3/4 max-sm:mx-auto" />
               <Link href="https://www.youtube.com/@vitdanceclub9231">
-                <div className="px-20 uppercase font-bold max-sm:px-1">
+                <div className="px-20 uppercase font-bold max-sm:px-8 pt-4">
                   visit YouTube
                 </div>
               </Link>
-              <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-4 max-sm:w-1/2 max-sm:mx-7" />
-              <div className="px-20 uppercase font-bold max-sm:px-1">phone</div>
-              <div className="px-20 uppercase font-bold max-sm:px-1">+91 9840466868</div>
-              <div className="px-20 uppercase font-bold max-sm:px-1">+91 8078281652</div>
+              <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-1 max-sm:w-3/4 max-sm:mx-auto" />
+              <div className="px-20 uppercase font-bold max-sm:px-8">phone</div>
+              <div className="px-20 uppercase font-bold max-sm:px-8">
+                +91 9840466868
+              </div>
+              <div className="px-20 uppercase font-bold max-sm:px-8">
+                +91 8078281652
+              </div>
             </div>
           </SlideOverLayer>
         </Transition.Root>
