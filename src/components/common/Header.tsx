@@ -173,6 +173,39 @@ const Header = () => {
               </ul>
             </div>
           </div>
+          <div
+            className={`w-full block flex-grow ${
+              isOpen ? "block" : "hidden"
+            }`}
+          >
+            <div className="text-sm lg:flex-grow">
+              <a
+                href="#"
+                className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
+              >
+                HOME
+              </a>
+              <a
+                href="#"
+                className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
+              >
+                Second Link
+              </a>
+              <a
+                href="#"
+                className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
+              >
+                Third Link
+              </a>
+              <a
+                href="#"
+                className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
+              >
+                Fourth Link
+              </a>
+            </div>
+            <div></div>
+          </div>
         </nav>
 
         {/*Right slider */}
