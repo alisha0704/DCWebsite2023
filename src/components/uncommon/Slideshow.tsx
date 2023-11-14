@@ -79,32 +79,32 @@ const Slideshow: React.FC = () => {
 
       <button
         type="button"
-        className="absolute -top-20 left-0 z-28 flex items-center justify-center h-full  cursor-pointer group focus:outline-none"
+        className="absolute -left-12 -top-20 z-28  md:-top-20 md:left-0 md:z-28 flex items-center justify-center h-full  cursor-pointer group focus:outline-none"
         data-carousel-prev
         onClick={handlePrevClick}
       >
         <Image
           src="/chevron-left.svg"
           alt="Left arrow"
-          width={75}
-          height={75}
-          className="max-sm:hidden"
+          width={60}
+          height={60}
+          className="max-sm:w-1/3"
         />
       </button>
 
 
       <button
         type="button"
-        className="absolute -top-20 right-0 z-28 flex items-center justify-center h-full  cursor-pointer group focus:outline-none"
+        className="absolute -right-12 -top-20 z-28  md:-top-20 md:right-0 md:z-28 flex items-center justify-center h-full  cursor-pointer group focus:outline-none"
         data-carousel-next
         onClick={handleNextClick}
       >
         <Image
           src="/chevron-right.svg"
           alt="Right arrow"
-          width={75}
-          height={75}
-          className="max-sm:hidden"
+          width={60}
+          height={60}
+          className="max-sm:w-1/3"
         />
       </button>
     </div>
