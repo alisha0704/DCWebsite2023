@@ -95,7 +95,7 @@ const Slideshow: React.FC = () => {
 
       <button
         type="button"
-        className="absolute -right-4 -top-20 z-28  md:-top-20 md:right-0 md:z-28 flex items-center justify-center h-full  cursor-pointer group focus:outline-none"
+        className="absolute -right-4 -top-20 z-28  md:-top-20 md:right-0 md:z-28 flex items-center justify-center h-full max-sm:h-1/2 max-sm:top-4  cursor-pointer group focus:outline-none"
         data-carousel-next
         onClick={handleNextClick}
       >
