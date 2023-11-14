@@ -31,7 +31,7 @@ const Studio: React.FC<StudioProps> = () => {
           <div className="text-center font-black text-white text-lg md:text-xl lg:text-4xl px-4 tracking-wider leading-10 md:mb-4">
             OUR STUDIO
           </div>
-          <div className="text-center text-gray-400 text-md max-sm:text-xs font-normal mb-2 md:mb-8 md:px-14">
+          <div className="text-center text-gray-400 text-md mb-2 md:mb-8 md:px-14">
             Our college dance club is proud to have state-of-the-art facilities
             and infrastructure that provide the perfect stage for dancers to
             shine.It&apos;s a space where creativity, artistry, and camaraderie

@@ -61,14 +61,14 @@ const Slideshow: React.FC = () => {
               />
               <div className="relative left-0 w-full text-center md:p-4 backdrop-blur-2xl bg-opacity-50">
                 <div className="flex text-center justify-center">
-                  <p className="py-2 text-white font-medium text-sm md:text-2xl lg:text-5xl text-center">
+                  <p className="py-2 text-white font-medium text-lg md:text-2xl lg:text-5xl text-center">
                     {imageText[index]}
                   </p>
-                  <p className="py-2 text-white font-extrabold text-sm md:text-2xl lg:text-5xl  text-center px-2">
+                  <p className="py-2 text-white font-extrabold text-lg md:text-2xl lg:text-5xl  text-center px-2">
                     {imageTextLast[index]}
                   </p>
                 </div>
-                <p className="text-white font-medium text-xs md:text-lg">
+                <p className="text-white font-medium text-sm md:text-lg">
                   {imageTexts[index]}
                 </p>
               </div>

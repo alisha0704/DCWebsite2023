@@ -118,7 +118,7 @@ const Riwaayat = () => {
             World dance day, vit vellore
           </div>
 
-          <div className="md:w-96 text-white text-sm sm:text-base font-normal leading-7 text-left justify-center items-center">
+          <div className="md:w-96 text-white text-sm sm:text-base font-normal leading-7 text-center md:text-left justify-center items-center">
             Experience a mesmerizing celebration of rhythm and culture paying
             ode to World Dance Day with our dynamic performance.It is a night of
             breathtaking choreography and boundless creativity as we pay homage
@@ -126,6 +126,7 @@ const Riwaayat = () => {
           </div>
           <div className="py-2"></div>
           <Link href="https://youtu.be/5U2Gx6UEOx0?si=YE9bm4DN_VG18NBT">
+          <div className="flex max-sm:justify-center max-sm:items-center">
           <div className="w-40 h-12 justify-center items-center ">
             <div className="w-40 h-12 relative bg-white bg-opacity-10 hover:opacity-30 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-6 absolute">
@@ -135,6 +136,7 @@ const Riwaayat = () => {
               </div>
             </div>
           </div>
+          </div>
           </Link>
         </div>
         <div className="sm:px-2 md:px-5">
@@ -142,13 +144,14 @@ const Riwaayat = () => {
             international dance day, vit vellore
           </div>
           <div className="py-8"></div>
-          <div className="md:px-4 md:pl-6 text-white sm:text-base font-normal leading-7 text-left pb-4">
+          <div className="md:px-4 md:pl-6 text-white sm:text-base font-normal text-center md:text-left leading-7  pb-4">
             Missed our International dance day performance? Don&apos;t sweat it
             cause we&apos;ve bought international dance day TO YOU! <br />{" "}
             Presenting a plethora of performances by our very own dance teams.
             click below & enjoy the performance.
           </div>
           <Link href="https://youtu.be/GQPRtPhJY3M?si=EbWz4ZYcY6tLiZBx">
+          <div className="flex max-sm:justify-center max-sm:items-center">
           <div className="pl-12 w-40 h-10  max-sm:px-10 justify-center items-center inline-flex">
             <div className=" w-40 h-12 relative bg-white bg-opacity-10 hover:opacity-30 rounded-sm flex-col justify-start items-start flex">
               <div className="w-40 h-6 relative">
@@ -159,6 +162,7 @@ const Riwaayat = () => {
               <div className="w-5 h-5 origin-top-left rotate-[-34.72deg] bg-gradient-to-b from-emerald-300 to-green-600 rounded-full blur-xl" />
               <div className="w-6 h-7 origin-top-left rotate-[-34.72deg] bg-gradient-to-b from-pink-400 to-violet-700 rounded-full blur-xl" />
             </div>
+          </div>
           </div>
           </Link>
         </div>

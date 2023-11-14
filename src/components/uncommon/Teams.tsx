@@ -69,7 +69,7 @@ const Teams: React.FC<TeamsProps> = () => {
         <h1 className="text-2xl md:text-3xl text-center font-semibold lg:text-4xl pt-6 text-white mb-2">
           Our Teams
         </h1>
-        <p className="text-center text-xs md:text-md lg:text-xl text-gray-400 mb-8">
+        <p className="text-center text-sm md:text-md lg:text-xl text-gray-400 mb-8">
           Club consists of seven teams with each junior team of varied dance
           forms across India.
         </p>

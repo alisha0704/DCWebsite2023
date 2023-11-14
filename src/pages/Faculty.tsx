@@ -42,7 +42,7 @@ const Faculty = () => {
                 Faculty Coordinators
               </div>
             </div>
-            <p className="text-md max-sm:text-sm mb-8 text-gray-300 pb-10">
+            <p className="text-md max-sm:text-md mb-8 text-gray-300 pb-10">
               Meet our dedicated faculty coordinators who play a crucial role in
               the smooth functioning of our dance club. They are dedicated
               mentors who guide and inspire the club&apos;s members to explore

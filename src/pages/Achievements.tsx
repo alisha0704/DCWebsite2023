@@ -358,7 +358,7 @@ const Achievements: React.FC<AchievementsProps> = () => {
               </div>
             </div>
 
-            <p className="text-sm md:text-lg mb-8 text-gray-300">
+            <p className="text-md md:text-lg mb-8 text-gray-300">
               We never left the stage empty handed, either we win the audience
               heart of we win the whole event
             </p>

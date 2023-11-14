@@ -100,7 +100,7 @@ const Board: React.FC<BoardProps> = () => {
                 THE BOARD
               </div>
             </div>
-            <p className="text-sm md:text-lg mb-8 text-gray-300">
+            <p className="text-md md:text-lg mb-8 text-gray-300">
               Alone you can do so little, together you can do so much.
               Presenting the Board of Dance Club 2023-24.
             </p>

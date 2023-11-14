@@ -40,11 +40,11 @@ const Developers = () => {
         <div className="flex justify-center items-center ">
           <div className="text-center p-8 max-w-screen-lg w-full overflow-y-auto">
             <div className="mb-1">
-              <div className="text-lg font-bold uppercase tracking-wider md:text-4xl mt-8 text-white">
+              <div className="text-xl font-bold uppercase tracking-wider md:text-4xl mt-8 text-white">
                 Developers Team
               </div>
             </div>
-            <p className="text-md max-sm:text-xs mb-8 md:mb-14 py-3 text-gray-300">
+            <p className="text-md max-sm:text-md mb-8 md:mb-14 py-3 text-gray-300">
               Meet the creative UIUX Team and the talented Developers of this
               website.
             </p>

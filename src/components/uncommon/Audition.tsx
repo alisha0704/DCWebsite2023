@@ -5,7 +5,7 @@ const Audition = () => {
   return (
     <>
       <div className="flex flex-col md:flex-row items-center md:py-8 py-14 max-sm:mt-10 max-sm:mb-10  ">
-        <div className="text-lg md:text-xl lg:text-3xl mb-2 text-left px-8 text-white flex-1 ">
+        <div className="text-xl md:text-2xl lg:text-3xl mb-2 text-left px-8 text-white flex-1 ">
           Want to be a part of this{" "}
           <span style={{ color: "#3947E2" }}>family?</span>
           <p>
