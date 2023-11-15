@@ -7,7 +7,7 @@ const monte = Montserrat({ subsets: ["latin"] });
 const Developers = () => {
   const images = [
     {
-      imageUrl: "/Developers/Group 632.png",
+      imageUrl: "/Developers/Group 632 (1).png",
     },
     {
       imageUrl: "/Developers/Group 633.svg",
@@ -47,7 +47,7 @@ const Developers = () => {
               </div>
             </div>
             <p className="text-md max-sm:text-md mb-8 md:mb-14 py-3 text-gray-300">
-              Meet the creative UIUX Team and the talented Developers of this
+              Meet the creative UI/UX Team and the talented Developers of this
               website.
             </p>
             <div className="flex justify-center items-center">
