@@ -21,24 +21,24 @@ const Footer: React.FC<FooterProps> = () => {
             <text className="text-xl mt-2">VIT DANCE CLUB</text>
           </div>
           <div className="max-sm:ml-8">
-          <div className="mt-16 md:ml-10 flex md:items-center">
-            <IoLocationOutline size="2em" />
-            <div className="ml-2 text-lg">
-              <p>Vellore Institute of Technology</p>
-              <p>Katpadi, Vellore, Tamil Nadu</p>
+            <div className="mt-16 md:ml-10 flex md:items-center">
+              <IoLocationOutline size="2em" />
+              <div className="ml-2 text-lg">
+                <p>Vellore Institute of Technology</p>
+                <p>Katpadi, Vellore, Tamil Nadu</p>
+              </div>
             </div>
-          </div>
-          <div className="mt-16 md:ml-10 flex  md:items-center">
-            <IoCallOutline size="2em" />
-            <div className="ml-2 text-lg">
-              <p>+91 9840466868</p>
-              <p>+91 8078281652</p>
+            <div className="mt-16 md:ml-10 flex  md:items-center">
+              <IoCallOutline size="2em" />
+              <div className="ml-2 text-lg">
+                <p>+91 9840466868</p>
+                <p>+91 8078281652</p>
+              </div>
             </div>
-          </div>
-          <div className="mt-16 md:ml-10 flex md:items-center">
-            <AiOutlineMail size="2em" />
-            <div className="ml-2 text-lg">@vitdcofficial@gmail.com</div>
-          </div>
+            <div className="mt-16 md:ml-10 flex md:items-center">
+              <AiOutlineMail size="2em" />
+              <div className="ml-2 text-lg">@vitdcofficial@gmail.com</div>
+            </div>
           </div>
           <div className="text-[#A7A9BE] max-sm:ml-24  md:text-xl text-base pt-10 pb-20 flex md:items-center ml-10">
             <a
@@ -48,7 +48,6 @@ const Footer: React.FC<FooterProps> = () => {
               Contact us for queries
             </a>
           </div>
-          
         </div>
       </div>
 
@@ -71,7 +70,7 @@ const Footer: React.FC<FooterProps> = () => {
             Events
           </a>
           <a href="Achievements" className="py-4 hover:underline">
-          Achievements
+            Achievements
           </a>
           <a href="#" className="py-4 hover:underline">
             Contacts
@@ -81,7 +80,7 @@ const Footer: React.FC<FooterProps> = () => {
 
       <div className="flex md:items-center flex-col md:ml-8 py-10 mt-6">
         <text
-          className= {`text-gray-400 font-bold text-[1.2rem] text-center lg:text-[1.5rem] pt-12 gap-6 py-10`}
+          className={`text-gray-400 font-bold text-[1.2rem] text-center lg:text-[1.5rem] pt-12 gap-6 py-10`}
         >
           Social Media
         </text>
