@@ -1,6 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Montserrat } from "next/font/google";
+
+const monte = Montserrat({ subsets: ["latin"] });
 type chargersProps = {
     
 };
@@ -19,7 +22,7 @@ const chargers:React.FC<chargersProps> = () => {
             />
           </div>
     <div className="text-center text-white text-lg md:text-xl lg:text-3xl font-extrabold px-4  leading-12 tracking-widest md:mb-4">
-      CHARGERS
+    <div className={monte.className}> CHARGERS </div>
     </div>
     <div className="text-center text-gray-400 text-sm md:text-md lg:text-md font-normal mb-8">
     A dance group embodying the essence of South Indian rhythms, a perfect blend of dappankuthu beats and western moves .

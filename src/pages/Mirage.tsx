@@ -1,7 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Montserrat } from "next/font/google";
 
+const monte = Montserrat({ subsets: ["latin"] });
 type MirageProps = {
     
 };
@@ -20,7 +22,7 @@ const Mirage:React.FC<MirageProps> = () => {
             />
           </div>
     <div className="text-center text-white text-xl md:text-xl lg:text-3xl font-extrabold px-4  leading-12 tracking-widest md:mb-4">
-      MIRAGE
+      <div className={monte.className}> MIRAGE </div>
     </div>
     <div className="text-center text-gray-400 text-sm md:text-md lg:text-md font-normal mb-8 pt-2">
     Mirage is one of the seven teams at VIT dance club, with genres ranging from Indo-jazz to contemporary 

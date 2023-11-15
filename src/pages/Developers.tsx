@@ -1,7 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { Montserrat } from "next/font/google";
 
+const monte = Montserrat({ subsets: ["latin"] });
 const Developers = () => {
   const images = [
     {
@@ -41,7 +43,7 @@ const Developers = () => {
           <div className="text-center p-8 max-w-screen-lg w-full overflow-y-auto">
             <div className="mb-1">
               <div className="text-xl font-bold uppercase tracking-wider md:text-4xl mt-8 text-white">
-                Developers Team
+              <div className={monte.className}>  Developers Team </div>
               </div>
             </div>
             <p className="text-md max-sm:text-md mb-8 md:mb-14 py-3 text-gray-300">

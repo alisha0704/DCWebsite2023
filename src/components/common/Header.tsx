@@ -262,8 +262,10 @@ const Header = () => {
                   width={18}
                   className="ml-2 lg:ml-20"
                 />
+                <div className={monte.className}>
                 <div className="lg:ml-16 h-5 max-sm:text-left max-sm:px-6 text-lg font-black uppercase">
                   Contact Us
+                </div>
                 </div>
               </div>
               <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-4 max-sm:w-3/4 max-sm:mx-auto" />
@@ -320,6 +322,7 @@ const Header = () => {
               </div>
               <hr className="w-full h-0.5 mt-1 bg-white border-0 rounded" />
             </div>
+            <div className={monte.className}>
             <Link href="/Journey">
               <div className="px-8 pt-5 pb-3 uppercase font-bold">
                 journey of dc
@@ -356,6 +359,7 @@ const Header = () => {
                 our studio
               </div>
             </Link>
+            </div>
           </SlideOverLayerLeft>
         </Transition.Root>
       </header>

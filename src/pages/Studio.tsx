@@ -1,7 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { Montserrat } from "next/font/google";
 
+const monte = Montserrat({ subsets: ["latin"] });
 type StudioProps = {};
 
 const Studio: React.FC<StudioProps> = () => {
@@ -28,9 +30,9 @@ const Studio: React.FC<StudioProps> = () => {
           </svg>
         </Link>
         <div className="xl:w-full w-full mx-auto text-left border-solid border-white py-14">
-          <div className="text-center font-black text-white text-lg md:text-xl lg:text-4xl px-4 tracking-wider leading-10 md:mb-4">
-            OUR STUDIO
-          </div>
+        <div className="text-center font-extrabold tracking-wider uppercase text-lg md:text-4xl py-3">
+          our studio  
+        </div>
           <div className="text-center text-gray-400 text-md mb-2 md:mb-8 md:px-14">
             Our college dance club is proud to have state-of-the-art facilities
             and infrastructure that provide the perfect stage for dancers to
@@ -39,8 +41,8 @@ const Studio: React.FC<StudioProps> = () => {
             the fullest. Our dance studio features:
           </div>
           <div className="text-center font-bold text-white text-sm md:text-md tracking-wide leading-10 mb-6">
-            CHANGING AND REST AREAS | SPACIOUS DANCE FLOOR | MIRRORED WALLS |
-            STORAGE SPACE | HIGH-QUALITY SOUND SYSTEM
+          <div className={monte.className}>  CHANGING AND REST AREAS | SPACIOUS DANCE FLOOR | MIRRORED WALLS |
+            STORAGE SPACE | HIGH-QUALITY SOUND SYSTEM </div>
           </div>
           <div className="flex max-sm:px-6 justify-center">
             <Image src="/studio.png" alt="Gallery" width={1000} height={300} />

@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Montserrat } from "next/font/google";
 
+const monte = Montserrat({ subsets: ["latin"] });
 const Maya = () => {
   return (
     <>
@@ -9,7 +11,8 @@ const Maya = () => {
       <div className="flex items-center justify-center">
         <Image src="/Maya/LOGO (1) 1.svg" alt="BBC" width={75} height={75} />
       </div>
-      <div className="lg:text-3xl text-xl md:text-2xl text-center font-extrabold">MAYA</div>
+      <div className="lg:text-3xl text-xl md:text-2xl text-center font-extrabold">
+      <div className={monte.className}> MAYA</div> </div>
       <div className="text-center justify-center text-sm text-gray-400">
         Maya, is the team that can effortlessly synchronize their movements to
         any music because they find their true selves in classical dance. And

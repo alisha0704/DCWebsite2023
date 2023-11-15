@@ -1,7 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Montserrat } from "next/font/google";
 
+const monte = Montserrat({ subsets: ["latin"] });
 type UnitrixProps = {
     
 };
@@ -19,8 +21,8 @@ const Unitrix:React.FC<UnitrixProps> = () => {
               height={100}
             />
           </div>
-    <div className="text-center text-white text-xl  lg:text-3xl font-extrabold px-4  leading-12 tracking-widest md:mb-4">
-      UNITRIX
+    <div className="text-center text-white text-xl md:text-xl lg:text-3xl font-extrabold px-4 tracking-widest leading-12 md:mb-4">
+       UNITRIX 
     </div>
     <div className="text-center text-gray-400 text-sm md:text-md lg:text-md font-normal mb-8">
     We are Unitrix, the hip hop crew of VIT Dance Club. We adopt a versatile blend of extraordinary styles from popping to 
@@ -60,7 +62,9 @@ const Unitrix:React.FC<UnitrixProps> = () => {
           height={500}
           className="md:pt-12"
         />
-        <div className="text-center pt-4 font-semibold">ADITI SUDHIR</div>
+        <div className="text-center pt-4 font-semibold">
+        <div className={monte.className}> ADITI SUDHIR</div>
+        </div>
         <div className="text-center text-xs text-gray-400 font-semibold ">
           TEAM REPRESENTATIVE
         </div>
@@ -70,7 +74,7 @@ const Unitrix:React.FC<UnitrixProps> = () => {
          height={500}
          className="max-md:pt-12"
           />
-        <div className="text-center pt-4 font-semibold">SANJANA AWASTHI</div>
+        <div className="text-center pt-4 font-semibold"><div className={monte.className}> SANJANA AWASTHI</div></div>
         <div className="text-center text-xs text-gray-400 font-semibold">
           TEAM HEAD 
         </div>
@@ -81,12 +85,14 @@ const Unitrix:React.FC<UnitrixProps> = () => {
           height={500}
           className="pt-12"
         />
-        <div className="text-center pt-4 font-semibold">SATYENDRA G</div>
+        <div className="text-center pt-4 font-semibold"><div className={monte.className}> SATYENDRA G</div> </div>
         <div className="text-center text-xs text-gray-400 font-semibold">
           JDC COORDINATOR - TRIXTERS
         </div>
       </div>
-      <div className="text-xl md:text-2xl text-center font-extrabold">Mini-Gallery</div>
+      <div className="text-xl md:text-2xl text-center font-extrabold">
+      <div className={monte.className}> Mini-Gallery</div>
+      </div>
       <div className="text-center justify-center text-xs md:text-sm text-gray-400 pb-6">
         Glimpse of our latest performances throughout many events
       </div>
@@ -99,7 +105,7 @@ const Unitrix:React.FC<UnitrixProps> = () => {
       <div className='backdrop-blur-2xl backdrop-brightness-150'>
       <div className="lg:px-24 py-10 pb- flex-col flex">
         <div className="text-center text-lg md:text-xl lg:text-2xl text-white font-medium">
-          Recent Performances
+        <div className={monte.className}>  Recent Performances </div>
         </div>
         <div className="text-center text-neutral-400 pt-3 font-normal ">
           We have performed in many different stages across India, also
@@ -118,7 +124,7 @@ const Unitrix:React.FC<UnitrixProps> = () => {
         </div>
         <div className="sm:px-2 md:px-10 ">
           <div className="w-full h-6 max-sm:text-center  text-white text-md md:text-lg  font-semibold uppercase leading-normal tracking-wide pb-10">
-            World dance day, vit vellore
+          <div className={monte.className}>  World dance day, vit vellore </div>
           </div>
 
           <div className="md:w-96 text-white text-sm sm:text-base font-normal leading-7 text-center md:text-left justify-center items-center">
@@ -144,7 +150,7 @@ const Unitrix:React.FC<UnitrixProps> = () => {
         </div>
         <div className="sm:px-2 md:px-5">
         <div className="w-full h-6 max-sm:text-center px-6 text-white text-md md:text-lg font-semibold uppercase leading-normal tracking-wide pt-6 ">
-            international dance day, vit vellore
+        <div className={monte.className}>   international dance day, vit vellore </div>
           </div>
           <div className="py-8"></div>
           <div className="md:px-4 md:pl-6 text-white sm:text-base font-normal leading-7 text-center md:text-left pb-4">

@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Montserrat } from "next/font/google";
 
+const monte = Montserrat({ subsets: ["latin"] });
 const BBC = () => {
   return (
     <>
@@ -16,7 +18,7 @@ const BBC = () => {
       </div>
 
       <div className="lg:text-3xl text-xl md:text-2xl text-center font-extrabold">
-        BOLLYWOOD BADMAASH COMPANY
+      <div className={monte.className}> BOLLYWOOD BADMAASH COMPANY </div>
       </div>
       <div className="text-center justify-center text-sm text-gray-400">
         We are known for giving breathtaking performances with a tinge of

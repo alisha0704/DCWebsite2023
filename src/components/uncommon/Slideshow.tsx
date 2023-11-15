@@ -69,15 +69,15 @@ const Slideshow: React.FC = () => {
                   {imageText[index]}
                   </p>
                   </div>
+                  <div className={monte.className}>
                   <p className="py-2 text-white font-extrabold text-lg md:text-2xl lg:text-5xl  text-center px-2">
                   {imageTextLast[index]} 
                   </p>
                 </div>
-                <div className={monte.className}>
+                </div>
                 <p className="text-white font-medium text-sm md:text-lg">
                   {imageTexts[index]}
                 </p>
-              </div>
               </div>
             </div>
           </div>

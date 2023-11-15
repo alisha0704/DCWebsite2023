@@ -2,7 +2,9 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { Montserrat } from "next/font/google";
 
+const monte = Montserrat({ subsets: ["latin"] });
 type BoardProps = {};
 
 const Board: React.FC<BoardProps> = () => {
@@ -96,8 +98,8 @@ const Board: React.FC<BoardProps> = () => {
         <div className="flex justify-center items-center ">
           <div className="text-center p-8 max-w-screen-lg w-full overflow-y-auto">
             <div className="mb-4">
-              <div className="text-4xl font-bold md:text-3xl mb-1 mt-8 text-white tracking-wide">
-                THE BOARD
+              <div className="text-4xl font-bold  mb-1 mt-8 text-white tracking-wide">
+              <div className={monte.className}>THE BOARD</div>
               </div>
             </div>
             <p className="text-md md:text-lg mb-8 text-gray-300">

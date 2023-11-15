@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Montserrat } from "next/font/google";
 
+const monte = Montserrat({ subsets: ["latin"] });
 const Slideshow: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const numberOfImages = 21;
@@ -86,7 +88,7 @@ const Slideshow: React.FC = () => {
       </Link>
       <div className="py-10">
         <div className="text-center font-bold tracking-wider uppercase text-lg md:text-4xl">
-          Notable Alumnis
+        <div className={monte.className}>  Notable Alumnis </div>
         </div>
         <div className="text-center font-medium text-md max-sm:text-sm px-2 text-gray-400  md:pb-10">
           Check out the list of our Notable Alumni who are on top of their Passion.

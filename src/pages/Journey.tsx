@@ -1,6 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { Montserrat } from "next/font/google";
+
+const monte = Montserrat({ subsets: ["latin"] });
 
 const Journey = () => {
   return (
@@ -27,7 +30,7 @@ const Journey = () => {
         </Link>
         <div className="py-4"></div>
         <div className="text-center text-white text-lg md:text-xl lg:text-4xl px-4 uppercase font-bold tracking-wide leading-2 pt-12  md:mb-1">
-          Journey of Dance Club
+        <div className={monte.className}> Journey of Dance Club </div>
         </div>
         <div className="text-center text-gray-400 text-md  font-normal px-4 mb-8">
           Let us go through the journey of Dance Club!

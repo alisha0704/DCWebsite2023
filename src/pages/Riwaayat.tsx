@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Montserrat } from "next/font/google";
 
+const monte = Montserrat({ subsets: ["latin"] });
 const Riwaayat = () => {
   return (
     <>
@@ -14,7 +16,9 @@ const Riwaayat = () => {
           height={150}
         />
       </div>
-      <div className="lg:text-3xl text-xl md:text-2xl text-center font-extrabold">RIWAAYAT</div>
+      <div className="text-center text-white text-xl md:text-xl lg:text-3xl font-extrabold px-4  leading-12 tracking-widest md:mb-4">
+      RIWAAYAT 
+    </div>
       <div className="text-center justify-center text-sm text-gray-400">
         Riwaayat believes in presenting Kathak in the most authentic and
         classical manner possible. A team known for its emotive style, do not

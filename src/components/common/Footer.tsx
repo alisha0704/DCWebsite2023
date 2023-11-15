@@ -6,6 +6,7 @@ import { PiYoutubeLogo } from "react-icons/pi";
 import Image from "next/image";
 import Link from "next/link";
 import { PiFacebookLogoBold } from "react-icons/pi";
+
 type FooterProps = {};
 
 const Footer: React.FC<FooterProps> = () => {

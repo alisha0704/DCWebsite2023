@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Montserrat } from "next/font/google";
+
+const monte = Montserrat({ subsets: ["latin"] });
 const Jnj = () => {
   return (
     <>
@@ -13,7 +16,9 @@ const Jnj = () => {
           height={150}
         />
       </div>
-      <div className="lg:text-3xl text-xl md:text-2xl text-center font-extrabold">JNJ Bhangra</div>
+      <div className="lg:text-3xl text-xl md:text-2xl text-center font-extrabold">
+      <div className={monte.className}> JNJ Bhangra</div>
+      </div>
       <div className="text-center justify-center text-sm text-gray-400">
         JnJ Bhangra is a part of the legacy that celebrates the age old art of
         Bhangra, the heart and soul of Punjabi Culture. We attempt to, in our
