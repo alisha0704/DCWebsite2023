@@ -58,7 +58,7 @@ const Header = () => {
               className="py-4 px-2 pl-4"
             />
 
-            <div className="text-white justify-center text-center pl-4 pt-7 text-2xl font-bold">
+            <div className="text-white justify-center uppercase text-center pl-4 pt-7 text-2xl font-bold">
               VIT Dance Club{" "}
             </div>
 
@@ -190,10 +190,25 @@ const Header = () => {
               </a>
               <hr className="w-2/3 h-0.5 mx-auto bg-gray-500 border-0 rounded my-1" />
               <a
+                href="/Journey "
+                className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
+              >
+                JOURNEY OF DC
+              </a>
+              <hr className="w-2/3 h-0.5 mx-auto bg-gray-500 border-0 rounded my-1" />
+              <a
+                href="/Notablealumni "
+                className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
+              >
+                NOTABLE ALUMNIS
+              </a>
+              <hr className="w-2/3 h-0.5 mx-auto bg-gray-500 border-0 rounded my-1" />
+             
+              <a
                 href="/Board "
                 className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
               >
-                THE BOARD 2023
+                THE BOARD OF DANCE CLUB
               </a>
               <hr className="w-2/3 h-0.5 mx-auto bg-gray-500 border-0 rounded my-1" />
               <a
@@ -209,20 +224,7 @@ const Header = () => {
               >
                 DEVELOPER TEAM
               </a>
-              <hr className="w-2/3 h-0.5 mx-auto bg-gray-500 border-0 rounded my-1" />
-              <a
-                href="/Notablealumni "
-                className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
-              >
-                NOTABLE ALUMNIS
-              </a>
-              <hr className="w-2/3 h-0.5 mx-auto bg-gray-500 border-0 rounded my-1" />
-              <a
-                href="/Journey "
-                className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
-              >
-                JOURNEY OF DC
-              </a>
+              
               <hr className="w-2/3 h-0.5 mx-auto bg-gray-500 border-0 rounded my-1" />
               <a
                 href="/Studio "
@@ -251,9 +253,9 @@ const Header = () => {
                 <Image
                   src="/icons/cross.png"
                   alt="X"
-                  height={20}
-                  width={20}
-                  className="lg:ml-20"
+                  height={18}
+                  width={18}
+                  className="ml-2 lg:ml-20"
                 />
                 <div className="lg:ml-16 h-5 max-sm:text-left max-sm:px-6 text-lg font-black uppercase">
                   Contact Us
@@ -313,9 +315,21 @@ const Header = () => {
               </div>
               <hr className="w-full h-0.5 mt-1 bg-white border-0 rounded" />
             </div>
+            <Link href="/Journey">
+              <div className="px-8 pt-5 pb-3 uppercase font-bold">
+                journey of dc
+              </div>
+            </Link>
+            <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
+            <Link href="/Notablealumni">
+              <div className="px-8 pt-5 pb-3 uppercase font-bold">
+                notable alumnis
+              </div>
+            </Link>
+            <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
             <Link href="/Board">
-              <div className="px-8 pt-5 pb-3 uppercase font-bold mt-6">
-                the board 2023
+              <div className="px-8 pt-5 pb-3 uppercase font-bold ">
+                the board of dance club
               </div>
             </Link>
             <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
@@ -331,18 +345,7 @@ const Header = () => {
               </div>
             </Link>
             <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
-            <Link href="/Notablealumni">
-              <div className="px-8 pt-5 pb-3 uppercase font-bold">
-                notable alumnis
-              </div>
-            </Link>
-            <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
-            <Link href="/Journey">
-              <div className="px-8 pt-5 pb-3 uppercase font-bold">
-                journey of dc
-              </div>
-            </Link>
-            <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
+           
             <Link href="/Studio">
               <div className="px-8 pt-5 pb-3 uppercase font-bold">
                 our studio
