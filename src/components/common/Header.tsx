@@ -52,7 +52,7 @@ const Header = () => {
     <>
       <header className="">
         <div className="">
-          <div className=" lg:hidden bg-black flex">
+          <div className=" lg:hidden bg-black opacity-75 flex">
             <Image
               src="/black n white logo 2.svg"
               alt="DC"
@@ -61,7 +61,7 @@ const Header = () => {
               className="py-4 px-2 pl-4"
             />
             <div className={monte.className}>
-              <div className="text-white justify-center uppercase text-center pt-7 text-xl font-bold px-14">
+              <div className="text-white justify-center uppercase text-center pt-8 text-xl font-bold px-14">
                 VIT Dance Club{" "}
               </div>
             </div>
