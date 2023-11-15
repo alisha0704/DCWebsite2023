@@ -67,10 +67,10 @@ const Header = () => {
             </div>
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="flex items-center px-3 py-2 rounded text-white absolute right-3 top-6"
+              className="flex items-center px-3 py-2 rounded text-white absolute right-3 top-5"
             >
               <svg
-                className={`fill-current h-6 w-6 ${
+                className={`fill-current h-8 w-8 ${
                   isOpen ? "hidden" : "block"
                 }`}
                 viewBox="0 0 20 20"
@@ -79,7 +79,7 @@ const Header = () => {
                 <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
               </svg>
               <svg
-                className={`fill-current h-6 w-6 ${
+                className={`fill-current h-8 w-8 ${
                   isOpen ? "block" : "hidden"
                 }`}
                 viewBox="0 0 20 20"
