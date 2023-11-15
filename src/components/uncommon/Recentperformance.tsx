@@ -1,13 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Montserrat } from "next/font/google";
 
+const monte = Montserrat({ subsets: ["latin"] });
 const Recentperformance: React.FC = () => {
   return (
     <div className="backdrop-blur-3xl backdrop-brightness-200">
       <div className="lg:px-24 py-10 pb- flex-col flex">
-        <div className="text-center text-2xl md:text-3xl lg:text-4xl text-white font-normal">
-          Recent Performances
+        <div className="text-center text-2xl md:text-3xl lg:text-4xl text-white font-semibold">
+        <div className={monte.className}>Recent Performances</div>
         </div>
         <div className="text-center text-neutral-400 text-lg font-normal leading-7 pt-4 ">
           We have performed in many different stages across India, also
@@ -27,7 +29,7 @@ const Recentperformance: React.FC = () => {
         </div>
         <div className="sm:px-2 md:px-10 ">
           <div className="w-full h-6 max-sm:text-center  text-white text-md md:text-lg  font-semibold uppercase leading-normal tracking-wide pb-10">
-            mood indigo,  IIT Bombay
+          <div className={monte.className}> mood indigo,  IIT Bombay </div>
           </div>
 
           <div className="md:w-96 text-white t text-base font-normal leading-7 text-center md:text-left justify-center items-center">
@@ -63,7 +65,7 @@ const Recentperformance: React.FC = () => {
         </div>
         <div className="sm:px-2 md:px-5">
         <div className="w-full h-6 max-sm:text-center px-6 text-white text-md md:text-lg font-semibold uppercase leading-normal tracking-wide pt-6 ">
-        world dance day, vit vellore
+        <div className={monte.className}> world dance day, vit vellore </div>
           </div>
           <div className="py-8"></div>
           <div className="md:px-4 md:pl-6 text-white text-base font-normal leading-7 text-center md:text-left pb-4">

@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Montserrat } from "next/font/google";
+
+const monte = Montserrat({ subsets: ["latin"] });
 
 type AchievementsProps = {};
 
@@ -20,7 +23,7 @@ const Achievements: React.FC<AchievementsProps> = () => {
     },
     {
       imageUrl: "/achievements/image 95.png",
-      eventName: "Synapse - 2023",
+      eventName: "SYNAPSE - 2023",
       eventDesc: "DUET DANCE -2ND PLACE",
       winningTeam: "CHARGERS",
     },
@@ -353,8 +356,8 @@ const Achievements: React.FC<AchievementsProps> = () => {
         <div className="flex justify-center items-center">
           <div className="text-center p-8 w-full overflow-y-auto">
             <div className="mb-4">
-              <div className="text-2xl md:text-3xl tracking-wide uppercase font-bold mb-1 mt-8 text-white">
-                Our Achievements
+              <div className="text-2xl md:text-4xl tracking-wide uppercase font-bold mb-1 mt-8 text-white">
+              <div className={monte.className}>  Our Achievements </div>
               </div>
             </div>
 

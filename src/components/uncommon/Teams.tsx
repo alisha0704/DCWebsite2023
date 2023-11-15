@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Montserrat } from "next/font/google";
 
+const monte = Montserrat({ subsets: ["latin"] });
 type TeamsProps = {};
 
 const imageLinks = [
@@ -66,8 +68,8 @@ const Teams: React.FC<TeamsProps> = () => {
   return (
     <div className="flex flex-col items-center md:px-12 backdrop-blur-2xl  backdrop-brightness-200">
       <div className="">
-        <h1 className="text-2xl md:text-3xl text-center font-semibold lg:text-4xl pt-6 text-white mb-2">
-          Our Teams
+        <h1 className="text-2xl md:text-3xl text-center uppercase font-bold lg:text-3xl pt-6 text-white mb-2">
+        <div className={monte.className}>Our Teams </div>
         </h1>
         <p className="text-center text-sm md:text-md lg:text-xl text-gray-400 mb-8">
           Club consists of seven teams with each junior team of varied dance
@@ -97,8 +99,8 @@ const Teams: React.FC<TeamsProps> = () => {
                   />
                 </a>
                 <div className="flex flex-col rounded-xl opacity-80 backdrop-blur-2xl items-center mt-2">
-                  <h2 className="text-lg px-4 text-center max-sm:px-6 pr-8 font-semibold leading-0 text-white mt-2">
-                    {team.name}
+                  <h2 className="text-md px-4 text-center max-sm:px-6 pr-8 font-semibold leading-0 text-white mt-2">
+                  <div className={monte.className}> {team.name} </div>
                   </h2>
                   <div
                     className="text-sm md:text-md lg:text-lg text-center text-gray-100 mt-1 mb-8 "
@@ -142,8 +144,8 @@ const Teams: React.FC<TeamsProps> = () => {
             />
           </Link>
           <div className="flex flex-col rounded-xl opacity-80 backdrop-blur-2xl items-center mt-2">
-            <h2 className="text-lg px-4 text-center max-sm:px-6 pr-8 font-semibold leading-0 text-white ">
-              {chargersteam.name}
+            <h2 className="text-md px-4 text-center max-sm:px-6 pr-8 font-semibold leading-0 text-white ">
+            <div className={monte.className}>{chargersteam.name}</div>
             </h2>
             <div className="text-sm md:text-md lg:text-lg text-center text-gray-100 mt-1 mb-8">
               {hovered ? (

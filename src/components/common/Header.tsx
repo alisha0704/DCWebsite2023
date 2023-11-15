@@ -4,6 +4,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { Transition } from "@headlessui/react";
 import { Fragment } from "react";
+import { Montserrat } from "next/font/google";
+
+const monte = Montserrat({ subsets: ["latin"] });
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -57,11 +60,11 @@ const Header = () => {
               height={75}
               className="py-4 px-2 pl-4"
             />
-
-            <div className="text-white justify-center uppercase text-center pl-4 pt-7 text-2xl font-bold">
+            <div className={monte.className}>
+            <div className="text-white justify-center uppercase text-center  pt-7 text-2xl font-bold">
               VIT Dance Club{" "}
             </div>
-
+            </div>
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="flex items-center px-3 py-2 rounded text-white absolute right-7 top-7"
@@ -160,6 +163,7 @@ const Header = () => {
           <div
             className={`w-full block flex-grow ${isOpen ? "block" : "hidden"}`}
           >
+            <div className={monte.className}>
             <div className="text-sm lg:flex-grow text-center py-1 pb-4">
               <a
                 href=" / "
@@ -238,6 +242,7 @@ const Header = () => {
                 className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"
               >
                 CONTACT US
+              </div>
               </div>
             </div>
             <div></div>

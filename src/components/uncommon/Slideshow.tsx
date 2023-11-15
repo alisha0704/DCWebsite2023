@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
+import { Montserrat } from "next/font/google";
+
+const monte = Montserrat({ subsets: ["latin"] });
 
 const Slideshow: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -61,16 +64,20 @@ const Slideshow: React.FC = () => {
               />
               <div className="relative left-0 w-full text-center md:p-4 backdrop-blur-2xl bg-opacity-50">
                 <div className="flex text-center justify-center">
+                <div className={monte.className}>
                   <p className="py-2 text-white font-medium text-lg md:text-2xl lg:text-5xl text-center">
-                    {imageText[index]}
+                  {imageText[index]}
                   </p>
+                  </div>
                   <p className="py-2 text-white font-extrabold text-lg md:text-2xl lg:text-5xl  text-center px-2">
-                    {imageTextLast[index]}
+                  {imageTextLast[index]} 
                   </p>
                 </div>
+                <div className={monte.className}>
                 <p className="text-white font-medium text-sm md:text-lg">
                   {imageTexts[index]}
                 </p>
+              </div>
               </div>
             </div>
           </div>

@@ -3,7 +3,9 @@ import Image from "next/image";
 import Internalevents from "@/components/uncommon/Internalevents";
 import Externalevents from "@/components/uncommon/Externalevents";
 import Link from "next/link";
+import { Montserrat } from "next/font/google";
 
+const monte = Montserrat({ subsets: ["latin"] });
 const Events = () => {
   const [displayInternalEvents, setDisplayInternalEvents] = useState(true);
 
@@ -17,8 +19,8 @@ const Events = () => {
   return (
     <>
       <div className="backdrop-blur-2xl ">
-        <div className="text-white font-bold text-2xl md:text-3xl lg:text-4xl pt-6 text-center">
-          OUR EVENTS
+        <div className="text-white font-bold text-2xl md:text-3xl lg:text-4xl pt-16  text-center">
+        <div className={monte.className}> OUR EVENTS </div>
         </div>
         <p className="text-md md:text-lg text-center font-medium py-4">
           Brace yourself for a high-octane dose of entertainment. Here are the
@@ -26,7 +28,9 @@ const Events = () => {
         </p>
 
         <div className="border border-gray-600" />
-        <div className="text-center text-2xl md:text-3xl py-6 uppercase font-bold">Riviera</div>
+        <div className="text-center text-2xl md:text-3xl py-6 uppercase font-bold">
+        <div className={monte.className}>Riviera</div>
+        </div>
         <div className="flex flex-col md:flex-row items-center">
           <div className="max-sm:hidden">
             <Image
@@ -86,7 +90,7 @@ const Events = () => {
         </div>
         <div className="border border-gray-600 border-t-0 border-l-0 border-r-0 py-4" />
         <div className="text-center uppercase text-2xl md:text-3xl py-6 font-bold">
-          World Dance Day
+        <div className={monte.className}> World Dance Day </div>
         </div>
         <div className="flex flex-col md:flex-row items-center py-4">
           <div className="max-sm:hidden">
@@ -119,7 +123,7 @@ const Events = () => {
           </div>
         </div>
         <div className="text-center text-2xl md:text-3xl lg:text-4xl py-10 font-extrabold">
-          Other Events & Workshops
+        <div className={monte.className}>Other Events & Workshops</div>
         </div>
 
         <div className="backdrop-brightness-200 backdrop-blur-2xl">
