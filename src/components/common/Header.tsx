@@ -61,7 +61,7 @@ const Header = () => {
               className="py-4 px-2 pl-4"
             />
             <div className={monte.className}>
-              <div className="text-white justify-center uppercase text-center pt-8 text-xl font-bold px-9">
+              <div className="text-white justify-center uppercase text-center pt-8 text-xl font-bold px-3">
                 VIT Dance Club{" "}
               </div>
             </div>
@@ -263,37 +263,37 @@ const Header = () => {
                   className="ml-2 lg:ml-20"
                 />
                 <div className={monte.className}>
-                <div className="lg:ml-16 h-5 max-sm:text-left max-sm:px-6 text-lg font-black uppercase">
+                <div className="lg:ml-16 h-5 max-sm:text-left max-sm:px-2 text-md lg:text-lg font-black uppercase">
                   Contact Us
                 </div>
                 </div>
               </div>
               <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-4 max-sm:w-3/4 max-sm:mx-auto" />
-              <div className="px-20 uppercase font-bold max-sm:px-8">
+              <div className="px-20 max-sm:text-md uppercase font-bold max-sm:px-8">
                 NOTE: contact us for collaboration, fest invites, events and
                 queries
               </div>
-              <div className="px-20 uppercase font-bold max-sm:px-8 pt-4">
+              <div className="px-20 uppercase max-sm:text-md font-bold max-sm:px-8 pt-4">
                 mail us
               </div>
               <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-1 max-sm:w-3/4 max-sm:mx-auto" />
               <Link href="https://www.instagram.com/vitdanceclub/">
-                <div className="px-20 uppercase font-bold max-sm:px-8 pt-4">
+                <div className="px-20 max-sm:text-md uppercase font-bold max-sm:px-8 pt-4">
                   visit instagram
                 </div>
               </Link>
               <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-1 max-sm:w-3/4 max-sm:mx-auto" />
               <Link href="https://www.youtube.com/@vitdanceclub9231">
-                <div className="px-20 uppercase font-bold max-sm:px-8 pt-4">
+                <div className="px-20 max-sm:text-md uppercase font-bold max-sm:px-8 pt-4">
                   visit YouTube
                 </div>
               </Link>
               <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-1 max-sm:w-3/4 max-sm:mx-auto" />
               <div className="px-20 uppercase font-bold max-sm:px-8">phone</div>
-              <div className="px-20 uppercase font-bold max-sm:px-8">
+              <div className="px-20 uppercase max-sm:text-md font-bold max-sm:px-8">
                 +91 9840466868
               </div>
-              <div className="px-20 uppercase font-bold max-sm:px-8">
+              <div className="px-20 uppercase max-sm:text-md font-bold max-sm:px-8">
                 +91 8078281652
               </div>
             </div>
