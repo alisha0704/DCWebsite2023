@@ -61,7 +61,7 @@ const Header = () => {
               className="py-4 px-2 pl-4"
             />
             <div className={monte.className}>
-              <div className="text-white justify-center uppercase text-center pt-8 text-xl font-bold px-11">
+              <div className="text-white justify-center uppercase text-center pt-8 text-xl font-bold px-9">
                 VIT Dance Club{" "}
               </div>
             </div>
