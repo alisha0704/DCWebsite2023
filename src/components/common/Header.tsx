@@ -263,9 +263,9 @@ const Header = () => {
                   className="ml-2 lg:ml-20"
                 />
                 <div className={monte.className}>
-                <div className="lg:ml-16 h-5 max-sm:text-left max-sm:px-2 text-md lg:text-lg font-black uppercase">
-                  Contact Us
-                </div>
+                  <div className="lg:ml-16 h-5 max-sm:text-left max-sm:px-2 text-md lg:text-lg font-black uppercase">
+                    Contact Us
+                  </div>
                 </div>
               </div>
               <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-4 max-sm:w-3/4 max-sm:mx-auto" />
@@ -323,42 +323,42 @@ const Header = () => {
               <hr className="w-full h-0.5 mt-1 bg-white border-0 rounded" />
             </div>
             <div className={monte.className}>
-            <Link href="/Journey">
-              <div className="px-8 pt-5 pb-3 uppercase font-bold">
-                journey of dc
-              </div>
-            </Link>
-            <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
-            <Link href="/Notablealumni">
-              <div className="px-8 pt-5 pb-3 uppercase font-bold">
-                notable alumnis
-              </div>
-            </Link>
-            <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
-            <Link href="/Board">
-              <div className="px-8 pt-5 pb-3 uppercase font-bold ">
-                the board of dance club
-              </div>
-            </Link>
-            <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
-            <Link href="/Faculty">
-              <div className="px-8 pt-5 pb-3 uppercase font-bold">
-                faculty coordinators
-              </div>
-            </Link>
-            <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
-            <Link href="/Developers">
-              <div className="px-8 pt-5 pb-3 uppercase font-bold">
-                developer team
-              </div>
-            </Link>
-            <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
+              <Link href="/Journey">
+                <div className="px-8 pt-5 pb-3 uppercase font-bold">
+                  journey of dc
+                </div>
+              </Link>
+              <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
+              <Link href="/Notablealumni">
+                <div className="px-8 pt-5 pb-3 uppercase font-bold">
+                  notable alumnis
+                </div>
+              </Link>
+              <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
+              <Link href="/Board">
+                <div className="px-8 pt-5 pb-3 uppercase font-bold ">
+                  the board of dance club
+                </div>
+              </Link>
+              <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
+              <Link href="/Faculty">
+                <div className="px-8 pt-5 pb-3 uppercase font-bold">
+                  faculty coordinators
+                </div>
+              </Link>
+              <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
+              <Link href="/Developers">
+                <div className="px-8 pt-5 pb-3 uppercase font-bold">
+                  developer team
+                </div>
+              </Link>
+              <hr className="w-10/12 h-0.5 mx-3 bg-gray-500 border-0 rounded" />
 
-            <Link href="/Studio">
-              <div className="px-8 pt-5 pb-3 uppercase font-bold">
-                our studio
-              </div>
-            </Link>
+              <Link href="/Studio">
+                <div className="px-8 pt-5 pb-3 uppercase font-bold">
+                  our studio
+                </div>
+              </Link>
             </div>
           </SlideOverLayerLeft>
         </Transition.Root>

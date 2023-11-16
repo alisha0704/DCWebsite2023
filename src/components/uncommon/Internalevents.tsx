@@ -1,25 +1,25 @@
-import React from 'react'
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
 
 const Internalevents = () => {
   return (
     <div>
-        <div className="text-lg md:text-xl lg:text-2xl  uppercase flex py-10 gap-8 font-bold  px-3">
+      <div className="text-lg md:text-xl lg:text-2xl  uppercase flex py-10 gap-8 font-bold  px-3">
         <Image
-                    src="/line.svg"
-                    alt="Board"
-                    width={110}
-                    height={400}
-                    className='max-lg:hidden'
-                  />
-                  Outreach/Collaborations
-                  <Image
-                    src="/line.svg"
-                    alt="Board"
-                    width={300}
-                    height={300}
-                    className='max-lg:hidden'
-                  />
+          src="/line.svg"
+          alt="Board"
+          width={110}
+          height={400}
+          className="max-lg:hidden"
+        />
+        Outreach/Collaborations
+        <Image
+          src="/line.svg"
+          alt="Board"
+          width={300}
+          height={300}
+          className="max-lg:hidden"
+        />
       </div>
       <div className="px-6 text-base md:text-md lg:text-lg">
         Step into a world of dance innovation with our series of collaboration
@@ -107,22 +107,21 @@ const Internalevents = () => {
         />
       </div>
       <div className="text-lg md:text-xl lg:text-2xl uppercase flex py-10 gap-8 font-bold  px-3">
-      <Image
-                    src="/line.svg"
-                    alt="Board"
-                    width={110}
-                    height={400}
-                    className='max-lg:hidden'
-                  />
-                  Alumni Events 
-                  <Image
-                    src="/line.svg"
-                    alt="Board"
-                    width={300}
-                    height={300}
-                    className='max-lg:hidden'
-                  />
-
+        <Image
+          src="/line.svg"
+          alt="Board"
+          width={110}
+          height={400}
+          className="max-lg:hidden"
+        />
+        Alumni Events
+        <Image
+          src="/line.svg"
+          alt="Board"
+          width={300}
+          height={300}
+          className="max-lg:hidden"
+        />
       </div>
       <div className="gap-4 columns-1 md:columns-2 lg:columns-4 py-10 px-8">
         <Image
@@ -133,7 +132,8 @@ const Internalevents = () => {
           className="w-full"
         />
         <div className="text-center pt-3 pb-6">
-          <h1 className='font-bold'>GeethaNritya </h1> Unitrix Alumni Geethanjali Ajith
+          <h1 className="font-bold">GeethaNritya </h1> Unitrix Alumni
+          Geethanjali Ajith
         </div>
         <Image
           src="/events/gallery3/image 119.svg"
@@ -143,10 +143,12 @@ const Internalevents = () => {
           className="w-full"
         />
         <div className="text-center pt-3 pb-6">
-          <h1 className='font-bold'>Taal se taal Mila</h1> Riwaayat alumni Meher Nigam
+          <h1 className="font-bold">Taal se taal Mila</h1> Riwaayat alumni Meher
+          Nigam
         </div>
         <div className="text-center pb-5 pt-10">
-          <h1 className='font-bold'>Groove And Go </h1> Unitrix Alumni Sarang Ram
+          <h1 className="font-bold">Groove And Go </h1> Unitrix Alumni Sarang
+          Ram
         </div>
         <Image
           src="/events/gallery3/image 121.svg"
@@ -157,7 +159,7 @@ const Internalevents = () => {
         />
 
         <div className="text-center py-4">
-          <h1 className='font-bold'>Flow with it </h1> Chargers Alumni Gautham
+          <h1 className="font-bold">Flow with it </h1> Chargers Alumni Gautham
         </div>
         <Image
           src="/events/gallery3/image 120.svg"
@@ -175,7 +177,7 @@ const Internalevents = () => {
           className="w-full"
         />
         <div className="text-center pt-3 pb-6">
-          <h1 className='font-bold'>Pump it Up </h1>JNJ Bhangra Alumni Aniket
+          <h1 className="font-bold">Pump it Up </h1>JNJ Bhangra Alumni Aniket
         </div>
 
         <Image
@@ -186,11 +188,11 @@ const Internalevents = () => {
           className="w-full"
         />
         <div className="text-center pt-3">
-          <h1 className='font-bold'>Noopura </h1>Maya Alumni Sariga
+          <h1 className="font-bold">Noopura </h1>Maya Alumni Sariga
         </div>
 
         <div className="text-center  pt-10 pb-5">
-          <h1 className='font-bold'>Lumiere </h1> Mirage Alumni Shubham Mittal
+          <h1 className="font-bold">Lumiere </h1> Mirage Alumni Shubham Mittal
         </div>
         <Image
           src="/events/gallery3/image 117.svg"
@@ -200,7 +202,7 @@ const Internalevents = () => {
           className="w-full"
         />
         <div className="text-center pt-3 pb-4">
-          <h1 className='font-bold'>Feel The Beat </h1> BBC Alumni Aditya Roshan
+          <h1 className="font-bold">Feel The Beat </h1> BBC Alumni Aditya Roshan
         </div>
         <Image
           src="/events/gallery3/image 116.svg"
@@ -211,23 +213,21 @@ const Internalevents = () => {
         />
       </div>
       <div className=" text-lg md:text-xl lg:text-2xl uppercase flex py-10 gap-8 font-bold px-3">
-      <Image
-                    src="/line.svg"
-                    alt="Board"
-                    width={110}
-                    height={400}
-                    className='max-lg:hidden'
-                  />
-                  Other Offline/Online Events
         <Image
-                    src="/line.svg"
-                    alt="Board"
-                    width={300}
-                    height={300}
-                    className='max-lg:hidden'
-                  />
-
-
+          src="/line.svg"
+          alt="Board"
+          width={110}
+          height={400}
+          className="max-lg:hidden"
+        />
+        Other Offline/Online Events
+        <Image
+          src="/line.svg"
+          alt="Board"
+          width={300}
+          height={300}
+          className="max-lg:hidden"
+        />
       </div>
       <div className="gap-4 columns-1 md:columns-2 lg:columns-4 py-10 px-8">
         <Image
@@ -251,7 +251,7 @@ const Internalevents = () => {
           width={1000}
           className="w-full mb-6"
         />
-         <Image
+        <Image
           src="/events/groovix.jpg"
           alt=""
           height={1000}
@@ -282,7 +282,7 @@ const Internalevents = () => {
           width={1000}
           className="w-full mb-6"
         />
-         <Image
+        <Image
           src="/events/hookit.jpg"
           alt=""
           height={1000}
@@ -341,17 +341,16 @@ const Internalevents = () => {
           width={1000}
           className="w-full mb-6"
         />
-         <Image
+        <Image
           src="/events/tango.jpg"
           alt=""
           height={1000}
           width={1000}
           className="w-full mb-6"
         />
-        
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Internalevents
+export default Internalevents;

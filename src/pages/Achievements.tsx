@@ -46,7 +46,7 @@ const Achievements: React.FC<AchievementsProps> = () => {
       eventDesc: "VERVE - 3RD PLACE",
       winningTeam: "BBC",
     },
-  ]
+  ];
   const images2 = [
     {
       imageUrl: "/achievements/image 81.svg",
@@ -357,46 +357,46 @@ const Achievements: React.FC<AchievementsProps> = () => {
           <div className="text-center p-8 w-full overflow-y-auto">
             <div className="mb-4">
               <div className="text-2xl md:text-4xl tracking-wide uppercase font-bold mb-1 mt-8 text-white">
-              <div className={monte.className}>  Our Achievements </div>
+                <div className={monte.className}> Our Achievements </div>
               </div>
             </div>
 
             <p className="text-md md:text-lg mb-8 text-gray-300">
-              We never leave the stage empty handed, either we win the audience&apos;s
-              heart or we win the whole event
+              We never leave the stage empty handed, either we win the
+              audience&apos;s heart or we win the whole event
             </p>
             <div className="flex flex-col lg:flex-row">
               <div className="w-full lg:w-1/3">
-                <Image 
-                src="/achievements/achievements2023.png"
-                alt=""
-                width={1000}
-                height={1000}
+                <Image
+                  src="/achievements/achievements2023.png"
+                  alt=""
+                  width={1000}
+                  height={1000}
                 />
               </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 px-8 gap-14 py-8 w-full lg:w-2/3">
-              {images.map((image, index) => (
-                <div key={index} className="text-center">
-                  <Image
-                    src={image.imageUrl}
-                    alt={`Image ${index + 1}`}
-                    width={1000}
-                    height={1000}
-                  />
-                  <div className="flex flex-col items-center mt-2">
-                    <h2 className="text-md lg:text-lg font-semibold text-white mt-2">
-                      {image.eventName}
-                    </h2>
-                    <h3 className="text-xs lg:text-sm text-gray-400 mt-1">
-                      {image.eventDesc}
-                    </h3>
-                    <h3 className="text-xs lg:text-sm text-gray-400 mb-8">
-                      {image.winningTeam}
-                    </h3>
+              <div className="grid grid-cols-1 lg:grid-cols-2 px-8 gap-14 py-8 w-full lg:w-2/3">
+                {images.map((image, index) => (
+                  <div key={index} className="text-center">
+                    <Image
+                      src={image.imageUrl}
+                      alt={`Image ${index + 1}`}
+                      width={1000}
+                      height={1000}
+                    />
+                    <div className="flex flex-col items-center mt-2">
+                      <h2 className="text-md lg:text-lg font-semibold text-white mt-2">
+                        {image.eventName}
+                      </h2>
+                      <h3 className="text-xs lg:text-sm text-gray-400 mt-1">
+                        {image.eventDesc}
+                      </h3>
+                      <h3 className="text-xs lg:text-sm text-gray-400 mb-8">
+                        {image.winningTeam}
+                      </h3>
+                    </div>
                   </div>
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-3 px-8 gap-14 py-8 w-full">
               {images2.map((image, index) => (

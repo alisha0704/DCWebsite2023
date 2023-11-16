@@ -42,7 +42,7 @@ const Faculty = () => {
           <div className="text-center p-8 max-w-screen-lg w-full overflow-y-auto">
             <div className="mb-4">
               <div className="text-2xl font-bold tracking-wide md:text-4xl mb-1 mt-8 text-white uppercase">
-              <div className={monte.className}>  Faculty Coordinators </div>
+                <div className={monte.className}> Faculty Coordinators </div>
               </div>
             </div>
             <p className="text-md max-sm:text-md mb-8 text-gray-300 pb-10">
@@ -65,10 +65,10 @@ const Faculty = () => {
                       height={1000}
                     />
                     <div className="flex flex-col items-center mt-2">
-                    <div className={monte.className}> 
-                      <h2 className="text-md lg:text-lg font-semibold text-white mt-2">
-                        {image.memberName}
-                      </h2>
+                      <div className={monte.className}>
+                        <h2 className="text-md lg:text-lg font-semibold text-white mt-2">
+                          {image.memberName}
+                        </h2>
                       </div>
                       <h3 className="text-xs lg:text-sm text-gray-400 mt-1 mb-8">
                         {image.memberDesgn}

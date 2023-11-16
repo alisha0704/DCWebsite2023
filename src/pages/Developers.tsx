@@ -43,7 +43,7 @@ const Developers = () => {
           <div className="text-center p-8 max-w-screen-lg w-full overflow-y-auto">
             <div className="mb-1">
               <div className="text-xl font-bold uppercase tracking-wider md:text-4xl mt-8 text-white">
-              <div className={monte.className}>  Developers Team </div>
+                <div className={monte.className}> Developers Team </div>
               </div>
             </div>
             <p className="text-md max-sm:text-md mb-8 md:mb-14 py-3 text-gray-300">
@@ -51,18 +51,18 @@ const Developers = () => {
               website.
             </p>
             <div className="flex justify-center items-center">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-36 md:w-5/6">
-              {images.map((image, index) => (
-                <div key={index} className="text-center">
-                  <Image
-                    src={image.imageUrl}
-                    alt={`Image ${index + 1}`}
-                    width={1000}
-                    height={1000}
-                  />
-                </div>
-              ))}
-            </div>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-36 md:w-5/6">
+                {images.map((image, index) => (
+                  <div key={index} className="text-center">
+                    <Image
+                      src={image.imageUrl}
+                      alt={`Image ${index + 1}`}
+                      width={1000}
+                      height={1000}
+                    />
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
