@@ -21,7 +21,7 @@
     0,
     0,
     1
-  ); /* Update the background color and opacity as needed */
+  ); /* Update the background color and opacity as need */
   position: relative;
   background-attachment: scroll; /* Add this property to make the image scroll with the page */
 }
@@ -58,9 +58,10 @@
 }
 
 .slideshow-container:not(:first-child) {
-  transform: translateX(calc(-100% * var(--active-index))); /* Translate to show the active image */
+  transform: translateX(
+    calc(-100% * var(--active-index))
+  ); /* Translate to show the active image */
 }
-
 
 .secondary-background-image {
   background: url("/landingpage.png") center/cover no-repeat; /* Replace with the actual path to your second image */

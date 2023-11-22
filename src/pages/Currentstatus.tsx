@@ -29,7 +29,7 @@ const Currentstatus = () => {
           <div className="text-center text-white text-2xl lg:text-4xl px-4 font-bold md:mb-2 tracking-wide">
             <div className=""> CURRENT STATUS OF DANCE CLUB </div>
           </div>
-         
+
           <hr className="w-3/4 h-0.5 mx-auto my-4 bg-gray-700 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <Link href="https://www.instagram.com/vitdanceclub/">
@@ -48,11 +48,7 @@ const Currentstatus = () => {
                 height={300}
               />
             </Link>
-            <Image src="/Status/status3.png" 
-            alt="" 
-            width={1000}
-            height={300}
-             />
+            <Image src="/Status/status3.png" alt="" width={1000} height={300} />
           </div>
         </div>
       </div>

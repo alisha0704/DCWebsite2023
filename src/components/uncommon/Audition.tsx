@@ -18,13 +18,13 @@ const Audition = () => {
         <div className="flex-1 lg:ml-10">
           <div className="relative">
             <Link href="https://www.instagram.com/vitdanceclub/">
-            <Image
-              src="/auditionscombined.svg"
-              alt="Auditions"
-              height={500}
-              width={500}
-              className="w-45 h-45 object-cover rounded-t"
-            />
+              <Image
+                src="/auditionscombined.svg"
+                alt="Auditions"
+                height={500}
+                width={500}
+                className="w-45 h-45 object-cover rounded-t"
+              />
             </Link>
           </div>
         </div>

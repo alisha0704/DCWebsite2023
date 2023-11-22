@@ -85,7 +85,8 @@ const Aboutdc = () => {
             opportunity to students to perform
           </div>
           <h5 className="text-gray-400 text-md pt-4 text-left">
-            Club consists of seven major teams of varied dance forms across India & Winners of various dance competitions across the country.
+            Club consists of seven major teams of varied dance forms across
+            India & Winners of various dance competitions across the country.
           </h5>
         </div>
 
@@ -101,7 +102,9 @@ const Aboutdc = () => {
               />
               <div className="flex flex-col text-white md:px-4">
                 <div className="flex text-xl md:text-3xl font-extrabold">7</div>
-                <div className="flex font-extralight text-xs md:text-sm">MAJOR TEAMS</div>
+                <div className="flex font-extralight text-xs md:text-sm">
+                  MAJOR TEAMS
+                </div>
               </div>
               <Image
                 src="/icons/humanlogo.png"
@@ -110,8 +113,12 @@ const Aboutdc = () => {
                 height={40}
               />
               <div className="flex flex-col text-white md:px-4">
-                <div className="flex text-xl md:text-3xl font-extrabold">150K</div>
-                <div className="flex font-extralight text-xs md:text-sm">CREW MEMBERS</div>
+                <div className="flex text-xl md:text-3xl font-extrabold">
+                  150K
+                </div>
+                <div className="flex font-extralight text-xs md:text-sm">
+                  CREW MEMBERS
+                </div>
               </div>
               <Image
                 src="/icons/taglogo.png"
@@ -129,7 +136,9 @@ const Aboutdc = () => {
                   />
                   +
                 </div>
-                <div className="flex font-extralight text-xs md:text-sm">PERFORMANCES</div>
+                <div className="flex font-extralight text-xs md:text-sm">
+                  PERFORMANCES
+                </div>
               </div>
             </div>
           </div>

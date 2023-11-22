@@ -30,7 +30,7 @@ const Journey = () => {
         </Link>
         <div className="py-4"></div>
         <div className="text-center text-white text-lg md:text-xl lg:text-4xl px-4 uppercase font-bold tracking-wide leading-2 pt-12  md:mb-1">
-        <div className={monte.className}> Journey of Dance Club </div>
+          <div className={monte.className}> Journey of Dance Club </div>
         </div>
         <div className="text-center text-gray-400 text-md  font-normal px-4 mb-8">
           Let us go through the journey of Dance Club!
@@ -39,13 +39,13 @@ const Journey = () => {
           <Image src="/Group 640.png" alt="Journey" width={1000} height={300} />
         </div>
         <Link href="/Currentstatus">
-        <Image
-          src="/journeystats.png"
-          alt="Journey"
-          width={315}
-          height={315}
-          className="absolute bottom-4 lg:bottom-7 right-12 lg:right-82 sm:w-1/3 md:w-1/3 w-1/3"
-        />
+          <Image
+            src="/journeystats.png"
+            alt="Journey"
+            width={315}
+            height={315}
+            className="absolute bottom-4 lg:bottom-7 right-12 lg:right-82 sm:w-1/3 md:w-1/3 w-1/3"
+          />
         </Link>
       </div>
     </>

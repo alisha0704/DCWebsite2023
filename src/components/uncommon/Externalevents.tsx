@@ -5,9 +5,21 @@ const Externalevents = () => {
   return (
     <div>
       <div className="text-lg md:text-xl lg:text-2xl flex py-10 font-bold uppercase gap-8 px-3">
-        <Image src="/line.svg" alt="Board" width={110} height={400} className="max-lg:hidden" />
+        <Image
+          src="/line.svg"
+          alt="Board"
+          width={110}
+          height={400}
+          className="max-lg:hidden"
+        />
         Srishti School 2022
-        <Image src="/line.svg" alt="Board" width={390} height={390} className="max-lg:hidden"/>
+        <Image
+          src="/line.svg"
+          alt="Board"
+          width={390}
+          height={390}
+          className="max-lg:hidden"
+        />
       </div>
       <div className="px-5 text-lg">
         Dance club conducted workshops at Srishti school, near VIT Vellore for
@@ -46,9 +58,21 @@ const Externalevents = () => {
         />
       </div>
       <div className="text-lg md:text-xl lg:text-2xl flex py-10 font-bold uppercase gap-8 px-3">
-        <Image src="/line.svg" alt="Board" width={110} height={400} className="max-lg:hidden" />
+        <Image
+          src="/line.svg"
+          alt="Board"
+          width={110}
+          height={400}
+          className="max-lg:hidden"
+        />
         <div className="text-center">Srishti School 2023</div>
-        <Image src="/line.svg" alt="Board" width={390} height={390} className="max-lg:hidden" />
+        <Image
+          src="/line.svg"
+          alt="Board"
+          width={390}
+          height={390}
+          className="max-lg:hidden"
+        />
       </div>
       <div className="flex justify-center items-center flex-col lg:flex-row gap-8 py-10 px-8">
         <Image

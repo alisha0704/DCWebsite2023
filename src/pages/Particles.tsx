@@ -26,7 +26,6 @@ const Particle = () => {
 
   return (
     <>
-
       <Particles
         id="tsparticles"
         init={particlesInit}
