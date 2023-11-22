@@ -293,7 +293,7 @@ const Header = () => {
               <div className="px-20 uppercase max-sm:text-md font-bold max-sm:px-8">
                 +91 9840466868
               </div>
-              <div className="px-20 uppercase max-sm:text-md font-bold max-sm:px-8">
+              <div className="px-20 uppercase max-sm:text-lg font-semibold max-sm:px-8">
                 +91 8078281652
               </div>
             </div>
