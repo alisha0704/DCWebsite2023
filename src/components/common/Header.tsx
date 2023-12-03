@@ -92,7 +92,7 @@ const Header = () => {
         </div>
         {/* Mobile Menu Hamburger ends */}
         <nav className="w-full backdrop-blur-3xl bg-black text-white ">
-          <div className="container mx-auto flex flex-col lg:flex-row justify-center w-full h-full max-sm:hidden max-md:hidden max-lg:hidden block">
+          <div className="container mx-auto flex flex-col lg:flex-row justify-center w-full h-full max-sm:hidden max-md:hidden max-lg:hidden ">
             <div
               onClick={() => setMenuOpen(true)}
               className={
