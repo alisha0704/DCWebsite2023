@@ -17,6 +17,18 @@ const Faculty = () => {
       memberName: "PROF RAJU",
       memberDesgn: "FACULTY COORDINATOR",
     },
+    ];
+  const images2 = [
+    {
+      imageUrl: "Faculty/fac1.svg",
+      memberName: "PROF SWARNALATHA P",
+      memberDesgn: "FACULTY COORDINATOR",
+    },
+    {
+      imageUrl: "/Faculty/fac2.png",
+      memberName: "PROF GOPINATH MP",
+      memberDesgn: "FACULTY COORDINATOR",
+    },
   ];
 
   return (
@@ -54,7 +66,35 @@ const Faculty = () => {
               dancers and ensuring that the club continues to thrive as a hub of
               creativity and expression on our campus.
             </p>
-            <div className="flex justify-center items-center">
+            <div className="flex flex-col justify-center items-center">
+            <div className="text-lg font-bold tracking-wide md:text-3xl mb-1 text-white uppercase">
+                <div className={monte.className}> PRESENT </div>
+              </div>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-52 py-12 md:w-4/5">
+                {images2.map((image, index) => (
+                  <div key={index} className="text-center">
+                    <Image
+                      src={image.imageUrl}
+                      alt={`Image ${index + 1}`}
+                      width={1000}
+                      height={1000}
+                    />
+                    <div className="flex flex-col items-center mt-2">
+                      <div className={monte.className}>
+                        <h2 className="text-md lg:text-lg font-semibold text-white mt-2">
+                          {image.memberName}
+                        </h2>
+                      </div>
+                      <h3 className="text-xs lg:text-sm text-gray-400 mt-1 mb-8">
+                        {image.memberDesgn}
+                      </h3>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="text-lg font-bold tracking-wide md:text-3xl mb-1 mt-2 text-white uppercase">
+                <div className={monte.className}> 2003 -2023 </div>
+              </div>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-52 py-12 md:w-4/5">
                 {images.map((image, index) => (
                   <div key={index} className="text-center">

@@ -5,7 +5,7 @@ import type { AppProps } from "next/app";
 import FullpageLoader from "@/components/common/FullpageLoader";
 import { Metadata } from "next";
 import Head from "next/head";
-// import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '@vercel/analytics/react';
 
 interface LayoutProps {
   children: ReactNode;
@@ -43,7 +43,7 @@ const App = ({ Component, pageProps }: AppProps<any>) => {
         <Layout>
           <div className="">
             <Component {...pageProps} />
-            {/* <Analytics /> */}
+           <Analytics /> 
           </div>
         </Layout>
       </div>
