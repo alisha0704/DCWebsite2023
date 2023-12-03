@@ -67,7 +67,7 @@ const Faculty = () => {
               creativity and expression on our campus.
             </p>
             <div className="flex flex-col justify-center items-center">
-            <div className="text-lg font-bold tracking-wide md:text-3xl mb-1 text-white uppercase">
+            <div className="text-2xl font-bold tracking-wide md:text-3xl mb-1 text-white uppercase">
                 <div className={monte.className}> PRESENT </div>
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-52 py-12 md:w-4/5">
@@ -92,7 +92,7 @@ const Faculty = () => {
                   </div>
                 ))}
               </div>
-              <div className="text-lg font-bold tracking-wide md:text-3xl mb-1 mt-2 text-white uppercase">
+              <div className="text-2xl font-bold tracking-wide md:text-3xl mb-1 mt-2 text-white uppercase">
                 <div className={monte.className}> 2003 -2023 </div>
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-52 py-12 md:w-4/5">
