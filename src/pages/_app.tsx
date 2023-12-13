@@ -6,6 +6,7 @@ import FullpageLoader from "@/components/common/FullpageLoader";
 import { Metadata } from "next";
 import Head from "next/head";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 interface LayoutProps {
   children: ReactNode;
@@ -44,6 +45,7 @@ const App = ({ Component, pageProps }: AppProps<any>) => {
           <div className="">
             <Component {...pageProps} />
            <Analytics /> 
+           <SpeedInsights />
           </div>
         </Layout>
       </div>
