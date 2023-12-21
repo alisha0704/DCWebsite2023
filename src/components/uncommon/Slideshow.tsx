@@ -87,7 +87,7 @@ const Slideshow: React.FC = () => {
                     {imageTextsubheading[index]}
                   </p>
                 </div>
-                <p className="text-white font-medium text-sm md:text-lg">
+                <p className="text-white font-medium text-sm md:text-xl">
                   {imageTexts[index]}
                 </p>
               </div>
