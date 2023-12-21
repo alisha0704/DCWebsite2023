@@ -37,7 +37,8 @@ const Footer: React.FC<FooterProps> = () => {
             </div>
             <div className="mt-16 md:ml-10 flex md:items-center">
               <AiOutlineMail size="2em" />
-              <div className="ml-2 text-lg">@vitdcofficial@gmail.com</div>
+              <div className="ml-2 text-lg">@vitdcofficial@gmail.com <br />@danceclub@vit.ac.in
+              </div>
             </div>
           </div>
           <div className="text-[#A7A9BE] max-sm:ml-24  md:text-xl text-base pt-10 pb-20 flex md:items-center ml-10">

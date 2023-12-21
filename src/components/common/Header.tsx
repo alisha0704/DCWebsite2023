@@ -278,6 +278,8 @@ const Header = () => {
               </div>
               <div className="px-20  max-sm:text-sm font-bold max-sm:px-8">
               vitdcofficial@gmail.com
+              <br />
+              danceclub@vit.ac.in
               </div>
               <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-1 max-sm:w-3/4 max-sm:mx-auto" />
               <Link href="https://www.instagram.com/vitdanceclub/">
