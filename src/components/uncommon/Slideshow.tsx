@@ -36,6 +36,13 @@ const Slideshow: React.FC = () => {
     "Board",
   ];
 
+  const imageTextsubheading = [
+    "VIT Dance Club is functioning under Office of Students' Welfare, Vellore Institute of Technology, Vellore, Tamil Nadu",
+    "VIT Dance Club is functioning under Office of Students' Welfare, Vellore Institute of Technology, Vellore, Tamil Nadu",
+    "VIT Dance Club is functioning under Office of Students' Welfare, Vellore Institute of Technology, Vellore, Tamil Nadu",
+    " ",
+  ];
+
   const imageTexts = [
     "The VIT Dance Club provides opportunities to dance lovers to prove their talent and is a great platform for the students to have their artistic exploration in various styles. It boosts up the morales of the students and makes them reach a point of ecstasy. Dance unleashes us from everything and makes us feel a certain kind of happiness.",
     "The VIT Dance Club provides opportunities to dance lovers to prove their talent and is a great platform for the students to have their artistic exploration in various styles. It boosts up the morales of the students and makes them reach a point of ecstasy. Dance unleashes us from everything and makes us feel a certain kind of happiness.",
@@ -74,6 +81,11 @@ const Slideshow: React.FC = () => {
                       {imageTextLast[index]}
                     </p>
                   </div>
+                </div>
+                <div className={monte.className}>
+                  <p className="py-2 text-white font-semibold text-lg md:text-xl lg:text-2xl  text-center px-2">
+                    {imageTextsubheading[index]}
+                  </p>
                 </div>
                 <p className="text-white font-medium text-sm md:text-lg">
                   {imageTexts[index]}
