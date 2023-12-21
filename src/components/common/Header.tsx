@@ -276,7 +276,7 @@ const Header = () => {
               <div className="px-20 uppercase max-sm:text-md font-bold max-sm:px-8 pt-4">
                 mail us  
               </div>
-              <div className="px-20  max-sm:text-md font-bold max-sm:px-8">
+              <div className="px-20  max-sm:text-sm font-bold max-sm:px-8">
               vitdcofficial@gmail.com
               </div>
               <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-1 max-sm:w-3/4 max-sm:mx-auto" />
