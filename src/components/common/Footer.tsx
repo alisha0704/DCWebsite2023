@@ -31,8 +31,8 @@ const Footer: React.FC<FooterProps> = () => {
             <div className="mt-16 md:ml-10 flex  md:items-center">
               <IoCallOutline size="2em" />
               <div className="ml-2 text-lg">
-                <p>+91 9840466868</p>
-                <p>+91 8078281652</p>
+                <p>+91 9790708149</p>
+                <p>+91 80187 72757</p>
               </div>
             </div>
             <div className="mt-16 md:ml-10 flex md:items-center">

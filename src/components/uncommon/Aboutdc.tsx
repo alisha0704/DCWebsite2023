@@ -82,7 +82,7 @@ const Aboutdc = () => {
             VIT Dance Club promotes the dance art forms,{" "}
             <span style={{ color: "#A0FF90" }}>regional</span> and{" "}
             <span style={{ color: "#A0FF90" }}>western</span> and gives an
-            opportunity to students to perform
+            opportunity for students to perform
           </div>
           <h5 className="text-gray-400 text-md pt-4 text-left">
             Club consists of seven major teams of varied dance forms across
