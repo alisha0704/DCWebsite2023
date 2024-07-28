@@ -18,10 +18,10 @@ const Contactus = () => {
           phone
         </div>
         <div className="w-44 h-6 left-[92px] top-[456px] absolute text-white text-lg font-medium leading-normal tracking-wide">
-          +91 9840466868
+          +91 9790708149
         </div>
         <div className="w-44 h-6 left-[92px] top-[490px] absolute text-white text-lg font-medium leading-normal tracking-wide">
-          +91 8078281652
+          +91 80187 72757
         </div>
         <div className="w-64 h-5 left-[92px] top-[43px] absolute text-center text-white text-lg font-black uppercase leading-3 tracking-widest">
           Contact us

@@ -274,12 +274,12 @@ const Header = () => {
                 queries
               </div>
               <div className="px-20 uppercase max-sm:text-md font-bold max-sm:px-8 pt-4">
-                mail us  
+                mail us
               </div>
               <div className="px-20  max-sm:text-sm font-bold max-sm:px-8">
-              vitdcofficial@gmail.com
-              <br />
-              danceclub@vit.ac.in
+                vitdcofficial@gmail.com
+                <br />
+                danceclub@vit.ac.in
               </div>
               <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-1 max-sm:w-3/4 max-sm:mx-auto" />
               <Link href="https://www.instagram.com/vitdanceclub/">
@@ -296,10 +296,10 @@ const Header = () => {
               <hr className="w-2/3 h-0.5 mx-auto bg-white border-0 rounded my-1 max-sm:w-3/4 max-sm:mx-auto" />
               <div className="px-20 uppercase font-bold max-sm:px-8">phone</div>
               <div className="px-20 uppercase max-sm:text-md font-bold max-sm:px-8">
-                +91 9840466868
+                +91 9790708149
               </div>
               <div className="px-20 uppercase max-sm:text-md font-bold max-sm:px-8">
-                +91 8078281652
+                +91 80187 72757
               </div>
             </div>
           </SlideOverLayer>
