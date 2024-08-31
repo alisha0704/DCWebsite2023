@@ -21,6 +21,7 @@ const Slideshow: React.FC = () => {
   };
 
   const imagePaths = [
+    "/IMG_8606.jpg",
     "/TDC-Group 1.svg",
     "/Carousel/IMAGE.svg",
     "/Carousel/IMG_20220922_215922 1.png",
