@@ -63,8 +63,8 @@ const Jnj = () => {
           <div className="text-center pt-4 font-semibold uppercase">
             PRANAV
           </div>
-          <div className="text-center text-xs text-gray-400 font-semibold lg:text-xxs ">
-          TEAM HEAD <br /> TEAM REPRESENTATIVE
+          <div className="text-center text-xs text-gray-400 font-semibold lg:text-xxs uppercase">
+          TEAM HEAD & Representative
           </div>
           <Image
             src="/JNJ/nikita.png"

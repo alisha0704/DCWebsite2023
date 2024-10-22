@@ -55,8 +55,8 @@ const Maya = () => {
           <Image
             src="/Maya/file (1).png"
             alt="BBC"
-            width={500}
-            height={500}
+            width={367}
+            height={367}
             className="md:pt-12"
           />
           <div className="text-center pt-4 font-semibold">SHREYA</div>
@@ -66,21 +66,19 @@ const Maya = () => {
           <Image
             src="/Maya/TEAMREP.png"
             alt="BBC"
-            width={500}
+            width={400}
             height={500}
             className="max-md:pt-12"
           />
-          <div className="text-center pt-4 font-semibold">
-            NEHA
-          </div>
+          <div className="text-center pt-4 font-semibold">NEHA</div>
           <div className="text-center text-xs text-gray-400 font-semibold">
             TEAM HEAD
           </div>
           <Image
             src="/Maya/Nithika .png"
             alt="BBC"
-            width={5000}
-            height={5000}
+            width={400}
+            height={500}
             className="w-full h-full pt-12"
           />
           <div className="text-center pt-4 font-semibold">NITHIKAA</div>
