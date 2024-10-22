@@ -61,7 +61,7 @@ const BBC = () => {
 
         <div className="gap-4 columns-1 md:columns-3 py-10">
           <Image
-            src="/BBC/Shubhagi.svg"
+            src="/BBC/Ramyani.svg"
             alt="BBC"
             width={500}
             height={500}

@@ -61,37 +61,37 @@ const Mirage: React.FC<MirageProps> = () => {
 
         <div className="gap-4 columns-1 md:columns-3 py-10">
           <Image
-            src="/Mirage/Alisha.svg"
+            src="/Mirage/Sakshi.png"
             alt="Mirage"
             width={500}
-            height={500}
-            className="md:pt-12"
+            height={540}
+            className="pt-8"
           />
-          <div className="text-center pt-4 text-sm lg:text-md font-semibold">
-            ALISHA BANDYOPADHYAY
+          <div className="text-center pt-4 font-semibold">
+            SAKSHI LELE
           </div>
-          <div className="text-center text-xs text-gray-400 font-semibold ">
+          <div className="text-center text-xs text-gray-400 font-semibold">
             TEAM HEAD
           </div>
           <Image
-            src="/Mirage/Samaja.svg"
+            src="/Mirage/DRISHTI.png"
             alt="chargers"
             width={500}
             height={500}
             className="max-md:pt-12"
           />
-          <div className="text-center pt-4 font-semibold">SAMAJA M S</div>
+          <div className="text-center pt-4 font-semibold">DRISHTI</div>
           <div className="text-center text-xs text-gray-400 font-semibold">
-            TEAM HEAD <br /> TEAM REPRESENTATIVE
+            TEAM HEAD <br /> 
           </div>
           <Image
-            src="/Mirage/Neha.svg"
+            src="/Mirage/Nidhi.png"
             alt="chargers"
             width={500}
             height={500}
-            className="pt-12"
+            className="pt-8"
           />
-          <div className="text-center pt-4 font-semibold">NEHA RENY</div>
+          <div className="text-center pt-4 font-semibold">NIDHI</div>
           <div className="text-center text-xs text-gray-400 font-semibold">
             JDC COORDINATOR - MIRUDRA
           </div>

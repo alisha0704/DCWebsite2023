@@ -54,40 +54,40 @@ const Jnj = () => {
         </div>
         <div className="gap-4 columns-1 md:columns-3 py-10">
           <Image
-            src="/JNJ/image 161.svg"
+            src="/JNJ/pranav1.png"
             alt="BBC"
             width={500}
             height={500}
             className="md:pt-12"
           />
           <div className="text-center pt-4 font-semibold uppercase">
-            anshuman gill
+            PRANAV
           </div>
-          <div className="text-center text-xs text-gray-400 font-semibold ">
-            TEAM HEAD
+          <div className="text-center text-xs text-gray-400 font-semibold lg:text-xxs ">
+          TEAM HEAD <br /> TEAM REPRESENTATIVE
           </div>
           <Image
-            src="/JNJ/image 151.svg"
+            src="/JNJ/nikita.png"
             alt="BBC"
             width={500}
             height={500}
             className="max-md:pt-12"
           />
           <div className="text-center pt-4 font-semibold uppercase">
-            srishti sinha
+            NIKITA
           </div>
           <div className="text-center text-xs text-gray-400 font-semibold">
-            TEAM HEAD <br /> TEAM REPRESENTATIVE
+            TEAM HEAD 
           </div>
           <Image
-            src="/JNJ/image 149.svg"
+            src="/JNJ/riya.png"
             alt="BBC"
             width={500}
             height={500}
             className="pt-12"
           />
           <div className="text-center pt-4 font-semibold uppercase">
-            nikita singh
+            RIYA
           </div>
           <div className="text-center text-xs text-gray-400 font-semibold">
             JDC COORDINATOR - BHANGRA FOLKS

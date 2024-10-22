@@ -61,40 +61,40 @@ const Unitrix: React.FC<UnitrixProps> = () => {
 
         <div className="gap-4 column-1 md:columns-3 py-10">
           <Image
-            src="/Unitrix/Aditi.svg"
+            src="/Unitrix/Sahithi.png"
             alt="Unitrix"
             width={500}
             height={500}
             className="md:pt-12"
           />
           <div className="text-center pt-4 font-semibold">
-            <div className={monte.className}> ADITI SUDHIR</div>
+            <div className={monte.className}>SAHITHI</div>
           </div>
           <div className="text-center text-xs text-gray-400 font-semibold ">
             TEAM REPRESENTATIVE
           </div>
           <Image
-            src="/Unitrix/sanjana.svg"
+            src="/Unitrix/Satyendra1.png"
             alt="Unitrix"
             width={500}
             height={500}
             className="max-md:pt-12"
           />
           <div className="text-center pt-4 font-semibold">
-            <div className={monte.className}> SANJANA AWASTHI</div>
+            <div className={monte.className}>SATYENDRA</div>
           </div>
           <div className="text-center text-xs text-gray-400 font-semibold">
             TEAM HEAD
           </div>
           <Image
-            src="/Unitrix/satyendra.svg"
+            src="/Unitrix/Shubh.png"
             alt="Unitrix"
             width={500}
             height={500}
             className="pt-12"
           />
           <div className="text-center pt-4 font-semibold">
-            <div className={monte.className}> SATYENDRA G</div>{" "}
+            <div className={monte.className}>SHUBH</div>{" "}
           </div>
           <div className="text-center text-xs text-gray-400 font-semibold">
             JDC COORDINATOR - TRIXTERS

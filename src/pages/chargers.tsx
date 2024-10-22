@@ -57,38 +57,37 @@ const chargers: React.FC<chargersProps> = () => {
         </div>
       </div>
       <div className="gap-4 columns-1 md:columns-3 py-10">
-        <Image
-          src="/Chargers/vaishnavi.png"
+      <Image
+          src="/Chargers/Sneha.png"
           alt="chargers"
-          width={500}
-          height={500}
-          className="md:pt-12"
+          width={511.45}
+          height={400}
+          className="pt-8"
         />
-        <div className="text-center pt-4 text-sm lg:text-md font-semibold uppercase">
-          VAISHNAVI P MAHESH
-        </div>
-        <div className="text-center text-xs text-gray-400 font-semibold ">
+        <div className="text-center pt-4 font-semibold">SNEHA</div>
+        <div className="text-center text-xs text-gray-400 font-semibold">
           TEAM REPRESENTATIVE
         </div>
+      
         <Image
-          src="/Chargers/siraj.svg"
+          src="/Chargers/Srinath_Teamhead 1.png"
           alt="chargers"
-          width={500}
-          height={500}
+          width={477}
+          height={671}
           className="max-md:pt-12"
         />
-        <div className="text-center pt-4 font-semibold">SIRAJUDEEN</div>
+        <div className="text-center pt-4 font-semibold">SRINATH</div>
         <div className="text-center text-xs text-gray-400 font-semibold">
           TEAM HEAD
         </div>
         <Image
-          src="/Chargers/girish.svg"
+          src="/Chargers/Shanmukh 2.png"
           alt="chargers"
           width={500}
           height={500}
           className="pt-12"
         />
-        <div className="text-center pt-4 font-semibold">GIRISH KUMAR</div>
+        <div className="text-center pt-4 font-semibold">SHANMUKH</div>
         <div className="text-center text-xs text-gray-400 font-semibold">
           JDC COORDINATOR - ENERGIZERS
         </div>

@@ -53,37 +53,37 @@ const Maya = () => {
         </div>
         <div className="gap-4 columns-1 md:columns-3 py-10">
           <Image
-            src="/Maya/image 149.svg"
+            src="/Maya/file (1).png"
             alt="BBC"
             width={500}
             height={500}
             className="md:pt-12"
           />
-          <div className="text-center pt-4 font-semibold">Arya S Raj</div>
+          <div className="text-center pt-4 font-semibold">SHREYA</div>
           <div className="text-center text-xs text-gray-400 font-semibold ">
             TEAM REPRESENTATIVE
           </div>
           <Image
-            src="/Maya/image 151.svg"
+            src="/Maya/TEAMREP.png"
             alt="BBC"
             width={500}
             height={500}
             className="max-md:pt-12"
           />
           <div className="text-center pt-4 font-semibold">
-            Shruti Suresh Nair
+            NEHA
           </div>
           <div className="text-center text-xs text-gray-400 font-semibold">
             TEAM HEAD
           </div>
           <Image
-            src="/Maya/image 148.svg"
+            src="/Maya/Nithika .png"
             alt="BBC"
             width={5000}
             height={5000}
             className="w-full h-full pt-12"
           />
-          <div className="text-center pt-4 font-semibold">Shreya Mangesh</div>
+          <div className="text-center pt-4 font-semibold">NITHIKAA</div>
           <div className="text-center text-xs text-gray-400 font-semibold">
             JDC COORDINATOR - LAASYA
           </div>

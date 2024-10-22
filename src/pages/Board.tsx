@@ -9,53 +9,53 @@ type BoardProps = {};
 const Board: React.FC<BoardProps> = () => {
   const images = [
     {
-      imageUrl: "/board/aman.svg",
-      memberName: "Aman Bohara",
+      imageUrl: "/board/RIC 1.png",
+      memberName: "RITHISH KUMAR",
       memberDesgn: "THE CHAIRPERSON OF VIT DANCE CLUB",
     },
     {
-      imageUrl: "/board/gowri.svg",
-      memberName: "Gowri Namboodiri",
+      imageUrl: "/board/Somya.png",
+      memberName: "SOMYA MISHRA",
       memberDesgn: "THE VICE-CHAIRPERSON OF VIT DANCE CLUB",
     },
     {
-      imageUrl: "/board/manasa.png",
-      memberName: "Manasa Madhusoodanan",
+      imageUrl: "/board/Anshuman.png",
+      memberName: "ANSHUMAN GILL ",
       memberDesgn: "THE GENERAL SECRETARY OF VIT DANCE CLUB",
     },
     {
-      imageUrl: "/board/sree.svg",
-      memberName: "Sree Nandhan",
+      imageUrl: "/board/Agastya.png",
+      memberName: "AGASTYA KARNWAL",
       memberDesgn: "THE CO-SECRETARY OF VIT DANCE CLUB",
     },
     {
-      imageUrl: "/board/teerth.svg",
-      memberName: "Teerth Amin",
+      imageUrl: "/board/Sakshi.png",
+      memberName: "SAKSHI LELE",
       memberDesgn: "THE EVENTS HEAD OF VIT DANCE CLUB",
     },
     {
-      imageUrl: "/board/aditi.svg",
-      memberName: "Aditi Sudhir",
+      imageUrl: "/board/Aarohi 1.png",
+      memberName: "AAROHI GUPTA",
       memberDesgn: "THE PUBLICITY HEAD OF VIT DANCE CLUB",
     },
     {
-      imageUrl: "/board/nandin.svg",
-      memberName: "Nandin Sajith",
+      imageUrl: "/board/Sembi.png",
+      memberName: "SIVASEMBIAN M",
       memberDesgn: "THE DESIGN HEAD OF VIT DANCE CLUB",
     },
     {
-      imageUrl: "/board/raaga.svg",
-      memberName: "Raaga Laasya",
+      imageUrl: "/board/Divyanshi.png",
+      memberName: "DIVYANSHI GROVER",
       memberDesgn: "THE EDITORIAL HEAD OF VIT DANCE CLUB",
     },
     {
-      imageUrl: "/board/srishti.svg",
-      memberName: "Srishti Sinha",
+      imageUrl: "/board/Shreya.png",
+      memberName: "SHREYA MANGESH",
       memberDesgn: "THE FINANCE HEAD OF VIT DANCE CLUB",
     },
     {
-      imageUrl: "/board/siraj.svg",
-      memberName: "Sirajudeen",
+      imageUrl: "/board/Aravind.png",
+      memberName: "ARAVIND KRISHNA",
       memberDesgn: "THE OUTREACH HEAD OF VIT DANCE CLUB",
     },
   ];
@@ -150,7 +150,41 @@ const Board: React.FC<BoardProps> = () => {
             </div>
           </div>
         </div>
-
+        <div className="py-10 ">
+          <div className="flex justify-center items-center backdrop-blur-2xl">
+            <Image
+              src="/line.svg"
+              alt="Board"
+              width={300}
+              height={300}
+              className="hidden lg:block"
+            />
+            <span className="text-2xl font-semibold">Board of 2023-24</span>
+            <Image
+              src="/line.svg"
+              alt="Board"
+              width={300}
+              height={300}
+              className="hidden lg:block"
+            />
+          </div>
+          <div className="flex justify-center items-center">
+            <div className=" grid grid-cols-1 lg:grid-cols-2   mt-10 px-6 gap-16">
+              <Image
+                src="/board/dcboard23.jpeg"
+                alt="Board"
+                width={2114}
+                height={450}
+              />
+              <Image
+                src="/board/dcboard223.jpeg"
+                alt="Board"
+                width={2114}
+                height={450}
+              />
+            </div>
+          </div>
+        </div>
         <div className="py-10 ">
           <div className="flex justify-center items-center backdrop-blur-2xl">
             <Image
