@@ -58,42 +58,54 @@ const BBC = () => {
             <hr className="w-8 lg:w-30 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
           </div>
         </div>
+        <div className="flex flex-col md:flex-row gap-4 py-10">
+            
+            <div className="flex flex-col items-center w-full md:w-1/3">
+              <Image
+                src="/BBC/Ramyani.svg"
+                alt="BBC"
+                width={300}
+                height={367}
+                className="pt-12"
+              />
+              <div className="text-center pt-4 font-semibold">RAMYANI</div>
+              <div className="text-center text-xs text-gray-400 font-semibold uppercase">
+                TEAM REPRESENTATIVE
+              </div>
+            </div>
 
-        <div className="gap-4 columns-1 md:columns-3 py-10">
-          <Image
-            src="/BBC/Ramyani.svg"
-            alt="BBC"
-            width={500}
-            height={500}
-            className="pt-12"
-          />
-          <div className="text-center pt-4 font-semibold">SHUBHANGI TIWARI</div>
-          <div className="text-center text-xs text-gray-400 font-semibold ">
-            TEAM REPRESENTATIVE
+            {/* Second Item (Nikhil Agarwal - Middle one, positioned higher) */}
+            <div className="flex flex-col items-center w-full md:w-1/3" style={{ marginTop: '-50px' }}>
+              <Image
+                src="/BBC/SATWIK1.svg"
+                alt="BBC"
+                width={500}
+                height={500}
+                className="pt-12"
+              />
+              <div className="text-center pt-4 font-semibold uppercase">satwik tripathy</div>
+              <div className="text-center text-xs text-gray-400 font-semibold uppercase">
+                TEAM HEAD
+              </div>
+            </div>
+
+            {/* Third Item (Satwik Tripathy) */}
+            <div className="flex flex-col items-center w-full md:w-1/3">
+              <Image
+                src="/BBC/KAVIRI.png"
+                alt="BBC"
+                width={500}
+                height={500}
+                className="pt-12"
+              />
+              <div className="text-center pt-4 font-semibold uppercase">kaviri</div>
+              <div className="text-center text-xs text-gray-400 font-semibold uppercase">
+                JDC COORDINATOR - BOLLYWOOD BANDITS
+              </div>
+            </div>
           </div>
-          <Image
-            src="/BBC/nikhil.svg"
-            alt="BBC"
-            width={500}
-            height={500}
-            className="max-sm:pt-12"
-          />
-          <div className="text-center pt-4 font-semibold">NIKHIL AGARWAL</div>
-          <div className="text-center text-xs text-gray-400 font-semibold">
-            TEAM HEAD
-          </div>
-          <Image
-            src="/BBC/satwik.svg"
-            alt="BBC"
-            width={500}
-            height={500}
-            className="pt-12"
-          />
-          <div className="text-center pt-4 font-semibold">SATWIK TRIPATHY</div>
-          <div className="text-center text-xs text-gray-400 font-semibold">
-            JDC COORDINATOR - LAASYA
-          </div>
-        </div>
+
+  
         <div className="md:text-3xl text-2xl text-center font-extrabold">
           Mini-Gallery
         </div>

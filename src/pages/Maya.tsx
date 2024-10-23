@@ -51,41 +51,53 @@ const Maya = () => {
             <hr className="w-12 lg:w-40 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10" />
           </div>
         </div>
-        <div className="gap-4 columns-1 md:columns-3 py-10">
-          <Image
-            src="/Maya/file (1).png"
-            alt="BBC"
-            width={367}
-            height={367}
-            className="md:pt-12"
-          />
-          <div className="text-center pt-4 font-semibold">SHREYA</div>
-          <div className="text-center text-xs text-gray-400 font-semibold ">
-            TEAM REPRESENTATIVE
+        <div className="flex flex-col md:flex-row gap-4 py-10">
+            
+            <div className="flex flex-col items-center w-full md:w-1/3">
+              <Image
+                src="/Maya/Shreya1.png"
+                alt="BBC"
+                width={300}
+                height={367}
+                className="pt-12"
+              />
+              <div className="text-center pt-4 font-semibold">SHREYA</div>
+              <div className="text-center text-xs text-gray-400 font-semibold uppercase">
+                TEAM REPRESENTATIVE
+              </div>
+            </div>
+
+            {/* Second Item (Nikhil Agarwal - Middle one, positioned higher) */}
+            <div className="flex flex-col items-center w-full md:w-1/3" style={{ marginTop: '-50px' }}>
+              <Image
+                src="/Maya/TEAMREP.png"
+                alt="BBC"
+                width={500}
+                height={500}
+                className="pt-12"
+              />
+              <div className="text-center pt-4 font-semibold">NEHA</div>
+              <div className="text-center text-xs text-gray-400 font-semibold uppercase">
+                TEAM HEAD
+              </div>
+            </div>
+
+            {/* Third Item (Satwik Tripathy) */}
+            <div className="flex flex-col items-center w-full md:w-1/3">
+              <Image
+                src="/Maya/Nithika .png"
+                alt="BBC"
+                width={500}
+                height={500}
+                className="pt-12"
+              />
+              <div className="text-center pt-4 font-semibold uppercase">Nithika </div>
+              <div className="text-center text-xs text-gray-400 font-semibold uppercase">
+                JDC COORDINATOR - LAASYA
+              </div>
+            </div>
           </div>
-          <Image
-            src="/Maya/TEAMREP.png"
-            alt="BBC"
-            width={400}
-            height={500}
-            className="max-md:pt-12"
-          />
-          <div className="text-center pt-4 font-semibold">NEHA</div>
-          <div className="text-center text-xs text-gray-400 font-semibold">
-            TEAM HEAD
-          </div>
-          <Image
-            src="/Maya/Nithika .png"
-            alt="BBC"
-            width={400}
-            height={500}
-            className="w-full h-full pt-12"
-          />
-          <div className="text-center pt-4 font-semibold">NITHIKAA</div>
-          <div className="text-center text-xs text-gray-400 font-semibold">
-            JDC COORDINATOR - LAASYA
-          </div>
-        </div>
+
         <div className="md:text-2xl text-xl text-center font-extrabold">
           Mini-Gallery
         </div>

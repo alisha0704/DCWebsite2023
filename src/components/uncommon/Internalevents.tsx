@@ -125,33 +125,31 @@ const Internalevents = () => {
       </div>
       <div className="gap-4 columns-1 md:columns-2 lg:columns-4 py-10 px-8">
         <Image
-          src="/events/gallery3/image 114.svg"
+          src="/events/gallery3/image1.png"
           alt=""
           height={1000}
           width={1000}
           className="w-full"
         />
         <div className="text-center pt-3 pb-6">
-          <h1 className="font-bold">GeethaNritya </h1> Unitrix Alumni
-          Geethanjali Ajith
+          <h1 className="font-bold">Rasaratnam </h1> Maya Alumni
+       Dalia
         </div>
         <Image
-          src="/events/gallery3/image 119.svg"
+          src="/events/gallery3/image 3.png"
           alt=""
           height={1000}
           width={1000}
           className="w-full"
         />
         <div className="text-center pt-3 pb-6">
-          <h1 className="font-bold">Taal se taal Mila</h1> Riwaayat alumni Meher
-          Nigam
+          <h1 className="font-bold">Thematic Thrills</h1> Mirage alumni Siddhant
         </div>
         <div className="text-center pb-5 pt-10">
-          <h1 className="font-bold">Groove And Go </h1> Unitrix Alumni Sarang
-          Ram
+          <h1 className="font-bold">Urban uproar </h1> Unitrix Alumni Fadhl
         </div>
         <Image
-          src="/events/gallery3/image 121.svg"
+          src="/events/gallery3/image 2.png"
           alt=""
           height={1000}
           width={1000}
@@ -159,10 +157,10 @@ const Internalevents = () => {
         />
 
         <div className="text-center py-4">
-          <h1 className="font-bold">Flow with it </h1> Chargers Alumni Gautham
+          <h1 className="font-bold">Lumiere</h1>  Mirage alumni Shubham Mittal
         </div>
         <Image
-          src="/events/gallery3/image 120.svg"
+          src="/events/gallery3/image 4.png"
           alt=""
           height={1000}
           width={1000}
@@ -170,32 +168,32 @@ const Internalevents = () => {
         />
 
         <Image
-          src="/events/gallery3/image 115.svg"
+          src="/events/gallery3/image 5.png"
           alt=""
           height={1000}
           width={1000}
           className="w-full"
         />
         <div className="text-center pt-3 pb-6">
-          <h1 className="font-bold">Pump it Up </h1>JNJ Bhangra Alumni Aniket
+          <h1 className="font-bold">Filmy Fever </h1>BBC alumni Monica 
         </div>
 
         <Image
-          src="/events/gallery3/image 118.svg"
+          src="/events/gallery3/image 6.png"
           alt=""
           height={1000}
           width={1000}
           className="w-full"
         />
         <div className="text-center pt-3">
-          <h1 className="font-bold">Noopura </h1>Maya Alumni Sariga
+          <h1 className="font-bold">Bhangra Beats</h1>JNJ alumni Diksha
         </div>
 
         <div className="text-center  pt-10 pb-5">
-          <h1 className="font-bold">Lumiere </h1> Mirage Alumni Shubham Mittal
+          <h1 className="font-bold ">Taal Talash</h1> Riwaayat alumni Vidisha roy
         </div>
         <Image
-          src="/events/gallery3/image 117.svg"
+          src="/events/gallery3/image 7.png"
           alt=""
           height={1000}
           width={1000}
@@ -231,14 +229,14 @@ const Internalevents = () => {
       </div>
       <div className="gap-4 columns-1 md:columns-2 lg:columns-4 py-10 px-8">
         <Image
-          src="/events/gallery2/image 24.svg"
+          src="/events/gallery2/img1.png"
           alt=""
           height={1000}
           width={1000}
           className="w-full mb-6 mt-16"
         />
         <Image
-          src="/events/gallery2/image 124.svg"
+          src="/events/gallery2/img2.png"
           alt=""
           height={1000}
           width={1000}
@@ -260,7 +258,7 @@ const Internalevents = () => {
         />
 
         <Image
-          src="/events/gallery2/image 122.svg"
+          src="/events/gallery2/img2.png"
           alt=""
           height={1000}
           width={1000}

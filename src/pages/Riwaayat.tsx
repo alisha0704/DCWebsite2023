@@ -59,43 +59,54 @@ const Riwaayat = () => {
             <hr className="w-12 lg:w-44 h-0.5 mx-auto bg-gray-700 border-0 rounded md:my-10 max-md:hidden" />
           </div>
         </div>
-        <div className="gap-4 columns-1 md:columns-3 py-10">
-          <Image
-            src="/Riwaayat/image 161.svg"
-            alt="BBC"
-            width={500}
-            height={500}
-            className="pt-12"
-          />
-          <div className="text-center pt-4 font-semibold">ARYA P D</div>
-          <div className="text-center text-xs text-gray-400 font-semibold ">
-            TEAM REPRESENTATIVE
+        <div className="flex flex-col md:flex-row gap-4 py-10">
+            
+        <div className="flex flex-col items-center w-full md:w-1/3">
+  <Image
+    src="/Riwaayat/Sanskriti.png"
+    alt="BBC"
+    width={300}
+    height={367}
+    className="pt-12"
+  />
+  <div className="text-center pt-4 font-semibold">SANSKRITI</div>
+  <div className="text-center text-xs text-gray-400 font-semibold uppercase">
+    TEAM REPRESENTATIVE
+  </div>
+</div>
+
+
+            {/* Second Item (Nikhil Agarwal - Middle one, positioned higher) */}
+            <div className="flex flex-col items-center w-full md:w-1/3" style={{ marginTop: '-50px' }}>
+              <Image
+                src="/Riwaayat/Riwaayat_TeamHead 1.png"
+                alt="BBC"
+                width={500}
+                height={500}
+                className="pt-12"
+              />
+              <div className="text-center pt-4 font-semibold uppercase">MRIDULA</div>
+              <div className="text-center text-xs text-gray-400 font-semibold uppercase">
+                TEAM HEAD
+              </div>
+            </div>
+
+            
+            <div className="flex flex-col items-center w-full md:w-1/3">
+              <Image
+                src="/Riwaayat/Tanushree.png"
+                alt="BBC"
+                width={500}
+                height={500}
+                className="pt-12"
+              />
+              <div className="text-center pt-4 font-semibold uppercase">TANUSHREE</div>
+              <div className="text-center text-xs text-gray-400 font-semibold uppercase">
+                JDC COORDINATOR - INAAYAT
+              </div>
+            </div>
           </div>
-          <Image
-            src="/Riwaayat/image 151.svg"
-            alt="BBC"
-            width={500}
-            height={500}
-            className="max-md:pt-12"
-          />
-          <div className="text-center pt-4 font-semibold">RAAGA LAASYA</div>
-          <div className="text-center text-xs text-gray-400 font-semibold ">
-            TEAM HEAD
-          </div>
-          <Image
-            src="/Riwaayat/image 149.svg"
-            alt="BBC"
-            width={500}
-            height={500}
-            className="pt-12"
-          />
-          <div className="text-center pt-4 font-semibold uppercase">
-            Sanskriti Modi
-          </div>
-          <div className="text-center text-xs text-gray-400 font-semibold">
-            JDC COORDINATOR - INAAYAT
-          </div>
-        </div>
+
         <div className=" text-xl md:text-2xl text-center font-extrabold">
           Mini-Gallery
         </div>
