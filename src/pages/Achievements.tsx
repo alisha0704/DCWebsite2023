@@ -9,6 +9,7 @@ type AchievementsProps = {};
 
 const Achievements: React.FC<AchievementsProps> = () => {
   const images = [
+   
     {
       imageUrl: "/achievements/image 33 (1).png",
       eventName: "SYNAPSE - 2023",

@@ -236,7 +236,7 @@ const Internalevents = () => {
           className="w-full mb-6 mt-16"
         />
         <Image
-          src="/events/gallery2/img2.png"
+          src="/events/gallery2/img5.png"
           alt=""
           height={1000}
           width={1000}
@@ -289,7 +289,7 @@ const Internalevents = () => {
         />
 
         <Image
-          src="/events/gallery2/image 27.svg"
+          src="/events/gallery2/img3.png"
           alt=""
           height={1000}
           width={1000}
@@ -319,7 +319,7 @@ const Internalevents = () => {
           className="w-full mb-6"
         />
         <Image
-          src="/events/gallery2/image 123.svg"
+          src="/events/gallery2/img4.png"
           alt=""
           height={1000}
           width={1000}
