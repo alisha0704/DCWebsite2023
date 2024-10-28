@@ -236,21 +236,14 @@ const Internalevents = () => {
           className="w-full mb-6 mt-16"
         />
         <Image
-          src="/events/gallery2/img2.png"
+          src="/events/gallery2/img 0.png"
           alt=""
           height={1000}
           width={1000}
           className="w-full mb-6"
         />
         <Image
-          src="/events/gallery2/image 135.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-        <Image
-          src="/events/groovix.jpg"
+          src="/events/gallery2/image 135.png"
           alt=""
           height={1000}
           width={1000}
@@ -266,7 +259,7 @@ const Internalevents = () => {
         />
 
         <Image
-          src="/events/gallery2/image 125.svg"
+          src="/events/gallery2/image 125.png"
           alt=""
           height={1000}
           width={1000}
@@ -274,14 +267,7 @@ const Internalevents = () => {
         />
 
         <Image
-          src="/events/gallery2/image 132.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-        <Image
-          src="/events/hookit.jpg"
+          src="/events/gallery2/image 132.png"
           alt=""
           height={1000}
           width={1000}
@@ -289,7 +275,7 @@ const Internalevents = () => {
         />
 
         <Image
-          src="/events/gallery2/image 27.svg"
+          src="/events/gallery2/image 27.png"
           alt=""
           height={1000}
           width={1000}
@@ -297,7 +283,7 @@ const Internalevents = () => {
         />
 
         <Image
-          src="/events/gallery2/image 26.svg"
+          src="/events/gallery2/image 26.png"
           alt=""
           height={1000}
           width={1000}
@@ -305,47 +291,35 @@ const Internalevents = () => {
         />
 
         <Image
-          src="/events/gallery2/image 133.svg"
+          src="/events/gallery2/image 133.png"
+          alt=""
+          height={1000}
+          width={1000}
+          className="w-full mb-6"
+        />
+
+        <Image
+          src="/events/gallery2/image 123.png"
           alt=""
           height={1000}
           width={1000}
           className="w-full mb-6"
         />
         <Image
-          src="/events/naachfiesta.jpg"
+          src="/events/gallery2/image 28.png"
           alt=""
           height={1000}
           width={1000}
           className="w-full mb-6"
         />
         <Image
-          src="/events/gallery2/image 123.svg"
+          src="/events/gallery2/image 134.png"
           alt=""
           height={1000}
           width={1000}
           className="w-full mb-6"
         />
-        <Image
-          src="/events/gallery2/image 28.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-        <Image
-          src="/events/gallery2/image 134.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-        <Image
-          src="/events/tango.jpg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
+
       </div>
     </div>
   );
