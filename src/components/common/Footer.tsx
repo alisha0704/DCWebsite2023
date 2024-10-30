@@ -71,7 +71,7 @@ const Footer: React.FC<FooterProps> = () => {
             Events
           </a>
           <a href="Achievements" className="py-4 hover:underline">
-            Achievements
+            Certifications
           </a>
           <a href="#" className="py-4 hover:underline">
             Contacts
@@ -80,31 +80,32 @@ const Footer: React.FC<FooterProps> = () => {
       </div>
 
       <div className="flex md:items-center flex-col md:ml-8 py-10 mt-6">
-        <text
-          className={`text-gray-400 font-bold text-[1.2rem] text-center lg:text-[1.5rem] pt-12 gap-6 py-10`}
-        >
-          Social Media
-        </text>
-        <div
-          className={`flex flex-col text-center md:text-left items-center text-[1rem] font-semibold gap-1 pt-8 py-12 text-[#A7A9BE]`}
-        >
-          <a
-            className="py-3"
-            href="https://www.youtube.com/results?search_query=vitdanceclub"
-          >
-            <PiYoutubeLogo size="3em" />
-          </a>
-          <a className="py-3" href="https://www.instagram.com/vitdanceclub/">
-            <AiOutlineInstagram size="3em" />
-          </a>
-          <a className="py-3" href={"mailto:vitdcofficial@gmail.com"}>
-            <AiOutlineMail size="3em" />
-          </a>
-          <a className="py-3" href="https://www.facebook.com/vitdc/">
-            <PiFacebookLogoBold size="3em" />
-          </a>
-        </div>
-      </div>
+  <text
+    className={`text-gray-400 font-bold text-[1.2rem] text-center lg:text-[1.5rem] pt-12 gap-6 py-10`}
+  >
+    Social Media
+  </text>
+  <div
+    className={`flex flex-row justify-center md:justify-start items-center text-[1rem] font-semibold gap-6 pt-8 py-12 text-[#A7A9BE]`}
+  >
+    <a
+      className="px-3"
+      href="https://www.youtube.com/results?search_query=vitdanceclub"
+    >
+      <PiYoutubeLogo size="3em" />
+    </a>
+    <a className="px-3" href="https://www.instagram.com/vitdanceclub/">
+      <AiOutlineInstagram size="3em" />
+    </a>
+    <a className="px-3" href={"mailto:vitdcofficial@gmail.com"}>
+      <AiOutlineMail size="3em" />
+    </a>
+    <a className="px-3" href="https://www.facebook.com/vitdc/">
+      <PiFacebookLogoBold size="3em" />
+    </a>
+  </div>
+</div>
+
     </div>
   );
 };
