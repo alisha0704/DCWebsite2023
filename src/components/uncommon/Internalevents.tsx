@@ -236,11 +236,7 @@ const Internalevents = () => {
           className="w-full mb-6 mt-16"
         />
         <Image
-<<<<<<< HEAD
-          src="/events/gallery2/img5.png"
-=======
           src="/events/gallery2/img 0.png"
->>>>>>> 8d04e1e31482ae27930d5140ce6e9a0508370c5c
           alt=""
           height={1000}
           width={1000}
@@ -279,11 +275,7 @@ const Internalevents = () => {
         />
 
         <Image
-<<<<<<< HEAD
-          src="/events/gallery2/img3.png"
-=======
           src="/events/gallery2/image 27.png"
->>>>>>> 8d04e1e31482ae27930d5140ce6e9a0508370c5c
           alt=""
           height={1000}
           width={1000}
@@ -321,32 +313,7 @@ const Internalevents = () => {
           className="w-full mb-6"
         />
         <Image
-<<<<<<< HEAD
-          src="/events/gallery2/img4.png"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-        <Image
-          src="/events/gallery2/image 28.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-        <Image
-          src="/events/gallery2/image 134.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-        <Image
-          src="/events/tango.jpg"
-=======
           src="/events/gallery2/image 134.png"
->>>>>>> 8d04e1e31482ae27930d5140ce6e9a0508370c5c
           alt=""
           height={1000}
           width={1000}
