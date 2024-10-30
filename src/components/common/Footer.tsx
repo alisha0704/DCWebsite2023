@@ -37,7 +37,7 @@ const Footer: React.FC<FooterProps> = () => {
             </div>
             <div className="mt-16 md:ml-10 flex md:items-center">
               <AiOutlineMail size="2em" />
-              <div className="ml-2 text-lg">@vitdcofficial@gmail.com <br />@danceclub@vit.ac.in
+              <div className="ml-2 text-lg">@vitdcofficial@gmail.com 
               </div>
             </div>
           </div>
@@ -99,9 +99,6 @@ const Footer: React.FC<FooterProps> = () => {
     </a>
     <a className="px-3" href={"mailto:vitdcofficial@gmail.com"}>
       <AiOutlineMail size="3em" />
-    </a>
-    <a className="px-3" href="https://www.facebook.com/vitdc/">
-      <PiFacebookLogoBold size="3em" />
     </a>
   </div>
 </div>

@@ -21,7 +21,7 @@ const Board: React.FC<BoardProps> = () => {
     {
       imageUrl: "/board/Anshuman.png",
       memberName: "ANSHUMAN GILL ",
-      memberDesgn: "THE GENERAL SECRETARY OF VIT DANCE CLUB",
+      memberDesgn: "THE  SECRETARY OF VIT DANCE CLUB",
     },
     {
       imageUrl: "/board/Agastya.png",
@@ -103,7 +103,7 @@ const Board: React.FC<BoardProps> = () => {
             </div>
             <p className="text-md md:text-lg mb-8 text-gray-300">
               Alone you can do so little, together you can do so much.
-              Presenting the Board of Dance Club 2023-24.
+              Presenting the Board of Dance Club 2024-25.
             </p>
             <div className="flex justify-center items-center">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-14 lg:gap-24 py-8 lg:w-3/4">
