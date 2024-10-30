@@ -236,21 +236,18 @@ const Internalevents = () => {
           className="w-full mb-6 mt-16"
         />
         <Image
+<<<<<<< HEAD
           src="/events/gallery2/img5.png"
+=======
+          src="/events/gallery2/img 0.png"
+>>>>>>> 8d04e1e31482ae27930d5140ce6e9a0508370c5c
           alt=""
           height={1000}
           width={1000}
           className="w-full mb-6"
         />
         <Image
-          src="/events/gallery2/image 135.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-        <Image
-          src="/events/groovix.jpg"
+          src="/events/gallery2/image 135.png"
           alt=""
           height={1000}
           width={1000}
@@ -266,7 +263,7 @@ const Internalevents = () => {
         />
 
         <Image
-          src="/events/gallery2/image 125.svg"
+          src="/events/gallery2/image 125.png"
           alt=""
           height={1000}
           width={1000}
@@ -274,14 +271,7 @@ const Internalevents = () => {
         />
 
         <Image
-          src="/events/gallery2/image 132.svg"
-          alt=""
-          height={1000}
-          width={1000}
-          className="w-full mb-6"
-        />
-        <Image
-          src="/events/hookit.jpg"
+          src="/events/gallery2/image 132.png"
           alt=""
           height={1000}
           width={1000}
@@ -289,7 +279,11 @@ const Internalevents = () => {
         />
 
         <Image
+<<<<<<< HEAD
           src="/events/gallery2/img3.png"
+=======
+          src="/events/gallery2/image 27.png"
+>>>>>>> 8d04e1e31482ae27930d5140ce6e9a0508370c5c
           alt=""
           height={1000}
           width={1000}
@@ -297,7 +291,7 @@ const Internalevents = () => {
         />
 
         <Image
-          src="/events/gallery2/image 26.svg"
+          src="/events/gallery2/image 26.png"
           alt=""
           height={1000}
           width={1000}
@@ -305,20 +299,29 @@ const Internalevents = () => {
         />
 
         <Image
-          src="/events/gallery2/image 133.svg"
+          src="/events/gallery2/image 133.png"
+          alt=""
+          height={1000}
+          width={1000}
+          className="w-full mb-6"
+        />
+
+        <Image
+          src="/events/gallery2/image 123.png"
           alt=""
           height={1000}
           width={1000}
           className="w-full mb-6"
         />
         <Image
-          src="/events/naachfiesta.jpg"
+          src="/events/gallery2/image 28.png"
           alt=""
           height={1000}
           width={1000}
           className="w-full mb-6"
         />
         <Image
+<<<<<<< HEAD
           src="/events/gallery2/img4.png"
           alt=""
           height={1000}
@@ -341,11 +344,15 @@ const Internalevents = () => {
         />
         <Image
           src="/events/tango.jpg"
+=======
+          src="/events/gallery2/image 134.png"
+>>>>>>> 8d04e1e31482ae27930d5140ce6e9a0508370c5c
           alt=""
           height={1000}
           width={1000}
           className="w-full mb-6"
         />
+
       </div>
     </div>
   );
