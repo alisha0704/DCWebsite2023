@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Montserrat } from "next/font/google";
 
 const monte = Montserrat({ subsets: ["latin"] });
+
 const Developers = () => {
   const images = [
     {
@@ -13,10 +14,13 @@ const Developers = () => {
       imageUrl: "/Developers/Group 633.svg",
     },
     {
+      imageUrl: "/Developers/Group 635.svg",
+    },
+    {
       imageUrl: "/Developers/Group 634.svg",
     },
     {
-      imageUrl: "/Developers/Group 635.svg",
+      imageUrl: "/Developers/Group 636.png",
     },
   ];
 
@@ -39,7 +43,7 @@ const Developers = () => {
             />
           </svg>
         </Link>
-        <div className="flex justify-center items-center ">
+        <div className="flex justify-center items-center">
           <div className="text-center p-8 max-w-screen-lg w-full overflow-y-auto">
             <div className="mb-1">
               <div className="text-xl font-bold uppercase tracking-wider md:text-4xl mt-8 text-white">
@@ -51,17 +55,31 @@ const Developers = () => {
               website.
             </p>
             <div className="flex justify-center items-center">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-36 md:w-5/6">
-                {images.map((image, index) => (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 lg:gap-16 md:w-5/6">
+                {images.slice(0, 3).map((image, index) => (
                   <div key={index} className="text-center">
                     <Image
                       src={image.imageUrl}
                       alt={`Image ${index + 1}`}
-                      width={1000}
-                      height={1000}
+                      width={250}
+                      height={250}
+                      className="object-contain"
                     />
                   </div>
                 ))}
+                <div className="col-span-3 flex justify-center gap-12">
+                  {images.slice(3).map((image, index) => (
+                    <div key={index} className="text-center">
+                      <Image
+                        src={image.imageUrl}
+                        alt={`Image ${index + 4}`}
+                        width={250}
+                        height={250}
+                        className="object-contain"
+                      />
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
