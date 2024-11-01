@@ -6,7 +6,7 @@ import { Montserrat } from "next/font/google";
 const monte = Montserrat({ subsets: ["latin"] });
 const Slideshow: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const numberOfImages = 21;
+  const numberOfImages = 22;
 
   const handlePrevClick = () => {
     setActiveIndex((prevIndex) =>
@@ -42,6 +42,7 @@ const Slideshow: React.FC = () => {
     "/NotableAlumni/Prekshi.svg",
     "/NotableAlumni/Soumi.svg",
     "/NotableAlumni/Vaishnavi.svg",
+    "/NotableAlumni/Satvik.svg",
   ];
   const imageLinks = [
     "https://instagram.com/twinnoxx?igshid=NzZlODBkYWE4Ng==",
@@ -65,6 +66,7 @@ const Slideshow: React.FC = () => {
     "https://instagram.com/prekshi.vyas?igshid=NzZlODBkYWE4Ng==",
     "https://instagram.com/soumiihazraa?igshid=NzZlODBkYWE4Ng==",
     "https://instagram.com/vaishnavi_____shukla?igshid=NzZlODBkYWE4Ng==",
+    "https://www.instagram.com/satvikmahajan?igsh=eXJ5MXpnNDFpbml1",
   ];
 
   return (
@@ -116,9 +118,9 @@ const Slideshow: React.FC = () => {
                     }
                   >
                     <div className="flex items-center">
-                      <Link href={imageLinks[index % 21]}>
+                      <Link href={imageLinks[index % 22]}>
                         <Image
-                          src={imagePaths[index % 21]}
+                          src={imagePaths[index % 22]}
                           alt={`Image ${index}`}
                           width={250}
                           height={250}
@@ -127,9 +129,9 @@ const Slideshow: React.FC = () => {
                       </Link>
                     </div>
                     <div className="flex items-center">
-                      <Link href={imageLinks[(index + 1) % 21]}>
+                      <Link href={imageLinks[(index + 1) % 22]}>
                         <Image
-                          src={imagePaths[(index + 1) % 21]}
+                          src={imagePaths[(index + 1) % 22]}
                           alt={`Image ${index + 1}`}
                           width={350}
                           height={350}
@@ -138,9 +140,9 @@ const Slideshow: React.FC = () => {
                       </Link>
                     </div>
                     <div className="flex items-center">
-                      <Link href={imageLinks[(index + 2) % 21]}>
+                      <Link href={imageLinks[(index + 2) % 22]}>
                         <Image
-                          src={imagePaths[(index + 2) % 21]}
+                          src={imagePaths[(index + 2) % 22]}
                           alt={`Image ${index + 2}`}
                           width={450}
                           height={450}
@@ -149,9 +151,9 @@ const Slideshow: React.FC = () => {
                       </Link>
                     </div>
                     <div className="flex items-center">
-                      <Link href={imageLinks[(index + 3) % 21]}>
+                      <Link href={imageLinks[(index + 3) % 22]}>
                         <Image
-                          src={imagePaths[(index + 3) % 21]}
+                          src={imagePaths[(index + 3) % 22]}
                           alt={`Image ${index + 3}`}
                           width={350}
                           height={350}
@@ -160,9 +162,9 @@ const Slideshow: React.FC = () => {
                       </Link>
                     </div>
                     <div className="flex items-center">
-                      <Link href={imageLinks[(index + 4) % 21]}>
+                      <Link href={imageLinks[(index + 4) % 22]}>
                         <Image
-                          src={imagePaths[(index + 4) % 21]}
+                          src={imagePaths[(index + 4) % 22]}
                           alt={`Image ${index + 4}`}
                           width={250}
                           height={250}
