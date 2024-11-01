@@ -21,11 +21,10 @@ const Slideshow: React.FC = () => {
   };
 
   const imagePaths = [
-    "/IMG_8606.jpg",
-    "/TDC-Group 1.svg",
+    "/IMG_8606.png",
     "/Carousel/IMAGE.svg",
     "/Carousel/IMG_20220922_215922 1.png",
-    "/Carousel/IMAGE.png",
+    "/TDC-Group 1.svg",
   ];
 
   const imageText = ["Welcome to", "Welcome to", "Welcome to", "The"];

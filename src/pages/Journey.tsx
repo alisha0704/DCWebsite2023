@@ -36,7 +36,7 @@ const Journey = () => {
           Let us go through the journey of Dance Club!
         </div>
         <div className="flex justify-center">
-          <Image src="/Group 640.png" alt="Journey" width={1000} height={300} />
+          <Image src="/image 640.png" alt="Journey" width={1000} height={300} />
         </div>
         <Link href="/Currentstatus">
           <Image
@@ -44,7 +44,7 @@ const Journey = () => {
             alt="Journey"
             width={315}
             height={315}
-            className="absolute bottom-4 lg:bottom-7 right-12 lg:right-82 sm:w-1/3 md:w-1/3 w-1/3"
+            className="absolute bottom-4 lg:bottom-12 left-40 lg:left-82 sm:w-1/4 md:w-1/4 w-1/4"
           />
         </Link>
       </div>
