@@ -22,7 +22,7 @@ const Externalevents = () => {
         />
       </div>
       <div className="px-5 text-lg">
-      Dance club conducted workshops at Srishti school, near VIT Vellore for the academic years 2022 and 2023. We believe that learning should be a joyful experience. Our fun dance workshop for school kids is designed to do just that! We create an exciting and interactive environment where kids not only learn the art of dance but also develop confidence, coordination, and teamwork. Through creative movements and music, our little dancers embark on a journey of self-expression and discovery. Watch your child's face light up as they dance their way to new skills and unforgettable memories
+      Dance club conducted workshops at Srishti school, near VIT Vellore for the academic years 2022 and 2023. We believe that learning should be a joyful experience. Our fun dance workshop for school kids is designed to do just that! We create an exciting and interactive environment where kids not only learn the art of dance but also develop confidence, coordination, and teamwork. Through creative movements and music, our little dancers embark on a journey of self-expression and discovery. Watch your child&apos;s face light up as they dance their way to new skills and unforgettable memories
       </div>
       <div className="flex justify-center items-center lg:flex-row flex-col gap-8 py-10 px-8">
         <Image
